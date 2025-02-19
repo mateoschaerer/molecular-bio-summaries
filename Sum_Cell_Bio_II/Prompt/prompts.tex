@@ -1,0 +1,147 @@
+\usepackage{nopageno} %Seitenzahlen auf richtiger Seite 
+
+\usepackage[left=2cm, right=2cm, top=2cm, includehead, includefoot, headheight=17pt]{geometry}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{framed}
+\usepackage{wasysym}
+\usepackage[T1]{fontenc} %Silbentrennung 
+\usepackage{color} %Farbe
+\usepackage{graphicx}
+\usepackage{float}%Grafik am gleichen Ort plazieren
+%pdf. png. einfach eingliedern
+\usepackage{subfigure} %Grafiken nebeneinander
+\usepackage{pdfpages}
+\usepackage{ulem} 	%\uuline{urgent}    % doppelt unterstreichen
+%\uwave{boat}      % unterschlängeln
+%\sout{wrong}       % durchstreichen
+%\xout{removed}     % ausstreichen mit //////.
+
+\usepackage{tikz}
+\usetikzlibrary{trees}
+\usetikzlibrary{plotmarks}
+\usetikzlibrary{angles,quotes,babel}
+\usetikzlibrary{shadings}
+\usetikzlibrary{patterns}
+\usetikzlibrary{matrix}
+\usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+
+\usepackage{pgfplots}
+\usepackage{pgf-pie}
+\pgfplotsset{compat=1.10}
+\usepgfplotslibrary{statistics}
+\usepgfplotslibrary{fillbetween}
+
+\usepackage{tkz-euclide}
+\usepackage{enumerate}
+\usepackage{stmaryrd}
+\usepackage{tabularx}
+\usepackage{wrapfig}
+\usepackage{epsdice}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{pdflscape}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy} %eigener Seitenstil
+\fancyhf{} %alle Kopf- und FuÃŸzeilenfelder bereinigen
+\fancyhead[L]{} %Kopfzeile links
+\fancyhead[C]{} %zentrierte Kopfzeile
+\fancyhead[R]{} %Kopfzeile rechts
+\renewcommand{\headrulewidth}{0.4pt} %obere Trennlinie
+\fancyfoot[C]{\thepage} %Seitennummer
+\renewcommand{\footrulewidth}{0.4pt} %untere Trennlinie
+
+% Number spaces 
+\newcommand{\CC}{\ensuremath{\mathbb{C}}}
+\newcommand{\RR}{\ensuremath{\mathbb{R}}}
+\newcommand{\QQ}{\ensuremath{\mathbb{Q}}}
+\newcommand{\ZZ}{\ensuremath{\mathbb{Z}}}
+\newcommand{\NN}{\ensuremath{\mathbb{N}}}
+\newcommand{\LL}{\ensuremath{\mathbb{L}}}
+\newcommand{\DD}{\ensuremath{\mathbb{D}}}
+\newcommand{\WW}{\ensuremath{\mathbb{W}}}
+
+%draw chemestry molecules 
+\usepackage{chemfig} % https://mirror.ox.ac.uk/sites/ctan.org/macros/generic/chemfig/
+
+\newcommand\vv[1]{%
+	\begin{tikzpicture}[baseline=(arg.base)]
+		\node[inner xsep=0pt] (arg) {$#1$};
+		\draw[line cap=round,line width=0.45,->,shorten >= 0.2pt, shorten <= 0.7pt] (arg.north west) -- (arg.north east);
+	\end{tikzpicture}%
+} %command will render \vv{x} with an arrow aboth 
+
+\renewcommand{\labelenumi}{\roman{enumi})}
+
+\DeclareMathOperator{\ggT}{ggT}
+\DeclareMathOperator{\sign}{sign}
+
+%sections
+\theoremstyle{plain}
+\newtheorem{Thm}{Theorem}[section]
+\newtheorem{Def}[Thm]{Definition}
+\newtheorem{Prop}[Thm]{Proposition}
+
+\theoremstyle{definition}
+\newtheorem{lemma}[Thm]{Lemma}
+\newtheorem{corollary}[Thm]{Corollary}
+\newtheorem{claim}[Thm]{Claim}
+\newtheorem{Proof}[Thm]{Proof}
+\newtheorem{Ex}[Thm]{Example}
+
+\newtheorem{Exercise}{ex}[section] %follow proper enum
+\newtheorem{ex}[Exercise]{Exercise}
+\newtheorem{Solution}{sol}[section]
+\newtheorem{sol}[Solution]{Solution}
+
+\theoremstyle{remark}
+\newtheorem{remark}[Thm]{Remark} % follows thm enum
+
+\newtheorem{comment}{Comment}[section] %follow comment enum
+\newtheorem{notation}[comment]{Notation}
+\newtheorem{reasoning}[comment]{Reasoning}
+\newtheorem{Intpr}[comment]{Interpretation}
+
+%some premmade with title (uterwise use \textbf{Title} ...)
+\newenvironment{ThmWithTitle}[1]{%
+	\begin{Thm}[\textbf{#1}]}{\end{Thm}}
+\newenvironment{PropWithTitle}[1]{%
+	\begin{Prop}[\textbf{#1}]}{\end{Prop}}
+\newenvironment{ExWithTitle}[1]{%
+	\begin{Ex}[\textbf{#1}]}{\end{Ex}}
+\newenvironment{DefWithTitle}[1]{%
+	\begin{Def}[\textbf{#1}]}{\end{Def}}
+\newenvironment{RemarkWithTitel}[1]{%
+	\begin{remark}[\textbf{#1}]}{\end{remark}}
+
+%format of paragraph 
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+	{-2.5ex\@plus -1ex \@minus -.25ex}%
+	{1.25ex \@plus .25ex}%
+	{\normalfont\normalsize\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
+
+\newcounter{row} 
+\renewcommand\therow{\alph{row}} %hier a,b,c etc. def und mit therow abrufbar
+
+\newenvironment{aufz}
+{\setcounter{row}{0}%
+	\par\noindent\tabularx{\linewidth}[t]
+	{\cdot{20}{>{\stepcounter{row}\makebox[1.5em][l]{\therow)\hfill}}X}} %bis max 20 Elemente nebeinander
+}
+{\endtabularx}
+
+
+%biblio
+\usepackage[]{biblatex}
+\addbibresource{referenzenma.bib} 
+
+%glossary
+\usepackage{glossaries}
+\usepackage{import}
