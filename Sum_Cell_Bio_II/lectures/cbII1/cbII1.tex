@@ -10,50 +10,191 @@
     \section{Membrane Structure}
 
         \subsection{Introduction to Cell Membranes}
+            
         \begin{figure}[H]
             \centering
-            \includegraphics[width=0.5\linewidth]{lipid_membrane_structure.png}
-            \caption{Structure of the lipid membrane}
-            \label{fig:membrane}
+             % First subfigure (side by side)
+            \subfigure[membrane structure]{
+                \includegraphics[width=0.45\linewidth]{lipid_membrane_structure.png}
+                \label{fig:MembrStruct}
+            }
+            \hspace{0.05\textwidth} % Adds a small horizontal space between the figures
+            % Second subfigure (side by side)
+            \subfigure[sigmoid binding curve]{
+                \includegraphics[width=0.45\linewidth]{FRAP.png}
+                \label{fig:FRAP}
+            }
+            \caption{Membrane structure and fluid property}
+            \label{fig:ITC_all}
         \end{figure}
 
-        Cell membranes consist of a \textbf{lipid bilayer} and various membrane proteins. This relatively simple structure has profound implications as we will now study...
+        Cell membranes consist of a \textbf{lipid bi-layer} and various membrane proteins. This relatively simple structure has very important functions such as \textbf{protecting the cytosol} and the chemistry of the cell from the outside. This is very improtant as it allows the cell to have a different chemical enviroment than the outside. The cell is also  \textbf{membrane is a liquid }which can be seen by \textbf{\gls{FRAP}} experiments. THe frap experiment works as follows:
+        \begin{enumerate}
+            \item tag membrane with GFP
+            \item shoot powerful laser that bleaches the flouresent protein (stops being green)
+            \item observe how the affected area recovers. How fast the area statrs glowing again gives info on the diffusion constant and by extent the mobility of the tagged molecules.
+        \end{enumerate}
 
+        This \textbf{liquid property can be used by the cell to deform the membrane at will.}
 
         \subsection{lipid Composition of Cell Membranes}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\linewidth]{Sum_Cell_Bio_II//lectures//cbII1/biLayer.png}
+            \caption{spontaneous formation of lipid bi layer}
+            \label{fig:bilayer}
+        \end{figure}
+        Phospholipids make up majority of lipids in the membrane Phospholipids are \textbf{amphiphilic}. They have a hydrophilic head and hydrophobic tail. The lipid structure that forms depends to a very large extent on the 3D structrue of the lipid. If the lipid only has 1 hydrophobic tail it will form globules called \textbf{miscelles} however if it has 2 it will form a \textbf{bi-layer}. This lipid bi-layer has the unique property that it \textbf{will self seal into a closed membrane} as this is the most energetically favorable state. 
+
+        \subsubsection{types of lipids in membrane}
+        The lipids in a cell membrane are very diverse but can be divided into 3 classes: phospholipids, glycolipds and sterols.
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.6\linewidth]{Sum_Cell_Bio_II//lectures//cbII1/typesLipids.png}
+                \caption{3 main classes of lipids}
+                \label{fig:lipids}
+            \end{figure}
             
+        \paragraph{phospholipids}
+
+            \begin{figure}[H]
+                \centering
+                 % First subfigure (side by side)
+                \subfigure[4 main phospholipids]{
+                    \includegraphics[width=0.55\linewidth]{phospholipids.png}
+                    \label{fig:phospholipids}
+                }
+                \hspace{0.05\textwidth} % Adds a small horizontal space between the figures
+                % Second subfigure (side by side)
+                \subfigure[phospholipids vs sphingolipids]{
+                    \includegraphics[width=0.35\linewidth]{sphingosine.png}
+                    \label{fig:PhospholipisVsSphingolipids}
+                }
+                \caption{PI can be phosphorilated based on location}
+                \label{fig:ITC_all}
+            \end{figure}
+         
+            the main lipids in a membrane are phospholipids. These consist of a glycerol backbone and a phosphate attached.
+            There are four main phospholipids in our cells are:
+            \begin{enumerate}
+                \item phosphatidylethanolamine (PE)
+                \item phosphatidylserine (PS)
+                \item phosphatidylcholine (PC)
+                \item sphigomyelin
+                \item sphigosine
+            \end{enumerate}
+
+        These can be further divided into \textbf{\gls{phosphoglycerols}} and \textbf{\gls{sphingolipids}}. Each of these have a different backbone where phosphoglycerols have a \textbf{ glycerol} backbone and sphinolipids have a \textbf{sphingosine} backbone plus a \textbf{ceramide}. Sphingolipids can be modified in two different ways, they can be modified into \textbf{glycosphingolipids} or \textbf{phosphosphingolipids}.
+
+        \subparagraph{Phosphatidylinosito (PI)}
+        \begin{figure}[H]
+            \centering
+             % First subfigure (side by side)
+            \subfigure[the 8 PI phosphorilations]{
+                \includegraphics[width=0.45\linewidth]{PI_overview.png}
+                \label{fig:MembrStruct}
+            }
+            \hspace{0.05\textwidth} % Adds a small horizontal space between the figures
+            % Second subfigure (side by side)
+            \subfigure[PI locations]{
+                \includegraphics[width=0.45\linewidth]{pI_location.png}
+                \label{fig:FRAP}
+            }
+            \caption{PI can be phosphorilated based on location}
+            \label{fig:ITC_all}
+        \end{figure}
         
-        \subsubsection{Phospholipids}
+        \gls{phosphatidylinositol} is a special phospholipid that is involved in cell signaling it is not one of the main phospholipids but is still important. \textbf{They are located inside the cell and can be phosphorylated.}  This can then be used for localization of other proteins.(coming soon I guess...)
+        
+        
+        \paragraph{glycolipids}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.3\linewidth]{glycolipids.png}
+            \caption{glycolipid structure}
+            \label{fig:enter-label}
+        \end{figure}
+        Glycolipids are lipids that have been modified by adding a sugar. This modifiation can be sequencial meaning that there can be more than one sugar added to form very complex R-groups. \textbf{Glycolipids are on the outside of the cell membrane}
 
+    
+        \paragraph{sterols}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\linewidth]{Sum_Cell_Bio_II//lectures//cbII1/sterols.png}
+            \caption{sterols structure}
+            \label{fig:enter-label}
+        \end{figure}
+        This class of lipids consist of of a \textbf{rigid ring structure and a polar head group}. The posterboy for this group is \textbf{cholesterol}, which incorportates in the membrane to change it's fluidity.
 
-        \subsubsection{Phosphoglycerides}
+        \subsubsection{lipid composition of common cells}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=\linewidth]{Sum_Cell_Bio_II//lectures//cbII1/table.png}
+            \caption{table of lipid composition}
+            \label{fig:lipidComposition}
+        \end{figure}
+        
+        
 
-        \subsubsection{Sphingolipids}
-
-
-        \subsubsection{Cholesterol}
+            
 
     
 
-    \subsection{Properties of Cell Membranes}
-        \subsubsection{Fluidity}
+    \subsection{Properties of Cell Membranes are dynamic}
+        lipids are incredibly diverse set of molecules that are made in an equally complex process. This diversity gives the cell many mechanisms to influence the membranes properties.
+        
+        \subsubsection{saturrated vs unsturated and tail length}
+        The \textbf{amount of cis-double bonds} affects membrane stiffness. The higher the amount of cis Double bonds the harder it is to pack the molecules together making the membrane more fluid. 
+        \par
+        Another way to affect fluidity is by the length of the fatty acid tails. the longer the tail the stronger the Van der waals forces.
 
 
-        \subsubsection{Temperature}
+        \subsubsection{Temperatures effect on the membrane}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.4\linewidth]{temp.png}
+            \caption{temperature on the membrane rigidity}
+            \label{fig:enter-label}
+        \end{figure}
 
+        The temperture an organism is exposed to inpacts it's rigidity. Thus the saturation/ length of fatty acids can be used to adapt to the enviroment. \textbf{This means that animals living in cold have different membrane compositions}
 
-        \subsubsection{Self-Repairing}
-
-        \subsubsection{Asymmetrical Distribution of Lipids}
 
     \subsection{Movement of Lipids in Cell Membranes}
-        
-        \subsubsection{Lateral Movement}
+        \begin{figure}[H]
+            \centering
+             % First subfigure (side by side)
+            \subfigure[membrane fluidity visualized]{
+                \includegraphics[width=0.35\linewidth]{fluidty.png}
+                \label{fig:fluidity}
+            }
+            \hspace{0.05\textwidth} % Adds a small horizontal space between the figures
+            % Second subfigure (side by side)
+            \subfigure[asymetrical distribution between the two leaflets]{
+                \includegraphics[width=0.55\linewidth]{asymetrical.png}
+                \label{fig:asymetrical}
+            }
+            \caption{membrane fluidity and asymetry}
+            \label{fig:}
+        \end{figure}
 
-        \subsubsection{Flip-Flop}
+
+        
+        Membranes are very mobile. The lipids rapidly diffuse and move around on both of the \textbf{leaflets}. They tend to move together and form wave like patterns much like the ocean (albeit a kinda gross and fatty ocean)
+        \par
+        The lipids \textbf{rarely flip between the leaflets} This means that there is an asymetric distribution of various lipids between the inner and outer leaflet. The cells has enzymes called\textbf{ flipases that move the cells from one leaflet to another}. The other type of enzyme are called \textbf{scramblases that indiscriminately move lipids around between the leaflets}
+
 
 
     \subsection{Lipid Rafts}
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\linewidth]{rafts.png}
+        \caption{raft domains}
+        \label{fig:enter-label}
+    \end{figure}
+
+    \textbf{\gls{lateralphaseseparation}} is a phenomenon where sphingomyelin and cholesterol seem to group together into larger units called \textbf{Lipid rafts}. This phenomenon apears in vivo but to a much smaller extent than in artificial membranes. These domains have been theorised to play a role in cell localisation, where the difference in thickness will force larger transmembrane helixes to go to these rafts domains.
 
 
 \printglossaries
