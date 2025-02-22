@@ -1,5 +1,7 @@
 \documentclass[10pt,a4paper]{article}
 
+\include{Prompt/prompts.tex}
+
 \usepackage{subfiles}
 
 %include glossary
@@ -7,7 +9,7 @@
 
 
 %need to comment this line if you wantf to complile a single subfile!
-\makeglossaries
+%\makeglossaries
 
 \begin{document}
 	
@@ -32,7 +34,7 @@
 	
 	%genral
 	\subfile{lectures/cbII1/cbII1.tex}
-	
+
+        \printglossaries
 	\newpage
-	\printglossaries
 \end{document}
