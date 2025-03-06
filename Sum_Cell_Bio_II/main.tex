@@ -1,20 +1,21 @@
 \documentclass[10pt,a4paper]{article}
 
-\include{Prompt/prompts.tex}
-
 \usepackage{subfiles}
 
-%include glossary
-\include{lectures/cbII1/glossary-definitions1.tex}
+
+\include{Prompt/prompts.tex}
+
+% add all the glossary files here:
+\include{lectures/cbII1/cbII1_glossary.tex}
 
 
-%need to comment this line if you wantf to complile a single subfile!
+%need to comment this line if you want to complile a single subfile!
 %\makeglossaries
 
 \begin{document}
 	
 	\begin{titlepage}
-		\title{Cell Bio 2}
+		\title{cell bio II}
 		\author{los tres mosqueteros}
 		\date{spring 2025}
 		\maketitle
@@ -28,13 +29,15 @@
 	\tableofcontents
 	
 	\newpage
-	
 	\pagenumbering{arabic} 
 	\setcounter{page}{1} 
 	
-	%genral
-	\subfile{lectures/cbII1/cbII1.tex}
+	
+	%add subfiles here:
+    \subfile{lectures/cbII1/cbII1.tex}
 
-        \printglossaries
+        
+    
 	\newpage
+	\printglossary
 \end{document}
