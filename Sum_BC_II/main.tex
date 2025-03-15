@@ -1,0 +1,38 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage{subfiles}
+
+%include glossary
+\include{lectures/cbII1/glossary-definitions1.tex}
+
+
+%need to comment this line if you wantf to complile a single subfile!
+\makeglossaries
+
+\begin{document}
+	
+	\begin{titlepage}
+		\title{Cell Bio 2}
+		\author{los tres mosqueteros}
+		\date{spring 2025}
+		\maketitle
+	\end{titlepage}
+	
+	\pagenumbering{Roman} 
+	\setcounter{page}{1} 
+	
+	\newpage
+	
+	\tableofcontents
+	
+	\newpage
+	
+	\pagenumbering{arabic} 
+	\setcounter{page}{1} 
+	
+	%genral
+	\subfile{lectures/cbII1/cbII1.tex}
+	
+	\newpage
+	\printglossaries
+\end{document}
