@@ -2,8 +2,12 @@
 
 \usepackage{subfiles}
 
+\include{Prompt/prompts.tex}
+
+
 %include glossary
-\include{lectures/cbII1/glossary-definitions1.tex}
+\include{lectures/bcII3/glossary-definitions3.tex}
+\include{lectures/bcII4/glossary-definitions4.tex}
 
 
 %need to comment this line if you wantf to complile a single subfile!
@@ -12,7 +16,7 @@
 \begin{document}
 	
 	\begin{titlepage}
-		\title{Cell Bio 2}
+		\title{Bio Chem 2}
 		\author{los tres mosqueteros}
 		\date{spring 2025}
 		\maketitle
@@ -30,8 +34,13 @@
 	\pagenumbering{arabic} 
 	\setcounter{page}{1} 
 	
-	%genral
-	\subfile{lectures/cbII1/cbII1.tex}
+	%genral stuff for Metabolism (Leo)
+	\subfile{lectures/bcII3/bcII3.tex}
+	
+	%Anabolism: glycolysis , TCA Cycle/B-oxidation, Oxphos (leo)
+	\subfile{lectures/bcII4/bcII4.tex}
+	
+	
 	
 	\newpage
 	\printglossaries

@@ -1,0 +1,198 @@
+\documentclass[../main.tex]{subfiles}
+
+\include{../../Prompt/prompts.tex}
+
+\include{glossary-definitions4.tex}
+
+\makeglossaries
+
+\begin{document}
+	
+\section{Anabolism}
+
+\subsection{Glycolysis}
+\textbf{D-Glucose} is the major nutrient for a wide range of organisms. It can be stored by cells in the form of polymers and used upon need to generate ATP. \\
+\\
+In glycolysis (from the Greek \textit{glycus}, "sugar", and \textit{lysis}, "spliting") a molecule of \textbf{glucose} is degraded in a serie of enzyme-catalized reactions \textbf{to two} molecules of \textbf{pyruvate}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.5 \textwidth]{glycolysis_gen}
+	\caption{Glycolysis}
+\end{figure}
+\begin{itemize}
+	\item \textbf{Glucose} + 2ADP + 2NAD+ + 2Pi => \textbf{2 Pyruvate + 2ATP + 2NADH} + 2 H+ + 2 H2O
+\end{itemize}
+
+\paragraph{Carbon labeling}
+Note when labeling GA3P the number do not correspond to the same numbers from the fructose compound. \textit{One always follows the normal rules}
+\begin{figure}[H]
+	\centering
+	\includegraphics[height = 5cm]{labeling}
+	\caption{Carbon labeling}
+\end{figure}
+
+Glycolysis can be dived in two stages the preparation phase and the payoff phase. 
+
+\subsubsection{Stage 1, Preparation Phase}
+In the preparation phase glucose gets \textbf{trapped} inside the cell, "\textbf{activated}", and \textbf{broken down} into smaller components.  
+\paragraph{Step1: Posphorylation of Glucose}
+\textbf{D-Glucose} moves into the cell with the help of a \textbf{membrane transporter}. Once in the cytoplasma it undergoes phosporylation by \textbf{hexokinase} to produce \textbf{Glucose 6-phosphate}. This has two consequences: 
+\begin{itemize}
+	\item \textbf{No backsies}: Glucose 6-phosphate is structurally different and thus can not be transported out by the same membrane transporter. 
+	\item \textbf{More reactive}: The substitution of the hydroxy group with the phosphate group (2 addition charges, etc.) makes the molecule more reactive. But this has to be payed by the \textbf{investment} of 1 ATP molecule.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Step 1]{\includegraphics[width = 0.6 \textwidth]{S1}}
+	\subfigure[Hexokinase]{\includegraphics[width = 0.25 \textwidth]{HK}\label{HK}}
+	\caption{Posphorylation of Glucose}
+\end{figure}
+
+\begin{RemarkWithTitel}{Hexokinase (HK)}
+	\gls{hexokinase} is an enzyme that phosphorylates hexoses (like glucose) using ATP. Like most kinases it requires the presence of the cofactor Mg2+ in the active site. \\
+	The movement of Glucose into HK active site causes a conformational change wherby two HK lobes roted by 12 defrees (10 $\AA$) creating an \textbf{induced fit}. This makes the \textbf{carbon 6 oriented towards ATP} and squeezes out water molecules. (see fig. \ref{HK}) 
+\end{RemarkWithTitel}
+
+\paragraph{Step2: Isomerization}
+In the second step the enzyme \textbf{phospho-glucose isomerase} transforms alsose (Glucose) into ketose (Fructose). This is done in order to create more symmetry preparing step 3. 
+
+\begin{figure}[H]
+	\centering
+	\subfigure[6 to 5 ring]{\includegraphics[width = 0.6 \textwidth]{S2_1}}
+	\subfigure[aldose to ketose]{\includegraphics[width = 0.3 \textwidth]{S2_2}}
+	\caption{Isomerization}
+\end{figure}
+
+\paragraph{Step3: Second phosphorylation}
+The enuyme \textbf{phospho-fructo kinase-1 (PFK-1)} turns Fructose 6-phophate into Fructiose 1,6-biphosphate, completing the symmetry and making the compound even more reactive. This is again paid with the \textbf{investment of 1 ATP}. (see fig. \ref{S3})\\
+\\
+Note, that \textbf{this step commits the sugar to glycolysis}. This is why \textbf{PFK-1 is a highly regulated enzyme} where its activity is modified according to cellular concentration of ATP, ADP, and AMP. (\textbf{ATP inhibits - AMP stimulates}). 
+
+\paragraph{Step4: Breakdown of Fructose 1,6-biphosphate}
+\textbf{Aldolase} catalyses the breakdown of Fructose 1,6-biphosphate into 2 different three-carbon molecules (\textbf{GA3P and DHAP}). 
+\begin{figure}[h!]
+	\centering
+	\subfigure[creation of perfect symmetry]{\includegraphics[width = 0.45 \textwidth]{S3}\label{S3}}
+	\subfigure[breakdown]{\includegraphics[width = 0.45 \textwidth]{S4}}
+	\caption{Step3 and Step4}
+\end{figure}
+GA3P feeds directely in the glycolytic pathway without any further change while DHAP needs to be first transformed.  This is archived by Step5. 
+\paragraph{Step5: Isomerisation of DHAP to GA3P}
+\textbf{Triose phosphate isomerase (TPI or TIM)} catalyses the rapid and reversible conversion of DAHP to GA3P, ketone to aldehyde. This happens via an intramolecular redox reactimon where \textbf{an hydrogen is transferred from C1 to C2}.
+\begin{figure}[H]
+	\centering
+	\subfigure[Step5]{\includegraphics[width = 0.3 \textwidth]{S5_1}}
+	\subfigure[Mechanism of TIP]{\includegraphics[width = 0.6 \textwidth]{S5_2}}
+	\caption{Isomerisation of DHAP to GA3P}
+\end{figure}
+Even though TIP increases the rate by 10 billion fold the equilibrium still lies on the unwanted side of DHAP (the \textbf{reaction is unfavorable}). But since the reaction is coupled to endorgenic reactions (GA3P is always directely used), \textbf{the reaction shifts to the side of the product GA3P}.  
+
+\subsubsection{Stage2, Payoff Phase}
+In the payoff phase the components from the stage 1 get \textbf{oxidized} in order to produce ATP, NADH, and pyruvat. 
+
+\paragraph{Step6: Conversion of GA3P to 1,3-BPG}
+GA3P is converted into 1,3-biphosphoglycerate (1,3-BPG) by the enzyme glyceraldehyde 3-phophate \textbf{dehydrogenase (GAPDH)}. Note this reaction produces NADH, which can later be oxidized.  
+\begin{figure}[H]
+	\centering
+	\subfigure[Step6]{\includegraphics[width = 0.3 \textwidth]{S6_1}}
+	\subfigure[Mechanism of GAPDH]{\includegraphics[width = 0.6 \textwidth]{S6_2}}
+	\caption{Conversion of GA3P to 1,3-BPG}
+\end{figure}
+\paragraph{Step7: Phosphotransfer from 1,3-BPG to ADP}
+Step7 is the \textbf{break-even point}. 1, 3-BPG is used as a phophate doner to ADP. This reaction is catalyzed by \textbf{glycerophophate kinase} and produces 3-Phophoglycerate and ATP. (see fig. \ref{S7})
+
+\paragraph{Step8: Conversion to 2-Phophopglycerate}
+\textbf{Phophoglycrate mutase} catalyses the transfer of the phosphate group from C3 of 3-phosphoglycerate to C2 to form 2-phosphoglycerate. 
+
+\begin{figure}[h!]
+	\centering
+	\subfigure[Break-Even point]{\includegraphics[width = 0.45 \textwidth]{S7}\label{S7}}
+	\subfigure[Repositioning of Phosphate group]{\includegraphics[width = 0.45 \textwidth]{S8}}
+	\caption{Step7 and Step8}
+\end{figure}
+
+\paragraph{Step9: Conversion to Phophoenolpyruvate (PEP)}
+\textbf{Enolase} converts 2-phosphoglycerate into  posphoenolpyruvate (PEP). This \textbf{dehydration reaction increases the phosphoryltransfer potential} of the molecule.
+
+\paragraph{Step10: Conversion to Pyruvate}
+The phosphoryltransfer potential of \textbf{PEP} is exploited to create ATP and pyruvate. The enzyme \textbf{pyruvate kinase} catalyses the phosphoric transfer. At this point we have gained a \textbf{total of 2 ATP and 2 NADH}. 
+\begin{figure}[h!]
+	\centering
+	\subfigure[Dehydration by enolase]{\includegraphics[width = 0.45 \textwidth]{S9}\label{S9}}
+	\subfigure[Gain of 2 ATP and 2 Pyruvate]{\includegraphics[width = 0.45 \textwidth]{S10}}
+	\caption{Step9 and Step10}
+\end{figure}
+
+\subsubsection{The fates of Pyruvate}
+\gls{pyruvate} is a three-carbon molecule that is the end product of glycolysis.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.7 \textwidth]{fate_of_pyruvate}
+	\caption{The fates of Pyruvate}
+\end{figure}
+
+\begin{DefWithTitle}{Facultative Anaerobic Organism}
+	A \gls{fanaerorg} is able to produce ATP by anerobic respiration if oxygen is present, but is also capable of switching to fermentation if oxygen is absent. For example E.coli or some muscle cells (temporarily in humans). 
+\end{DefWithTitle}
+
+\begin{RemarkWithTitel}{Soy Sauce}
+	Soy sauce is produced by \textbf{fermenting a salted mixture of soy beans}. Soybeans contain starch whcih will be broken down to glucose and then degradated via glycolysis to pyruvate. And the fermented in the absence of oxygen. However \textbf{if oxygen were present} pyruvate would be oxydized to acetyl-CoA entering the citric acid cycle. But some a\textbf{cetyl-CoA would get hydrolyzed to acetic acid (vinegar)} which would result in a undesired strong vinegar taste.
+\end{RemarkWithTitel}
+
+\paragraph{Ethanol Fermentation}
+\textbf{Yeast} and sveral bacteria utilise ethanol (alcoholic) fermentation to \textbf{regenerate NAD+} and to transform pyruvate into \textbf{ethanol and carbon dioxide}.\\
+\\
+In a first step \textbf{pyruvate decarboxylase} catalyses a decarboxylation reaction. The enzymes needs the\textbf{ coenzyme TPP}, a vitamin B1 derivative, and cofactor Mg2+ 
+\begin{itemize}
+	\item Note, that the \textbf{C3 \& C4 carbons of glucose will be cut away} in form of CO2. 
+\end{itemize}
+In the second step \textbf{alcohol dehydrogenase} will regenerate NAD+ in reducing acetaldehyde to ethanol. Note alcohol dehydrogenase conatins a \textbf{zinc ion} in the active site to help polarize the carbonyl double bond that promotes hybride transfer from NADH. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.6 \textwidth]{ethanol}
+	\caption{Ethanol Fermentation}
+\end{figure}
+
+\begin{itemize}
+	\item Glucose + 2ADP + 2Pi => 2 Ethanol + \textbf{2ATP} + 2 CO2 + 2 H2O
+\end{itemize}
+
+\paragraph{Lactic Fermentation}
+\textbf{Many prokaryotic and eukaryotic} organisms can use lactic fermentation. Like ethanol fermentation it is nessesary to \textbf{regenerate NAD+}. Lactic fermentation is catalysed by \textbf{lactate dehydrogenase (LHD)}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.6 \textwidth]{lactic}
+	\caption{Lactic Fermentation}
+\end{figure}
+
+\begin{RemarkWithTitel}{Cancer, PET scan}
+	Cancer cells often rely on aerobic glycolysis, known as the\textbf{ Warburg effect}, where they preferentially use glycolysis followed by lactic acid fermentation, even in the presence of oxygen. This allows them to rapidly generate ATP and biosynthetic precursors for growth.\\
+	Positron Emission Tomography (PET scans) exploit this metabolic shift by using \textbf{fluorodeoxyglucose (FDG)}, a radiolabeled glucose analog. Since cancer cells have a higher glucose uptake due to increased glycolysis, they accumulate FDG, which emits positrons detectable by \textbf{PET imaging}.
+	
+\end{RemarkWithTitel}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{TCA cycle}
+
+\subsection{Fatty Acid Oxidation}
+
+\subsection{Amino Acid Oxidation}
+
+
+\end{document}

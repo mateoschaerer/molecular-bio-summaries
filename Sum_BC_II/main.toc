@@ -1,0 +1,47 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Behind the Torch of Life}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Bioenergetics and Thermodynamics}{1}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Equilibrium}{1}{}%
+\contentsline {paragraph}{\numberline {1.1.1.1}Reaction Quotient}{2}{}%
+\contentsline {paragraph}{\numberline {1.1.1.2}Mass Action Ratio (\( Q/K \))}{2}{}%
+\contentsline {paragraph}{\numberline {1.1.1.3}Henderson-Hasselbach}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Back to OCI}{2}{}%
+\contentsline {paragraph}{\numberline {1.2.0.1}Reactions that make or break carbon–carbon bonds}{3}{}%
+\contentsline {paragraph}{\numberline {1.2.0.2}Internal rearrangements, Isomerizations, and Eliminations}{3}{}%
+\contentsline {paragraph}{\numberline {1.2.0.3}Free-Radical Reactions}{4}{}%
+\contentsline {paragraph}{\numberline {1.2.0.4}Group Transfer Reactions}{4}{}%
+\contentsline {paragraph}{\numberline {1.2.0.5}Oxidation-Reduction Reactions}{5}{}%
+\contentsline {subsection}{\numberline {1.3}Phosphoryl and ATP fun}{6}{}%
+\contentsline {paragraph}{\numberline {1.3.0.1}Posphate groups}{6}{}%
+\contentsline {paragraph}{\numberline {1.3.0.2}The phosphate enzymes}{6}{}%
+\contentsline {paragraph}{\numberline {1.3.0.3}ATP}{6}{}%
+\contentsline {subsection}{\numberline {1.4}Biological Oxidation-Reduction Reactions}{8}{}%
+\contentsline {paragraph}{\numberline {1.4.0.1}Dehydrogenation = Oxidation}{8}{}%
+\contentsline {subsection}{\numberline {1.5}Electron Carriers}{9}{}%
+\contentsline {paragraph}{\numberline {1.5.0.1}NADH and NADPH}{9}{}%
+\contentsline {paragraph}{\numberline {1.5.0.2}FAD and FNM}{10}{}%
+\contentsline {paragraph}{\numberline {1.5.0.3}Ubiquinone, Q}{11}{}%
+\contentsline {section}{\numberline {2}Metabolism}{11}{}%
+\contentsline {subsection}{\numberline {2.1}Catabolism <=> Anabolism}{11}{}%
+\contentsline {subsection}{\numberline {2.2}Thermodynamic in Biological pathways}{12}{}%
+\contentsline {section}{\numberline {3}Anabolism}{13}{}%
+\contentsline {subsection}{\numberline {3.1}Glycolysis}{13}{}%
+\contentsline {paragraph}{\numberline {3.1.0.1}Carbon labeling}{14}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Stage 1, Preparation Phase}{14}{}%
+\contentsline {paragraph}{\numberline {3.1.1.1}Step1: Posphorylation of Glucose}{14}{}%
+\contentsline {paragraph}{\numberline {3.1.1.2}Step2: Isomerization}{15}{}%
+\contentsline {paragraph}{\numberline {3.1.1.3}Step3: Second phosphorylation}{15}{}%
+\contentsline {paragraph}{\numberline {3.1.1.4}Step4: Breakdown of Fructose 1,6-biphosphate}{15}{}%
+\contentsline {paragraph}{\numberline {3.1.1.5}Step5: Isomerisation of DHAP to GA3P}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Stage2, Payoff Phase}{16}{}%
+\contentsline {paragraph}{\numberline {3.1.2.1}Step6: Conversion of GA3P to 1,3-BPG}{16}{}%
+\contentsline {paragraph}{\numberline {3.1.2.2}Step7: Phosphotransfer from 1,3-BPG to ADP}{17}{}%
+\contentsline {paragraph}{\numberline {3.1.2.3}Step8: Conversion to 2-Phophopglycerate}{17}{}%
+\contentsline {paragraph}{\numberline {3.1.2.4}Step9: Conversion to Phophoenolpyruvate (PEP)}{17}{}%
+\contentsline {paragraph}{\numberline {3.1.2.5}Step10: Conversion to Pyruvate}{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}The fates of Pyruvate}{18}{}%
+\contentsline {paragraph}{\numberline {3.1.3.1}Ethanol Fermentation}{18}{}%
+\contentsline {paragraph}{\numberline {3.1.3.2}Lactic Fermentation}{19}{}%
+\contentsline {subsection}{\numberline {3.2}TCA cycle}{19}{}%
+\contentsline {subsection}{\numberline {3.3}Fatty Acid Oxidation}{19}{}%
+\contentsline {subsection}{\numberline {3.4}Amino Acid Oxidation}{19}{}%

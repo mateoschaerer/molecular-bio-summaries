@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Membrane Structure}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Introduction to Cell Membranes}{1}{}%
+\contentsline {subsection}{\numberline {1.2}lipid Composition of Cell Membranes}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}types of lipids in membrane}{2}{}%
+\contentsline {paragraph}{\numberline {1.2.1.1}phospholipids}{3}{}%
+\contentsline {subparagraph}{Phosphatidylinosito (PI)}{4}{}%
+\contentsline {paragraph}{\numberline {1.2.1.2}glycolipids}{4}{}%
+\contentsline {paragraph}{\numberline {1.2.1.3}sterols}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}lipid composition of common cells}{5}{}%
+\contentsline {subsection}{\numberline {1.3}Properties of Cell Membranes are dynamic}{5}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}saturrated vs unsturated and tail length}{5}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Temperatures effect on the membrane}{6}{}%
+\contentsline {subsection}{\numberline {1.4}Movement of Lipids in Cell Membranes}{6}{}%
+\contentsline {subsection}{\numberline {1.5}Lipid Rafts}{7}{}%
