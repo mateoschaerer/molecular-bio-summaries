@@ -372,7 +372,9 @@ There are two transport proteins in the cell that of \textbf{biosynthesis} and t
     \item \textbf{late endosome} will eventuall convert to \textbf{lysosome } where the uptaken material will be digested
 \end{enumerate}
 
-\subsubsection{co-translational and post translational translocation to ER}
+\subsubsection{translocation to ER}
+
+\paragraph{cotranslational and post translational localization}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\linewidth]{CoTranslation.png}
@@ -380,13 +382,63 @@ There are two transport proteins in the cell that of \textbf{biosynthesis} and t
     \label{fig:enter-label}
 \end{figure}
 
-\textbf{\gls{cotranslocation}} involves the ribosome being moved to the ER as soon as the nacent protein's ER localization signal is produced. Then the signal peptide is cleaved off if the proteins is a ER lumen cytosolic protein. \textbf{All memrbane proteins are cotranslational} Whereas \gls{postrtranslocation} involves the protein being localized to ER after it has been fully translated.
+\textbf{\gls{cotranslocation}} involves the ribosome being moved to the ER as soon as the nacent protein's ER localization signal is produced. Then the signal peptide is\textbf{ cleaved off if the proteins is a ER lumen cytosolic protein.} \textbf{All memrbane proteins are cotranslational} Whereas \gls{postrtranslocation} involves the protein being localized to ER after it has been fully translated.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{Sum_Cell_Bio_II//lectures//cbII4/cotranslation.png}
     \caption{Co translational translocation}
     \label{fig:enter-label}
 \end{figure}
+
+\paragraph{soluble proteins}
+
+\textbf{Soluble proteins that are ER bound must have an ER localization signal.} Once in the ER Lumen the localization signal will be \textbf{cleaved off}. Not that the ER-Lumen is not highly reducing enviroment like the cytosol. Thus ER cystosolic proteins can have disulfide bonds unlike cytosolic proteins.
+
+\paragraph{transmembrane proteins}
+\begin{figure}[H]
+    \centering
+    % First subfigure (side by side)
+    \subfigure[single pass proteins]{
+        \includegraphics[height=6cm]{singlePassTransmembrane.png}
+        \label{fig:itc}
+    }
+    \hspace{0.05\textwidth} % Adds a small horizontal space between the figures
+    % Second subfigure (side by side)
+    \subfigure[multipass proteins]{
+        \includegraphics[height=6cm]{multiPass.png}
+        \label{fig:ITC_H_L}
+    }
+    \caption{Role of localization in transmembrane protein translation}
+    \label{fig:ITC_all}
+\end{figure}
+Transmembrane proteins are special in that they \textbf{need cotranslational traslocation into ER membrane} as otherwise they will not be embedded into membrane. As they are produced they will be funneld through translocator until a \textbf{start signal }is found which will create the transmembrane domain until the next \textbf{stop-transfer sequence } Unlike soluble proteins they also \textbf{don't necessarly need an N-terminal localization signal} when the N-terminus is cytoplasmic they can have an "internal" localization signal that won't be cut off at one of the transmembrane domains.
+
+\subparagraph{the GPI anchor and tail anchored proteins}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{GPI.png}
+    \caption{GPI anchor synthesis}
+    \label{fig:enter-label}
+\end{figure}
+
+Proteins bound to GPI anchor are translocated to the ER by an \textbf{N-terminal tag that is cleaved off }(not shown in figure). The hydrophobic \textbf{C-terminus remains bound to the membrane}. This is cleaved off and replaced by the \textbf{GPI anchor, which faces into lumen}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{tailAnchoredProteins.png}
+    \caption{tail anchored proteins}
+    \label{fig:enter-label}
+\end{figure}
+Another method of anchoring the protein is directly via the C-terminus. This works as follows:
+
+\begin{enumerate}
+    \item tail anchored protein is synthesized in cytosol
+    \item \textbf{pre-targeting complex} recognizes the hydrophobic tail of the protein (red segment) and delivers it to\textbf{ \gls{get3}}
+    \item the get3-"cargo" complex is handed to get3-ATPase, which will localize to the ER where it will bind to \textbf{get1-get2}
+   \item the get1-get2 complex will release the hydrophobic C tail of the protein into the membrane. \textbf{Unlike GPI these face the cytosolic side.}
+\end{enumerate}
 
 
 \paragraph{moving ribosomes to ER: The signal-recognition particle (SRP)}
@@ -408,33 +460,8 @@ There are two transport proteins in the cell that of \textbf{biosynthesis} and t
     \item \textbf{Recycling:} The SRP is released and recycled for future rounds of protein targeting.
 \end{enumerate}
 
-\subsubsection{transmembrane proteins}
-\begin{figure}[H]
-    \centering
-    % First subfigure (side by side)
-    \subfigure[single pass proteins]{
-        \includegraphics[height=6cm]{singlePassTransmembrane.png}
-        \label{fig:itc}
-    }
-    \hspace{0.05\textwidth} % Adds a small horizontal space between the figures
-    % Second subfigure (side by side)
-    \subfigure[multipass proteins]{
-        \includegraphics[height=6cm]{multiPass.png}
-        \label{fig:ITC_H_L}
-    }
-    \caption{Role of localization in transmembrane protein translation}
-    \label{fig:ITC_all}
-\end{figure}
-Transmembrane proteins are special in that they \textbf{need cotranslational traslocation into ER membrane} as otherwise they will not be embedded into membrane. As they are produced they will be funneld through translocator until a \textbf{start signal }is found which will create the transmembrane domain until the next \textbf{stop-transfer sequence }
 
-\paragraph{the GPI anchor}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{GPI.png}
-    \caption{GPI anchor synthesis}
-    \label{fig:enter-label}
-\end{figure}
 
 \subsubsection{the role of contact patches in protein transport}
 \begin{figure}[H]
@@ -467,19 +494,73 @@ Membrane directionality is also a cause of vesicular transport as for example a 
     \label{fig:enter-label}
 \end{figure}
 
+\subsection{glycosylation}
+Glycosylation serves many purposes in the cell some of those being: 
+\begin{enumerate}
+    \item helps the protein fold 
+    \item their presence on the surface of a protein will protect them from extracellular proteases
+    \item give information on how long a protein has been around and it's fold status (misfolded or not)
+
+glycosylation occurs in the\textbf{ sequence:  Asn-X-Ser/Th}
+\end{enumerate}
+\paragraph{N linked glycosylation in ER vs O linked in golgi}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Sum_Cell_Bio_II//lectures//cbII4/ERLinkedGlyc.png}
+    \caption{ER linked glycosylation}
+    \label{fig:enter-label}
+\end{figure}
+
+In the ER glycosylation occurs \textbf{all at once.} where the entire "sugar tree" that was built on \gls{diochol} is transfered to the protein as it passes throught the translocator complex.
 
 
+\subparagraph{N linked glycosylation vs O-linked glycosylation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{glycosylation.png}
+    \caption{N linked vs O linked glycosylation}
+    \label{fig:enter-label}
+\end{figure}
+There is a slight difference in glycosylation depending on where it is produced. The glycosylation occouring in the \textbf{ER will be N-linked} (i.e on an Oxygen atom) while the glycosylation occuring in the \textbf{golgi will be O-linked (i.e on a Nitrogen atom)}
 
 
+\paragraph{Calnexin/Calreticulin cycle \& ER protein folding }
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{calCycle.png}
+    \caption{\gls{calnexin_cycle} cycle in ER}
+    \label{fig:enter-label}
+\end{figure}
+\textbf{Calnexin and calreticulin} are two chaperones that will \textbf{bind to N-linked sugars}. THis binding then prevents the protein from aggregating before it is fully folded.
+\par
+ If the protein has completed folding \textbf{\gls{glucosyltransferase}} will add a glucose. At the same time \textbf{\gls{mannosidase}} will \textbf{cleave off mannoses from the sugar tree that was added all at once}. The amount of mannose is thus an indicator of how long the protein has been trying to fold. If it takes to long it will be marked for destruction by addition of \textbf{polyubiquitin }that signals them to be sent to the \textbf{proteosome}.
 
+\subparagraph{The unfolded protein response}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{UnfoldedProteinResponse.png}
+    \caption{the unfolded protein response}
+    \label{fig:enter-label}
+\end{figure}
+\begin{enumerate}
+    \item Misfolded proteins in ER signal the need for more ER chaperones. They bind to and activate a transmembrane kinase.
+    \item Activated kinase unmasks an endoribonuclease activity (domain that cuts RNA).
+    \item Endoribonuclease cuts specific RNA molecules at two positions, removing an intron.
+    \item Two exons are ligated to form an active mRNA.
+    \item mRNA is translated to make a transcription regulator.
+    \item Transcription regulator enters nucleus and activates genes encoding ER chaperones.
+    \item Chaperones are made in ER, where they help fold proteins.
+\end{enumerate}
 
-
-
-
-
-
-
+\subsection{phosphatydilcholine sythesis in Er}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{phosphatydilCholineSynthesis.png}
+    \caption{Phosphatydil Choline Sythesis}
+    \label{fig:enter-label}
+\end{figure}
+Phosphatydil choline is sythesized on the \textbf{cytosolic leaflet of the ER}. This would lead to assymetries where there no \textbf{scrablases} to shuffle the lipids between the two leaflets.
 
 
 \end{document}
