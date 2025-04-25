@@ -7,7 +7,12 @@
 		\setentrycounter[]{page}\glsnumberformat{8}}}%
 \glossentry{atp}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
+\glsgroupheading{B}\relax \glsresetentrylist %
+\glossentry{bileacids}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{27}}}\glsgroupskip
 \glsgroupheading{C}\relax \glsresetentrylist %
+\glossentry{carnitine}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{30}}}%
 \glossentry{catabolism}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}}}%
 \glossentry{coupledreactions}{\glossaryentrynumbers{\relax 
@@ -28,7 +33,7 @@
 		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
 \glsgroupheading{F}\relax \glsresetentrylist %
 \glossentry{fanaerorg}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{18}}}%
+		\setentrycounter[]{page}\glsnumberformat{19}}}%
 \glossentry{fad}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{10}}}%
 \glossentry{flavoprotein}{\glossaryentrynumbers{\relax 
@@ -41,6 +46,9 @@
 \glsgroupheading{K}\relax \glsresetentrylist %
 \glossentry{kinase}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}}}\glsgroupskip
+\glsgroupheading{L}\relax \glsresetentrylist %
+\glossentry{lipoyllysine}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{21}}}\glsgroupskip
 \glsgroupheading{N}\relax \glsresetentrylist %
 \glossentry{nad}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}}}%
@@ -56,15 +64,23 @@
 \glsgroupheading{P}\relax \glsresetentrylist %
 \glossentry{phosphatase}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{6}}}%
+\glossentry{plp}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{35}}}%
 \glossentry{pyruvate}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{18}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{19}}}%
+\glossentry{pdh}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{22}}}%
+\glossentry{pyruvatetranslocase}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{21}}}\glsgroupskip
 \glsgroupheading{R}\relax \glsresetentrylist %
 \glossentry{reducingequivalent}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{9}}}\glsgroupskip
 \glsgroupheading{S}\relax \glsresetentrylist %
 \glossentry{secondlaw}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{1}\delimN 
-		\setentrycounter[]{page}\glsnumberformat{12}}}\glsgroupskip
+		\setentrycounter[]{page}\glsnumberformat{12}}}%
+\glossentry{succinatedehydrogenase}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{26}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossentry{ubiquinone}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{11}}}%

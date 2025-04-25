@@ -8,15 +8,27 @@
 
 \begin{document}
 	
-\section{Anabolism}
+\section{Catabolism}
+The catabolism of proteins, fats, and carbohydrates can be divided into 3 stages: 
+\begin{itemize}
+	\item Stage 1: Oxidation of fatty acids, glucose, and some amino acids yield acetyl-CoA.
+	\item Stage 2: Oxidation of acetyl groups in the citric acid cycle includes 4 steps in which electrons are abstracted. 
+	\item Stage 3: Electrons carried by NADH and FADH2 are funneled into a chai of mitochondrial (in bacteria plasma membrane-bound) electron carriers - the repiratory chain -ultimately reducing O2 to H2O. This electron flow drives the production of ATP. 
+\end{itemize}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[height = 14cm]{gen1}
+	\caption{3 stages of cellular respiration}
+\end{figure}
+	
 \subsection{Glycolysis}
 \textbf{D-Glucose} is the major nutrient for a wide range of organisms. It can be stored by cells in the form of polymers and used upon need to generate ATP. \\
 \\
 In glycolysis (from the Greek \textit{glycus}, "sugar", and \textit{lysis}, "spliting") a molecule of \textbf{glucose} is degraded in a serie of enzyme-catalized reactions \textbf{to two} molecules of \textbf{pyruvate}.
 \begin{figure}[H]
 	\centering
-	\includegraphics[width = 0.5 \textwidth]{glycolysis_gen}
+	\includegraphics[width = 0.6 \textwidth]{glycolysis_gen}
 	\caption{Glycolysis}
 \end{figure}
 \begin{itemize}
@@ -51,11 +63,11 @@ In the preparation phase glucose gets \textbf{trapped} inside the cell, "\textbf
 
 \begin{RemarkWithTitel}{Hexokinase (HK)}
 	\gls{hexokinase} is an enzyme that phosphorylates hexoses (like glucose) using ATP. Like most kinases it requires the presence of the cofactor Mg2+ in the active site. \\
-	The movement of Glucose into HK active site causes a conformational change wherby two HK lobes roted by 12 defrees (10 $\AA$) creating an \textbf{induced fit}. This makes the \textbf{carbon 6 oriented towards ATP} and squeezes out water molecules. (see fig. \ref{HK}) 
+	The movement of Glucose into HK active site causes a conformational change whereby two HK lobes rotate by 12 degrees (10 \AA) creating an \textbf{induced fit}. This makes the \textbf{carbon 6 oriented towards ATP} and squeezes out water molecules. (see fig. \ref{HK}) 
 \end{RemarkWithTitel}
 
 \paragraph{Step2: Isomerization}
-In the second step the enzyme \textbf{phospho-glucose isomerase} transforms alsose (Glucose) into ketose (Fructose). This is done in order to create more symmetry preparing step 3. 
+In the second step, the enzyme \textbf{phospho-glucose isomerase} also transforms aldose (glucose) into ketose (fructose). This is done to create more symmetry in preparation for step 3. 
 
 \begin{figure}[H]
 	\centering
@@ -65,7 +77,7 @@ In the second step the enzyme \textbf{phospho-glucose isomerase} transforms also
 \end{figure}
 
 \paragraph{Step3: Second phosphorylation}
-The enuyme \textbf{phospho-fructo kinase-1 (PFK-1)} turns Fructose 6-phophate into Fructiose 1,6-biphosphate, completing the symmetry and making the compound even more reactive. This is again paid with the \textbf{investment of 1 ATP}. (see fig. \ref{S3})\\
+The enzyme \textbf{phospho-fructo kinase-1 (PFK-1)} turns Fructose 6-phophate into Fructiose 1,6-biphosphate, completing the symmetry and making the compound even more reactive. This is again paid with the \textbf{investment of 1 ATP}. (see fig. \ref{S3})\\
 \\
 Note, that \textbf{this step commits the sugar to glycolysis}. This is why \textbf{PFK-1 is a highly regulated enzyme} where its activity is modified according to cellular concentration of ATP, ADP, and AMP. (\textbf{ATP inhibits - AMP stimulates}). 
 
@@ -78,6 +90,7 @@ Note, that \textbf{this step commits the sugar to glycolysis}. This is why \text
 	\caption{Step3 and Step4}
 \end{figure}
 GA3P feeds directely in the glycolytic pathway without any further change while DHAP needs to be first transformed.  This is archived by Step5. 
+
 \paragraph{Step5: Isomerisation of DHAP to GA3P}
 \textbf{Triose phosphate isomerase (TPI or TIM)} catalyses the rapid and reversible conversion of DAHP to GA3P, ketone to aldehyde. This happens via an intramolecular redox reactimon where \textbf{an hydrogen is transferred from C1 to C2}.
 \begin{figure}[H]
@@ -88,7 +101,7 @@ GA3P feeds directely in the glycolytic pathway without any further change while 
 \end{figure}
 Even though TIP increases the rate by 10 billion fold the equilibrium still lies on the unwanted side of DHAP (the \textbf{reaction is unfavorable}). But since the reaction is coupled to endorgenic reactions (GA3P is always directely used), \textbf{the reaction shifts to the side of the product GA3P}.  
 
-\subsubsection{Stage2, Payoff Phase}
+\subsubsection{Stage 2, Payoff Phase}
 In the payoff phase the components from the stage 1 get \textbf{oxidized} in order to produce ATP, NADH, and pyruvat. 
 
 \paragraph{Step6: Conversion of GA3P to 1,3-BPG}
@@ -99,6 +112,7 @@ GA3P is converted into 1,3-biphosphoglycerate (1,3-BPG) by the enzyme glyceralde
 	\subfigure[Mechanism of GAPDH]{\includegraphics[width = 0.6 \textwidth]{S6_2}}
 	\caption{Conversion of GA3P to 1,3-BPG}
 \end{figure}
+
 \paragraph{Step7: Phosphotransfer from 1,3-BPG to ADP}
 Step7 is the \textbf{break-even point}. 1, 3-BPG is used as a phophate doner to ADP. This reaction is catalyzed by \textbf{glycerophophate kinase} and produces 3-Phophoglycerate and ATP. (see fig. \ref{S7})
 
@@ -172,94 +186,506 @@ In the second step \textbf{alcohol dehydrogenase} will regenerate NAD+ in reduci
 \begin{RemarkWithTitel}{Cancer, PET scan}
 	Cancer cells often rely on aerobic glycolysis, known as the\textbf{ Warburg effect}, where they preferentially use glycolysis followed by lactic acid fermentation, even in the presence of oxygen. This allows them to rapidly generate ATP and biosynthetic precursors for growth.\\
 	Positron Emission Tomography (PET scans) exploit this metabolic shift by using \textbf{fluorodeoxyglucose (FDG)}, a radiolabeled glucose analog. Since cancer cells have a higher glucose uptake due to increased glycolysis, they accumulate FDG, which emits positrons detectable by \textbf{PET imaging}.
-	
 \end{RemarkWithTitel}
 
 
 \subsection{TCA cycle}
+In aerobic organisms, glucose and other sugars, fatty acids, and most amino acids are ultimately oxidized to CO2 and H2O via the citric cycle and the respiratory chain. 
+
+\begin{RemarkWithTitel}{TCA cycle}
+	The TCA cycle (TCA = tricarboxylic acid) is also called \textbf{Krebs cylce} or \textbf{citric acid cycle}
+\end{RemarkWithTitel}
+
+Before entering the citric acid cycle, the carbon sekeleton of sugars and fatty acids are degraded to the acetyl group of acetyl-CoA
 
 \paragraph{Pyruvate => Acetyl-CoA}
 
+\begin{RemarkWithTitel}{\gls{pyruvatetranslocase}}
+	Once produced in the cytosol, pyruvate migrates into the mitochondrial matrix through the action of pyruvate translocases that mediate the transport of pyruvate across mitochondrial membranes. 
+\end{RemarkWithTitel}
+
+In the mitochondria pyruvate is converted to acedtyl-CoA in order to enter the TCA cylce. This is done by the \textbf{pyruvate dehydrogenase complex} which catalyses an \textbf{oxidative decarboxylation}, an \textbf{irreversible} oxidation process in which the carbonyl group is removed from pyruvate as an molecule of CO2. 
+
+The combined dehydogenation and decarboxylation of pyruvate requires the sequental action of 3 different enzymes:  
+\begin{itemize}
+	\item E1 - Pyruvate dehydogenase: Catalyses the redox-decarbocylation reaction. 
+	\item E2 - Dihydrolipoyl transacetylase: Catalyses the transfer of the acetyl group.
+	\item E3 - Dihydrolipoyl dehydrogenase: Reforms the oxidised version of lipoamide. 
+\end{itemize}
+\noindent
+Moreover 5 different co-enzymes are acting across the 5 different steps (see fig. \ref{TCA0_2}): 
+\begin{itemize}
+	\item Step 1: Pyruvate reacts with the coenzyme \textbf{gls{tpp}}  bound to E1, and undergoes decarboxylation to the hydroxyethyl derivative.    
+	\item Step 2: E1 also carries out step 2, transferring 2 electrons and then the acetyl group (oxidized form of hydrocyenthanyl group) from TPP to the oxidized and then reduced form of the coenzyme \textbf{\gls{lipoyllysine}} of E2. This reduces the disulfid bond of lipoyllysine and binds the acetyl group covelentely as a thiolester. \\
+	\textit{Note that lipoyllysine has two thiol groups that can undergo reversible oxidation to a disulfid bond, similar to that between two Cys residues in a protein. Therefore it can serve as both electron carrier and as an acyl carrier.}
+	\item Step 3: The acetate is \textbf{trans-estrified} to the SH group of \textbf{CoA-SH}. 
+	\item Step 4: liopic acid is oxidised to to refom the S-S bond and 2 hydrate groups are transferred to \textbf{FAD}, the coenzyme bound to E3. FAD is reduced to FADH2. 
+	\item Step 5: FAD is regenerated, transferring electrons to the coenzyme \textbf{NAD+} to produce NADH and H+. 
+\end{itemize}  
+\begin{figure}[H]
+	\centering
+	\subfigure[Overall reaction]{
+		\includegraphics[width=0.45\textwidth]{TCA0_1}
+	}
+	\subfigure[PDH complex]{
+		\includegraphics[width=0.45\textwidth]{TCA0_2}
+		\label{TCA0_2}
+	}
+	\caption{Pyruvate + CoA-SH + NAD+ => Acetyl-CoA + CO2 + NADH + H+}
+\end{figure}
+
+\begin{RemarkWithTitel}{\gls{pdh}}
+	PDH complex is a classic, much-studied example of a multi-enzyme complex in which a series of chemical intermediates remain bound to the enzyme molecules as a substrate is transformed into the final product. It has \textbf{3 important enzymes} and uses \textbf{5 different co-enzymes}, four derived from vitamins, participate in the reaction mechanism. \\ 
+	Moreover, the \textbf{PDH complex is the prototype} for two other important exzmae compexes: $\alpha$-ketogutarate dehydrogenase, of the TCA cylce, and $\alpha$-keto acid dehydrogenase, of the oxidative pathway of several amino acids. \\
+	\textit{Note that the number of copies of each enzyme varies and therefore also the size of the complex. } 
+\end{RemarkWithTitel}
+\noindent 
+While cytosolic pyruvate can be converted back to glucose, onece produced in the mitochondrial matrix Acetyl-CoA is \textbf{committed} towards the TCA cycle or lipid synthesis. Therefore PDC is cytalysis \textbf{a key and irreversible step} in the glucose methabolism. Thus \textbf{PDC is tightly regulated}. 
+\begin{itemize}
+	\item \textbf{Acetyl-CoA} and \textbf{NADH}, two products, \textbf{inhibit} (allosterically) \textbf{E2 and E3} respectively. 
+\end{itemize}
+\noindent 
+Under resting conditions, the energy charge of the cell is high (high acetyl-CoA, NADH, ATP). These molecules promote the activity of \textbf{PDC kinases (PDKs)} that phosphorylate and inactivate E1. \\
+Under exercising conditions the energy charge of the cell is low and PDKs are inhibited, also \textbf{Ca++ influx} in the mitochondria is increased, which activates \textbf{PDC phophatases (PDPs)} that dephophorylate and activate E1. 
+\begin{itemize}
+	\item E1 is inhibited by PDKs under resting conditions and activated by PDPs under exercising conditions.  
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[regulation by condition]{
+		\includegraphics[width=0.45\textwidth]{TCA0_3}
+	}
+	\subfigure[regulation be products and educts]{
+		\includegraphics[width=0.45\textwidth]{TCA0_4}
+	}
+	\caption{Regulation of PDC/PDH}
+\end{figure}
+
 \subsubsection{TCA cylce steps}
-
-\paragraph{Step1}
-
-\paragraph{Step2}
-
-\paragraph{Step3}
-
-\paragraph{Step4}
-
-\paragraph{Step5}
-
-\paragraph{Step6}
-
-\paragraph{Step7}
-
-\paragraph{Step8}
+The TCA cylce is a game of decarboxylation, generating energy by reduction of electron carriers. The formula: 
+\begin{itemize}
+	\item \textbf{Acteyl-CoA + GDP + Pi + 3 NAD+ + FAD => 2 CO2 + 3 NADH + FADH2 + GTP + CoA-SH}
+\end{itemize}
+\noindent \textit{In the bigger picture, this is were the CO2 is produced that we breve out.}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = \textwidth]{TCA1}
+	\caption{Overview of the TCA cycle: The carbons shaded in red are those derived from the acetate of acteyl-CoA in the first turn.}
+\end{figure}
 
 \begin{RemarkWithTitel}{What happens to 3-14C-pyruvate}
-	use nice picture with correct labelling of ocalacetate. 
+	 The Resulting Acetyl-CoA will be labled at C2 (methyl group). Therfore, at the end of the first cycle: Oxaloacetate will be labelled in C2 or C3 (because of symmetry in succinate). After two more cycles, half of the label will be released. (the label of C2 ends up at the second cycle at C2 or C3, while the lable on C3 ends up at C4, which is released in the following clycle) But il will take an infinite number of cycles to release all the label. 
 \end{RemarkWithTitel}
+
+
+\paragraph{Step1: Formation of Citrate}
+In the first step \textbf{the acetyl group} is transferred to \textbf{oxalacetate} to produce citrate. The reaction consists of two phases: (1) oxalycetate is condensed to acetyl-CoA to form citryl-CoA; (2) citryl-CoA is hydrolyzed to form citrate and CoA-SH. Whereby \textbf{phase 2 is highly exergonic} and therefore drives the entire reaction. 
+
+\begin{RemarkWithTitel}{Citrate synthase}
+	Step 1 is carried out by citrate synthase. Citrate synthase is a \textbf{dimer}. It first binds oxalacetate into its active site, which causes a conformational change from open to closed conformation. By doing so oxalacetate binding induces the formation of the acetyl-CoA binding site and shifts the catalytic residue into proper position. 
+\end{RemarkWithTitel}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[reaction]{
+		\includegraphics[width=0.45\textwidth]{TCAS1_1}
+	}
+	\subfigure[Citrate synthase]{
+		\includegraphics[width=0.45\textwidth]{TCAS1_2}
+	}
+	\caption{Formation of Citrate}
+\end{figure}
+
+\paragraph{Step2: Formation of Isocitrate}
+Citrate is converted into isocitrate. In this reaction an hydroxyl group is moved from the third carbon of citrate to an adjacent carbon via a dehydration/hydration reaction. 
+
+\begin{RemarkWithTitel}{Aconitase enzyme}
+	Aconitase enzyme catalyzed this dehydration/hydration reaction. It contains a \textbf{Iron-Sulfur center}. 3 Cys residues of the enzyme bind 3 Fe atoms, the 4th is bound to one of the carboxyl groups of citrate and (non covalently) with a citrate hydroxyl group. \textbf{The Iron-Sulfur center acts in both substrate binding and catalysis}. 
+\end{RemarkWithTitel}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Creation of Isocitrate]{
+		\includegraphics[width=0.45\textwidth]{TCAS2_1}
+	}
+	\subfigure[Aconitase enzyme]{
+		\includegraphics[width=0.45\textwidth]{TCAS2_2}
+	}
+	\caption{Formation of Isocitrate via cis-Aconitate}
+\end{figure}
+
+\paragraph{Step3: Decarboxylation of Isocitrate}
+Once isocitrate is formed, it is ready to undergo the \textbf{first oxidative decarboxylation reaction} of the citric acid cycle. This step is catalyzed by \textbf{isocitrate dehydrogenase} which yields $\alpha$-ketoglutarate, CO2 and NADH
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = \textwidth]{TCAS3}
+	\caption{formation of $\alpha$-ketoglutarate by isocitrate dehydrogenase}
+\end{figure}
+
+\paragraph{Step4 Decarboxylation of $\alpha$-ketoglutarate}
+This is the \textbf{second oxidative decarboxylation reaction} in the TCA cylce. $\alpha$-ketoglutarate is converted to succinyl-CoA with concomiatant production of CO2 and NADH. \textit{Note that the energy of the oxydation is conserved in the thiolester bond.}
+
+\begin{RemarkWithTitel}{$\alpha$-ketoglutarte dehydrogenase complex}
+	$\alpha$-ketoglutarte dehydrogenase complex is build very similar to the pyruvate dehydrogenase complex. Like PDC it has 3 has 3 importand enzymes: 
+	\begin{itemize}
+		\item E1: $\alpha$-ketoglutarate dehydrogenase with TPP as a cofactor
+		\item E2: dihydrolipyl succiniltransferase with lipoic acid as a cofactor
+		\item E3: dihydrolipyl dehydrogenase with FAD as cofactor. 
+	\end{itemize}
+	\noindent This is a clear case of \textbf{divergent evolution}. 
+\end{RemarkWithTitel}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height = 4 cm]{TCAS4}
+	\caption{oxidation of $\alpha$-Ketoglutarate to Succinyl-CoA and CO2}
+\end{figure}
+
+\paragraph{Step5: Conversion of Succinyl-CoA to Succinate}
+The unstable and high energy thiolester bond of succinyl-CoA is cleaved to release the CoA-SH unit. This relleases free energy that is used used to produce GTP from GDP. This reaction is catalyzed by \textbf{succinyl CoA synthetases}. \\
+The reaction has 3 phases as ilustraed by fig. \ref{TCAS5_2}:
+\begin{enumerate}
+	\item A phosphate group substitutes CoA to form succinyl phosphate (a high energy acyl phosphate).
+	\item Succinyl phosphate  donates the phosphate to a His residue in the enzyme (Succinat is formed).
+	\item The phosphate group is transferred from the high energy phopsphorylated histidine to GDP to form GTP. 
+\end{enumerate}
+\begin{figure}[H]
+	\centering
+	\subfigure[Creation of Isocitrate]{
+		\includegraphics[width=0.45\textwidth]{TCAS5_1}
+	}
+	\subfigure[Aconitase enzyme]{
+		\includegraphics[width=0.45\textwidth]{TCAS5_2}
+		\label{TCAS5_2}
+	}
+	\caption{Conversion of Succinyl-CoA to Succinate}
+\end{figure}
+
+\paragraph{Step6: Formation of Fumerate}
+In step 6, succinate is oxidised to fumerate by succinate dehydrogenase. This is coupled to the reduction of FAD to FADH2. See fig. \ref{TCAS6}
+
+\begin{RemarkWithTitel}{\gls{succinatedehydrogenase}}
+	Succinate dehydrogenase is bound to the inner mitochondrial membrane and its FADH2 passes electrons to the electron transport chain. 
+\end{RemarkWithTitel}
+
+
+\paragraph{Step7: Formation of Malate}
+
+\textbf{Fumerase} catalyses the hydration of fumerate into malate. Note that the water molecule attacks only at a specific site, thus only the \textbf{L}-isomer of malate is formed.
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Oxidation of Succinate to Fumerate]{
+		\includegraphics[width=0.45\textwidth]{TCAS6}
+		\label{TCAS6}
+	}
+	\subfigure[Hydration of Fumerate into Malate]{
+		\includegraphics[width=0.45\textwidth]{TCAS7}
+	}
+	\caption{Step 6 and 7}
+\end{figure}
+
+
+\paragraph{Step8: Regeneration of Oxaloacetate}
+Finally, \textbf{malate dehydrogenase} regenerates oxaloacetate by oxidation of malate. This reaction is couplet with the reduction of NAD+ to NADH. This process is highly \textbf{endergonic} and needs to be coupled with other exergonic steps.  
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[height = 4 cm]{TCAS8}
+	\caption{Oxidation of Malate to Oxaloacetate}
+\end{figure}
 
 
 \subsection{Fatty Acid Oxidation}
+Adipose tissue cells (\textbf{adipocytes}) are specialised cells that store energy in the form of \textbf{triglycerides}. \textit{Lipids are a form to long-time store energy, which will be used in moments with little glucose.} Upon demand triglycerides are hydrolysed to glycerol and fatty acids that are transported to target tissues. \\
+Following this step \textbf{fatty acids} can be \textbf{activated (bound to CoA, see. fig. \ref{FA0_4})} and transported to the mitochondrial matrix of cells. In the mitochondrial matrix they iteratively undergo a series of \textbf{4 reactions} that shorten the acyl chain by 2 carbons and release acetyl-CoA (that can feed in the TCA cycle)\\
+This entire process is known as \textbf{fatty acid oxidation}. \\
+\\
+Dietary fats are absorbed in the \textbf{small intestine}. \textbf{\gls{bileacids}} are released an act as biological detergents, resuspending tryglcerides into fine micelles. In this form triglycerides are accessible to water-soluble lipases in the intestine lumen. \\
+The products of this lipasen are then absorbed by the intestine mucosa and converted back to triglycerides. They are then transported through the bloodstream and finally stored in dedicated adipose cells that have the specialized organelles named \textbf{lipid droplets}.
 
+\begin{RemarkWithTitel}{Triacylglcerols better then Polysaccharides}
+	Triacylglcerols contain \textbf{more energy per gram then polysaccharides}. Moreover, the are unhydrated, thus the oranism does not have to carry the extra weight in form of water as with stored polysaccharides. Additionally in some animals, such as seals, fats stores under the skin serve as insulation against cold temperatures. 
+\end{RemarkWithTitel}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.8 \textwidth]{FA0_2}
+	\caption{Processing of dietary lipids in vertebrates}
+\end{figure}
+\noindent
+When blood glucose levels are low, some hormones (\textbf{glucagon/adrenaline}) are released. They activated \textbf{adenylyl cyclase on the surface of adipocites}. This leads to the production of \textbf{cAMP} which activats \textbf{protein kinase A (PKA)}, which triggers intracellular triglyceride lipase to produce fatty acids and glycerol. The products are released into the bloodstream, where they are transported with the serum protein \textbf{Albumin} to muscle cells (\textbf{mycocytes}) where they are then oxidized for the production of ATP. 
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Mobilization of tracylglycerols stored in adipose tissue]{
+		\includegraphics[height = 8cm]{FA0_1}
+	}
+	\hfil
+	\subfigure[Adipose tissue]{
+		\includegraphics[height = 8 cm]{FA0_3}
+	}
+	\caption{}
+\end{figure}
+ 
 \paragraph{What about glycerol?}
+95\% of the energy derived from triglycerides comes from the oxidation of the fatty acid chain, wher \textbf{5\% comes from glycerol}.\\
+\\
+Glycerol, released by triglyceride lipases, is phosphorylated to glycerol 3-phopsphate by \textbf{glycerol kinase} using 1 ATP. Then glycerol is oxidized by the enzyme glycerol 3-phosphate dehydrogenase to \textbf{DHAP}, thus entering the glycolytic pathway. 
 
-\paragraph{Transport within Mitochondria}
-
-make glossary entry for carnitine 
-
-\begin{RemarkWithTitel}{Primary Carnitine deficiency}
-	Inhalt...
+\begin{RemarkWithTitel}{How much ATP do we get from glycerol in the glycolytic pathway?}
+	First we have to invest 1 ATP to produce DHAP entering the glycolytic pathway. We enter the payoff phase of glycolysis where we produce 2 ATP. Giving us a net of 1 ATP produced, additionally we still have the energy of 1 pyruvate and 2 NADH. 
 \end{RemarkWithTitel}
 
+\paragraph{Transport into the Mitochondria}
+\textbf{The transport into the mitochondria is the rate-limiting step in $\beta$-oxidation}.\\
+Fatty acid oxidation takes place in the mitochondrial matrix. Therefore fatty acids have to be transported into the mitochondria to be oxidized. For this purpose, they are again activated, linked to CoA. This is done by the enzyme \textbf{fatty acyl-CoA synthetases}\\
+\\
+Fatty acyl-CoA synthetases have a \textbf{two phase mechanism} (see fig. \ref{FA0_4}): 
+\begin{enumerate}
+	\item The fatty acid made reactive by forming a complex with AMP, producing PPi and using ATP. 
+	\item AMP is then exchanged with CoA-SH, in a nucleophilc attack, forming fatty acyl-CoA. 
+\end{enumerate}
+\noindent \textit{Note that PPi is immediately dissociated into phosphate molecules by inorganic pyrophosphatase. } 
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Conversion of a fatty acid to fatty acyl-CoA]{
+		\includegraphics[height = 8cm]{FA0_4}
+		\label{FA0_4}
+	}
+	\hfil
+	\subfigure[Formula of L-Carnitine]{
+		\includegraphics[height = 4 cm]{carnitine}
+		\label{carnitine}
+	}
+	\caption{}
+\end{figure}
+\noindent
+Once formed in the cytosolic environment, fatty acyl-CoA corrosses the mitochondrial membrane transiently exchanging its CoA with carnitine and exploiting the \textbf{acyl-carnitine transporter}.
+\begin{itemize}
+	\item Carnitine acyltransferase \textbf{I} is located at the outer membrane and catalyzes the exchange of CoA with carnitine. 
+	\item Carnitine acyltransferase \textbf{II} is located in the inner membrane and exchanges the carnitine for CoA. 
+\end{itemize}
+		
+\begin{DefWithTitle}{Carnitine}
+	\gls{carnitine} (see. fig \ref{carnitine}) is a quaternary ammonium compound. Carnitine forms a temporary conjugate with acyl groups (as acyl-carnitine), enabling them to cross the inner mitochondrial membrane via the carnitine shuttle system.
+\end{DefWithTitle}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.8 \textwidth]{FA0_5}
+	\caption{Fatty acid entry into mitochondria via acyl-carnitine/carnitine transporter}
+\end{figure}
+
+ \begin{RemarkWithTitel}{Primary Carnitine deficiency}
+	Primary carnitine deficiency is an autosomal recessive disorder affecting transport of carnitine. Since carnitine is essential for the transport of long-chain fatty acyl-CoA into the mitochondria, this disorder results in reduced fatty acid-derived energy production, leading to symptoms such as \textbf{fatigue}. Moreover, impaired import of fatty acids into mitochondria causes their accumulation in the cytoplasm (\textbf{lipotoxity}), which can disrupt organ function. In the heart, this may result in cardiomyopathy.
+\end{RemarkWithTitel}
+
+
 \subsubsection{Beta oxidation}
-During beta-oxidation, each cycle shortens the fatty acid chain by 2 carbon atoms, producing 1 molecule of acetyl-CoA per cycle.
+There are 3 stages in the oxidation of FAs (see fig. \ref{FA1_1}). The $\beta$-oxidation is the first stage, where, in the mitochondrial matrix, fatty acetyl-CoA is progressively oxidised by an iterative sequence of four reactions that produce acetic units in the form of acetyl-CoA \\
+The acetyl-CoA units formed in stage 1 can then be feed in the TAC cycle (stage 2). Finally, the electrons subtracted in these oxidative reactions are used to produce ATP in the ETC. \\
+\\
+There are 4 reactions involved in $\beta$-oxidation (see fig. \ref{FA1_2}): 
+\begin{enumerate}
+	\item Dehydrogenation produces a double bond between the $\alpha$- and $\beta$-carbon (C2 and C3). This is catalyzed by \textbf{acyl-CoA dehydrogenase} (similar to succinate dehydrogenase from TCA cycle) and produces \textbf{2 FADH2}.
+	\item Hydration, adding water to the $\alpha$-$\beta$ double bond. The hydroxy group is added to C3, producing $\beta$-Hydroxyacyl-CoA. This is done by \textbf{enoyl-CoA hydratase}
+	\item Dehydrogenation, oxidizing the alcohol group to a keton, produces $\beta$-Ketoacyl-CoA. This is done by \textbf{$\beta$-hydroxyacyl-CoA dehydrogenase}, whose action is homologous to that of malate dehydrogenase in the TCA cycle. The electrons are transferred to NAD+ creating \textbf{NADH}
+	\item Finally the can is shortened by a thiolase which \textbf{detaches Acetyl-CoA} and creates a by 2 carbon shorter Acyl-CoA. This is catalyzed by \textbf{acyl-CoA acetyl transferase}. 
+\end{enumerate}
 
-How to calculate how many ATP from a FAs of given lenght. 
+\begin{figure}[H]
+	\centering
+	\subfigure[Stages of FA oxidation]{
+		\includegraphics[width = 0.45 \textwidth]{FA1_1}
+		\label{FA1_1}
+	}
+	\hfil
+	\subfigure[$\beta$-oxidation pathway]{
+		\includegraphics[width = 0.45 \textwidth]{FA1_2}
+		\label{FA1_2}
+	}
+	\caption{FA oxidation overview}
+\end{figure}
 
-What if usaturated FA 
+\begin{RemarkWithTitel}{Unsaturated FAs}
+ 	In the case of unsaturated fatty acids, two more enzymes are required (see fig. \ref{FA1_3}): 
+ 	\begin{itemize}
+ 		\item \textbf{Enoyl-CoA isomerase} that converts the \textbf{cis-isomer into a trans-isomer} or/and \textbf{shift the double bond} the the right psostion (C2=C3), which can be used by enoyl hydratase. (Obviously only for FA containg cis double bounds)
+ 		\item For \textbf{polyunsaturated FAs} \textbf{(2) 2,4-dienoyl-CoA reductase} has to be used. It reduces 2 double bounds to one, \textbf{consuming an NAD\underline{P}H}. Following this step, the \textbf{enoyl-CoA isomerase} can act on the substrate and make it degradable by $\beta$-oxidation.
+ 	\end{itemize}
 
-What if odd number of carbons:
+\end{RemarkWithTitel}
+
+\begin{RemarkWithTitel}{Odd-number FAs}
+	Although the vast majority of FA are constituted by an even number of carbons. Odd-number FAs exist and need to be degraded in the same way, but at the \textbf{last iteration} of $\beta$-oxidation, they yield \textbf{propionyl-CoA} instead of acetyl-CoA.\\
+	\\
+	The enzyme \textbf{propionyl-CoA carboxylase} is used to produce D-methylmalonyl-CoA, which can be converted through two further ractions to succinyl-CoA. \textbf{Succinyl-CoA} can then enter the TCA cycle. See fig. \ref{FA1_4}
+
+\end{RemarkWithTitel}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Oxidation of \textbf{polyunsaturated} fatty acid]{
+		\includegraphics[width = 0.45 \textwidth]{FA1_3}
+		\label{FA1_3}
+	}
+	\hfil
+	\subfigure[Oxidation of \textbf{odd-number} fatty acids]{
+		\includegraphics[width = 0.45 \textwidth]{FA1_4}
+		\label{FA1_4}
+	}
+	\caption{FA oxidation overview}
+\end{figure}
+
+\paragraph{Calculate amount of ATP from a FA of given length}
+
+- Assuming the FA is fully saturated and consists of n carbons (even number):\\
+\\
+\textbf{Number of $\beta$-oxidation cycles:}
+\[
+\frac{n}{2} - 1
+\]
+\textbf{Each $\beta$-oxidation cycle produces:}
+\begin{itemize}
+	\item 1 NADH $\rightarrow$ 2.5 ATP
+	\item 1 FADH\textsubscript{2} $\rightarrow$ 1.5 ATP
+	\item 1 Acetyl-CoA (last cycle gives 2) $\rightarrow$ 10 ATP via TCA
+\end{itemize}
+\noindent
+\textbf{Each acetyl-CoA entering the citric acid (TCA) cycle generates:}
+\begin{itemize}
+	\item 3 NADH $\rightarrow$ $3 \times 2.5 = 7.5$ ATP
+	\item 1 FADH\textsubscript{2} $\rightarrow$ $1 \times 1.5 = 1.5$ ATP
+	\item 1 GTP (equivalent to ATP) $\rightarrow$ $1$ ATP
+\end{itemize}
+\noindent
+\textbf{Activation of FA to Co-A costs 2 ATP}
+\textbf{Total ATP yield:}
+\[
+\text{ATP}_{\text{total}} = \left( \frac{n}{2} - 1 \right) \cdot (2.5 + 1.5) + \frac{n}{2} \cdot 10 - 2
+\]
+\noindent
+\\
+- If we have an odd number of carbons. 
+\\ 
+\noindent
+\textbf{Account for Propionyl-CoA / Succinyl-CoA}
+\begin{itemize}
+	\item 1 NADH → 2.5 ATP
+	\item 1 FADH\textsubscript{2} → 1.5 ATP
+	\item 1 GTP → 1 ATP
+\end{itemize}
+\noindent
+\[
+\text{ATP}_{\text{total}} = \left( \left\lfloor \frac{n}{2} \right\rfloor - 1 \right) \cdot 4 + \left\lfloor \frac{n}{2} \right\rfloor \cdot 10 + 5 - 2
+\]
+\\
+\\
+- ATP Yield from a Polyunsaturated Fatty Acid
+\[
+\text{ATP}_{\text{total}} = \left( \frac{n}{2} - 1 \right) \cdot 4 + \left( \frac{n}{2} \cdot 10 \right) - (p \cdot 1) - (q \cdot 2.5) - 2
+\]
+
+Where:
+\begin{itemize}
+	\item \( p \): Number of double bond "islands"; each skips FADH\textsubscript{2} production (–1 ATP).
+	\item \( q \): Sum (nb of connected dole bonds in 1 island - 1); each consumes 1 NADPH (–2.5 ATP).
+\end{itemize}
 
 
-ChatGPT saysy (for the 3 rest)
+\subsection{Amino Acid Catabolism}
+Amino acids that are derived from the degredation of proteins are the third class of biomolecules (after carbohydrates and fatty acids) that significantly contribute to the cellular energy metabolism. \\
+\\
+In animals amino acids are oxidised in three different mataboltic conditions: 
+\begin{itemize}
+	\item During protein turnover some amino acids can be oxidized, if they are not required for the synthesis of other proteins. 
+	\item In a protein rich diet, food-derived amino acids can exceed the needs for protein biosynthesis. Note there is no way to store amino acids.
+	\item In starvation when carbohydrates are not available. AA from endergenous (produced within the body) proteins are used as an energy source.   
+\end{itemize}
+Amino acids are split into a carbon skeleton and an amino group (which contains nitrogen). The carbon skeleton can be used for energy production or biosynthesis. The amino group, however, is converted into ammonia (NH3), which is toxic to our cells.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.7 \textwidth]{AA1_1}
+	\caption{Overviw of amino acid catabolism in mammals}
+\end{figure}
 
+\subsubsection{AA oxidation and Urea production}
 
-The short answer is that it produces less ATP. When a fatty acid has an odd number of carbons, the final 3‐carbon fragment is converted into propionyl‐CoA, which is then converted into succinyl‐CoA. This conversion requires an ATP investment and bypasses the early steps of the TCA cycle that normally generate additional reducing equivalents (NADH). As a result, while a full acetyl‐CoA oxidation (entering the TCA cycle from the start) yields about 10 ATP, succinyl‐CoA—entering mid‐cycle—yields roughly 5 ATP (and even a bit less when you factor in the ATP cost of converting propionyl‐CoA to succinyl‐CoA).
+The first step is the detachment of the $\alpha$ amino group. This is catalyzed by \textbf{amino transferase} that transfers the amino group to the $\alpha$-ketoglutarate to form a \textbf{$\alpha$-keto acid}. \\
+\\
+The amino tranferase requires the \textbf{cofactor \gls{plp}}, a derivative of Vitamine B6. PLP acts as a \textbf{transitory transporter of amino groups}. \\
+\\
+One formed in the cytoplasm, glutamate is transported in the mitochondria where it undergoes \textbf{oxidative deamination} catalyzed by \textbf{glutmamate dehydrogenase} that oxidizes glutamate back to $\alpha$-ketoglutarate and creats NH4+. This reaction is coupled to the reduction of NAD(P)+ to NAD(P)H. \\
+\\
+\textbf{Glutmamate dehydrogenase} is tighly controlled by the energy charge. GTP (indicating high energy charge) acts as an inhibitor and ADP (indicating low energy charge) acts as a simulator. 
+ 
+\begin{figure}[H]
+	\centering
+	\subfigure[Enzyme-catalyzed transamination]{
+		\includegraphics[width = 0.3 \textwidth]{AA2_1}
+	}
+	\subfigure[Cofactor PLP]{
+		\includegraphics[width = 0.2 \textwidth]{AA2_2}
+	}
+		\subfigure[Regulation of glutamate dehydrogenase]{
+		\includegraphics[width = 0.4 \textwidth]{AA2_5}
+	}
+	\caption{Amino acid oxidation and urea production}
+\end{figure}
 
-So overall, the energy yield from the odd-chain fatty acid’s final three carbons is lower compared to that of a full acetyl‐CoA molecule.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.8\textwidth]{AA1_2}
+	\caption{Amino group catabolism}
+	\label{AA1_2}
+\end{figure}
 
-\paragraph{Step1}
+\paragraph{Ammonia transport}
+Ammonia is toxic for most tissues. Thus, in order to be transported to the liver where it is converted into urea, it needs to be incorporated into a non-toxic compound. \\
+\\
+In most tissues ammonia is therefore complexed to glutamate to produce glutamine. This is done by the enzyme \textbf{glutamine synthetase} and requires \textbf{ATP}. See fig. \ref{AA2_6} \\
+\textit{Note this a perfect example how ATP hydrolysis can foster otherwise unfavorite reactions.}\\
+\\
+Once in the liver mitochondria this is reversed by \textbf{glutaminase}. \\
+\\
+In the \textbf{muscle} and other tissues where amino acids are intensively used for the production of energy, the \textbf{amino group can be transferred to pyruvate} to form alanine. Which can be transported to the liver. See fig. \ref{AA2_3}
 
-\paragraph{Step2}
+\begin{figure}[H]
+	\centering
+	\subfigure[Glutamine]{
+		\includegraphics[width = 0.4 \textwidth]{AA2_6}
+		\label{AA2_6}
+	}
+	\hfil
+	\subfigure[Alanine]{
+		\includegraphics[width = 0.5 \textwidth]{AA2_3}
+		\label{AA2_3}
+	}
+	\caption{Transport of Ammonia}
+\end{figure}
 
-\paragraph{Step3}
+\paragraph{Urea production}
+Once transported to liver mitochondria converted to urea in a serie of 4 reactions (\textbf{the Urea cycle}). The first happens in the mitochondrial matrix while the remaining three happen in the cytosol. 
+\begin{enumerate}
+	\item Citrulline is formed from Ornithine by the addition of a carbamoyl group. \textbf{Carbamoyl} carries the ammonia from glutamine. The construction of Carbomyl used 2 ATP.
+	\item Argininosuccinate is formed by condensation of citrulline and asparate. This uses ATP.
+	\item Argininosuccinate is decomposed in \textbf{fumarate} (that feeds in the TCA cylce) and arginine.
+	\item Arginine is decomposed into urea and ornithine by \textbf{arginase}
+\end{enumerate}
+\paragraph{Entry in TCA}
+As there are 20 amino acids there are 20 catablolic ways doe those amino acids. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.7 \textwidth]{AA2_4}
+	\caption{Glucose-alanine cylce}
+\end{figure}  
 
-\paragraph{Step4}
-
-\subsection{unsaturated FAs}
-
-\subsection{Amino Acid Oxidation}
-
-\subsubsection{Urea production}
-
-\subsubsection{Entry in CAC}
-
-\paragraph{Phenylalanine catabolism}
-
-
-
-
-
-
-
-
-
-
-
+\begin{RemarkWithTitel}{Deffects in amino acid matabolism}
+	Several genetic defects have been identified in humans that impact the amino acid matabolism. These defects lead to the accumulation of neurotoxic intermeadiates resulting in intellectual disabilities. 
+\end{RemarkWithTitel}
 
 
 
