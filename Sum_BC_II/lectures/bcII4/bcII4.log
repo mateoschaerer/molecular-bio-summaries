@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  25 APR 2025 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  26 APR 2025 14:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2095,11 +2095,16 @@ LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 5.
 
 (glossary-definitions4.tex)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 6.
+
+(../bcII3/glossary-definitions3.tex)
 \glswrite=\write5
 \glo@main@file=\write6
 \openout6 = `bcII4.glo'.
 
-Package glossaries Info: Writing glossary file bcII4.glo on input line 7.
+Package glossaries Info: Writing glossary file bcII4.glo on input line 8.
 
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
@@ -2110,20 +2115,20 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (bcII4.aux)
 \openout1 = `bcII4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2203,20 +2208,20 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'bcII4.bbl' found.
  (bcII4.bbl)
-Package biblatex Info: Reference section=0 on input line 9.
-Package biblatex Info: Reference segment=0 on input line 9.
+Package biblatex Info: Reference section=0 on input line 10.
+Package biblatex Info: Reference segment=0 on input line 10.
 <gen1.png, id=4, 172.14313pt x 325.215pt>
 File: gen1.png Graphic file (type png)
 <use gen1.png>
-Package pdftex.def Info: gen1.png  used on input line 21.
+Package pdftex.def Info: gen1.png  used on input line 22.
 (pdftex.def)             Requested size: 210.86533pt x 398.33858pt.
 <glycolysis_gen.png, id=6, 233.87375pt x 402.50375pt>
 File: glycolysis_gen.png Graphic file (type png)
 <use glycolysis_gen.png>
-Package pdftex.def Info: glycolysis_gen.png  used on input line 31.
+Package pdftex.def Info: glycolysis_gen.png  used on input line 32.
 (pdftex.def)             Requested size: 290.22107pt x 499.54169pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--33
+Underfull \hbox (badness 10000) in paragraph at lines 27--34
 
  []
 
@@ -2228,86 +2233,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--33
 <labeling.png, id=17, 108.405pt x 124.96687pt>
 File: labeling.png Graphic file (type png)
 <use labeling.png>
-Package pdftex.def Info: labeling.png  used on input line 42.
+Package pdftex.def Info: labeling.png  used on input line 43.
 (pdftex.def)             Requested size: 123.42252pt x 142.26378pt.
  [2 <./glycolysis_gen.png>]
 <S1.png, id=23, 229.35687pt x 102.3825pt>
 File: S1.png Graphic file (type png)
 <use S1.png>
-Package pdftex.def Info: S1.png  used on input line 59.
+Package pdftex.def Info: S1.png  used on input line 60.
 (pdftex.def)             Requested size: 290.22107pt x 129.55722pt.
 <HK.png, id=24, 152.57pt x 188.705pt>
 File: HK.png Graphic file (type png)
 <use HK.png>
-Package pdftex.def Info: HK.png  used on input line 60.
+Package pdftex.def Info: HK.png  used on input line 61.
 (pdftex.def)             Requested size: 120.92421pt x 149.57056pt.
  [3 <./labeling.png> <./S1.png> <./HK.png>]
 <S2_1.png, id=32, 252.945pt x 106.89937pt>
 File: S2_1.png Graphic file (type png)
 <use S2_1.png>
-Package pdftex.def Info: S2_1.png  used on input line 74.
+Package pdftex.def Info: S2_1.png  used on input line 75.
 (pdftex.def)             Requested size: 290.22107pt x 122.656pt.
 <S2_2.png, id=33, 197.23688pt x 158.5925pt>
 File: S2_2.png Graphic file (type png)
 <use S2_2.png>
-Package pdftex.def Info: S2_2.png  used on input line 75.
+Package pdftex.def Info: S2_2.png  used on input line 76.
 (pdftex.def)             Requested size: 145.11053pt x 116.67902pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
 <S3.png, id=34, 319.1925pt x 101.37875pt>
 File: S3.png Graphic file (type png)
 <use S3.png>
-Package pdftex.def Info: S3.png  used on input line 88.
+Package pdftex.def Info: S3.png  used on input line 89.
 (pdftex.def)             Requested size: 217.66211pt x 69.13153pt.
 <S4.png, id=35, 321.2pt x 111.41624pt>
 File: S4.png Graphic file (type png)
 <use S4.png>
-Package pdftex.def Info: S4.png  used on input line 89.
+Package pdftex.def Info: S4.png  used on input line 90.
 (pdftex.def)             Requested size: 217.66211pt x 75.50363pt.
 <S5_1.png, id=36, 245.91875pt x 145.04187pt>
 File: S5_1.png Graphic file (type png)
 <use S5_1.png>
-Package pdftex.def Info: S5_1.png  used on input line 98.
+Package pdftex.def Info: S5_1.png  used on input line 99.
 (pdftex.def)             Requested size: 145.11053pt x 85.58945pt.
 <S5_2.png, id=37, 290.58563pt x 225.84375pt>
 File: S5_2.png Graphic file (type png)
 <use S5_2.png>
-Package pdftex.def Info: S5_2.png  used on input line 99.
+Package pdftex.def Info: S5_2.png  used on input line 100.
 (pdftex.def)             Requested size: 290.22107pt x 225.57439pt.
 [4 <./S2_1.png> <./S2_2.png> <./S3.png> <./S4.png>]
 <S6_1.png, id=45, 274.52562pt x 81.30376pt>
 File: S6_1.png Graphic file (type png)
 <use S6_1.png>
-Package pdftex.def Info: S6_1.png  used on input line 111.
+Package pdftex.def Info: S6_1.png  used on input line 112.
 (pdftex.def)             Requested size: 145.11053pt x 42.97664pt.
 <S6_2.png, id=46, 266.9975pt x 213.79875pt>
 File: S6_2.png Graphic file (type png)
 <use S6_2.png>
-Package pdftex.def Info: S6_2.png  used on input line 112.
+Package pdftex.def Info: S6_2.png  used on input line 113.
 (pdftex.def)             Requested size: 290.22107pt x 232.41943pt.
  [5 <./S5_1.png> <./S5_2.png>]
 <S7.png, id=52, 292.59312pt x 90.83937pt>
 File: S7.png Graphic file (type png)
 <use S7.png>
-Package pdftex.def Info: S7.png  used on input line 124.
+Package pdftex.def Info: S7.png  used on input line 125.
 (pdftex.def)             Requested size: 217.66211pt x 67.57907pt.
 <S8.png, id=53, 235.37938pt x 78.79437pt>
 File: S8.png Graphic file (type png)
 <use S8.png>
-Package pdftex.def Info: S8.png  used on input line 125.
+Package pdftex.def Info: S8.png  used on input line 126.
 (pdftex.def)             Requested size: 217.66211pt x 72.86441pt.
 <S9.png, id=54, 231.86626pt x 87.82813pt>
 File: S9.png Graphic file (type png)
 <use S9.png>
-Package pdftex.def Info: S9.png  used on input line 136.
+Package pdftex.def Info: S9.png  used on input line 137.
 (pdftex.def)             Requested size: 217.66211pt x 82.44987pt.
 <S10.png, id=55, 272.51813pt x 101.37875pt>
 File: S10.png Graphic file (type png)
 <use S10.png>
-Package pdftex.def Info: S10.png  used on input line 137.
+Package pdftex.def Info: S10.png  used on input line 138.
 (pdftex.def)             Requested size: 217.66211pt x 80.9716pt.
 
 
@@ -2316,10 +2321,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <fate_of_pyruvate.png, id=56, 248.93pt x 180.675pt>
 File: fate_of_pyruvate.png Graphic file (type png)
 <use fate_of_pyruvate.png>
-Package pdftex.def Info: fate_of_pyruvate.png  used on input line 146.
+Package pdftex.def Info: fate_of_pyruvate.png  used on input line 147.
 (pdftex.def)             Requested size: 338.58632pt x 245.76987pt.
 [6 <./S6_1.png> <./S6_2.png> <./S7.png> <./S8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
 
  []
 
@@ -2327,124 +2332,124 @@ Underfull \hbox (badness 10000) in paragraph at lines 159--162
 <ethanol.png, id=71, 273.02pt x 85.82062pt>
 File: ethanol.png Graphic file (type png)
 <use ethanol.png>
-Package pdftex.def Info: ethanol.png  used on input line 169.
+Package pdftex.def Info: ethanol.png  used on input line 170.
 (pdftex.def)             Requested size: 290.22107pt x 91.23392pt.
 <lactic.png, id=72, 131.49126pt x 52.69687pt>
 File: lactic.png Graphic file (type png)
 <use lactic.png>
-Package pdftex.def Info: lactic.png  used on input line 182.
+Package pdftex.def Info: lactic.png  used on input line 183.
 (pdftex.def)             Requested size: 290.22107pt x 116.32906pt.
  [8 <./ethanol.png> <./lactic.png>]
 <TCA0_1.png, id=78, 261.97874pt x 120.45pt>
 File: TCA0_1.png Graphic file (type png)
 <use TCA0_1.png>
-Package pdftex.def Info: TCA0_1.png  used on input line 229.
+Package pdftex.def Info: TCA0_1.png  used on input line 230.
 (pdftex.def)             Requested size: 217.66211pt x 100.07639pt.
 <TCA0_2.png, id=79, 321.2pt x 197.23688pt>
 File: TCA0_2.png Graphic file (type png)
 <use TCA0_2.png>
-Package pdftex.def Info: TCA0_2.png  used on input line 233.
+Package pdftex.def Info: TCA0_2.png  used on input line 234.
 (pdftex.def)             Requested size: 217.66211pt x 133.66182pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 239
+LaTeX Font Info:    Trying to load font information for U+msa on input line 240
 .
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 239
+LaTeX Font Info:    Trying to load font information for U+msb on input line 240
 .
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
-9.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 24
+0.
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-39.
+40.
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [9 <./TCA0_1.png> <./TCA0_2.png>]
 <TCA0_3.png, id=85, 247.52475pt x 164.41425pt>
 File: TCA0_3.png Graphic file (type png)
 <use TCA0_3.png>
-Package pdftex.def Info: TCA0_3.png  used on input line 258.
+Package pdftex.def Info: TCA0_3.png  used on input line 259.
 (pdftex.def)             Requested size: 217.66211pt x 144.5821pt.
 <TCA0_4.png, id=86, 166.12062pt x 122.4575pt>
 File: TCA0_4.png Graphic file (type png)
 <use TCA0_4.png>
-Package pdftex.def Info: TCA0_4.png  used on input line 261.
+Package pdftex.def Info: TCA0_4.png  used on input line 262.
 (pdftex.def)             Requested size: 217.66211pt x 160.46158pt.
 <TCA1.png, id=87, 346.29375pt x 345.29pt>
 File: TCA1.png Graphic file (type png)
 <use TCA1.png>
-Package pdftex.def Info: TCA1.png  used on input line 273.
+Package pdftex.def Info: TCA1.png  used on input line 274.
 (pdftex.def)             Requested size: 483.69687pt x 482.3068pt.
  [10 <./TCA0_3.png> <./TCA0_4.png>] [11 <./TCA1.png>]
 <TCAS1_1.png, id=97, 222.8325pt x 127.97812pt>
 File: TCAS1_1.png Graphic file (type png)
 <use TCAS1_1.png>
-Package pdftex.def Info: TCAS1_1.png  used on input line 293.
+Package pdftex.def Info: TCAS1_1.png  used on input line 294.
 (pdftex.def)             Requested size: 217.66211pt x 125.00955pt.
 <TCAS1_2.png, id=98, 254.9525pt x 158.5925pt>
 File: TCAS1_2.png Graphic file (type png)
 <use TCAS1_2.png>
-Package pdftex.def Info: TCAS1_2.png  used on input line 296.
+Package pdftex.def Info: TCAS1_2.png  used on input line 297.
 (pdftex.def)             Requested size: 217.66211pt x 135.40196pt.
 <TCAS2_1.png, id=99, 300.12125pt x 96.86188pt>
 File: TCAS2_1.png Graphic file (type png)
 <use TCAS2_1.png>
-Package pdftex.def Info: TCAS2_1.png  used on input line 311.
+Package pdftex.def Info: TCAS2_1.png  used on input line 312.
 (pdftex.def)             Requested size: 217.66211pt x 70.25038pt.
 <TCAS2_2.png, id=100, 172.14313pt x 127.97812pt>
 File: TCAS2_2.png Graphic file (type png)
 <use TCAS2_2.png>
-Package pdftex.def Info: TCAS2_2.png  used on input line 314.
+Package pdftex.def Info: TCAS2_2.png  used on input line 315.
 (pdftex.def)             Requested size: 217.66211pt x 161.81958pt.
 <TCAS3.png, id=101, 377.91188pt x 99.87312pt>
 File: TCAS3.png Graphic file (type png)
 <use TCAS3.png>
-Package pdftex.def Info: TCAS3.png  used on input line 323.
+Package pdftex.def Info: TCAS3.png  used on input line 324.
 (pdftex.def)             Requested size: 483.69687pt x 127.83105pt.
  [12 <./TCAS1_1.png> <./TCAS1_2.png> <./TCAS2_1.png> <./TCAS2_2.png>]
 <TCAS4.png, id=109, 294.09875pt x 139.01938pt>
 File: TCAS4.png Graphic file (type png)
 <use TCAS4.png>
-Package pdftex.def Info: TCAS4.png  used on input line 342.
+Package pdftex.def Info: TCAS4.png  used on input line 343.
 (pdftex.def)             Requested size: 240.77211pt x 113.81102pt.
 
 [13 <./TCAS3.png> <./TCAS4.png>]
 <TCAS5_1.png, id=116, 310.66063pt x 140.525pt>
 File: TCAS5_1.png Graphic file (type png)
 <use TCAS5_1.png>
-Package pdftex.def Info: TCAS5_1.png  used on input line 358.
+Package pdftex.def Info: TCAS5_1.png  used on input line 359.
 (pdftex.def)             Requested size: 217.66211pt x 98.45688pt.
 <TCAS5_2.png, id=117, 290.58563pt x 342.27875pt>
 File: TCAS5_2.png Graphic file (type png)
 <use TCAS5_2.png>
-Package pdftex.def Info: TCAS5_2.png  used on input line 362.
+Package pdftex.def Info: TCAS5_2.png  used on input line 363.
 (pdftex.def)             Requested size: 217.66211pt x 256.3846pt.
 <TCAS6.png, id=118, 298.61563pt x 127.97812pt>
 File: TCAS6.png Graphic file (type png)
 <use TCAS6.png>
-Package pdftex.def Info: TCAS6.png  used on input line 383.
+Package pdftex.def Info: TCAS6.png  used on input line 384.
 (pdftex.def)             Requested size: 217.66211pt x 93.28459pt.
 <TCAS7.png, id=119, 277.53688pt x 142.03062pt>
 File: TCAS7.png Graphic file (type png)
 <use TCAS7.png>
-Package pdftex.def Info: TCAS7.png  used on input line 386.
+Package pdftex.def Info: TCAS7.png  used on input line 387.
 (pdftex.def)             Requested size: 217.66211pt x 111.39024pt.
  [14 <./TCAS5_1.png> <./TCAS5_2.png>]
 <TCAS8.png, id=125, 307.64937pt x 126.97438pt>
 File: TCAS8.png Graphic file (type png)
 <use TCAS8.png>
-Package pdftex.def Info: TCAS8.png  used on input line 396.
+Package pdftex.def Info: TCAS8.png  used on input line 397.
 (pdftex.def)             Requested size: 275.7646pt x 113.81102pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--408
+Underfull \hbox (badness 10000) in paragraph at lines 403--409
 
  []
 
@@ -2452,142 +2457,147 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--408
 <FA0_2.png, id=132, 404.00937pt x 289.58188pt>
 File: FA0_2.png Graphic file (type png)
 <use FA0_2.png>
-Package pdftex.def Info: FA0_2.png  used on input line 414.
+Package pdftex.def Info: FA0_2.png  used on input line 415.
 (pdftex.def)             Requested size: 386.95897pt x 277.36357pt.
 <FA0_1.png, id=133, 395.97937pt x 348.30125pt>
 File: FA0_1.png Graphic file (type png)
 <use FA0_1.png>
-Package pdftex.def Info: FA0_1.png  used on input line 424.
+Package pdftex.def Info: FA0_1.png  used on input line 425.
 (pdftex.def)             Requested size: 258.77928pt x 227.62204pt.
 <FA0_3.png, id=134, 181.17688pt x 351.3125pt>
 File: FA0_3.png Graphic file (type png)
 <use FA0_3.png>
-Package pdftex.def Info: FA0_3.png  used on input line 428.
+Package pdftex.def Info: FA0_3.png  used on input line 429.
 (pdftex.def)             Requested size: 117.39035pt x 227.62204pt.
  [16 <./FA0_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 433--436
+Underfull \hbox (badness 10000) in paragraph at lines 434--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--447
+Underfull \hbox (badness 10000) in paragraph at lines 443--448
 
  []
 
 <FA0_4.png, id=139, 366.36874pt x 307.64937pt>
 File: FA0_4.png Graphic file (type png)
 <use FA0_4.png>
-Package pdftex.def Info: FA0_4.png  used on input line 457.
+Package pdftex.def Info: FA0_4.png  used on input line 458.
 (pdftex.def)             Requested size: 271.06949pt x 227.62204pt.
 <carnitine.jpeg, id=140, 200.75pt x 200.75pt>
 File: carnitine.jpeg Graphic file (type jpg)
 <use carnitine.jpeg>
-Package pdftex.def Info: carnitine.jpeg  used on input line 462.
+Package pdftex.def Info: carnitine.jpeg  used on input line 463.
 (pdftex.def)             Requested size: 113.81297pt x 113.81102pt.
 [17 <./FA0_1.png> <./FA0_3.png>]
 <FA0_5.png, id=146, 416.05438pt x 168.63pt>
 File: FA0_5.png Graphic file (type png)
 <use FA0_5.png>
-Package pdftex.def Info: FA0_5.png  used on input line 478.
+Package pdftex.def Info: FA0_5.png  used on input line 479.
 (pdftex.def)             Requested size: 386.95897pt x 156.84485pt.
  [18 <./FA0_4.png> <./carnitine.jpeg> <./FA0_5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 488--493
+Underfull \hbox (badness 10000) in paragraph at lines 489--494
 
  []
 
 <FA1_1.png, id=152, 218.31563pt x 361.85187pt>
 File: FA1_1.png Graphic file (type png)
 <use FA1_1.png>
-Package pdftex.def Info: FA1_1.png  used on input line 504.
+Package pdftex.def Info: FA1_1.png  used on input line 505.
 (pdftex.def)             Requested size: 217.66211pt x 360.76878pt.
 <FA1_2.png, id=153, 223.33438pt x 373.395pt>
 File: FA1_2.png Graphic file (type png)
 <use FA1_2.png>
-Package pdftex.def Info: FA1_2.png  used on input line 509.
+Package pdftex.def Info: FA1_2.png  used on input line 510.
 (pdftex.def)             Requested size: 217.66211pt x 363.91907pt.
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 523--526
+Underfull \hbox (badness 10000) in paragraph at lines 524--527
 
  []
 
 <FA1_3.png, id=158, 177.66376pt x 325.71687pt>
 File: FA1_3.png Graphic file (type png)
 <use FA1_3.png>
-Package pdftex.def Info: FA1_3.png  used on input line 534.
+Package pdftex.def Info: FA1_3.png  used on input line 535.
 (pdftex.def)             Requested size: 217.66211pt x 399.05882pt.
 <FA1_4.png, id=159, 254.45062pt x 413.04312pt>
 File: FA1_4.png Graphic file (type png)
 <use FA1_4.png>
-Package pdftex.def Info: FA1_4.png  used on input line 539.
+Package pdftex.def Info: FA1_4.png  used on input line 540.
 (pdftex.def)             Requested size: 217.66211pt x 353.3383pt.
 [20 <./FA1_1.png> <./FA1_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 545--548
+Underfull \hbox (badness 10000) in paragraph at lines 545--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--551
 
  []
 
 [21 <./FA1_3.png> <./FA1_4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 584--588
+Underfull \hbox (badness 10000) in paragraph at lines 573--580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--603
+Underfull \hbox (badness 10000) in paragraph at lines 601--604
 
  []
 
 <AA1_1.png, id=175, 244.41313pt x 270.00874pt>
 File: AA1_1.png Graphic file (type png)
 <use AA1_1.png>
-Package pdftex.def Info: AA1_1.png  used on input line 611.
+Package pdftex.def Info: AA1_1.png  used on input line 612.
 (pdftex.def)             Requested size: 338.58632pt x 374.05032pt.
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 617--624
+Underfull \hbox (badness 10000) in paragraph at lines 618--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--624
+Underfull \hbox (badness 10000) in paragraph at lines 618--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--624
+Underfull \hbox (badness 10000) in paragraph at lines 618--625
 
  []
 
 <AA2_1.png, id=180, 167.62625pt x 187.19937pt>
 File: AA2_1.png Graphic file (type png)
 <use AA2_1.png>
-Package pdftex.def Info: AA2_1.png  used on input line 629.
+Package pdftex.def Info: AA2_1.png  used on input line 630.
 (pdftex.def)             Requested size: 145.11053pt x 162.05376pt.
 <AA2_2.png, id=181, 250.43562pt x 176.66pt>
 File: AA2_2.png Graphic file (type png)
 <use AA2_2.png>
-Package pdftex.def Info: AA2_2.png  used on input line 632.
+Package pdftex.def Info: AA2_2.png  used on input line 633.
 (pdftex.def)             Requested size: 96.73788pt x 68.23938pt.
 <AA2_5.png, id=182, 307.1475pt x 119.44624pt>
 File: AA2_5.png Graphic file (type png)
 <use AA2_5.png>
-Package pdftex.def Info: AA2_5.png  used on input line 635.
+Package pdftex.def Info: AA2_5.png  used on input line 636.
 (pdftex.def)             Requested size: 193.47578pt x 75.24059pt.
 [23 <./AA1_1.png>]
 <AA1_2.png, id=187, 408.52625pt x 362.85562pt>
 File: AA1_2.png Graphic file (type png)
 <use AA1_2.png>
-Package pdftex.def Info: AA1_2.png  used on input line 641.
+Package pdftex.def Info: AA1_2.png  used on input line 642.
 (pdftex.def)             Requested size: 386.95897pt x 343.71982pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--655
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--655
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--655
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
 
  []
 
@@ -2595,26 +2605,165 @@ Underfull \hbox (badness 10000) in paragraph at lines 647--655
 <AA2_6.png, id=195, 193.22188pt x 360.34625pt>
 File: AA2_6.png Graphic file (type png)
 <use AA2_6.png>
-Package pdftex.def Info: AA2_6.png  used on input line 661.
+Package pdftex.def Info: AA2_6.png  used on input line 662.
 (pdftex.def)             Requested size: 193.47578pt x 360.82373pt.
 <AA2_3.png, id=196, 264.99pt x 388.95313pt>
 File: AA2_3.png Graphic file (type png)
 <use AA2_3.png>
-Package pdftex.def Info: AA2_3.png  used on input line 666.
+Package pdftex.def Info: AA2_3.png  used on input line 667.
 (pdftex.def)             Requested size: 241.84843pt x 354.99243pt.
  [25 <./AA2_6.png> <./AA2_3.png>]
 <AA2_4.png, id=203, 349.80687pt x 310.66063pt>
 File: AA2_4.png Graphic file (type png)
 <use AA2_4.png>
-Package pdftex.def Info: AA2_4.png  used on input line 682.
+Package pdftex.def Info: AA2_4.png  used on input line 683.
 (pdftex.def)             Requested size: 338.58632pt x 300.71472pt.
+ [26 <./AA2_4.png>]
+<ETC0.png, id=208, 390.45876pt x 178.16562pt>
+File: ETC0.png Graphic file (type png)
+<use ETC0.png>
+Package pdftex.def Info: ETC0.png  used on input line 712.
+(pdftex.def)             Requested size: 386.95897pt x 176.57751pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--728
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--728
+
+ []
+
+<ETC2.png, id=209, 198.7425pt x 266.49562pt>
+File: ETC2.png Graphic file (type png)
+<use ETC2.png>
+Package pdftex.def Info: ETC2.png  used on input line 735.
+(pdftex.def)             Requested size: 127.31606pt x 170.71652pt.
+<ETC3.png, id=210, 208.27812pt x 319.69438pt>
+File: ETC3.png Graphic file (type png)
+<use ETC3.png>
+Package pdftex.def Info: ETC3.png  used on input line 740.
+(pdftex.def)             Requested size: 111.21951pt x 170.71652pt.
+[27 <./ETC0.png>]
+<ETC1.png, id=215, 403.5075pt x 93.34875pt>
+File: ETC1.png Graphic file (type png)
+<use ETC1.png>
+Package pdftex.def Info: ETC1.png  used on input line 752.
+(pdftex.def)             Requested size: 338.58632pt x 78.32979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--763
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--763
+
+ []
+
+<ETCC1.png, id=216, 305.64188pt x 260.975pt>
+File: ETCC1.png Graphic file (type png)
+<use ETCC1.png>
+Package pdftex.def Info: ETCC1.png  used on input line 769.
+(pdftex.def)             Requested size: 241.84843pt x 206.50249pt.
+<ETCC1_1.png, id=217, 327.2225pt x 194.7275pt>
+File: ETCC1_1.png Graphic file (type png)
+<use ETCC1_1.png>
+Package pdftex.def Info: ETCC1_1.png  used on input line 773.
+(pdftex.def)             Requested size: 217.66211pt x 129.5278pt.
+[28 <./ETC2.png> <./ETC3.png> <./ETC1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 779--783
+
+ []
+
+<ETCC2.png, id=225, 233.87375pt x 257.96375pt>
+File: ETCC2.png Graphic file (type png)
+<use ETCC2.png>
+Package pdftex.def Info: ETCC2.png  used on input line 786.
+(pdftex.def)             Requested size: 241.84843pt x 266.77232pt.
+[29 <./ETCC1.png> <./ETCC1_1.png>]
+<ETCC3.png, id=231, 227.85126pt x 257.96375pt>
+File: ETCC3.png Graphic file (type png)
+<use ETCC3.png>
+Package pdftex.def Info: ETCC3.png  used on input line 806.
+(pdftex.def)             Requested size: 241.84843pt x 273.81813pt.
+<ETCC3_1.png, id=232, 160.09813pt x 241.40187pt>
+File: ETCC3_1.png Graphic file (type png)
+<use ETCC3_1.png>
+Package pdftex.def Info: ETCC3_1.png  used on input line 811.
+(pdftex.def)             Requested size: 193.47578pt x 291.73618pt.
+ [30 <./ETCC2.png>]
+<ETCC4.png, id=237, 234.8775pt x 268.50313pt>
+File: ETCC4.png Graphic file (type png)
+<use ETCC4.png>
+Package pdftex.def Info: ETCC4.png  used on input line 830.
+(pdftex.def)             Requested size: 241.84843pt x 276.47116pt.
+<ECTROS.png, id=238, 325.215pt x 301.125pt>
+File: ECTROS.png Graphic file (type png)
+<use ECTROS.png>
+Package pdftex.def Info: ECTROS.png  used on input line 834.
+(pdftex.def)             Requested size: 217.66211pt x 201.54134pt.
+ [31 <./ETCC3.png> <./ETCC3_1.png>] [32 <./ETCC4.png> <./ECTROS.png>]
+<ATPS1.png, id=253, 254.9525pt x 288.07625pt>
+File: ATPS1.png Graphic file (type png)
+<use ATPS1.png>
+Package pdftex.def Info: ATPS1.png  used on input line 862.
+(pdftex.def)             Requested size: 241.84843pt x 273.28404pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 858--865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 858--865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 873--876
+
+ []
+
+<ATPS3.png, id=254, 269.50688pt x 223.33438pt>
+File: ATPS3.png Graphic file (type png)
+<use ATPS3.png>
+Package pdftex.def Info: ATPS3.png  used on input line 892.
+(pdftex.def)             Requested size: 193.47578pt x 160.33035pt.
+<ATPS2.png, id=255, 322.20375pt x 384.43625pt>
+File: ATPS2.png Graphic file (type png)
+<use ATPS2.png>
+Package pdftex.def Info: ATPS2.png  used on input line 896.
+(pdftex.def)             Requested size: 241.84843pt x 288.57285pt.
+[33 <./ATPS1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[26 <./AA2_4.png>] (bcII4.aux)
+[34 <./ATPS3.png> <./ATPS2.png>] (bcII4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2624,32 +2773,36 @@ Package logreq Info: Writing requests to 'bcII4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48431 strings out of 474486
- 1136139 string characters out of 5743754
- 2045791 words of memory out of 5000000
- 69737 multiletter control sequences out of 15000+600000
- 573807 words of font info for 79 fonts, out of 8000000 for 9000
+ 49521 strings out of 474486
+ 1158020 string characters out of 5743754
+ 2065341 words of memory out of 5000000
+ 70821 multiletter control sequences out of 15000+600000
+ 574508 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,100p,2380b,1748s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
-0700.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx0800.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm0800.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecti1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\percu\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\percu\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\percu\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/percu/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/perc
-u/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
-sers/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb>
-Output written on bcII4.pdf (26 pages, 4625601 bytes).
+ <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi
+1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm0700.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx0800.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm0800.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\percu\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\percu\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\percu\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk><C:/Users/percu/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mmi7.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi8.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr6.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/percu/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on bcII4.pdf (34 pages, 7328812 bytes).
 PDF statistics:
- 555 PDF objects out of 1000 (max. 8388607)
+ 673 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 

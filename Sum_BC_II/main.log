@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  25 APR 2025 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  26 APR 2025 14:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2404,16 +2404,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--366
 <lectures/bcII4/gen1.png, id=108, 172.14313pt x 325.215pt>
 File: lectures/bcII4/gen1.png Graphic file (type png)
 <use lectures/bcII4/gen1.png>
-Package pdftex.def Info: lectures/bcII4/gen1.png  used on input line 21.
+Package pdftex.def Info: lectures/bcII4/gen1.png  used on input line 22.
 (pdftex.def)             Requested size: 210.86533pt x 398.33858pt.
 <lectures/bcII4/glycolysis_gen.png, id=109, 233.87375pt x 402.50375pt>
 File: lectures/bcII4/glycolysis_gen.png Graphic file (type png)
 <use lectures/bcII4/glycolysis_gen.png>
 Package pdftex.def Info: lectures/bcII4/glycolysis_gen.png  used on input line 
-31.
+32.
 (pdftex.def)             Requested size: 290.22107pt x 499.54169pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--33
+Underfull \hbox (badness 10000) in paragraph at lines 27--34
 
  []
 
@@ -2421,18 +2421,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--33
 <lectures/bcII4/labeling.png, id=114, 108.405pt x 124.96687pt>
 File: lectures/bcII4/labeling.png Graphic file (type png)
 <use lectures/bcII4/labeling.png>
-Package pdftex.def Info: lectures/bcII4/labeling.png  used on input line 42.
+Package pdftex.def Info: lectures/bcII4/labeling.png  used on input line 43.
 (pdftex.def)             Requested size: 123.42252pt x 142.26378pt.
  [14 <./lectures/bcII4/glycolysis_gen.png>]
 <lectures/bcII4/S1.png, id=119, 229.35687pt x 102.3825pt>
 File: lectures/bcII4/S1.png Graphic file (type png)
 <use lectures/bcII4/S1.png>
-Package pdftex.def Info: lectures/bcII4/S1.png  used on input line 59.
+Package pdftex.def Info: lectures/bcII4/S1.png  used on input line 60.
 (pdftex.def)             Requested size: 290.22107pt x 129.55722pt.
 <lectures/bcII4/HK.png, id=120, 152.57pt x 188.705pt>
 File: lectures/bcII4/HK.png Graphic file (type png)
 <use lectures/bcII4/HK.png>
-Package pdftex.def Info: lectures/bcII4/HK.png  used on input line 60.
+Package pdftex.def Info: lectures/bcII4/HK.png  used on input line 61.
 (pdftex.def)             Requested size: 120.92421pt x 149.57056pt.
 
 [15 <./lectures/bcII4/labeling.png> <./lectures/bcII4/S1.png> <./lectures/bcII4
@@ -2440,70 +2440,70 @@ Package pdftex.def Info: lectures/bcII4/HK.png  used on input line 60.
 <lectures/bcII4/S2_1.png, id=127, 252.945pt x 106.89937pt>
 File: lectures/bcII4/S2_1.png Graphic file (type png)
 <use lectures/bcII4/S2_1.png>
-Package pdftex.def Info: lectures/bcII4/S2_1.png  used on input line 74.
+Package pdftex.def Info: lectures/bcII4/S2_1.png  used on input line 75.
 (pdftex.def)             Requested size: 290.22107pt x 122.656pt.
 <lectures/bcII4/S2_2.png, id=128, 197.23688pt x 158.5925pt>
 File: lectures/bcII4/S2_2.png Graphic file (type png)
 <use lectures/bcII4/S2_2.png>
-Package pdftex.def Info: lectures/bcII4/S2_2.png  used on input line 75.
+Package pdftex.def Info: lectures/bcII4/S2_2.png  used on input line 76.
 (pdftex.def)             Requested size: 145.11053pt x 116.67902pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--83
+Underfull \hbox (badness 10000) in paragraph at lines 81--84
 
  []
 
 <lectures/bcII4/S3.png, id=129, 319.1925pt x 101.37875pt>
 File: lectures/bcII4/S3.png Graphic file (type png)
 <use lectures/bcII4/S3.png>
-Package pdftex.def Info: lectures/bcII4/S3.png  used on input line 88.
+Package pdftex.def Info: lectures/bcII4/S3.png  used on input line 89.
 (pdftex.def)             Requested size: 217.66211pt x 69.13153pt.
 <lectures/bcII4/S4.png, id=130, 321.2pt x 111.41624pt>
 File: lectures/bcII4/S4.png Graphic file (type png)
 <use lectures/bcII4/S4.png>
-Package pdftex.def Info: lectures/bcII4/S4.png  used on input line 89.
+Package pdftex.def Info: lectures/bcII4/S4.png  used on input line 90.
 (pdftex.def)             Requested size: 217.66211pt x 75.50363pt.
 <lectures/bcII4/S5_1.png, id=131, 245.91875pt x 145.04187pt>
 File: lectures/bcII4/S5_1.png Graphic file (type png)
 <use lectures/bcII4/S5_1.png>
-Package pdftex.def Info: lectures/bcII4/S5_1.png  used on input line 98.
+Package pdftex.def Info: lectures/bcII4/S5_1.png  used on input line 99.
 (pdftex.def)             Requested size: 145.11053pt x 85.58945pt.
 <lectures/bcII4/S5_2.png, id=132, 290.58563pt x 225.84375pt>
 File: lectures/bcII4/S5_2.png Graphic file (type png)
 <use lectures/bcII4/S5_2.png>
-Package pdftex.def Info: lectures/bcII4/S5_2.png  used on input line 99.
+Package pdftex.def Info: lectures/bcII4/S5_2.png  used on input line 100.
 (pdftex.def)             Requested size: 290.22107pt x 225.57439pt.
 [16 <./lectures/bcII4/S2_1.png> <./lectures/bcII4/S2_2.png> <./lectures/bcII4/S
 3.png> <./lectures/bcII4/S4.png>]
 <lectures/bcII4/S6_1.png, id=141, 274.52562pt x 81.30376pt>
 File: lectures/bcII4/S6_1.png Graphic file (type png)
 <use lectures/bcII4/S6_1.png>
-Package pdftex.def Info: lectures/bcII4/S6_1.png  used on input line 111.
+Package pdftex.def Info: lectures/bcII4/S6_1.png  used on input line 112.
 (pdftex.def)             Requested size: 145.11053pt x 42.97664pt.
 <lectures/bcII4/S6_2.png, id=142, 266.9975pt x 213.79875pt>
 File: lectures/bcII4/S6_2.png Graphic file (type png)
 <use lectures/bcII4/S6_2.png>
-Package pdftex.def Info: lectures/bcII4/S6_2.png  used on input line 112.
+Package pdftex.def Info: lectures/bcII4/S6_2.png  used on input line 113.
 (pdftex.def)             Requested size: 290.22107pt x 232.41943pt.
  [17 <./lectures/bcII4/S5_1.png> <./lectures/bcII4/S5_2.png>]
 <lectures/bcII4/S7.png, id=148, 292.59312pt x 90.83937pt>
 File: lectures/bcII4/S7.png Graphic file (type png)
 <use lectures/bcII4/S7.png>
-Package pdftex.def Info: lectures/bcII4/S7.png  used on input line 124.
+Package pdftex.def Info: lectures/bcII4/S7.png  used on input line 125.
 (pdftex.def)             Requested size: 217.66211pt x 67.57907pt.
 <lectures/bcII4/S8.png, id=149, 235.37938pt x 78.79437pt>
 File: lectures/bcII4/S8.png Graphic file (type png)
 <use lectures/bcII4/S8.png>
-Package pdftex.def Info: lectures/bcII4/S8.png  used on input line 125.
+Package pdftex.def Info: lectures/bcII4/S8.png  used on input line 126.
 (pdftex.def)             Requested size: 217.66211pt x 72.86441pt.
 <lectures/bcII4/S9.png, id=150, 231.86626pt x 87.82813pt>
 File: lectures/bcII4/S9.png Graphic file (type png)
 <use lectures/bcII4/S9.png>
-Package pdftex.def Info: lectures/bcII4/S9.png  used on input line 136.
+Package pdftex.def Info: lectures/bcII4/S9.png  used on input line 137.
 (pdftex.def)             Requested size: 217.66211pt x 82.44987pt.
 <lectures/bcII4/S10.png, id=151, 272.51813pt x 101.37875pt>
 File: lectures/bcII4/S10.png Graphic file (type png)
 <use lectures/bcII4/S10.png>
-Package pdftex.def Info: lectures/bcII4/S10.png  used on input line 137.
+Package pdftex.def Info: lectures/bcII4/S10.png  used on input line 138.
 (pdftex.def)             Requested size: 217.66211pt x 80.9716pt.
 
 
@@ -2513,11 +2513,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: lectures/bcII4/fate_of_pyruvate.png Graphic file (type png)
 <use lectures/bcII4/fate_of_pyruvate.png>
 Package pdftex.def Info: lectures/bcII4/fate_of_pyruvate.png  used on input lin
-e 146.
+e 147.
 (pdftex.def)             Requested size: 338.58632pt x 245.76987pt.
 [18 <./lectures/bcII4/S6_1.png> <./lectures/bcII4/S6_2.png> <./lectures/bcII4/S
 7.png> <./lectures/bcII4/S8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--162
+Underfull \hbox (badness 10000) in paragraph at lines 160--163
 
  []
 
@@ -2526,103 +2526,103 @@ _of_pyruvate.png>]
 <lectures/bcII4/ethanol.png, id=166, 273.02pt x 85.82062pt>
 File: lectures/bcII4/ethanol.png Graphic file (type png)
 <use lectures/bcII4/ethanol.png>
-Package pdftex.def Info: lectures/bcII4/ethanol.png  used on input line 169.
+Package pdftex.def Info: lectures/bcII4/ethanol.png  used on input line 170.
 (pdftex.def)             Requested size: 290.22107pt x 91.23392pt.
 <lectures/bcII4/lactic.png, id=167, 131.49126pt x 52.69687pt>
 File: lectures/bcII4/lactic.png Graphic file (type png)
 <use lectures/bcII4/lactic.png>
-Package pdftex.def Info: lectures/bcII4/lactic.png  used on input line 182.
+Package pdftex.def Info: lectures/bcII4/lactic.png  used on input line 183.
 (pdftex.def)             Requested size: 290.22107pt x 116.32906pt.
  [20 <./lectures/bcII4/ethanol.png> <./lectures/bcII4/lactic.png>]
 <lectures/bcII4/TCA0_1.png, id=173, 261.97874pt x 120.45pt>
 File: lectures/bcII4/TCA0_1.png Graphic file (type png)
 <use lectures/bcII4/TCA0_1.png>
-Package pdftex.def Info: lectures/bcII4/TCA0_1.png  used on input line 229.
+Package pdftex.def Info: lectures/bcII4/TCA0_1.png  used on input line 230.
 (pdftex.def)             Requested size: 217.66211pt x 100.07639pt.
 <lectures/bcII4/TCA0_2.png, id=174, 321.2pt x 197.23688pt>
 File: lectures/bcII4/TCA0_2.png Graphic file (type png)
 <use lectures/bcII4/TCA0_2.png>
-Package pdftex.def Info: lectures/bcII4/TCA0_2.png  used on input line 233.
+Package pdftex.def Info: lectures/bcII4/TCA0_2.png  used on input line 234.
 (pdftex.def)             Requested size: 217.66211pt x 133.66182pt.
  [21 <./lectures/bcII4/TCA0_1.png> <./lectures/bcII4/TCA0_2.png>]
 <lectures/bcII4/TCA0_3.png, id=180, 247.52475pt x 164.41425pt>
 File: lectures/bcII4/TCA0_3.png Graphic file (type png)
 <use lectures/bcII4/TCA0_3.png>
-Package pdftex.def Info: lectures/bcII4/TCA0_3.png  used on input line 258.
+Package pdftex.def Info: lectures/bcII4/TCA0_3.png  used on input line 259.
 (pdftex.def)             Requested size: 217.66211pt x 144.5821pt.
 <lectures/bcII4/TCA0_4.png, id=181, 166.12062pt x 122.4575pt>
 File: lectures/bcII4/TCA0_4.png Graphic file (type png)
 <use lectures/bcII4/TCA0_4.png>
-Package pdftex.def Info: lectures/bcII4/TCA0_4.png  used on input line 261.
+Package pdftex.def Info: lectures/bcII4/TCA0_4.png  used on input line 262.
 (pdftex.def)             Requested size: 217.66211pt x 160.46158pt.
 <lectures/bcII4/TCA1.png, id=182, 346.29375pt x 345.29pt>
 File: lectures/bcII4/TCA1.png Graphic file (type png)
 <use lectures/bcII4/TCA1.png>
-Package pdftex.def Info: lectures/bcII4/TCA1.png  used on input line 273.
+Package pdftex.def Info: lectures/bcII4/TCA1.png  used on input line 274.
 (pdftex.def)             Requested size: 483.69687pt x 482.3068pt.
  [22 <./lectures/bcII4/TCA0_3.png> <./lectures/bcII4/TCA0_4.png>] [23 <./lectur
 es/bcII4/TCA1.png>]
 <lectures/bcII4/TCAS1_1.png, id=192, 222.8325pt x 127.97812pt>
 File: lectures/bcII4/TCAS1_1.png Graphic file (type png)
 <use lectures/bcII4/TCAS1_1.png>
-Package pdftex.def Info: lectures/bcII4/TCAS1_1.png  used on input line 293.
+Package pdftex.def Info: lectures/bcII4/TCAS1_1.png  used on input line 294.
 (pdftex.def)             Requested size: 217.66211pt x 125.00955pt.
 <lectures/bcII4/TCAS1_2.png, id=193, 254.9525pt x 158.5925pt>
 File: lectures/bcII4/TCAS1_2.png Graphic file (type png)
 <use lectures/bcII4/TCAS1_2.png>
-Package pdftex.def Info: lectures/bcII4/TCAS1_2.png  used on input line 296.
+Package pdftex.def Info: lectures/bcII4/TCAS1_2.png  used on input line 297.
 (pdftex.def)             Requested size: 217.66211pt x 135.40196pt.
 <lectures/bcII4/TCAS2_1.png, id=194, 300.12125pt x 96.86188pt>
 File: lectures/bcII4/TCAS2_1.png Graphic file (type png)
 <use lectures/bcII4/TCAS2_1.png>
-Package pdftex.def Info: lectures/bcII4/TCAS2_1.png  used on input line 311.
+Package pdftex.def Info: lectures/bcII4/TCAS2_1.png  used on input line 312.
 (pdftex.def)             Requested size: 217.66211pt x 70.25038pt.
 <lectures/bcII4/TCAS2_2.png, id=195, 172.14313pt x 127.97812pt>
 File: lectures/bcII4/TCAS2_2.png Graphic file (type png)
 <use lectures/bcII4/TCAS2_2.png>
-Package pdftex.def Info: lectures/bcII4/TCAS2_2.png  used on input line 314.
+Package pdftex.def Info: lectures/bcII4/TCAS2_2.png  used on input line 315.
 (pdftex.def)             Requested size: 217.66211pt x 161.81958pt.
 <lectures/bcII4/TCAS3.png, id=196, 377.91188pt x 99.87312pt>
 File: lectures/bcII4/TCAS3.png Graphic file (type png)
 <use lectures/bcII4/TCAS3.png>
-Package pdftex.def Info: lectures/bcII4/TCAS3.png  used on input line 323.
+Package pdftex.def Info: lectures/bcII4/TCAS3.png  used on input line 324.
 (pdftex.def)             Requested size: 483.69687pt x 127.83105pt.
  [24 <./lectures/bcII4/TCAS1_1.png> <./lectures/bcII4/TCAS1_2.png> <./lectures/
 bcII4/TCAS2_1.png> <./lectures/bcII4/TCAS2_2.png>]
 <lectures/bcII4/TCAS4.png, id=204, 294.09875pt x 139.01938pt>
 File: lectures/bcII4/TCAS4.png Graphic file (type png)
 <use lectures/bcII4/TCAS4.png>
-Package pdftex.def Info: lectures/bcII4/TCAS4.png  used on input line 342.
+Package pdftex.def Info: lectures/bcII4/TCAS4.png  used on input line 343.
 (pdftex.def)             Requested size: 240.77211pt x 113.81102pt.
  [25 <./lectures/bcII4/TCAS3.png> <./lectures/bcII4/TCAS4.png>]
 <lectures/bcII4/TCAS5_1.png, id=210, 310.66063pt x 140.525pt>
 File: lectures/bcII4/TCAS5_1.png Graphic file (type png)
 <use lectures/bcII4/TCAS5_1.png>
-Package pdftex.def Info: lectures/bcII4/TCAS5_1.png  used on input line 358.
+Package pdftex.def Info: lectures/bcII4/TCAS5_1.png  used on input line 359.
 (pdftex.def)             Requested size: 217.66211pt x 98.45688pt.
 <lectures/bcII4/TCAS5_2.png, id=211, 290.58563pt x 342.27875pt>
 File: lectures/bcII4/TCAS5_2.png Graphic file (type png)
 <use lectures/bcII4/TCAS5_2.png>
-Package pdftex.def Info: lectures/bcII4/TCAS5_2.png  used on input line 362.
+Package pdftex.def Info: lectures/bcII4/TCAS5_2.png  used on input line 363.
 (pdftex.def)             Requested size: 217.66211pt x 256.3846pt.
 <lectures/bcII4/TCAS6.png, id=212, 298.61563pt x 127.97812pt>
 File: lectures/bcII4/TCAS6.png Graphic file (type png)
 <use lectures/bcII4/TCAS6.png>
-Package pdftex.def Info: lectures/bcII4/TCAS6.png  used on input line 383.
+Package pdftex.def Info: lectures/bcII4/TCAS6.png  used on input line 384.
 (pdftex.def)             Requested size: 217.66211pt x 93.28459pt.
 <lectures/bcII4/TCAS7.png, id=213, 277.53688pt x 142.03062pt>
 File: lectures/bcII4/TCAS7.png Graphic file (type png)
 <use lectures/bcII4/TCAS7.png>
-Package pdftex.def Info: lectures/bcII4/TCAS7.png  used on input line 386.
+Package pdftex.def Info: lectures/bcII4/TCAS7.png  used on input line 387.
 (pdftex.def)             Requested size: 217.66211pt x 111.39024pt.
  [26 <./lectures/bcII4/TCAS5_1.png> <./lectures/bcII4/TCAS5_2.png>]
 <lectures/bcII4/TCAS8.png, id=219, 307.64937pt x 126.97438pt>
 File: lectures/bcII4/TCAS8.png Graphic file (type png)
 <use lectures/bcII4/TCAS8.png>
-Package pdftex.def Info: lectures/bcII4/TCAS8.png  used on input line 396.
+Package pdftex.def Info: lectures/bcII4/TCAS8.png  used on input line 397.
 (pdftex.def)             Requested size: 275.7646pt x 113.81102pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--408
+Underfull \hbox (badness 10000) in paragraph at lines 403--409
 
  []
 
@@ -2631,144 +2631,149 @@ Underfull \hbox (badness 10000) in paragraph at lines 402--408
 <lectures/bcII4/FA0_2.png, id=226, 404.00937pt x 289.58188pt>
 File: lectures/bcII4/FA0_2.png Graphic file (type png)
 <use lectures/bcII4/FA0_2.png>
-Package pdftex.def Info: lectures/bcII4/FA0_2.png  used on input line 414.
+Package pdftex.def Info: lectures/bcII4/FA0_2.png  used on input line 415.
 (pdftex.def)             Requested size: 386.95897pt x 277.36357pt.
 <lectures/bcII4/FA0_1.png, id=227, 395.97937pt x 348.30125pt>
 File: lectures/bcII4/FA0_1.png Graphic file (type png)
 <use lectures/bcII4/FA0_1.png>
-Package pdftex.def Info: lectures/bcII4/FA0_1.png  used on input line 424.
+Package pdftex.def Info: lectures/bcII4/FA0_1.png  used on input line 425.
 (pdftex.def)             Requested size: 258.77928pt x 227.62204pt.
 <lectures/bcII4/FA0_3.png, id=228, 181.17688pt x 351.3125pt>
 File: lectures/bcII4/FA0_3.png Graphic file (type png)
 <use lectures/bcII4/FA0_3.png>
-Package pdftex.def Info: lectures/bcII4/FA0_3.png  used on input line 428.
+Package pdftex.def Info: lectures/bcII4/FA0_3.png  used on input line 429.
 (pdftex.def)             Requested size: 117.39035pt x 227.62204pt.
  [28 <./lectures/bcII4/FA0_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 433--436
+Underfull \hbox (badness 10000) in paragraph at lines 434--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--447
+Underfull \hbox (badness 10000) in paragraph at lines 443--448
 
  []
 
 <lectures/bcII4/FA0_4.png, id=234, 366.36874pt x 307.64937pt>
 File: lectures/bcII4/FA0_4.png Graphic file (type png)
 <use lectures/bcII4/FA0_4.png>
-Package pdftex.def Info: lectures/bcII4/FA0_4.png  used on input line 457.
+Package pdftex.def Info: lectures/bcII4/FA0_4.png  used on input line 458.
 (pdftex.def)             Requested size: 271.06949pt x 227.62204pt.
 <lectures/bcII4/carnitine.jpeg, id=235, 200.75pt x 200.75pt>
 File: lectures/bcII4/carnitine.jpeg Graphic file (type jpg)
 <use lectures/bcII4/carnitine.jpeg>
-Package pdftex.def Info: lectures/bcII4/carnitine.jpeg  used on input line 462.
+Package pdftex.def Info: lectures/bcII4/carnitine.jpeg  used on input line 463.
 
 (pdftex.def)             Requested size: 113.81297pt x 113.81102pt.
 [29 <./lectures/bcII4/FA0_1.png> <./lectures/bcII4/FA0_3.png>]
 <lectures/bcII4/FA0_5.png, id=241, 416.05438pt x 168.63pt>
 File: lectures/bcII4/FA0_5.png Graphic file (type png)
 <use lectures/bcII4/FA0_5.png>
-Package pdftex.def Info: lectures/bcII4/FA0_5.png  used on input line 478.
+Package pdftex.def Info: lectures/bcII4/FA0_5.png  used on input line 479.
 (pdftex.def)             Requested size: 386.95897pt x 156.84485pt.
  [30 <./lectures/bcII4/FA0_4.png> <./lectures/bcII4/carnitine.jpeg> <./lectures
 /bcII4/FA0_5.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 488--493
+Underfull \hbox (badness 10000) in paragraph at lines 489--494
 
  []
 
 <lectures/bcII4/FA1_1.png, id=247, 218.31563pt x 361.85187pt>
 File: lectures/bcII4/FA1_1.png Graphic file (type png)
 <use lectures/bcII4/FA1_1.png>
-Package pdftex.def Info: lectures/bcII4/FA1_1.png  used on input line 504.
+Package pdftex.def Info: lectures/bcII4/FA1_1.png  used on input line 505.
 (pdftex.def)             Requested size: 217.66211pt x 360.76878pt.
 <lectures/bcII4/FA1_2.png, id=248, 223.33438pt x 373.395pt>
 File: lectures/bcII4/FA1_2.png Graphic file (type png)
 <use lectures/bcII4/FA1_2.png>
-Package pdftex.def Info: lectures/bcII4/FA1_2.png  used on input line 509.
+Package pdftex.def Info: lectures/bcII4/FA1_2.png  used on input line 510.
 (pdftex.def)             Requested size: 217.66211pt x 363.91907pt.
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 523--526
+Underfull \hbox (badness 10000) in paragraph at lines 524--527
 
  []
 
 <lectures/bcII4/FA1_3.png, id=252, 177.66376pt x 325.71687pt>
 File: lectures/bcII4/FA1_3.png Graphic file (type png)
 <use lectures/bcII4/FA1_3.png>
-Package pdftex.def Info: lectures/bcII4/FA1_3.png  used on input line 534.
+Package pdftex.def Info: lectures/bcII4/FA1_3.png  used on input line 535.
 (pdftex.def)             Requested size: 217.66211pt x 399.05882pt.
 <lectures/bcII4/FA1_4.png, id=253, 254.45062pt x 413.04312pt>
 File: lectures/bcII4/FA1_4.png Graphic file (type png)
 <use lectures/bcII4/FA1_4.png>
-Package pdftex.def Info: lectures/bcII4/FA1_4.png  used on input line 539.
+Package pdftex.def Info: lectures/bcII4/FA1_4.png  used on input line 540.
 (pdftex.def)             Requested size: 217.66211pt x 353.3383pt.
 [32 <./lectures/bcII4/FA1_1.png> <./lectures/bcII4/FA1_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 545--548
+Underfull \hbox (badness 10000) in paragraph at lines 545--551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 545--551
 
  []
 
 [33 <./lectures/bcII4/FA1_3.png> <./lectures/bcII4/FA1_4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 584--588
+Underfull \hbox (badness 10000) in paragraph at lines 573--580
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 600--603
+Underfull \hbox (badness 10000) in paragraph at lines 601--604
 
  []
 
 <lectures/bcII4/AA1_1.png, id=266, 244.41313pt x 270.00874pt>
 File: lectures/bcII4/AA1_1.png Graphic file (type png)
 <use lectures/bcII4/AA1_1.png>
-Package pdftex.def Info: lectures/bcII4/AA1_1.png  used on input line 611.
+Package pdftex.def Info: lectures/bcII4/AA1_1.png  used on input line 612.
 (pdftex.def)             Requested size: 338.58632pt x 374.05032pt.
 [34]
-Underfull \hbox (badness 10000) in paragraph at lines 617--624
+Underfull \hbox (badness 10000) in paragraph at lines 618--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--624
+Underfull \hbox (badness 10000) in paragraph at lines 618--625
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--624
+Underfull \hbox (badness 10000) in paragraph at lines 618--625
 
  []
 
 <lectures/bcII4/AA2_1.png, id=271, 167.62625pt x 187.19937pt>
 File: lectures/bcII4/AA2_1.png Graphic file (type png)
 <use lectures/bcII4/AA2_1.png>
-Package pdftex.def Info: lectures/bcII4/AA2_1.png  used on input line 629.
+Package pdftex.def Info: lectures/bcII4/AA2_1.png  used on input line 630.
 (pdftex.def)             Requested size: 145.11053pt x 162.05376pt.
 <lectures/bcII4/AA2_2.png, id=272, 250.43562pt x 176.66pt>
 File: lectures/bcII4/AA2_2.png Graphic file (type png)
 <use lectures/bcII4/AA2_2.png>
-Package pdftex.def Info: lectures/bcII4/AA2_2.png  used on input line 632.
+Package pdftex.def Info: lectures/bcII4/AA2_2.png  used on input line 633.
 (pdftex.def)             Requested size: 96.73788pt x 68.23938pt.
 <lectures/bcII4/AA2_5.png, id=273, 307.1475pt x 119.44624pt>
 File: lectures/bcII4/AA2_5.png Graphic file (type png)
 <use lectures/bcII4/AA2_5.png>
-Package pdftex.def Info: lectures/bcII4/AA2_5.png  used on input line 635.
+Package pdftex.def Info: lectures/bcII4/AA2_5.png  used on input line 636.
 (pdftex.def)             Requested size: 193.47578pt x 75.24059pt.
 [35 <./lectures/bcII4/AA1_1.png>]
 <lectures/bcII4/AA1_2.png, id=278, 408.52625pt x 362.85562pt>
 File: lectures/bcII4/AA1_2.png Graphic file (type png)
 <use lectures/bcII4/AA1_2.png>
-Package pdftex.def Info: lectures/bcII4/AA1_2.png  used on input line 641.
+Package pdftex.def Info: lectures/bcII4/AA1_2.png  used on input line 642.
 (pdftex.def)             Requested size: 386.95897pt x 343.71982pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--655
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--655
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 647--655
+Underfull \hbox (badness 10000) in paragraph at lines 648--656
 
  []
 
@@ -2777,21 +2782,168 @@ Underfull \hbox (badness 10000) in paragraph at lines 647--655
 <lectures/bcII4/AA2_6.png, id=286, 193.22188pt x 360.34625pt>
 File: lectures/bcII4/AA2_6.png Graphic file (type png)
 <use lectures/bcII4/AA2_6.png>
-Package pdftex.def Info: lectures/bcII4/AA2_6.png  used on input line 661.
+Package pdftex.def Info: lectures/bcII4/AA2_6.png  used on input line 662.
 (pdftex.def)             Requested size: 193.47578pt x 360.82373pt.
 <lectures/bcII4/AA2_3.png, id=287, 264.99pt x 388.95313pt>
 File: lectures/bcII4/AA2_3.png Graphic file (type png)
 <use lectures/bcII4/AA2_3.png>
-Package pdftex.def Info: lectures/bcII4/AA2_3.png  used on input line 666.
+Package pdftex.def Info: lectures/bcII4/AA2_3.png  used on input line 667.
 (pdftex.def)             Requested size: 241.84843pt x 354.99243pt.
  [37 <./lectures/bcII4/AA2_6.png> <./lectures/bcII4/AA2_3.png>]
 <lectures/bcII4/AA2_4.png, id=293, 349.80687pt x 310.66063pt>
 File: lectures/bcII4/AA2_4.png Graphic file (type png)
 <use lectures/bcII4/AA2_4.png>
-Package pdftex.def Info: lectures/bcII4/AA2_4.png  used on input line 682.
+Package pdftex.def Info: lectures/bcII4/AA2_4.png  used on input line 683.
 (pdftex.def)             Requested size: 338.58632pt x 300.71472pt.
-) [38 <./lectures/bcII4/AA2_4.png>] (main.gls [39]
-[40]) [41] (main.aux)
+ [38 <./lectures/bcII4/AA2_4.png>]
+<lectures/bcII4/ETC0.png, id=298, 390.45876pt x 178.16562pt>
+File: lectures/bcII4/ETC0.png Graphic file (type png)
+<use lectures/bcII4/ETC0.png>
+Package pdftex.def Info: lectures/bcII4/ETC0.png  used on input line 712.
+(pdftex.def)             Requested size: 386.95897pt x 176.57751pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--728
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 723--728
+
+ []
+
+<lectures/bcII4/ETC2.png, id=299, 198.7425pt x 266.49562pt>
+File: lectures/bcII4/ETC2.png Graphic file (type png)
+<use lectures/bcII4/ETC2.png>
+Package pdftex.def Info: lectures/bcII4/ETC2.png  used on input line 735.
+(pdftex.def)             Requested size: 127.31606pt x 170.71652pt.
+<lectures/bcII4/ETC3.png, id=300, 208.27812pt x 319.69438pt>
+File: lectures/bcII4/ETC3.png Graphic file (type png)
+<use lectures/bcII4/ETC3.png>
+Package pdftex.def Info: lectures/bcII4/ETC3.png  used on input line 740.
+(pdftex.def)             Requested size: 111.21951pt x 170.71652pt.
+[39 <./lectures/bcII4/ETC0.png>]
+<lectures/bcII4/ETC1.png, id=305, 403.5075pt x 93.34875pt>
+File: lectures/bcII4/ETC1.png Graphic file (type png)
+<use lectures/bcII4/ETC1.png>
+Package pdftex.def Info: lectures/bcII4/ETC1.png  used on input line 752.
+(pdftex.def)             Requested size: 338.58632pt x 78.32979pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--763
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 758--763
+
+ []
+
+<lectures/bcII4/ETCC1.png, id=306, 305.64188pt x 260.975pt>
+File: lectures/bcII4/ETCC1.png Graphic file (type png)
+<use lectures/bcII4/ETCC1.png>
+Package pdftex.def Info: lectures/bcII4/ETCC1.png  used on input line 769.
+(pdftex.def)             Requested size: 241.84843pt x 206.50249pt.
+<lectures/bcII4/ETCC1_1.png, id=307, 327.2225pt x 194.7275pt>
+File: lectures/bcII4/ETCC1_1.png Graphic file (type png)
+<use lectures/bcII4/ETCC1_1.png>
+Package pdftex.def Info: lectures/bcII4/ETCC1_1.png  used on input line 773.
+(pdftex.def)             Requested size: 217.66211pt x 129.5278pt.
+[40 <./lectures/bcII4/ETC2.png> <./lectures/bcII4/ETC3.png> <./lectures/bcII4/E
+TC1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 779--783
+
+ []
+
+<lectures/bcII4/ETCC2.png, id=315, 233.87375pt x 257.96375pt>
+File: lectures/bcII4/ETCC2.png Graphic file (type png)
+<use lectures/bcII4/ETCC2.png>
+Package pdftex.def Info: lectures/bcII4/ETCC2.png  used on input line 786.
+(pdftex.def)             Requested size: 241.84843pt x 266.77232pt.
+[41 <./lectures/bcII4/ETCC1.png> <./lectures/bcII4/ETCC1_1.png>]
+<lectures/bcII4/ETCC3.png, id=321, 227.85126pt x 257.96375pt>
+File: lectures/bcII4/ETCC3.png Graphic file (type png)
+<use lectures/bcII4/ETCC3.png>
+Package pdftex.def Info: lectures/bcII4/ETCC3.png  used on input line 806.
+(pdftex.def)             Requested size: 241.84843pt x 273.81813pt.
+<lectures/bcII4/ETCC3_1.png, id=322, 160.09813pt x 241.40187pt>
+File: lectures/bcII4/ETCC3_1.png Graphic file (type png)
+<use lectures/bcII4/ETCC3_1.png>
+Package pdftex.def Info: lectures/bcII4/ETCC3_1.png  used on input line 811.
+(pdftex.def)             Requested size: 193.47578pt x 291.73618pt.
+ [42 <./lectures/bcII4/ETCC2.png>]
+<lectures/bcII4/ETCC4.png, id=327, 234.8775pt x 268.50313pt>
+File: lectures/bcII4/ETCC4.png Graphic file (type png)
+<use lectures/bcII4/ETCC4.png>
+Package pdftex.def Info: lectures/bcII4/ETCC4.png  used on input line 830.
+(pdftex.def)             Requested size: 241.84843pt x 276.47116pt.
+<lectures/bcII4/ECTROS.png, id=328, 325.215pt x 301.125pt>
+File: lectures/bcII4/ECTROS.png Graphic file (type png)
+<use lectures/bcII4/ECTROS.png>
+Package pdftex.def Info: lectures/bcII4/ECTROS.png  used on input line 834.
+(pdftex.def)             Requested size: 217.66211pt x 201.54134pt.
+ [43 <./lectures/bcII4/ETCC3.png> <./lectures/bcII4/ETCC3_1.png>] [44 <./lectur
+es/bcII4/ETCC4.png> <./lectures/bcII4/ECTROS.png>]
+<lectures/bcII4/ATPS1.png, id=340, 254.9525pt x 288.07625pt>
+File: lectures/bcII4/ATPS1.png Graphic file (type png)
+<use lectures/bcII4/ATPS1.png>
+Package pdftex.def Info: lectures/bcII4/ATPS1.png  used on input line 862.
+(pdftex.def)             Requested size: 241.84843pt x 273.28404pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 858--865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 858--865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 873--876
+
+ []
+
+<lectures/bcII4/ATPS3.png, id=341, 269.50688pt x 223.33438pt>
+File: lectures/bcII4/ATPS3.png Graphic file (type png)
+<use lectures/bcII4/ATPS3.png>
+Package pdftex.def Info: lectures/bcII4/ATPS3.png  used on input line 892.
+(pdftex.def)             Requested size: 193.47578pt x 160.33035pt.
+<lectures/bcII4/ATPS2.png, id=342, 322.20375pt x 384.43625pt>
+File: lectures/bcII4/ATPS2.png Graphic file (type png)
+<use lectures/bcII4/ATPS2.png>
+Package pdftex.def Info: lectures/bcII4/ATPS2.png  used on input line 896.
+(pdftex.def)             Requested size: 241.84843pt x 288.57285pt.
+[45 <./lectures/bcII4/ATPS1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 900--916
+
+ []
+
+) [46 <./lectures/bcII4/ATPS3.png> <./lectures/bcII4/ATPS2.png>]
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+(main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2801,10 +2953,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49613 strings out of 474486
- 1167965 string characters out of 5743754
- 2072221 words of memory out of 5000000
- 70895 multiletter control sequences out of 15000+600000
+ 49825 strings out of 474486
+ 1172611 string characters out of 5743754
+ 2073300 words of memory out of 5000000
+ 71110 multiletter control sequences out of 15000+600000
  577244 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,100p,2373b,1976s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2827,13 +2979,15 @@ m/cmmi10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmmi7.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/amsfonts/cm/cmmi8.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/percu/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/percu/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/percu/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/percu/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (44 pages, 5843024 bytes).
+TeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/percu/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/percu/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/percu/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/p
+ercu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.p
+fb>
+Output written on main.pdf (49 pages, 8511660 bytes).
 PDF statistics:
- 793 PDF objects out of 1000 (max. 8388607)
+ 864 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 373 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 443 words of extra memory for PDF output out of 10000 (max. 10000000)
 

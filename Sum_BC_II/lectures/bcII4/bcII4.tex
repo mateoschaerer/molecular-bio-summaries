@@ -3,6 +3,7 @@
 \include{../../Prompt/prompts.tex}
 
 \include{glossary-definitions4.tex}
+\include{../bcII3/glossary-definitions3.tex}
 
 \makeglossaries
 
@@ -541,8 +542,10 @@ There are 4 reactions involved in $\beta$-oxidation (see fig. \ref{FA1_2}):
 \end{figure}
 
 \paragraph{Calculate amount of ATP from a FA of given length}
-
-- Assuming the FA is fully saturated and consists of n carbons (even number):\\
+\textit{This section assumes the fucked up numbers given in ETC for NADH and FADH2, sucks!}\\
+\\
+\noindent
+\underline{Assuming the FA is fully saturated and consists of \( n \) carbons (even number):}\\
 \\
 \textbf{Number of $\beta$-oxidation cycles:}
 \[
@@ -550,49 +553,47 @@ There are 4 reactions involved in $\beta$-oxidation (see fig. \ref{FA1_2}):
 \]
 \textbf{Each $\beta$-oxidation cycle produces:}
 \begin{itemize}
-	\item 1 NADH $\rightarrow$ 2.5 ATP
-	\item 1 FADH\textsubscript{2} $\rightarrow$ 1.5 ATP
-	\item 1 Acetyl-CoA (last cycle gives 2) $\rightarrow$ 10 ATP via TCA
+	\item 1 NADH $\rightarrow$ 3 ATP
+	\item 1 FADH\textsubscript{2} $\rightarrow$ 2 ATP
+	\item 1 Acetyl-CoA (last cycle gives 2) $\rightarrow$ 12 ATP via TCA
 \end{itemize}
 \noindent
 \textbf{Each acetyl-CoA entering the citric acid (TCA) cycle generates:}
 \begin{itemize}
-	\item 3 NADH $\rightarrow$ $3 \times 2.5 = 7.5$ ATP
-	\item 1 FADH\textsubscript{2} $\rightarrow$ $1 \times 1.5 = 1.5$ ATP
+	\item 3 NADH $\rightarrow$ $3 \times 3 = 9$ ATP
+	\item 1 FADH\textsubscript{2} $\rightarrow$ $1 \times 2 = 2$ ATP
 	\item 1 GTP (equivalent to ATP) $\rightarrow$ $1$ ATP
 \end{itemize}
 \noindent
-\textbf{Activation of FA to Co-A costs 2 ATP}
+\textbf{Activation of FA to Co-A costs 2 ATP.}
+\\
 \textbf{Total ATP yield:}
 \[
-\text{ATP}_{\text{total}} = \left( \frac{n}{2} - 1 \right) \cdot (2.5 + 1.5) + \frac{n}{2} \cdot 10 - 2
+\text{ATP}_{\text{total}} = \left( \frac{n}{2} - 1 \right) \cdot (3 + 2) + \frac{n}{2} \cdot 12 - 2
 \]
 \noindent
 \\
-- If we have an odd number of carbons. 
+\underline{If we have an odd number of carbons:}\\
 \\ 
 \noindent
-\textbf{Account for Propionyl-CoA / Succinyl-CoA}
+\textbf{Account for Propionyl-CoA $\rightarrow$ Succinyl-CoA:}
 \begin{itemize}
-	\item 1 NADH → 2.5 ATP
-	\item 1 FADH\textsubscript{2} → 1.5 ATP
+	\item 1 NADH → 3 ATP
+	\item 1 FADH\textsubscript{2} → 2 ATP
 	\item 1 GTP → 1 ATP
 \end{itemize}
 \noindent
 \[
-\text{ATP}_{\text{total}} = \left( \left\lfloor \frac{n}{2} \right\rfloor - 1 \right) \cdot 4 + \left\lfloor \frac{n}{2} \right\rfloor \cdot 10 + 5 - 2
+\text{ATP}_{\text{total}} = \left\lfloor \frac{n}{2} \right\rfloor \cdot 5 + \left\lfloor \frac{n}{2} \right\rfloor \cdot 12 + 6 - 2
 \]
-\\
-\\
-- ATP Yield from a Polyunsaturated Fatty Acid
+\underline{ATP Yield from a Polyunsaturated Fatty Acid:}
 \[
-\text{ATP}_{\text{total}} = \left( \frac{n}{2} - 1 \right) \cdot 4 + \left( \frac{n}{2} \cdot 10 \right) - (p \cdot 1) - (q \cdot 2.5) - 2
+\text{ATP}_{\text{total}} = \left( \frac{n}{2} - 1 \right) \cdot 5 + \left( \frac{n}{2} \cdot 12 \right) - (p \cdot 2) - (q \cdot 3) - 2
 \]
-
 Where:
 \begin{itemize}
-	\item \( p \): Number of double bond "islands"; each skips FADH\textsubscript{2} production (–1 ATP).
-	\item \( q \): Sum (nb of connected dole bonds in 1 island - 1); each consumes 1 NADPH (–2.5 ATP).
+	\item \( p \): Number of double bond "islands"; each skips FADH\textsubscript{2} production (–2 ATP).
+	\item \( q \): Sum of (number of connected double bonds in one island – 1); each costs 1 NADPH (–3 ATP).
 \end{itemize}
 
 
@@ -688,9 +689,229 @@ As there are 20 amino acids there are 20 catablolic ways doe those amino acids.
 \end{RemarkWithTitel}
 
 
+\subsection{Oxidative Phosphorylation}
+The process of aerobic respiration is completed in the \textbf{mitochondria} by oxidative phosphorylation. The NADH molecules formed in glycolysis as well as the NADH and FADH2 molecules formed in TCA cycle, in $\beta$-oxidation and in the amino oxidation are used to produce ATP along the \textbf{electron transport chain (ETC)}.
+
+\begin{itemize}
+	\item A NADH molecule in the mitochondrial matrix yields 3 ATP. 
+	\item A cytosolic NADH or FADH2 yields 2 ATP
+\end{itemize}
+
+\subsubsection{ECT}
+The electron transport chain (ETC) is a series of protein complexes that reside in the \textbf{inner mitochondrial membrane}. The ETC transports electrons, creating an electrical current that is coupled to the \textbf{pumping of H+ ions from the mitochondrial matrix to the inter-membrane mitochondrial space}. \\
+Note: 
+\begin{itemize}
+	\item The outer mitochondrial membrane is permeable to the majority of small molecules and anions (\textbf{not} cations [H+]) to the presence of mitochondrial porins.
+	\item The inner mitochondrial membrane lacks porins and is thus impermeable to ions and small metabolites that require specialised transporters to leave the mitochondrial matrix. 
+\end{itemize}
+\noindent 
+The ETC consists of 4 protein complexes that accept the electrons from NADH and FADH2 and move the electrons along the inner mitochondrial membrane onto \textbf{the finally acceptor oxygen}. This produces the protein gradient which is exploited by ATP synthase to produce ATP.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.8 \textwidth]{ETC0}
+	\label{ETC0}
+	\caption{Overview of the ETC}
+\end{figure}  
+
+\begin{RemarkWithTitel}{Coenzyme Q}
+	\gls{ubiquinone}, is a \textbf{hydrophobic electron carrier} that can dissolve in the inner mitochondrial membrane bilayer. It can accepts 1 or 2 electrons thus being reduced to Semiquinone (*QH) and Ubiquinol (QH2) respectively. See fig. \ref{ETC2}\\
+	It serves a sa transporter from \textbf{Complex I to II and II to III}. 
+\end{RemarkWithTitel}
+
+\begin{RemarkWithTitel}{Cytochrome C}
+	A small \textbf{heme protein} located in the intermembrane space of mitochondria. See fig. \ref{ETC3} \\
+	\\
+	Cytochrome C is highly \textbf{water-soluble}, and is able to undergo \textbf{oxidation and reduction} as its iron atom converts between the ferrous(2+) and ferric(3+) forms. (it does \textit{not} bind oxygen)\\
+	\\
+	It plays a key role in the electron transport chain by transferring electrons between \textbf{Complex III} (cytochrome bc\textsubscript{1} complex) and \textbf{Complex IV} (cytochrome c oxidase)
+\end{RemarkWithTitel}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Coenzyme Q]{
+		\includegraphics[height = 6 cm ]{ETC2}
+		\label{ETC2}
+	}
+	\hfil
+	\subfigure[Cytochrome C]{
+		\includegraphics[height = 6 cm]{ETC3}
+		\label{ETC3}
+	}
+	\caption{Electron carrier in the ETC}
+\end{figure}
 
 
-\subsection{ECT}
+\begin{DefWithTitle}{Fe-S clusters}
+	Iron-sulfur clusters occur in many biological systems, often as components of \textbf{electron transfer proteins}. The relevant redox couple in all Fe-S proteins is\textbf{ Fe(II)/Fe(III)}. \\
+	They may be more or less complex (see. fig. \ref{ETC1})
+\end{DefWithTitle}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.7 \textwidth]{ETC1}
+	\label{ETC1}
+	\caption{Iron-sulfur centers}
+\end{figure}
+
+\paragraph{Complex 1}
+Complex I (NADH dehydrogenase or NADH oxidoreductase), is a very lagre protein complex consisting of 46 polypeptides. It has a L shape. One arm  lies withing the inner membrane while the vertical component lies in the matrix. \\
+\\
+Complex I receives high energy electrons from \textbf{NADH}. NADH donates electrons to a series to FMN, leading to the reduction of FMN to \textbf{FMNH2}. FMNH2 then donates the electrons to a s\textbf{eries of Fe-S clusters}. Finally two alectrons are transferred to CoQ producing \textbf{CoQH2}. See fig. \ref{ETCC1}\\
+\\
+As the electrons move along the series of Fe-S clusters, the complex uses the electrical power t pump a total of \textbf{4H+} into the intermembrane space. 
+
+\begin{figure}[H]
+	\centering
+	\subfigure[NADH:ubiquinone oxidoreductase (Complex I)]{
+		\includegraphics[width = 0.5 \textwidth]{ETCC1}
+		\label{ETCC1}
+	}
+	\subfigure[Potentials]{
+		\includegraphics[width = 0.45 \textwidth]{ETCC1_1}
+		\label{ETCC1_1}
+	}
+	\caption{}
+\end{figure}
+
+
+\paragraph{Complex 2}
+Complex II contains the succinate dehydrogenase used in to TCA cycle to form fumerate from succinate (\textbf{step 6}). Note complex II is \textbf{not} a proton pump. \\
+\\
+The \textbf{FADH2} is created in step 6 of the TCA cycle and stays tightly connected to the enzyme. FADH2 transferres his \textbf{2 high energy electrons} to a series of \textbf{Fe-S clusters} that ultimately transfer the electrons to CoQ producing \textbf{CoQH2}. See fig. \ref{ETCC2}.\\
+\textit{Note, Hemme b group does not appear to be part of the electron thransporting pathway. }
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.5 \textwidth]{ETCC2}
+	\caption{Complex II - succinate dehydrogenase}
+	\label{ETCC2}
+\end{figure}
+
+\paragraph{Complex 3}
+Complex III \textbf{transfers electrons from CoQH2 to Cytochrome c}. This is done through the Q cycle, which has two stages: 
+\begin{enumerate}
+	\item In the first half cycle \textbf{CoQH2} binds to the complex III and transfers \textbf{one electron} to the \textbf{Rieske center}. From there it is transferred to \textbf{Cyt c1} and then to \textbf{Cyt c}. This reaction \textbf{pumps 2 H+}.\\
+	The \textbf{second electron} is transferred from \textbf{Cyt b} to an other CoQ producing \textbf{*CoQH}.
+	\item In the second half cycle is practically a repetition of the first, but the \textbf{second electron is transferred to the *CoQH} produced in the first half cycle. The resulting QH2 is released back into the Q pool. 
+\end{enumerate}
+\noindent
+This leads to the net equation of: \textbf{QH2 + 2 cyt c1 (oxidized) + 2H+ => Q + 2 cyt c1 (reduced) + 4H+}. Therefore \textbf{pumping 4H+} andt the reduced cyt c is transferred to the complex IV. 
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Complex III - cytochrome $bc_{1}$]{
+		\includegraphics[width = 0.5\textwidth]{ETCC3}
+		\label{ETCC3}
+	}
+	\hfil
+	\subfigure[The Q cycle]{
+		\includegraphics[width = 0.4\textwidth]{ETCC3_1}
+		\label{ETCC3_1}
+	}
+	\caption{Electron carrier in the ETC}
+\end{figure}
+
+\paragraph{Complex 4}
+Complex IV transfers the electrons received form complex III via \textbf{cytochrome c to oxygen}. Complex IV pumps 4H+ using 4 Cyt c. This happens in 4 steps: 
+\begin{enumerate}
+	\item Two reduced Cyt c give off 2 electrons. One goes to Hemme $a_{3}$ and the other to $Cu_{B}$
+	\item once Hemme $a_{3}$ and $Cu_{B}$ are reduced , 1 O2 molecule can bind and abstract 2 electrons thus forming a peroxide bridge.
+	\item Two additional Cyt c are reduced transferring their electrons to 2H+ (from the matrix). They then break the peroxide bridege and forme Hemme $a_{3}$-OH and $Cu_{B}$-OH
+	\item Two additional protons from the matrix oxidize Hemme $a_{3}$ and $Cu_{B}$ to their original state producing 2 molecules of water. 
+\end{enumerate}
+\noindent This \textbf{pumps 4H+} in the intermembrane space. Sometimes also referred as 2H+, in this case it used 2 Cyt and 0.5 O2. 
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Complex IV - cytochrome oxidase]{
+		\includegraphics[width = 0.5 \textwidth]{ETCC4}
+		\label{ETCC4}
+	}
+	\subfigure[Reactive Oxygen Species]{
+		\includegraphics[width = 0.45\textwidth]{ECTROS}
+		\label{ETCROS}
+	}
+	\caption{Complex IV and ROS}
+\end{figure}
+
+
+\begin{RemarkWithTitel}{Reactive Oxygen Species (ROS)}
+	ROS are chemically reactive species containing oxygen. ROS are produced in a variety of biochemical reactions / organelles such as peroxisomes, \textbf{mitochondria}, etc. . \\
+	In the ETC about 0.1-2\% of electrons are \textbf{prematurely transferred to oxygen}. Specific enzymes in our mitochondrias are used to detoxify \textbf{superoxyde radicals}, be converting them to \textbf{hydrogen peroxide} and then to \textbf{water}. See fig. \ref{ETCROS} 
+\end{RemarkWithTitel}
+
+\subsubsection{ATP synthase - Complex V}
+The ATP synthase generates ATP molecules and usded the proton motive force due to the H+ gradient to release ATP into the mitochondria. \\
+The structure consists of two major regions, F0 and F1: 
+\begin{itemize}
+	\item \textbf{F0} is \textbf{hydrophobic} and lies within the inner membrane. It consists of \textbf{10-14 c subunits} organised in a ring; a single \textbf{a subunit} and \textbf{2 b subunits}.  
+	\item \textbf{F1} is the \textbf{catalytic region}. It lies in the matrix of the mitochondria and it is consituded by five polypeptides: \textbf{3 alpha}, \textbf{3 beta}, \textbf{gamma}, \textbf{delta}, and \textbf{epsilon}. 
+\end{itemize}
+\noindent Each unit has its purpose: 
+\begin{itemize}
+	\item The \textbf{alpha and beta} subunits form an \textbf{hexametrix hetero-oligome}r having a central cavity.
+	\item The \textbf{gamma and epsilon} subinits form what is called  the \textbf{central stalk} that runs through the cavity of the beta/alpha hexamer.
+	\item The \textbf{delta} subunit keeps the alpha/beta hexamer from rotating.
+	\item The \textbf{c ring} and the \textbf{a subunit} works as a proton channel. The c ring also rotates because of the proton flow. This also rotates the  central stalk. 
+\end{itemize} 
+\noindent \textit{Note that the a, b , delta, alpha, and beta subints do not rotated.} \\
+\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.5 \textwidth]{ATPS1}
+	\caption{ATP synthase}
+	\label{ATPS1}
+\end{figure}
+\noindent Note in figure \ref{ATPS2} N side = matrix and P side = intermembrane space. 
+
+\begin{RemarkWithTitel}{Why does C rotate?}
+	First note that the a subunit spans the entire membrane. So first an \textbf{H+ enters the a subunit} from the matrix and binds to the \textbf{asparate residue in the closest c subunit}. Through the pressure of more H+ comming into the a subint the \textbf{c ring turns} until the H+ finds the \textbf{exit in other half of the a subint}. See fig. \ref{ATPS3}
+\end{RemarkWithTitel}
+
+\begin{RemarkWithTitel}{How does the rotation produce ATP?}
+	The alpha/beta hexamer produces the ATP. While the hexamer is keept in place the central stalk rotates, inducing conformational change in the oligomers. \\
+	\\
+	There are 3 different states (stalk rotates always \textbf{rotates 120 degrees}) the alpha and beta units can be in (See fig. \ref{ATPS2}): 
+	\begin{itemize}
+		\item \textbf{Tense T}: ADP and Pi are brought cole so that they can be combined into ATP.
+		
+		\item \textbf{Open O}: The formed ATP is released and a new ADP-Pi set can bind.
+		
+		\item \textbf{Loos L}: The bound ADP and Pi become trapped and can not leave. 
+	\end{itemize}
+	
+\end{RemarkWithTitel}
+
+
+\begin{figure}[H]
+	\centering
+	\subfigure[H+ channel]{
+		\includegraphics[width = 0.4 \textwidth]{ATPS3}
+		\label{ATPS3}
+	}
+	\subfigure[alpha/beta heaxamer]{
+		\includegraphics[width = 0.5\textwidth]{ATPS2}
+		\label{ATPS2}
+	}
+	\caption{ATP production}
+\end{figure}
+\subsection{Final calculation of aerobic respiration }
+\noindent
+\underline{Glycolysis}\\
+Glocose breaks down into 2 pyruvate and produces 2 NADH and 2ATP. \textit{It does not require oxygen.} \\
+\\
+\underline{Pyruvate decarboxylation (2x)}\\
+Pyruvate (in the presence of oxygen) is transported into the mitchondrial matrix and transformed into acetyl-CoA, producing 2NADH and one CO2.\\
+\\
+\underline{TCA Cycle (2x)}\\
+Acetyl-CoA produces 2 Co2, 3 NADH and 1 FADH2 and 1 GTP.\\
+\\
+\underline{Oxidative phosphorylation}\\
+NADH and FADH2 are used to produce ATP. A NADH molecule produced in the mitochondria matrix (TCA cylce and Pyruvate decarboxylation) it yields 3 ATP while cytosolic NADH or FADH2 yeald 2 ATP. \\
+\\
+This gives us a net total of 36 ATP = 6 (glycolysis) + 6 (pyruvate decarboxylation) + 24 (TCA)) produced by 1 glucose molecule. \\
+\\
+\textit{These numbers are totaly fucked (NADH = 2.5 ATP, FADH = 1.5 and citosolic NADH depending on shuttel.) but they are in the slides. So just stick to them. }
 
 \end{document}

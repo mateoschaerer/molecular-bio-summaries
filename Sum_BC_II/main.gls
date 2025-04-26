@@ -83,5 +83,6 @@
 		\setentrycounter[]{page}\glsnumberformat{26}}}\glsgroupskip
 \glsgroupheading{U}\relax \glsresetentrylist %
 \glossentry{ubiquinone}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{11}}}%
+		\setentrycounter[]{page}\glsnumberformat{11}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{39}}}%
 \end{theglossary}\glossarypostamble
