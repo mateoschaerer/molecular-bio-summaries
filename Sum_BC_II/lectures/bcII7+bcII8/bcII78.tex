@@ -1,18 +1,645 @@
+\documentclass[../main.tex]{subfiles}
+
+\include{../../Prompt/prompts.tex}
+
+\include{Sum_BC_II/lectures/bcII7+bcII8/bcII78_glossary}
+
+\makeglossaries
+
+\begin{document}
+	
+
 \section{lipid Sythesis}
 \subsection{fatty acid sythesis}
-Fatty acid oxidation \textbf{($\beta$-oxidation)} takes place in the \textbf{mitochodrial matrix}. However \textbf{fatty acid sytheis} takes place in the \textbf{cytosol}. 
+Fatty acid oxidation \textbf{($\beta$-oxidation)} takes place in the \textbf{mitochodrial matrix}. However \textbf{fatty acid sytheis} takes place in the \textbf{cytosol}. This is an iterative reaction that \textbf{adds 2 carbons at a time} producing  \textbf{palmitate}. However it isn't completely the reverse of $\beta$-oxidation). One key molecule that is unique to FA sythesis is \textbf{\gls{malonylcoa}}. its production via the \textbf{carboxylation of acetyl-CoA by acetyl co-A carboxylase and is the rate limiting step of Fatty acid sythesis}. The main enzyme catalyzing this reaction is a mega complex called \textbf{\gls{FAsynthase}}
 \subsubsection{maloney CoA}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\linewidth]{Maloney.png}
+    \caption{Maloney Co-A}
+    \label{fig:enter-label}
+\end{figure}
+Maloney Co-A is a \textbf{derivative of Acetyl-CoA produced in the cytosol} However acetyl-CoA is produced in the mitochontrial matrix so \textbf{Acteyl-CoA needs to be transported to the cytosol}:
+\paragraph{transporting acetyl-CoA to cytosol}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\linewidth]{actylCoA.png}
+    \caption{Acetyl Co-A needs to be transported to cytosol}
+    \label{fig:enter-label}
+\end{figure}
+\begin{enumerate}
+    \item \textbf{oxaloactate and acteyl coA} are turned to citrate by \textbf{\gls{citratesynthase}}
+    \item citrate can be transported across the membrane via \textbf{\gls{citrate_transporter}}
+    \item citrate is turned to oxaloacetate and acetyl-CoA
 
-\subsubsection{fatty acid sythase}
-\subsubsection{palmitate sythesis}
-\subsubsection{elongating palmitate}
+    \item oxaloacetate is converted to malate by \textbf{\gls{malatedehydrogenase}} which in turn is turned to pyruvate by \textbf{\gls{malicenzyme}}. 
+\end{enumerate}
+
+step 4 is \textbf{crucial for generating NADPH} which will be used for FA sythesis later!
+
+\paragraph{producing Maloney Co-A}
+once acetyl-CoA has been transported into the cytosol maloney coA can be synthesized. This steps involves a carboxylation of acetyl-CoA by \textbf{\gls{acetylcoacarboxylase}} and is the \textbf{rate limiting step of Fatty acid sythesis.}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth]{Maloney_making.png}
+    \caption{Maloney sythesis}
+    \label{fig:enter-label}
+\end{figure}
+A biotin carrier group which is part of \gls{acetylcoacarboxylase} is transiently carboxylated (with ATP consumtion) on a lysine - when in doubt lysine can do basically any PTM except phosphorylation .) - That then transfers the Co2 to acetyl-CoA turning it to Maloney-CoA.
+
+\subsubsection{fatty acid sythase and it's domains overview}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{FA_sythase.png}
+    \caption{FA sythase structure and its domaines}
+    \label{fig:enter-label}
+\end{figure}
+\textbf{\gls{FAsynthase}} is a huge multienzyme complex. The functional domains of \gls{FAsynthase} include:
+
+\begin{itemize}
+    \item \gls{BetaKetoacylSynthase} 
+    \item \gls{MalonylAcetyltransferase} 
+    \item \gls{AcylCarrierProtein}
+    \item \gls{BetaKetoacylReductase} 
+    \item \gls{Dehydratase}
+    \item \gls{EnoylReductase} 
+    \item \gls{Thioesterase} 
+\end{itemize} 
+
+\subsubsection{step by step mechanism}
+
+bilanz:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{bilanz.png}
+    \caption{summary of what is used in palmitate sythesis}
+    \label{fig:enter-label}
+\end{figure}
+
+\paragraph{step 0- loading}
+\begin{figure}[H]
+	\centering
+	\subfigure[phase 1]{\includegraphics[width = 0.35 \textwidth]{loading_maloney.png}}
+	\subfigure[phase 2]{\includegraphics[width = 0.3\textwidth]{loadingmaloney.png}}
+	\caption{loading step of FA sythesis}
+\end{figure}
+
+
+
+
+\begin{enumerate}
+    \item \textbf{phase 1:} acetyl-CoA  molecule is 
+    condensed to a Cys residue in the \textbf{\gls{BetaKetoacylSynthase}} domain. To do this it is\textbf{ first loaded onto \gls{AcylCarrierProtein}} then \textbf{transfered to KS domain}. This is catalyzed by \textbf{\gls{MalonylAcetyltransferase}}
+
+    \item \textbf{phase 2:} Maloney-CaA is added to \textbf{\gls{AcylCarrierProtein}}. where it is close to acetyl coA and ready to react.
+\end{enumerate}
+
+
+\paragraph{step 1 - condensation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{condensation.png}
+    \caption{condensation step}
+    \label{fig:enter-label}
+\end{figure}
+
+In this step Maloney and Acetyl are condensed to \textbf{\gls{acetoacetyl}}, with the \textbf{release of Co2}. This reaction is catalyzed by \textbf{\gls{BetaKetoacylSynthase}}. Facts to know:
+\begin{enumerate}
+    \item this is the energetically driving step of FA sythesis
+    \item co2 release is the same one that was originally added by acetyl-coA carboxylase.
+    \item this reaction is exergonic.
+    \item reaction is similar to  PEP-carboxykinase in gluconeogensis.
+\end{enumerate}
+
+\paragraph{step 2 - reduction}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step2.png}
+    \caption{reduction step}
+    \label{fig:enter-label}
+\end{figure}
+ In the second step (reduction) acetoacetyl-ACP is \textbf{reduced to \gls{bhbcoa}} by 
+the \textbf{\gls{BetaKetoacylReductase}} with oxidation of one NADPH molecule.
+
+
+\paragraph{step 3 - dehydration}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step3.png}
+    \caption{dehydration step}
+    \label{fig:enter-label}
+\end{figure}
+
+\textbf{\gls{bhbcoa}} \textbf{loses a H2O }molecule to yield \textbf{\gls{transD2ButenoylACP}} in a reaction catalysed by the \textbf{\gls{Dehydratase}}
+
+\paragraph{step 4 - reduction}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth]{step4.png}
+    \caption{2nd.reduction step}
+    \label{fig:enter-label}
+\end{figure}
+
+\textbf{\gls{transD2ButenoylACP}} is reduced to \textbf{\gls{butyrylACP}} in a reaction catalyzed by the \gls{EnoylReductase} where the double bond C2 / C3 is reduced and a
+molecule of NADPH is oxidized. 
+
+--> \textbf{here we have elongated acetate-ACP (2C fatty acid) into butyrylACP (4C fatty acid)}
+
+\paragraph{step 5 - translocation }
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step5.png}
+    \caption{translocation of butaryl (or another FA) onto KS domain}
+    \label{fig:enter-label}
+\end{figure}
+
+ To start a new cycle it 
+needs to be transferred from the 
+ACP to the Cys residue of the \textbf{\gls{BetaKetoacylSynthase}}. This step is very similar to step one with one important difference. The \textbf{ACP domain only accepts maloney and acetyl so larger FA stay on the KS domain}
+
+\paragraph{step 6 - reload a maloney}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step6.png}
+    \caption{reloading a Maloney}
+    \label{fig:enter-label}
+\end{figure}
+This step is \textbf{identical to step one} except that there is no need to translocate Acetyl to KS domain. And now butaryl is in the place of acetyl.
+
+\subsubsection{useful for C-labelling shit}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{overviewPalmitate.png}
+    \caption{overview of palmitate carbons}
+    \label{fig:enter-label}
+\end{figure}
+
+
+
+\subsubsection{palmitate as precursor and making other FA}
+Palmitate is the main FA produced via this pathway. It consists of 16C so will take \textbf{7 cyles to produce} (7*2 + 2C from acetyl). Longer Fatty acids can be produced by elongating plamitate via the same process. Double bonds can also be introduced to produce unsaturated fatty acids.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{palmitate_stuff.png}
+    \caption{making other FA from plamitate as precursor}
+    \label{fig:enter-label}
+\end{figure}
+\paragraph{introducing Double bonds}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{DBonds.png}
+    \caption{introducing double bonds}
+    \label{fig:enter-label}
+\end{figure}
+acyl co-As such as palimatate can be desturated by \textbf{\gls{fattyAcylCoADesaturase}} Which transfers 2 electrons from NADPH (oxidation) to create the double bond. This takes place \textbf{in the ER of liver cells}. Not all unsaturated acids can be produced though.\textbf{ Mammals will only produce $\Delta^9$ fatty acids}, however some plants can produce $\Delta^{9,12}$ and $\Delta^{9,12,15}$ fatty acids. For mammals these are thus essential Fatty acids!
 
 
 \subsection{Phosphatidic acid sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.25\linewidth]{phosphatidicAcid.png}
+    \caption{phosphatidic acid(PtAC) sythesis}
+    \label{fig:enter-label}
+\end{figure}
+\textbf{\gls{phosphatidicacid}} is used for the synthesis of triglycerides (TAGs) and glycerophospholipids. therefore it is an important precursor for various lipids. 
+\begin{enumerate}
+    \item \textbf{generate Glycerol-3-phosphate}
+    \begin{enumerate}
+        \item \textbf{from glycolisis:} Dehydroxyacetonphosphate (\textbf{DHAP}) can be converted by \textbf{\gls{glycerol3phosphateDehydrogenase}} into glycerol-3-phosphate.
+
+        \item \textbf{Phosphorylation of glycerol:} kidney cells have \textbf{\gls{glycerolKinase}} that can directly phosphorylate glycerol.
+    \end{enumerate}
+    \item \textbf{generate Acly-CoA:} This is similar to $\beta$-oxidation and uses \textbf{\gls{acylCoASynthetase}} to catalyze the reaction.
+
+    \item \textbf{\gls{acylTransferases}} esterify acyl chains in positions C-1 and C-2 of the Glycerol-3-Phosphate to produce phosphatidic acid.
+\end{enumerate}
+
+
+\subsection{triglyceride sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{TAG_syth.png}
+    \caption{triglyceride synthesis}
+    \label{fig:enter-label}
+\end{figure}
+\begin{enumerate}
+    \item phosphatidic acid is dephosphorylated to form diacylglycerol by \textbf{\gls{phosphatidicacidphosphatase}}
+    
+    \item \gls{acylTransferases} that catalyse the esterification of a third fatty acid to glycerol (in position C-3).
+\end{enumerate}
+
+
 \subsection{Glycerophospholipids sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Sum_BC_II//lectures//bcII7+bcII8/glycerophospholipid.png}
+    \caption{glycerophospholipid sythesis}
+    \label{fig:enter-label}
+\end{figure}
+There are two strategies for creating glycerophospholipids depending on which precursor is activated using cmp:
+\begin{enumerate}
+    \item \textbf{strategy 1 - ptAc activation:} This consists in the activation of phosphatidic acid(ptAC) to form \textbf{CDP-diacylglycerol.}
+
+    \item \textbf{strategy 2 - head group activation:} Here instead of activating ptAc, the head group is activated using CMP.
+\end{enumerate}
+
+In either case after the\textbf{ condenstaion of the head group and the ptAC lead to release of CMP}
+
+\subsubsection{bacterial glycerophospholipid sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{Sum_BC_II//lectures//bcII7+bcII8/bacteria_lipids.png}
+    \caption{bacteria can make most glycerophospholipids via strategy 1}
+    \label{fig:enter-label}
+\end{figure}
+In E. coli almost \textbf{all glycerophospholipids can be obtained using strategy 1}
+\begin{itemize}
+    \item phosphatydilSer (\textbf{ptdSer}): strategy 1
+    \item phosphatidylglycerol-3-phosphate (\textbf{ptdGly(3)p}): strategy 1
+    \item phosphatidylethanolamine (\textbf{PtdEtn}): decarboxylation of ptdSer
+    \item \textbf{PtdGly}: dephosphorylation of ptdGly(3)p
+    \item \textbf{cardiolipin}: condesation of two pdtGly molecules
+\end{itemize}
+   
+
+\subsubsection{eucaryotic glycerophospholipid sythesis}
+\begin{figure}[H]
+	\centering
+	\subfigure[glycerophospholipid production in eukaryotes via strategy 1]{\includegraphics[width = 0.4 \textwidth]{eukaryoticlipids.png}}
+	\subfigure[ptdCho sythesis in eukaryotes]{\includegraphics[width = 0.2\textwidth]{ptdCho.png}}
+	\caption{loading step of FA sythesis}
+\end{figure}
+
+
+\begin{itemize}
+    \item \textbf{PtdIns}: strategy 1 using \textbf{\gls{phosphatidylinositol_synthase}}
+     \item \textbf{PtdGly}: dephosphorylation of ptdGly(3)p
+    
+    \item \textbf{cardiolipin}: CDP-diacylglycerol is used to produce cardiolipin similar to E. coli but only one ptdGly is used.
+
+    \item \textbf{ptdSer}: strategy 1 (for yeast, not for mammals) or head group exchange between PtdSer and PtdEtn (mammals do it like this instead)
+    \item phosphatidylcholine (\textbf{ptdCho}): addition of three methyl groups to the 
+    PtdEtn amine group operated by a methyltransferase. (this is for yeast. for mammels see section 1.4.2.1)
+    \item (for mammals) \textbf{amine containg glycerophospholipids} (ptdCho, ptdEtn): strategy 2 
+\end{itemize}
+\paragraph{phosphatidylinositol sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{ptdChomammals.png}
+    \caption{ptdCho sythesis in mammals}
+    \label{fig:enter-label}
+\end{figure}
+mammals sythesis ptCho via strategy 2 as follows:
+\begin{enumerate}
+    \item choline is phosphorylated by \textbf{\gls{choline_kinase} }to 
+phosphocholine  
+    \item phosphocholine is complexed to CDP to form 
+    CDP-choline by CTP-choline cytidylyl 
+    transferase \textbf{\gls{ctp_choline_cytidylyltransferase}}
+    \item  CDP-choline is condensed to diacylglycerol to 
+produce PtdCho by the action of \textbf{\gls{cdp_choline_dag_phosphocholine_transferase}}
+\end{enumerate}
+
 \subsection{Cholesterol sythesis}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Cholesterol and it's precursors]{\includegraphics[width = 0.4 \textwidth]{cholesterolOverview.png}}
+	\subfigure[sythesis overview]{\includegraphics[width = 0.3\textwidth]{melvalonate.png}}
+	\caption{cholesterol sythesis}
+\end{figure}
+
+
+
+Cholesterol is formed in a 4 step pathway: 
+\begin{enumerate}
+    \item  3 Acetyl groups are condensed to form 
+\textbf{mevalonate}
+\item Mevalonate is converted into \textbf{activated 
+isoprene }
+\item 6 \gls{isoprene} units are polymerised into 
+\textbf{squalene}
+\item \gls{squalene} is converted to cholesterol.
+\end{enumerate}
+
+\subsubsection{step 1 - melvalonate sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{melvalonateSythesis.png}
+    \caption{\gls{mevalonate} sythesis}
+    \label{fig:enter-label}
+\end{figure}
+\begin{enumerate}
+    \item Two acetyl-CoA molecules are condensed to form \textbf{acetoacetyl-CoA} by \textbf{\gls{thiolase}}.
+    
+    \item \textbf{\gls{acetoacetyl}-CoA} is further condensed with another acetyl-CoA molecule to produce $\beta$-hydroxy-$\beta$-methylglutaryl-CoA \textbf{(HMG-CoA)} by \textbf{\gls{hmg_coa_synthase}}.
+    
+    \item $\beta$-hydroxy-$\beta$-methylglutaryl-CoA is reduced to \textit{mevalonate} by \textbf{HMG-CoA reductase}.
+\end{enumerate}
+
+
+\subsubsection{step 2 - isoprene sythesis}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{isopreneSythesis.png}
+    \caption{isoprene sythesis}
+    \label{fig:enter-label}
+\end{figure}
+\begin{enumerate}
+    \item Mevalonate is phosphorylated by \textbf{\gls{mevalonate_5_phosphotransferase} }to form \textbf{5-phosphomevalonate}.
+    
+    \item 5-phosphomevalonate is phosphorylated by \textbf{\gls{phosphomevalonate_kinase}} to produce \textbf{5-pyrophosphomevalonate}.
+    
+    \item 5-pyrophosphomevalonate is phosphorylated to \textbf{3-phospho-5-pyrophosphomevalonate} by \textbf{\gls{pyrophosphomevalonate_decarboxylase}.}
+    
+    \item The same enzyme, \textbf{\gls{pyrophosphomevalonate_decarboxylase}}, catalyzes the decarboxylation of 3-phospho-5-pyrophosphomevalonate to produce activated isoprene units (Isopentyl pyrophophate  (IPP) and dimethylallyl pyrophosphate.)
+\end{enumerate}
+
+
+\subsubsection{step 3 - squalene sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{squaleneSythesis.png}
+    \caption{squalene sythesis}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\begin{enumerate}
+    \item \textbf{\gls{isopentenyl_pp}} and \textbf{\gls{dimethylallyl_pp}} (isoprene units) undergo a \textbf{head-to-tail} condensation to form \textbf{\gls{geranyl_pp}}, catalyzed by the enzyme \textbf{\gls{prenyl_transferase}.}
+    
+    \item Geranyl pyrophosphate and isopentenyl pyrophosphate undergo another head-to-tail condensation to form \textbf{\gls{farnesyl_pp}}, also catalyzed by \textbf{\gls{prenyl_transferase}.}
+    
+    \item Two farnesyl pyrophosphate molecules are condensed \textbf{head-to-head} to form \textbf{\gls{squalene}}, catalyzed by \textbf{\gls{squalene_synthase}.}
+\end{enumerate}
+\subsubsection{step 4 - ring closure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{ringClosure.png}
+    \caption{ring closure and final step of cholesterol sythesis}
+    \label{fig:enter-label}
+\end{figure}
+\begin{enumerate}
+    \item \gls{squalene} is oxygenated by \textbf{\gls{squalene_monooxygenase}} to form \textbf{\gls{squalene_epoxide}}. 
+    \item Cyclization reactions then convert squalene 2,3-epoxide into\textbf{ \gls{lanosterol}}, which, through a complex series of about 20 reactions, is ultimately converted into \gls{cholesterol}.
+\end{enumerate}
+
+%--------------------------lecture 8---------------------
 \subsection{sphigolipid sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{sphingolipids_overview.png}
+    \caption{sphingolipid structural overview}
+    \label{fig:enter-label}
+\end{figure}
+sphingolipids all contain \textbf{cermide backbone} and a variable head group. An example of such head group is phosphocholine which produces\textbf{ sphingomyelin, the most abundant sphingolipid in mammals}. Ceramide can be \textbf{glycosilated to produce various glycosphingolipids}
 \subsubsection{ceramide sythesis}
-\subsubsection{Sphingomyelin Synthesis}
-\subsubsection{Glucosylceramide Synthesis}
-\subsection{Phosphoinositides sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{overviewSphingolipidsSythesis.png}
+    \caption{overview of de novo(grey box) and salvage pathway(red box)}
+    \label{fig:enter-label}
+\end{figure}
+Ceramide being the precursor of many sphingolipids can be created in two ways, the \textbf{salvage pathway} and the \textbf{de novo pathway}.
+
+
+
+
+\paragraph{de novo pathway}
+\subparagraph{step1 - condensation}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step1S.png}
+    \caption{condensation step}
+    \label{fig:enter-label}
+\end{figure}
+serine and a palmitoyl-CoA 
+molecule are condensed by \textbf{\gls{spt}} to form 
+\textbf{$\beta$-ketosphinganine} with the \textbf{release of a CO2 molecule. }
+\begin{enumerate}
+    \item SPT uses pyridoxal 5'-phosphate (PLP) as a cofactor.
+    \item PLP initially binds to an active-site lysine residue.
+    \item L-serine displaces the lysine, forming a serine-PLP intermediate.
+    \item The serine-PLP intermediate attacks palmitoyl-CoA.
+    \item Following decarboxylation, $\beta$-ketosphingosine is released.
+    \item PLP is regenerated in its catalytically active form.
+\end{enumerate}
+In \textbf{eukaryotes, SPT is a heterodimer} \textbf{localized to the endoplasmic reticulum} with The active site faces the cytosol.
+--> \textbf{this is the rate limiting step }
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{structureSphingolipidSythase.png}
+    \caption{serine-palmitoyltransferase (SPT)}
+    \label{fig:enter-label}
+\end{figure}
+The SPT enzyme is tightly regulated. Among other things it pocesses an \textbf{\gls{ormdl}} domain. These are responsible for \textbf{sensing the amount of ceramide} and create a \textbf{negative feedback loop}.
+
+\subparagraph{step2 - reduction}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step2S.png}
+    \caption{reduction step}
+    \label{fig:enter-label}
+\end{figure}
+$\beta$-ketosphingosine is reduced to 
+sphinganine by \textbf{\gls{kdsr}} with 
+consumption of an NADPH molecule.  
+KDSR is an ER membrane protein and 
+has its active site  is \textbf{oriented towards the 
+cytoplasmic leaflet}.
+
+\subparagraph{step3 - condensation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step3S.png}
+    \caption{condensation step}
+    \label{fig:enter-label}
+\end{figure}
+\textbf{sphinganine} is condensed with a \textbf{fatty 
+acyl-CoA} to produce \textbf{N-acylsphinganine } with \textbf{release of a free CoA }
+molecule. This reaction is catalyzed by \gls{ceramidesynthase}. There are 6 ceramide sythases (CerS1-6). Each with individual substrates:
+\begin{itemize}
+    \item CerS2 prefers very long-chain acyl-CoAs (C22–C24–C26).
+    \item CerS4 prefers C20 acyl-CoAs.
+    \item CerS5 prefers shorter chains (C14–C16–C18).
+\end{itemize}
+\subparagraph{step4 - desaturation}
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step4S.png}
+    \caption{desaturation step}
+    \label{fig:enter-label}
+\end{figure}
+N-acylsphinganine (dihydroceramide) 
+is desaturated to ceramide by \textbf{\gls{des}}. DES requires the \textbf{O2 and NADPH as cofactors} to add a\textbf{ 4,5-trans-double to  N-acylsphinganine.}
+
+
+\paragraph{salvage pathway}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{sphingolipids_overview.png}
+    \caption{sphingolipid structural overview}
+    \label{fig:enter-label}
+\end{figure}
+The salvage pathway involves the production of ceramide throught the cleavage of the head group from other sphingolipids.
+
+\subsubsection{sphingomyelin sythesis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{sphingomyelinSythesis.png}
+    \caption{sphingomyelin sythesis}
+    \label{fig:enter-label}
+\end{figure}
+ceramide can be converted into sphingomyelin by the \textbf{\gls{sms}}. This is a\textbf{ multispan membrane protein located in the trans golgi lumen} that transfers \textbf{phosphocholine onto ceramide}. This has \textbf{diacylglycerol as a byproduct}
+
+
+\paragraph{ceramide transport to golgi via cert1}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{topologyProblem.png}
+    \caption{transporting ceramide to trans golgi lumen}
+    \label{fig:trasport}
+\end{figure}
+\textbf{Ceramide is sythesized in the ER.} However the \textbf{active site of SMS is located in the Lumen of the trans golgi} compartment. This means that cermaide needs to be transported to the SMS active site. Since it can't diffuse through the cytoslic enviroment as this is highly unfavorable it needs to be activly transported \textbf{from ER to the lumen trans golg}i compartment by \textbf{\gls{cert1}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{cert1.png}
+    \caption{cert1 structure and domains}
+    \label{fig:enter-label}
+\end{figure}
+cert1 is a cytosolic protein that has an N-terminal \textbf{\gls{phdomain}} that will bind to \textbf{PtdIns(4)P on golgi membrane}. It also has a \textbf{\gls{ffat}} that will bind to ER membrane protein \textbf{\gls{vap}.} A \textbf{\gls{startdomain}} allows cert to bind to cermide so it can be transported to Golgi lumen. CERT1 operates ceramide transfer at 
+ER-trans Golgi-\textbf{\gls{mcs}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{cert1_2_annotated.png}
+    \caption{cert1 and it's negative feedback loop}
+    \label{fig:enter-label}
+\end{figure}
+(there is a normal image to this aswell but in the lecture he spoke a lot about it and I feel like the anoted version might help. LMK :) )
+Cert is tighly regulated and has a negative feedback loop, where if there is too much ceramide it will be phosphorylated by \textbf{PKD} which will inactivate it. \textbf{CKly2} will dephosphorylate it and inativate it once again if there is too little ceramide in the golgi. Sicne cert is involved in regulating sphingomyelin sythesis if mutated this will cause many \textbf{intellectual disabilities} (more than those caused by writing this shit at 2AM in a room that smells like a years supply of weed) as \textbf{sphingomyelin is a keep component of the myelinsheaths}
+
+\subsubsection{glucosylceramide (cerebroside) sythesis}
+
+cermide can also be converted into \textbf{glucosylceramide sythesis }(GlcCer) also known as \textbf{\gls{cerebroside}} by \textbf{\gls{gcsc}}. Cerebroside sythesis happens on the\textbf{ cytosolic leaflet of the cis-golgi compartment} This is a key difference to that of sphingomyelin. There is \textbf{no need for speciallized transporter like Cert1} in the case of sphingomyelin production. Here simple vesicles will do the trick! (see fig. \ref{fig:trasport}). \textbf{Cert1 will actually force the production of sphingomyelin by delivering directly to the trans golgi compartment}. After GlcCer has been produced it will be \textbf{translocated to the trans-golgi compartment by \gls{fapp2}.}
+\paragraph{transporting from cis to trans golgi via FaPP2}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{FAPP2.png}
+    \caption{FAPP2 domains}
+    \label{fig:enter-label}
+\end{figure}
+this transporter also has a \gls{phdomain} to recognize the golgi via \textbf{PtdIns(4)P } binding which is located in the golgi membrane on the cytosolic leaflet side. It has a \gls{gltp} which analogously to the START domain of Cert1 will be used to bind cerebroside (GLcCer). \textbf{FAPP2 translocation to trans golgi compatment will actually seal the fate of the sphingolipid and what it can be turned into}: 
+\begin{itemize}
+    \item FAPP2 --> will be processed to \textbf{Globoside production}
+    \item if it gets to trans golgi on its own --> \textbf{ganglioside production}
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{transport.png}
+    \caption{overview of transport pathways}
+    \label{fig:enter-label}
+\end{figure}
+
+\section{Phosphoinositides}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth]{inositol.png}
+    \caption{inositol}
+    \label{fig:enter-label}
+\end{figure}
+These are derived via phosphorylation of phosphatiydl inositol (ptdIn) that are produced via \textbf{\gls{phosphatidylinositol_synthase}} (see section on glycerphospholipid sythesis)
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth]{PI_combinations.png}
+    \caption{the 7 phosphoinositides (PI)}
+    \label{fig:enter-label}
+\end{figure}
+
+\textbf{phosphorylation occurs in three, four and five hydroxyl} However, \textbf{the two and 
+six hydroxyl groups are typically not 
+phosphorylated} due to steric hindrance. There are about\textbf{ 50 
+phosphoinositide kinases (PIKs and 
+phosphatases} that are present in 
+practically all cell compartments.   
+
+\subsection{ phosphatidylinositol transfer proteins (PITPs)}
+\gls{pitp} play a crucial role in transporting Phosphatydilinositols through the cytosol. These transporters can actually \textbf{trasport monomers of PtdIns or PtdCho 
+between membrane compartments.} This distribution means that ptdIn is on the \textbf{cytoslic leaflet of various organelles}
+
+\subsection{regionalisation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\linewidth]{regionalization.png}
+    \caption{different phosphorylations in different compartments}
+    \label{fig:enter-label}
+\end{figure}
+PtdIns are not distributed evenly, infact it is quite the opposite where different phosphoinositides are located in different cellular compartments. This is due to the fact that there are different PI-kinases in the different cellular compartments.  \textbf{The dynamic interplay 
+between PtdIns transport and 
+processing leads to lipid 
+compartmentalisation.}
+
+\subsection{recognizing membrane compartments}
+Various domains recognize phosphoinositides, infact they are \textbf{ specific to the phsophorylation status of PI!.} These domains include \gls{phdomain}, \gls{FYVEdomain}, \gls{gelsolinhomologydomain}, \gls{SH2domain}, \gls{PTBdomain}. Here is an overview of a few more domains:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{domainOverview.png}
+    \caption{table of domains that recognize PIs}
+    \label{fig:enter-label}
+\end{figure}
+
+typically these domains have low affinites for their binding partner. This means that they will stumble along the cytosol probing the various membrane compartments and becoming enriched in the areas where there are more of it's substrate. On top of this there is avidity effect, where many of these domains recognize other things as well and migh just by chance find Phosphoinositides. This is called \textbf{coincident detection}. PIs are therfore crucial for localisation of various proteins to the different organelles. \textbf{The encode the organelle's identity}
+
+\subsubsection{PtdIns(4)P example of lipid transport coordinator}
+PtdIns(4)P is the most \textbf{abundant of the monophosphorylated  
+phosphoinositides.} It is produced by ptdIn phosphorylation by \textbf{\gls{PI4Ks}} which are active in the golgi. PtdIns(4)P are dephosphorylated by \textbf{\gls{Sac1} }which is active in the ER. 
+
+--> \textbf{more PtdIns(4)P in trans golgi than ER}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{moreDomainShit.png}
+    \caption{domains that recognize PtdIns(4)P on trans golgi}
+    \label{fig:enter-label}
+\end{figure}
+Various domains such as \gls{cert1}, \gls{fapp2} or \gls{OSBP} will transport ceramide to the trans golgi compartment.
+
+-->  \textbf{PtdIns(4)P determines the lipid 
+composition of the post Golgi compartments. }
+\paragraph{OSBP1}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{OSBP1.png}
+    \caption{OSBP1}
+    \label{fig:enter-label}
+\end{figure}
+This is an interesting case for transporters as ontop of transporting \textbf{cholesterol to trans golgi compartment} it wil also transport \textbf{PtdIns(4)P back to ERSac1} where it will be dephosphorylated by \textbf{\gls{Sac1}}. This is a sort of \textbf{negative feed back loop} as OSBP1  consumes its recruiting factor [i.e., PtdIns(4)P] while 
+pumping cholesterol to the trans-Golgi
+
+
+
+\subsection{PTEN and oncology relevance}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{PTEN.png}
+    \caption{PTEN is a tumor supressor gene}
+    \label{fig:enter-label}
+\end{figure}
+\textbf{PTEN }is one of the most commonly lost tumor supressor genes. It is a \textbf{phosphoinositide phosphatase}, which will reduce the effects of \textbf{PI3k}. If lost it will lead to uncontrolled growth.
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
