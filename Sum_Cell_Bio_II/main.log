@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  6 MAR 2025 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  8 MAY 2025 23:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2075,12 +2075,21 @@ LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 9.
 
 (lectures/cbII1/cbII1_glossary.tex)
-\glswrite=\write5
-\glo@main@file=\write6
-\openout6 = `main.glo'.
 
-Package glossaries Info: Writing glossary file main.glo on input line 13.
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 10.
 
+(lectures/cbII2/cbII2_glossary.tex)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 11.
+
+(lectures/cbII3/cbII3_glossary.tex)
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 12.
+
+(lectures/cbII4/cbII4_glossary.tex)
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
@@ -2115,23 +2124,212 @@ LaTeX Warning: Label `fig:enter-label' multiply defined.
 
 LaTeX Warning: Label `fig:enter-label' multiply defined.
 
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `reactivity' multiply defined.
+
+
+LaTeX Warning: Label `sub@reactivity' multiply defined.
+
+
+LaTeX Warning: Label `uniporters' multiply defined.
+
+
+LaTeX Warning: Label `uniporters' multiply defined.
+
+
+LaTeX Warning: Label `uniporters' multiply defined.
+
+
+LaTeX Warning: Label `sub@uniporters' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:ITC_all' multiply defined.
+
+
+LaTeX Warning: Label `fig:itc' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:itc' multiply defined.
+
+
+LaTeX Warning: Label `fig:ITC_H_L' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ITC_H_L' multiply defined.
+
+
+LaTeX Warning: Label `fig:ITC_all' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:itc' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:itc' multiply defined.
+
+
+LaTeX Warning: Label `fig:ITC_H_L' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:ITC_H_L' multiply defined.
+
+
+LaTeX Warning: Label `fig:ITC_all' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
+
+LaTeX Warning: Label `fig:enter-label' multiply defined.
+
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2211,133 +2409,748 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 15.
-Package biblatex Info: Reference segment=0 on input line 15.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+Package biblatex Info: Reference section=0 on input line 17.
+Package biblatex Info: Reference segment=0 on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
 
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
 
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 21
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
 .
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-1.
+3.
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
 
-\openout5 = `main.ist'.
+{C:/Users/percu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.toc
+[1])
+\tf@toc=\write5
+\openout5 = `main.toc'.
 
-{C:/Users/percu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.toc)
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
-[1] (lectures/cbII1/cbII1.tex
-<lectures/cbII1/lipid_membrane_structure.png, id=16, 288.17662pt x 223.43475pt>
+ [2] (lectures/cbII1/cbII1.tex
+<lectures/cbII1/lipid_membrane_structure.png, id=19, 288.17662pt x 223.43475pt>
 
 File: lectures/cbII1/lipid_membrane_structure.png Graphic file (type png)
 <use lectures/cbII1/lipid_membrane_structure.png>
 Package pdftex.def Info: lectures/cbII1/lipid_membrane_structure.png  used on i
 nput line 20.
 (pdftex.def)             Requested size: 217.66211pt x 168.7621pt.
-<lectures/cbII1/FRAP.png, id=18, 335.75438pt x 208.3785pt>
+<lectures/cbII1/FRAP.png, id=21, 335.75438pt x 208.3785pt>
 File: lectures/cbII1/FRAP.png Graphic file (type png)
 <use lectures/cbII1/FRAP.png>
 Package pdftex.def Info: lectures/cbII1/FRAP.png  used on input line 26.
 (pdftex.def)             Requested size: 217.66211pt x 135.08829pt.
-<lectures/cbII1/biLayer.png, id=19, 295.1025pt x 194.22563pt>
+<lectures/cbII1/biLayer.png, id=22, 295.1025pt x 194.22563pt>
 File: lectures/cbII1/biLayer.png Graphic file (type png)
 <use lectures/cbII1/biLayer.png>
 Package pdftex.def Info: lectures/cbII1/biLayer.png  used on input line 43.
 (pdftex.def)             Requested size: 241.84843pt x 159.17712pt.
  [1 <./lectures/cbII1/lipid_membrane_structure.png> <./lectures/cbII1/FRAP.png>
 ]
-<lectures/cbII1/typesLipids.png, id=27, 364.9635pt x 258.9675pt>
+<lectures/cbII1/typesLipids.png, id=30, 364.9635pt x 258.9675pt>
 File: lectures/cbII1/typesLipids.png Graphic file (type png)
 <use lectures/cbII1/typesLipids.png>
 Package pdftex.def Info: lectures/cbII1/typesLipids.png  used on input line 53.
 
 (pdftex.def)             Requested size: 290.22107pt x 205.94533pt.
-<lectures/cbII1/phospholipids.png, id=28, 333.34537pt x 205.36725pt>
+<lectures/cbII1/phospholipids.png, id=31, 333.34537pt x 205.36725pt>
 File: lectures/cbII1/phospholipids.png Graphic file (type png)
 <use lectures/cbII1/phospholipids.png>
 Package pdftex.def Info: lectures/cbII1/phospholipids.png  used on input line 6
 6.
 (pdftex.def)             Requested size: 266.03474pt x 163.89604pt.
-<lectures/cbII1/sphingosine.png, id=29, 322.806pt x 271.0125pt>
+<lectures/cbII1/sphingosine.png, id=32, 322.806pt x 271.0125pt>
 File: lectures/cbII1/sphingosine.png Graphic file (type png)
 <use lectures/cbII1/sphingosine.png>
 Package pdftex.def Info: lectures/cbII1/sphingosine.png  used on input line 72.
 
 (pdftex.def)             Requested size: 169.29684pt x 142.13481pt.
  [2 <./lectures/cbII1/biLayer.png> <./lectures/cbII1/typesLipids.png>]
-<lectures/cbII1/PI_overview.png, id=35, 414.04688pt x 289.68225pt>
+<lectures/cbII1/PI_overview.png, id=38, 414.04688pt x 289.68225pt>
 File: lectures/cbII1/PI_overview.png Graphic file (type png)
 <use lectures/cbII1/PI_overview.png>
 Package pdftex.def Info: lectures/cbII1/PI_overview.png  used on input line 96.
 
 (pdftex.def)             Requested size: 217.66211pt x 152.28877pt.
-<lectures/cbII1/pI_location.png, id=36, 399.59288pt x 261.97874pt>
+<lectures/cbII1/pI_location.png, id=39, 399.59288pt x 261.97874pt>
 File: lectures/cbII1/pI_location.png Graphic file (type png)
 <use lectures/cbII1/pI_location.png>
 Package pdftex.def Info: lectures/cbII1/pI_location.png  used on input line 102
 .
 (pdftex.def)             Requested size: 217.66211pt x 142.70563pt.
  [3 <./lectures/cbII1/phospholipids.png> <./lectures/cbII1/sphingosine.png>]
-<lectures/cbII1/glycolipids.png, id=42, 203.25937pt x 225.84375pt>
+<lectures/cbII1/glycolipids.png, id=45, 203.25937pt x 225.84375pt>
 File: lectures/cbII1/glycolipids.png Graphic file (type png)
 <use lectures/cbII1/glycolipids.png>
 Package pdftex.def Info: lectures/cbII1/glycolipids.png  used on input line 113
 .
 (pdftex.def)             Requested size: 145.11053pt x 161.23926pt.
-<lectures/cbII1/sterols.png, id=43, 449.2785pt x 215.30438pt>
+<lectures/cbII1/sterols.png, id=46, 449.2785pt x 215.30438pt>
 File: lectures/cbII1/sterols.png Graphic file (type png)
 <use lectures/cbII1/sterols.png>
 Package pdftex.def Info: lectures/cbII1/sterols.png  used on input line 123.
 (pdftex.def)             Requested size: 241.84843pt x 115.90125pt.
  [4 <./lectures/cbII1/PI_overview.png> <./lectures/cbII1/pI_location.png> <./le
 ctures/cbII1/glycolipids.png>]
-<lectures/cbII1/table.png, id=50, 523.9575pt x 206.87288pt>
+<lectures/cbII1/table.png, id=54, 523.9575pt x 206.87288pt>
 File: lectures/cbII1/table.png Graphic file (type png)
 <use lectures/cbII1/table.png>
 Package pdftex.def Info: lectures/cbII1/table.png  used on input line 132.
 (pdftex.def)             Requested size: 483.69687pt x 190.98193pt.
-<lectures/cbII1/temp.png, id=51, 386.94562pt x 229.45724pt>
+<lectures/cbII1/temp.png, id=55, 386.94562pt x 229.45724pt>
 File: lectures/cbII1/temp.png Graphic file (type png)
 <use lectures/cbII1/temp.png>
 Package pdftex.def Info: lectures/cbII1/temp.png  used on input line 155.
 (pdftex.def)             Requested size: 193.47578pt x 114.73183pt.
  [5 <./lectures/cbII1/sterols.png> <./lectures/cbII1/table.png>]
-<lectures/cbII1/fluidty.png, id=58, 268.6035pt x 220.4235pt>
+<lectures/cbII1/fluidty.png, id=61, 268.6035pt x 220.4235pt>
 File: lectures/cbII1/fluidty.png Graphic file (type png)
 <use lectures/cbII1/fluidty.png>
 Package pdftex.def Info: lectures/cbII1/fluidty.png  used on input line 170.
 (pdftex.def)             Requested size: 169.29684pt x 138.93143pt.
-<lectures/cbII1/asymetrical.png, id=59, 510.40688pt x 200.24812pt>
+<lectures/cbII1/asymetrical.png, id=62, 510.40688pt x 200.24812pt>
 File: lectures/cbII1/asymetrical.png Graphic file (type png)
 <use lectures/cbII1/asymetrical.png>
 Package pdftex.def Info: lectures/cbII1/asymetrical.png  used on input line 176
 .
 (pdftex.def)             Requested size: 266.03474pt x 104.37712pt.
-<lectures/cbII1/rafts.png, id=60, 513.41812pt x 219.82124pt>
+<lectures/cbII1/rafts.png, id=63, 513.41812pt x 219.82124pt>
 File: lectures/cbII1/rafts.png Graphic file (type png)
 <use lectures/cbII1/rafts.png>
 Package pdftex.def Info: lectures/cbII1/rafts.png  used on input line 192.
 (pdftex.def)             Requested size: 483.69687pt x 207.09822pt.
  [6 <./lectures/cbII1/temp.png> <./lectures/cbII1/fluidty.png> <./lectures/cbII
-1/asymetrical.png>] (main.gls [7 <./lectures/cbII1/rafts.png>])) [8] (main.gls)
- [9] (main.aux)
+1/asymetrical.png>] (main.gls [7 <./lectures/cbII1/rafts.png>])) (lectures/cbII
+2/cbII2.tex
+<lectures/cbII2/AA_structure.png, id=74, 407.27156pt x 337.26pt>
+File: lectures/cbII2/AA_structure.png Graphic file (type png)
+<use lectures/cbII2/AA_structure.png>
+Package pdftex.def Info: lectures/cbII2/AA_structure.png  used on input line 17
+.
+(pdftex.def)             Requested size: 483.69687pt x 400.5673pt.
+ [8 <./lectures/cbII2/AA_structure.png>]
+Overfull \vbox (17.74522pt too high) has occurred while \output is active []
+
+
+[9]
+<lectures/cbII2/MP_structure_overview.png, id=82, 323.70938pt x 164.86594pt>
+File: lectures/cbII2/MP_structure_overview.png Graphic file (type png)
+<use lectures/cbII2/MP_structure_overview.png>
+Package pdftex.def Info: lectures/cbII2/MP_structure_overview.png  used on inpu
+t line 68.
+(pdftex.def)             Requested size: 241.84843pt x 123.17366pt.
+<lectures/cbII2/A_B.png, id=83, 322.95656pt x 74.52844pt>
+File: lectures/cbII2/A_B.png Graphic file (type png)
+<use lectures/cbII2/A_B.png>
+Package pdftex.def Info: lectures/cbII2/A_B.png  used on input line 77.
+(pdftex.def)             Requested size: 483.69687pt x 111.6286pt.
+<lectures/cbII2/helix_overview.png, id=84, 216.81pt x 151.3153pt>
+File: lectures/cbII2/helix_overview.png Graphic file (type png)
+<use lectures/cbII2/helix_overview.png>
+Package pdftex.def Info: lectures/cbII2/helix_overview.png  used on input line 
+90.
+(pdftex.def)             Requested size: 241.84843pt x 168.79778pt.
+ [10 <./lectures/cbII2/MP_structure_overview.png> <./lectures/cbII2/A_B.png>]
+<lectures/cbII2/transmembrane_helix.png, id=91, 303.38344pt x 145.29282pt>
+File: lectures/cbII2/transmembrane_helix.png Graphic file (type png)
+<use lectures/cbII2/transmembrane_helix.png>
+Package pdftex.def Info: lectures/cbII2/transmembrane_helix.png  used on input 
+line 98.
+(pdftex.def)             Requested size: 241.84843pt x 115.82425pt.
+<lectures/cbII2/BBarrel.png, id=92, 328.97906pt x 126.4725pt>
+File: lectures/cbII2/BBarrel.png Graphic file (type png)
+<use lectures/cbII2/BBarrel.png>
+Package pdftex.def Info: lectures/cbII2/BBarrel.png  used on input line 108.
+(pdftex.def)             Requested size: 241.84843pt x 92.97835pt.
+ [11 <./lectures/cbII2/helix_overview.png> <./lectures/cbII2/transmembrane_heli
+x.png> <./lectures/cbII2/BBarrel.png>]
+<lectures/cbII2/MAC.png, id=100, 302.63063pt x 79.04532pt>
+File: lectures/cbII2/MAC.png Graphic file (type png)
+<use lectures/cbII2/MAC.png>
+Package pdftex.def Info: lectures/cbII2/MAC.png  used on input line 118.
+(pdftex.def)             Requested size: 241.84843pt x 63.16998pt.
+<lectures/cbII2/lipid_anchors.png, id=101, 277.035pt x 130.98938pt>
+File: lectures/cbII2/lipid_anchors.png Graphic file (type png)
+<use lectures/cbII2/lipid_anchors.png>
+Package pdftex.def Info: lectures/cbII2/lipid_anchors.png  used on input line 1
+29.
+(pdftex.def)             Requested size: 241.84843pt x 114.35158pt.
+<lectures/cbII2/GPI.png, id=102, 321.45094pt x 150.5625pt>
+File: lectures/cbII2/GPI.png Graphic file (type png)
+<use lectures/cbII2/GPI.png>
+Package pdftex.def Info: lectures/cbII2/GPI.png  used on input line 145.
+(pdftex.def)             Requested size: 483.69687pt x 226.56456pt.
+ [12 <./lectures/cbII2/MAC.png> <./lectures/cbII2/lipid_anchors.png>]
+<lectures/cbII2/Carbohydrate_layer.png, id=109, 482.55281pt x 137.7647pt>
+File: lectures/cbII2/Carbohydrate_layer.png Graphic file (type png)
+<use lectures/cbII2/Carbohydrate_layer.png>
+Package pdftex.def Info: lectures/cbII2/Carbohydrate_layer.png  used on input l
+ine 155.
+(pdftex.def)             Requested size: 241.84843pt x 69.04613pt.
+<lectures/cbII2/MP_isolation.png, id=110, 313.9228pt x 164.86594pt>
+File: lectures/cbII2/MP_isolation.png Graphic file (type png)
+<use lectures/cbII2/MP_isolation.png>
+Package pdftex.def Info: lectures/cbII2/MP_isolation.png  used on input line 16
+6.
+(pdftex.def)             Requested size: 241.84843pt x 127.01254pt.
+ [13 <./lectures/cbII2/GPI.png> <./lectures/cbII2/Carbohydrate_layer.png>]
+<lectures/cbII2/detergents.png, id=116, 321.45094pt x 116.68594pt>
+File: lectures/cbII2/detergents.png Graphic file (type png)
+<use lectures/cbII2/detergents.png>
+Package pdftex.def Info: lectures/cbII2/detergents.png  used on input line 188.
+
+(pdftex.def)             Requested size: 483.69687pt x 175.58752pt.
+ [14 <./lectures/cbII2/MP_isolation.png>]
+<lectures/cbII2/nanodiscs.png, id=121, 284.56313pt x 163.3603pt>
+File: lectures/cbII2/nanodiscs.png Graphic file (type png)
+<use lectures/cbII2/nanodiscs.png>
+Package pdftex.def Info: lectures/cbII2/nanodiscs.png  used on input line 203.
+(pdftex.def)             Requested size: 241.84843pt x 138.84444pt.
+<lectures/cbII2/localization.png, id=122, 322.20375pt x 149.8097pt>
+File: lectures/cbII2/localization.png Graphic file (type png)
+<use lectures/cbII2/localization.png>
+Package pdftex.def Info: lectures/cbII2/localization.png  used on input line 21
+2.
+(pdftex.def)             Requested size: 241.84843pt x 112.45299pt.
+ [15 <./lectures/cbII2/detergents.png> <./lectures/cbII2/nanodiscs.png>]
+<lectures/cbII2/bending.png, id=128, 312.41719pt x 60.97781pt>
+File: lectures/cbII2/bending.png Graphic file (type png)
+<use lectures/cbII2/bending.png>
+Package pdftex.def Info: lectures/cbII2/bending.png  used on input line 230.
+(pdftex.def)             Requested size: 483.69687pt x 94.41132pt.
+<lectures/cbII2/spectrin.png, id=129, 317.68687pt x 154.32657pt>
+File: lectures/cbII2/spectrin.png Graphic file (type png)
+<use lectures/cbII2/spectrin.png>
+Package pdftex.def Info: lectures/cbII2/spectrin.png  used on input line 241.
+(pdftex.def)             Requested size: 483.69687pt x 234.99324pt.
+ [16 <./lectures/cbII2/localization.png> <./lectures/cbII2/bending.png>] (main.
+gls [17 <./lectures/cbII2/spectrin.png>])) (lectures/cbII3/cbII3.tex
+<lectures/cbII3/2.png, id=140, 103.88812pt x 355.82938pt>
+File: lectures/cbII3/2.png Graphic file (type png)
+<use lectures/cbII3/2.png>
+Package pdftex.def Info: lectures/cbII3/2.png  used on input line 21.
+(pdftex.def)             Requested size: 66.45645pt x 227.62204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
+[]\T1/cmr/m/n/8 (a) Per-me-abil-ity
+ []
+
+<lectures/cbII3/3.png, id=141, 225.84375pt x 360.34625pt>
+File: lectures/cbII3/3.png Graphic file (type png)
+<use lectures/cbII3/3.png>
+Package pdftex.def Info: lectures/cbII3/3.png  used on input line 26.
+(pdftex.def)             Requested size: 142.65793pt x 227.62204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--28
+
+ []
+
+[18 <./lectures/cbII3/2.png> <./lectures/cbII3/3.png>]
+<lectures/cbII3/5.png, id=148, 402.50375pt x 163.10938pt>
+File: lectures/cbII3/5.png Graphic file (type png)
+<use lectures/cbII3/5.png>
+Package pdftex.def Info: lectures/cbII3/5.png  used on input line 44.
+(pdftex.def)             Requested size: 266.03474pt x 107.80681pt.
+<lectures/cbII3/1.png, id=149, 378.41376pt x 120.95187pt>
+File: lectures/cbII3/1.png Graphic file (type png)
+<use lectures/cbII3/1.png>
+Package pdftex.def Info: lectures/cbII3/1.png  used on input line 49.
+(pdftex.def)             Requested size: 193.47578pt x 61.83966pt.
+<lectures/cbII3/4.png, id=150, 360.34625pt x 199.24437pt>
+File: lectures/cbII3/4.png Graphic file (type png)
+<use lectures/cbII3/4.png>
+Package pdftex.def Info: lectures/cbII3/4.png  used on input line 63.
+(pdftex.def)             Requested size: 308.76456pt x 170.71652pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T1/cmr/bx/n/10 Concentration In-
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 77--77
+[]|\T1/cmr/bx/n/10 Equilibrium Po-
+ []
+
+
+Underfull \hbox (badness 3503) in paragraph at lines 79--79
+[]|\T1/cmr/m/n/10 Outward but op-pos-
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 79--79
+\T1/cmr/bx/n/10 anced\T1/cmr/m/n/10 , near equi-lib-
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 80--80
+[]|\T1/cmr/bx/n/10 Inward \T1/cmr/m/n/10 (very strong
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+[]|\T1/cmr/bx/n/10 Outward \T1/cmr/m/n/10 or near
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--81
+\T1/cmr/m/n/10 equi-lib-rium (small
+ []
+
+
+Underfull \hbox (badness 4341) in paragraph at lines 82--82
+\T1/cmr/m/n/10 ance, weak gra-di-ent
+ []
+
+
+Underfull \hbox (badness 3271) in paragraph at lines 82--82
+\T1/cmr/m/n/10 un-der nor-mal con-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]|\T1/cmr/m/n/10 Inward but op-pos-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+\T1/cmr/m/n/10 ing forces \T1/cmr/bx/n/10 nearly
+ []
+
+[19 <./lectures/cbII3/5.png> <./lectures/cbII3/1.png> <./lectures/cbII3/4.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
+
+ []
+
+[20]
+<lectures/cbII3/8.png, id=169, 321.2pt x 181.17688pt>
+File: lectures/cbII3/8.png Graphic file (type png)
+<use lectures/cbII3/8.png>
+Package pdftex.def Info: lectures/cbII3/8.png  used on input line 114.
+(pdftex.def)             Requested size: 302.65831pt x 170.71652pt.
+<lectures/cbII3/10.png, id=170, 296.60812pt x 116.435pt>
+File: lectures/cbII3/10.png Graphic file (type png)
+<use lectures/cbII3/10.png>
+Package pdftex.def Info: lectures/cbII3/10.png  used on input line 126.
+(pdftex.def)             Requested size: 290.22107pt x 113.9314pt.
+<lectures/cbII3/6.png, id=171, 241.40187pt x 174.6525pt>
+File: lectures/cbII3/6.png Graphic file (type png)
+<use lectures/cbII3/6.png>
+Package pdftex.def Info: lectures/cbII3/6.png  used on input line 131.
+(pdftex.def)             Requested size: 145.11053pt x 104.9895pt.
+ [21 <./lectures/cbII3/8.png> <./lectures/cbII3/10.png> <./lectures/cbII3/6.png
+>]
+<lectures/cbII3/7.png, id=178, 257.46187pt x 129.98563pt>
+File: lectures/cbII3/7.png Graphic file (type png)
+<use lectures/cbII3/7.png>
+Package pdftex.def Info: lectures/cbII3/7.png  used on input line 149.
+(pdftex.def)             Requested size: 241.84843pt x 122.10516pt.
+<lectures/cbII3/9.png, id=179, 313.67188pt x 150.5625pt>
+File: lectures/cbII3/9.png Graphic file (type png)
+<use lectures/cbII3/9.png>
+Package pdftex.def Info: lectures/cbII3/9.png  used on input line 154.
+(pdftex.def)             Requested size: 217.66211pt x 104.48096pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--167
+
+ []
+
+<lectures/cbII3/11.png, id=180, 434.12187pt x 146.04562pt>
+File: lectures/cbII3/11.png Graphic file (type png)
+<use lectures/cbII3/11.png>
+Package pdftex.def Info: lectures/cbII3/11.png  used on input line 170.
+(pdftex.def)             Requested size: 386.95897pt x 130.1852pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 175--179
+
+ []
+
+[22 <./lectures/cbII3/7.png> <./lectures/cbII3/9.png> <./lectures/cbII3/11.png>
+]
+<lectures/cbII3/12.png, id=188, 230.8625pt x 203.76125pt>
+File: lectures/cbII3/12.png Graphic file (type png)
+<use lectures/cbII3/12.png>
+Package pdftex.def Info: lectures/cbII3/12.png  used on input line 182.
+(pdftex.def)             Requested size: 257.909pt x 227.62204pt.
+<lectures/cbII3/13.png, id=189, 423.5825pt x 158.09062pt>
+File: lectures/cbII3/13.png Graphic file (type png)
+<use lectures/cbII3/13.png>
+Package pdftex.def Info: lectures/cbII3/13.png  used on input line 198.
+(pdftex.def)             Requested size: 386.95897pt x 144.42714pt.
+ [23 <./lectures/cbII3/12.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 204--207
+
+ []
+
+<lectures/cbII3/15.png, id=194, 263.48438pt x 179.16937pt>
+File: lectures/cbII3/15.png Graphic file (type png)
+<use lectures/cbII3/15.png>
+Package pdftex.def Info: lectures/cbII3/15.png  used on input line 212.
+(pdftex.def)             Requested size: 169.29684pt x 115.12729pt.
+<lectures/cbII3/14.png, id=195, 283.55937pt x 226.34563pt>
+File: lectures/cbII3/14.png Graphic file (type png)
+<use lectures/cbII3/14.png>
+Package pdftex.def Info: lectures/cbII3/14.png  used on input line 217.
+(pdftex.def)             Requested size: 290.22107pt x 231.68456pt.
+[24 <./lectures/cbII3/13.png> <./lectures/cbII3/15.png> <./lectures/cbII3/14.pn
+g>]
+<lectures/cbII3/16.png, id=202, 456.20438pt x 261.97874pt>
+File: lectures/cbII3/16.png Graphic file (type png)
+<use lectures/cbII3/16.png>
+Package pdftex.def Info: lectures/cbII3/16.png  used on input line 234.
+(pdftex.def)             Requested size: 290.22107pt x 166.66646pt.
+<lectures/cbII3/17.png, id=203, 382.93062pt x 306.14375pt>
+File: lectures/cbII3/17.png Graphic file (type png)
+<use lectures/cbII3/17.png>
+Package pdftex.def Info: lectures/cbII3/17.png  used on input line 240.
+(pdftex.def)             Requested size: 338.58632pt x 270.70596pt.
+ [25 <./lectures/cbII3/16.png>]
+<lectures/cbII3/18.png, id=208, 324.21124pt x 325.71687pt>
+File: lectures/cbII3/18.png Graphic file (type png)
+<use lectures/cbII3/18.png>
+Package pdftex.def Info: lectures/cbII3/18.png  used on input line 252.
+(pdftex.def)             Requested size: 338.58632pt x 340.17885pt.
+ [26 <./lectures/cbII3/17.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 268--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--274
+
+ []
+
+[27 <./lectures/cbII3/18.png>]
+<lectures/cbII3/20.png, id=217, 321.2pt x 193.22188pt>
+File: lectures/cbII3/20.png Graphic file (type png)
+<use lectures/cbII3/20.png>
+Package pdftex.def Info: lectures/cbII3/20.png  used on input line 277.
+(pdftex.def)             Requested size: 338.58632pt x 203.68793pt.
+<lectures/cbII3/19.png, id=218, 376.40625pt x 312.16624pt>
+File: lectures/cbII3/19.png Graphic file (type png)
+<use lectures/cbII3/19.png>
+Package pdftex.def Info: lectures/cbII3/19.png  used on input line 298.
+(pdftex.def)             Requested size: 338.58632pt x 280.82318pt.
+ [28 <./lectures/cbII3/20.png>]
+<lectures/cbII3/23.png, id=224, 316.18124pt x 170.6375pt>
+File: lectures/cbII3/23.png Graphic file (type png)
+<use lectures/cbII3/23.png>
+Package pdftex.def Info: lectures/cbII3/23.png  used on input line 312.
+(pdftex.def)             Requested size: 263.62202pt x 142.26378pt.
+<lectures/cbII3/24.png, id=225, 183.68625pt x 226.34563pt>
+File: lectures/cbII3/24.png Graphic file (type png)
+<use lectures/cbII3/24.png>
+Package pdftex.def Info: lectures/cbII3/24.png  used on input line 316.
+(pdftex.def)             Requested size: 115.45105pt x 142.26378pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--318
+
+ []
+
+[29 <./lectures/cbII3/19.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 322--325
+
+ []
+
+<lectures/cbII3/21.png, id=230, 370.38374pt x 259.46938pt>
+File: lectures/cbII3/21.png Graphic file (type png)
+<use lectures/cbII3/21.png>
+Package pdftex.def Info: lectures/cbII3/21.png  used on input line 332.
+(pdftex.def)             Requested size: 241.84843pt x 169.42513pt.
+<lectures/cbII3/22.png, id=231, 289.58188pt x 235.37938pt>
+File: lectures/cbII3/22.png Graphic file (type png)
+<use lectures/cbII3/22.png>
+Package pdftex.def Info: lectures/cbII3/22.png  used on input line 336.
+(pdftex.def)             Requested size: 217.66211pt x 176.92198pt.
+[30 <./lectures/cbII3/23.png> <./lectures/cbII3/24.png> <./lectures/cbII3/21.pn
+g> <./lectures/cbII3/22.png>]
+File: lectures/cbII3/23.png Graphic file (type png)
+<use lectures/cbII3/23.png>
+Package pdftex.def Info: lectures/cbII3/23.png  used on input line 354.
+(pdftex.def)             Requested size: 290.22107pt x 156.63689pt.
+File: lectures/cbII3/24.png Graphic file (type png)
+<use lectures/cbII3/24.png>
+Package pdftex.def Info: lectures/cbII3/24.png  used on input line 358.
+(pdftex.def)             Requested size: 145.11053pt x 178.82143pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--361
+
+ []
+
+) (lectures/cbII4/cbII4.tex
+<lectures/cbII4/compartmentOverview.png, id=239, 334.24875pt x 235.63031pt>
+File: lectures/cbII4/compartmentOverview.png Graphic file (type png)
+<use lectures/cbII4/compartmentOverview.png>
+Package pdftex.def Info: lectures/cbII4/compartmentOverview.png  used on input 
+line 17.
+(pdftex.def)             Requested size: 241.84843pt x 170.49861pt.
+ [31]
+<lectures/cbII4/TableVolumes.png, id=243, 360.59718pt x 206.27063pt>
+File: lectures/cbII4/TableVolumes.png Graphic file (type png)
+<use lectures/cbII4/TableVolumes.png>
+Package pdftex.def Info: lectures/cbII4/TableVolumes.png  used on input line 43
+.
+(pdftex.def)             Requested size: 483.69687pt x 276.6876pt.
+ [32 <./lectures/cbII4/compartmentOverview.png>]
+<lectures/cbII4/RNP.png, id=248, 333.49594pt x 182.18062pt>
+File: lectures/cbII4/RNP.png Graphic file (type png)
+<use lectures/cbII4/RNP.png>
+Package pdftex.def Info: lectures/cbII4/RNP.png  used on input line 69.
+(pdftex.def)             Requested size: 241.84843pt x 132.11786pt.
+ [33 <./lectures/cbII4/TableVolumes.png>]
+<lectures/cbII4/ER.png, id=253, 226.59656pt x 194.22563pt>
+File: lectures/cbII4/ER.png Graphic file (type png)
+<use lectures/cbII4/ER.png>
+Package pdftex.def Info: lectures/cbII4/ER.png  used on input line 78.
+(pdftex.def)             Requested size: 241.84843pt x 207.29776pt.
+<lectures/cbII4/ERSeparation.png, id=254, 430.60875pt x 191.9672pt>
+File: lectures/cbII4/ERSeparation.png Graphic file (type png)
+<use lectures/cbII4/ERSeparation.png>
+Package pdftex.def Info: lectures/cbII4/ERSeparation.png  used on input line 87
+.
+(pdftex.def)             Requested size: 241.84843pt x 107.82018pt.
+ [34 <./lectures/cbII4/RNP.png> <./lectures/cbII4/ER.png>]
+<lectures/cbII4/Golgi.png, id=261, 239.39438pt x 188.20313pt>
+File: lectures/cbII4/Golgi.png Graphic file (type png)
+<use lectures/cbII4/Golgi.png>
+Package pdftex.def Info: lectures/cbII4/Golgi.png  used on input line 99.
+(pdftex.def)             Requested size: 241.84843pt x 190.13246pt.
+<lectures/cbII4/lysosome.png, id=262, 192.72pt x 186.6975pt>
+File: lectures/cbII4/lysosome.png Graphic file (type png)
+<use lectures/cbII4/lysosome.png>
+Package pdftex.def Info: lectures/cbII4/lysosome.png  used on input line 110.
+(pdftex.def)             Requested size: 241.84843pt x 234.29144pt.
+ [35 <./lectures/cbII4/ERSeparation.png> <./lectures/cbII4/Golgi.png>]
+<lectures/cbII4/mitochondria.png, id=268, 154.32657pt x 149.05687pt>
+File: lectures/cbII4/mitochondria.png Graphic file (type png)
+<use lectures/cbII4/mitochondria.png>
+Package pdftex.def Info: lectures/cbII4/mitochondria.png  used on input line 12
+0.
+(pdftex.def)             Requested size: 241.84843pt x 233.6104pt.
+ [36 <./lectures/cbII4/lysosome.png>]
+<lectures/cbII4/endosomes.png, id=273, 371.13657pt x 130.98938pt>
+File: lectures/cbII4/endosomes.png Graphic file (type png)
+<use lectures/cbII4/endosomes.png>
+Package pdftex.def Info: lectures/cbII4/endosomes.png  used on input line 129.
+(pdftex.def)             Requested size: 241.84843pt x 85.35994pt.
+<lectures/cbII4/Peroxy.png, id=274, 395.22656pt x 213.79875pt>
+File: lectures/cbII4/Peroxy.png Graphic file (type png)
+<use lectures/cbII4/Peroxy.png>
+Package pdftex.def Info: lectures/cbII4/Peroxy.png  used on input line 138.
+(pdftex.def)             Requested size: 241.84843pt x 130.82808pt.
+ [37 <./lectures/cbII4/mitochondria.png> <./lectures/cbII4/endosomes.png>]
+<lectures/cbII4/fatCells.png, id=280, 420.06938pt x 196.48407pt>
+File: lectures/cbII4/fatCells.png Graphic file (type png)
+<use lectures/cbII4/fatCells.png>
+Package pdftex.def Info: lectures/cbII4/fatCells.png  used on input line 153.
+(pdftex.def)             Requested size: 241.84843pt x 113.12137pt.
+<lectures/cbII4/PI_overview.png, id=281, 336.50719pt x 219.82124pt>
+File: lectures/cbII4/PI_overview.png Graphic file (type png)
+<use lectures/cbII4/PI_overview.png>
+Package pdftex.def Info: lectures/cbII4/PI_overview.png  used on input line 164
+.
+(pdftex.def)             Requested size: 483.69687pt x 315.97546pt.
+ [38 <./lectures/cbII4/Peroxy.png> <./lectures/cbII4/fatCells.png>]
+<lectures/cbII4/Mebranecomposition.png, id=287, 404.26031pt x 145.29282pt>
+File: lectures/cbII4/Mebranecomposition.png Graphic file (type png)
+<use lectures/cbII4/Mebranecomposition.png>
+Package pdftex.def Info: lectures/cbII4/Mebranecomposition.png  used on input l
+ine 173.
+(pdftex.def)             Requested size: 483.69687pt x 173.84502pt.
+<lectures/cbII4/typesOfTransport.png, id=288, 118.19156pt x 217.5628pt>
+File: lectures/cbII4/typesOfTransport.png Graphic file (type png)
+<use lectures/cbII4/typesOfTransport.png>
+Package pdftex.def Info: lectures/cbII4/typesOfTransport.png  used on input lin
+e 185.
+(pdftex.def)             Requested size: 145.11053pt x 267.12262pt.
+ [39 <./lectures/cbII4/PI_overview.png> <./lectures/cbII4/Mebranecomposition.pn
+g>]
+<lectures/cbII4/ImportantSignals.png, id=294, 371.13657pt x 182.93344pt>
+File: lectures/cbII4/ImportantSignals.png Graphic file (type png)
+<use lectures/cbII4/ImportantSignals.png>
+Package pdftex.def Info: lectures/cbII4/ImportantSignals.png  used on input lin
+e 216.
+(pdftex.def)             Requested size: 483.69687pt x 238.41914pt.
+ [40 <./lectures/cbII4/typesOfTransport.png>]
+<lectures/cbII4/NPC.png, id=300, 335.00156pt x 195.73125pt>
+File: lectures/cbII4/NPC.png Graphic file (type png)
+<use lectures/cbII4/NPC.png>
+Package pdftex.def Info: lectures/cbII4/NPC.png  used on input line 231.
+(pdftex.def)             Requested size: 217.66211pt x 127.17302pt.
+<lectures/cbII4/NucleusStructure.png, id=301, 269.50688pt x 273.27094pt>
+File: lectures/cbII4/NucleusStructure.png Graphic file (type png)
+<use lectures/cbII4/NucleusStructure.png>
+Package pdftex.def Info: lectures/cbII4/NucleusStructure.png  used on input lin
+e 237.
+(pdftex.def)             Requested size: 217.66211pt x 220.70609pt.
+ [41 <./lectures/cbII4/ImportantSignals.png>]
+<lectures/cbII4/importins.png, id=306, 262.73157pt x 220.57407pt>
+File: lectures/cbII4/importins.png Graphic file (type png)
+<use lectures/cbII4/importins.png>
+Package pdftex.def Info: lectures/cbII4/importins.png  used on input line 279.
+(pdftex.def)             Requested size: 135.56282pt x 113.81102pt.
+<lectures/cbII4/CargoProteins.png, id=307, 320.69812pt x 136.25906pt>
+File: lectures/cbII4/CargoProteins.png Graphic file (type png)
+<use lectures/cbII4/CargoProteins.png>
+Package pdftex.def Info: lectures/cbII4/CargoProteins.png  used on input line 2
+85.
+(pdftex.def)             Requested size: 267.8627pt x 113.81102pt.
+ [42 <./lectures/cbII4/NPC.png> <./lectures/cbII4/NucleusStructure.png>]
+<lectures/cbII4/RanGDP.png, id=313, 388.45125pt x 219.06844pt>
+File: lectures/cbII4/RanGDP.png Graphic file (type png)
+<use lectures/cbII4/RanGDP.png>
+Package pdftex.def Info: lectures/cbII4/RanGDP.png  used on input line 300.
+(pdftex.def)             Requested size: 483.69687pt x 272.78859pt.
+ [43 <./lectures/cbII4/importins.png> <./lectures/cbII4/CargoProteins.png> <./l
+ectures/cbII4/RanGDP.png>]
+<lectures/cbII4/TCells.png, id=320, 395.22656pt x 241.65282pt>
+File: lectures/cbII4/TCells.png Graphic file (type png)
+<use lectures/cbII4/TCells.png>
+Package pdftex.def Info: lectures/cbII4/TCells.png  used on input line 330.
+(pdftex.def)             Requested size: 241.84843pt x 147.8726pt.
+<lectures/cbII4/NuclearReforming.png, id=321, 345.54094pt x 256.70906pt>
+File: lectures/cbII4/NuclearReforming.png Graphic file (type png)
+<use lectures/cbII4/NuclearReforming.png>
+Package pdftex.def Info: lectures/cbII4/NuclearReforming.png  used on input lin
+e 343.
+(pdftex.def)             Requested size: 241.84843pt x 179.67552pt.
+ [44 <./lectures/cbII4/TCells.png>]
+<lectures/cbII4/Pathways (1).png, id=326, 722.7pt x 505.89pt>
+File: lectures/cbII4/Pathways (1).png Graphic file (type png)
+<use lectures/cbII4/Pathways (1).png>
+Package pdftex.def Info: lectures/cbII4/Pathways (1).png  used on input line 35
+4.
+(pdftex.def)             Requested size: 338.58632pt x 237.01184pt.
+ [45 <./lectures/cbII4/NuclearReforming.png> <./lectures/cbII4/Pathways (1).png
+>]
+<lectures/cbII4/CoTranslation.png, id=332, 322.95656pt x 248.42813pt>
+File: lectures/cbII4/CoTranslation.png Graphic file (type png)
+<use lectures/cbII4/CoTranslation.png>
+Package pdftex.def Info: lectures/cbII4/CoTranslation.png  used on input line 3
+80.
+(pdftex.def)             Requested size: 483.69687pt x 372.09541pt.
+ [46]
+<lectures/cbII4/cotranslation.png, id=337, 322.95656pt x 248.42813pt>
+File: lectures/cbII4/cotranslation.png Graphic file (type png)
+<use lectures/cbII4/cotranslation.png>
+Package pdftex.def Info: lectures/cbII4/cotranslation.png  used on input line 3
+88.
+(pdftex.def)             Requested size: 241.84843pt x 186.03633pt.
+ [47 <./lectures/cbII4/CoTranslation.png>]
+<lectures/cbII4/singlePassTransmembrane.png, id=342, 273.27094pt x 276.28218pt>
+
+File: lectures/cbII4/singlePassTransmembrane.png Graphic file (type png)
+<use lectures/cbII4/singlePassTransmembrane.png>
+Package pdftex.def Info: lectures/cbII4/singlePassTransmembrane.png  used on in
+put line 404.
+(pdftex.def)             Requested size: 168.85495pt x 170.71652pt.
+<lectures/cbII4/multiPass.png, id=343, 341.77687pt x 229.60782pt>
+File: lectures/cbII4/multiPass.png Graphic file (type png)
+<use lectures/cbII4/multiPass.png>
+Package pdftex.def Info: lectures/cbII4/multiPass.png  used on input line 410.
+(pdftex.def)             Requested size: 254.12604pt x 170.71652pt.
+<lectures/cbII4/GPI.png, id=344, 443.40656pt x 243.91125pt>
+File: lectures/cbII4/GPI.png Graphic file (type png)
+<use lectures/cbII4/GPI.png>
+Package pdftex.def Info: lectures/cbII4/GPI.png  used on input line 420.
+(pdftex.def)             Requested size: 241.84843pt x 133.03877pt.
+ [48 <./lectures/cbII4/cotranslation.png> <./lectures/cbII4/singlePassTransmemb
+rane.png> <./lectures/cbII4/multiPass.png>]
+<lectures/cbII4/tailAnchoredProteins.png, id=351, 573.64313pt x 370.38374pt>
+File: lectures/cbII4/tailAnchoredProteins.png Graphic file (type png)
+<use lectures/cbII4/tailAnchoredProteins.png>
+Package pdftex.def Info: lectures/cbII4/tailAnchoredProteins.png  used on input
+ line 430.
+(pdftex.def)             Requested size: 241.84843pt x 156.15352pt.
+<lectures/cbII4/SRP.png, id=352, 432.86719pt x 245.41687pt>
+File: lectures/cbII4/SRP.png Graphic file (type png)
+<use lectures/cbII4/SRP.png>
+Package pdftex.def Info: lectures/cbII4/SRP.png  used on input line 447.
+(pdftex.def)             Requested size: 483.69687pt x 274.24712pt.
+ [49 <./lectures/cbII4/GPI.png> <./lectures/cbII4/tailAnchoredProteins.png>]
+<lectures/cbII4/contact.png, id=358, 317.68687pt x 197.23688pt>
+File: lectures/cbII4/contact.png Graphic file (type png)
+<use lectures/cbII4/contact.png>
+Package pdftex.def Info: lectures/cbII4/contact.png  used on input line 469.
+(pdftex.def)             Requested size: 241.84843pt x 150.15738pt.
+ [50 <./lectures/cbII4/SRP.png>]
+<lectures/cbII4/topologicalEquivalence.png, id=363, 452.4403pt x 218.31563pt>
+File: lectures/cbII4/topologicalEquivalence.png Graphic file (type png)
+<use lectures/cbII4/topologicalEquivalence.png>
+Package pdftex.def Info: lectures/cbII4/topologicalEquivalence.png  used on inp
+ut line 478.
+(pdftex.def)             Requested size: 241.84843pt x 116.69609pt.
+<lectures/cbII4/asymetry.png, id=364, 355.3275pt x 176.91093pt>
+File: lectures/cbII4/asymetry.png Graphic file (type png)
+<use lectures/cbII4/asymetry.png>
+Package pdftex.def Info: lectures/cbII4/asymetry.png  used on input line 492.
+(pdftex.def)             Requested size: 338.58632pt x 168.58002pt.
+ [51 <./lectures/cbII4/contact.png> <./lectures/cbII4/topologicalEquivalence.pn
+g>]
+<lectures/cbII4/ERLinkedGlyc.png, id=370, 688.07062pt x 308.65312pt>
+File: lectures/cbII4/ERLinkedGlyc.png Graphic file (type png)
+<use lectures/cbII4/ERLinkedGlyc.png>
+Package pdftex.def Info: lectures/cbII4/ERLinkedGlyc.png  used on input line 50
+9.
+(pdftex.def)             Requested size: 483.69687pt x 216.97409pt.
+ [52 <./lectures/cbII4/asymetry.png>]
+<lectures/cbII4/glycosylation.png, id=376, 740.7675pt x 399.74344pt>
+File: lectures/cbII4/glycosylation.png Graphic file (type png)
+<use lectures/cbII4/glycosylation.png>
+Package pdftex.def Info: lectures/cbII4/glycosylation.png  used on input line 5
+20.
+(pdftex.def)             Requested size: 338.58632pt x 182.71307pt.
+<lectures/cbII4/calCycle.png, id=377, 350.81062pt x 249.93375pt>
+File: lectures/cbII4/calCycle.png Graphic file (type png)
+<use lectures/cbII4/calCycle.png>
+Package pdftex.def Info: lectures/cbII4/calCycle.png  used on input line 531.
+(pdftex.def)             Requested size: 483.69687pt x 344.63435pt.
+ [53 <./lectures/cbII4/ERLinkedGlyc.png> <./lectures/cbII4/glycosylation.png>]
+<lectures/cbII4/UnfoldedProteinResponse.png, id=383, 289.83281pt x 228.10219pt>
+
+File: lectures/cbII4/UnfoldedProteinResponse.png Graphic file (type png)
+<use lectures/cbII4/UnfoldedProteinResponse.png>
+Package pdftex.def Info: lectures/cbII4/UnfoldedProteinResponse.png  used on in
+put line 542.
+(pdftex.def)             Requested size: 483.69687pt x 380.69954pt.
+ [54 <./lectures/cbII4/calCycle.png>]
+<lectures/cbII4/phosphatydilCholineSynthesis.png, id=388, 598.48593pt x 330.484
+68pt>
+File: lectures/cbII4/phosphatydilCholineSynthesis.png Graphic file (type png)
+<use lectures/cbII4/phosphatydilCholineSynthesis.png>
+Package pdftex.def Info: lectures/cbII4/phosphatydilCholineSynthesis.png  used 
+on input line 559.
+(pdftex.def)             Requested size: 241.84843pt x 133.54803pt.
+ [55 <./lectures/cbII4/UnfoldedProteinResponse.png>]) [56 <./lectures/cbII4/pho
+sphatydilCholineSynthesis.png>] (main.gls) [57] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2351,24 +3164,37 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47770 strings out of 474486
- 1128020 string characters out of 5743754
- 2040008 words of memory out of 5000000
- 69057 multiletter control sequences out of 15000+600000
- 573212 words of font info for 83 fonts, out of 8000000 for 9000
+ 50138 strings out of 474486
+ 1186791 string characters out of 5743754
+ 2083783 words of memory out of 5000000
+ 71331 multiletter control sequences out of 15000+600000
+ 577249 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,12n,100p,2373b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
-0800.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1200.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\ecbx1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\percu\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on main.pdf (11 pages, 7847071 bytes).
+ 101i,14n,100p,2373b,1976s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx
+0700.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecrm0700.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbi1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecti1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\percu\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\percu\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\percu\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\percu\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\percu\
+AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\
+percu\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/U
+sers/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi7.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/percu/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/percu/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on main.pdf (60 pages, 20332365 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
+ 815 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 478 words of extra memory for PDF output out of 10000 (max. 10000000)
 

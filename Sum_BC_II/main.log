@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  26 APR 2025 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  27 APR 2025 15:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2913,31 +2913,31 @@ File: lectures/bcII4/ATPS2.png Graphic file (type png)
 Package pdftex.def Info: lectures/bcII4/ATPS2.png  used on input line 896.
 (pdftex.def)             Requested size: 241.84843pt x 288.57285pt.
 [45 <./lectures/bcII4/ATPS1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 900--916
+Underfull \hbox (badness 10000) in paragraph at lines 906--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--916
+Underfull \hbox (badness 10000) in paragraph at lines 906--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--916
+Underfull \hbox (badness 10000) in paragraph at lines 906--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--916
+Underfull \hbox (badness 10000) in paragraph at lines 906--923
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 900--916
+Underfull \hbox (badness 10000) in paragraph at lines 906--923
 
  []
 
-) [46 <./lectures/bcII4/ATPS3.png> <./lectures/bcII4/ATPS2.png>]
+[46 <./lectures/bcII4/ATPS3.png> <./lectures/bcII4/ATPS2.png>]) [47]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2985,9 +2985,9 @@ l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/percu/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/p
 ercu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.p
 fb>
-Output written on main.pdf (49 pages, 8511660 bytes).
+Output written on main.pdf (50 pages, 8517739 bytes).
 PDF statistics:
- 864 PDF objects out of 1000 (max. 8388607)
+ 882 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  443 words of extra memory for PDF output out of 10000 (max. 10000000)
 
