@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  8 MAY 2025 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  11 MAY 2025 14:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2583,13 +2583,8 @@ File: phosphatydilCholineSynthesis.png Graphic file (type png)
 Package pdftex.def Info: phosphatydilCholineSynthesis.png  used on input line 5
 59.
 (pdftex.def)             Requested size: 241.84843pt x 133.54803pt.
- [24 <./UnfoldedProteinResponse.png>]
-
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
-
-[25 <./phosphatydilCholineSynthesis.png>] (cbII4.aux)
+ [24 <./UnfoldedProteinResponse.png>] (cbII4.gls [25 <./phosphatydilCholineSynt
+hesis.png>] [26]) [27] (cbII4.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2603,10 +2598,10 @@ Package logreq Info: Writing requests to 'cbII4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48488 strings out of 474486
- 1142139 string characters out of 5743754
- 2051949 words of memory out of 5000000
- 69809 multiletter control sequences out of 15000+600000
+ 48498 strings out of 474486
+ 1142457 string characters out of 5743754
+ 2055955 words of memory out of 5000000
+ 69816 multiletter control sequences out of 15000+600000
  566865 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,100p,2380b,1756s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2622,9 +2617,9 @@ ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/percu/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/percu/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
 s/percu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on cbII4.pdf (25 pages, 7625084 bytes).
+Output written on cbII4.pdf (27 pages, 7633627 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
+ 424 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  8 MAY 2025 23:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  15 MAY 2025 09:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -58,6 +58,16 @@ LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 12.
 
 No file lectures/cbII4/cbII4_glossary.
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 13.
+
+No file lectures/cbII6_7/cbII6_7_glossary.
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 14.
+
+No file lectures/cbII11/cbII11_glossary.
 ))
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
@@ -2128,12 +2138,6 @@ LaTeX Warning: Label `sub@reactivity' multiply defined.
 LaTeX Warning: Label `uniporters' multiply defined.
 
 
-LaTeX Warning: Label `uniporters' multiply defined.
-
-
-LaTeX Warning: Label `uniporters' multiply defined.
-
-
 LaTeX Warning: Label `sub@uniporters' multiply defined.
 
 )
@@ -2237,20 +2241,25 @@ Package biblatex Info: Reference segment=0 on input line 9.
 <2.png, id=4, 103.88812pt x 355.82938pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
-Package pdftex.def Info: 2.png  used on input line 21.
+Package pdftex.def Info: 2.png  used on input line 23.
 (pdftex.def)             Requested size: 66.45645pt x 227.62204pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 21--21
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
 []\T1/cmr/m/n/8 (a) Per-me-abil-ity
  []
 
 <3.png, id=6, 225.84375pt x 360.34625pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
-Package pdftex.def Info: 3.png  used on input line 26.
+Package pdftex.def Info: 3.png  used on input line 28.
 (pdftex.def)             Requested size: 142.65793pt x 227.62204pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--28
+Underfull \hbox (badness 10000) in paragraph at lines 14--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--30
 
  []
 
@@ -2263,91 +2272,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--28
 <5.png, id=18, 402.50375pt x 163.10938pt>
 File: 5.png Graphic file (type png)
 <use 5.png>
-Package pdftex.def Info: 5.png  used on input line 44.
+Package pdftex.def Info: 5.png  used on input line 45.
 (pdftex.def)             Requested size: 266.03474pt x 107.80681pt.
 <1.png, id=19, 378.41376pt x 120.95187pt>
 File: 1.png Graphic file (type png)
 <use 1.png>
-Package pdftex.def Info: 1.png  used on input line 49.
+Package pdftex.def Info: 1.png  used on input line 50.
 (pdftex.def)             Requested size: 193.47578pt x 61.83966pt.
 <4.png, id=20, 360.34625pt x 199.24437pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
-Package pdftex.def Info: 4.png  used on input line 63.
+Package pdftex.def Info: 4.png  used on input line 64.
 (pdftex.def)             Requested size: 308.76456pt x 170.71652pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 67
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 68
 .
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 6
-7.
+8.
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
+Underfull \hbox (badness 10000) in paragraph at lines 78--78
 []|\T1/cmr/bx/n/10 Concentration In-
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 77--77
+Underfull \hbox (badness 1320) in paragraph at lines 78--78
 []|\T1/cmr/bx/n/10 Equilibrium Po-
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 79--79
+Underfull \hbox (badness 3503) in paragraph at lines 80--80
 []|\T1/cmr/m/n/10 Outward but op-pos-
  []
 
 
-Underfull \hbox (badness 1888) in paragraph at lines 79--79
+Underfull \hbox (badness 1888) in paragraph at lines 80--80
 \T1/cmr/bx/n/10 anced\T1/cmr/m/n/10 , near equi-lib-
  []
 
 
-Underfull \hbox (badness 1365) in paragraph at lines 80--80
+Underfull \hbox (badness 1365) in paragraph at lines 81--81
 []|\T1/cmr/bx/n/10 Inward \T1/cmr/m/n/10 (very strong
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 []|\T1/cmr/bx/n/10 Outward \T1/cmr/m/n/10 or near
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
 \T1/cmr/m/n/10 equi-lib-rium (small
  []
 
 
-Underfull \hbox (badness 4341) in paragraph at lines 82--82
+Underfull \hbox (badness 4341) in paragraph at lines 83--83
 \T1/cmr/m/n/10 ance, weak gra-di-ent
  []
 
 
-Underfull \hbox (badness 3271) in paragraph at lines 82--82
+Underfull \hbox (badness 3271) in paragraph at lines 83--83
 \T1/cmr/m/n/10 un-der nor-mal con-di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 []|\T1/cmr/m/n/10 Inward but op-pos-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 \T1/cmr/m/n/10 ing forces \T1/cmr/bx/n/10 nearly
  []
 
@@ -2355,58 +2364,58 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [2 <./5.png> <./1.png> <./4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+Underfull \hbox (badness 10000) in paragraph at lines 108--112
 
  []
 
 <8.png, id=34, 321.2pt x 181.17688pt>
 File: 8.png Graphic file (type png)
 <use 8.png>
-Package pdftex.def Info: 8.png  used on input line 114.
+Package pdftex.def Info: 8.png  used on input line 115.
 (pdftex.def)             Requested size: 302.65831pt x 170.71652pt.
 [3]
 <10.png, id=43, 296.60812pt x 116.435pt>
 File: 10.png Graphic file (type png)
 <use 10.png>
-Package pdftex.def Info: 10.png  used on input line 126.
+Package pdftex.def Info: 10.png  used on input line 125.
 (pdftex.def)             Requested size: 290.22107pt x 113.9314pt.
 <6.png, id=44, 241.40187pt x 174.6525pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
-Package pdftex.def Info: 6.png  used on input line 131.
+Package pdftex.def Info: 6.png  used on input line 130.
 (pdftex.def)             Requested size: 145.11053pt x 104.9895pt.
 <7.png, id=45, 257.46187pt x 129.98563pt>
 File: 7.png Graphic file (type png)
 <use 7.png>
-Package pdftex.def Info: 7.png  used on input line 149.
+Package pdftex.def Info: 7.png  used on input line 148.
 (pdftex.def)             Requested size: 241.84843pt x 122.10516pt.
 <9.png, id=46, 313.67188pt x 150.5625pt>
 File: 9.png Graphic file (type png)
 <use 9.png>
-Package pdftex.def Info: 9.png  used on input line 154.
+Package pdftex.def Info: 9.png  used on input line 153.
 (pdftex.def)             Requested size: 217.66211pt x 104.48096pt.
  [4 <./8.png> <./10.png> <./6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 159--167
+Underfull \hbox (badness 10000) in paragraph at lines 158--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--167
+Underfull \hbox (badness 10000) in paragraph at lines 158--166
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--167
+Underfull \hbox (badness 10000) in paragraph at lines 158--166
 
  []
 
 <11.png, id=53, 434.12187pt x 146.04562pt>
 File: 11.png Graphic file (type png)
 <use 11.png>
-Package pdftex.def Info: 11.png  used on input line 170.
+Package pdftex.def Info: 11.png  used on input line 169.
 (pdftex.def)             Requested size: 386.95897pt x 130.1852pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--179
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 
  []
 
@@ -2414,122 +2423,115 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--179
 <12.png, id=60, 230.8625pt x 203.76125pt>
 File: 12.png Graphic file (type png)
 <use 12.png>
-Package pdftex.def Info: 12.png  used on input line 182.
+Package pdftex.def Info: 12.png  used on input line 181.
 (pdftex.def)             Requested size: 257.909pt x 227.62204pt.
 <13.png, id=61, 423.5825pt x 158.09062pt>
 File: 13.png Graphic file (type png)
 <use 13.png>
-Package pdftex.def Info: 13.png  used on input line 198.
+Package pdftex.def Info: 13.png  used on input line 197.
 (pdftex.def)             Requested size: 386.95897pt x 144.42714pt.
  [6 <./12.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 204--207
+Underfull \hbox (badness 10000) in paragraph at lines 203--206
 
  []
 
 <15.png, id=66, 263.48438pt x 179.16937pt>
 File: 15.png Graphic file (type png)
 <use 15.png>
-Package pdftex.def Info: 15.png  used on input line 212.
+Package pdftex.def Info: 15.png  used on input line 211.
 (pdftex.def)             Requested size: 169.29684pt x 115.12729pt.
 <14.png, id=67, 283.55937pt x 226.34563pt>
 File: 14.png Graphic file (type png)
 <use 14.png>
-Package pdftex.def Info: 14.png  used on input line 217.
+Package pdftex.def Info: 14.png  used on input line 216.
 (pdftex.def)             Requested size: 290.22107pt x 231.68456pt.
 [7 <./13.png> <./15.png> <./14.png>]
 <16.png, id=75, 456.20438pt x 261.97874pt>
 File: 16.png Graphic file (type png)
 <use 16.png>
-Package pdftex.def Info: 16.png  used on input line 234.
+Package pdftex.def Info: 16.png  used on input line 233.
 (pdftex.def)             Requested size: 290.22107pt x 166.66646pt.
 <17.png, id=76, 382.93062pt x 306.14375pt>
 File: 17.png Graphic file (type png)
 <use 17.png>
-Package pdftex.def Info: 17.png  used on input line 240.
+Package pdftex.def Info: 17.png  used on input line 239.
 (pdftex.def)             Requested size: 338.58632pt x 270.70596pt.
  [8 <./16.png>]
 <18.png, id=81, 324.21124pt x 325.71687pt>
 File: 18.png Graphic file (type png)
 <use 18.png>
-Package pdftex.def Info: 18.png  used on input line 252.
+Package pdftex.def Info: 18.png  used on input line 251.
 (pdftex.def)             Requested size: 338.58632pt x 340.17885pt.
  [9 <./17.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 268--274
+Underfull \hbox (badness 10000) in paragraph at lines 267--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 268--274
+Underfull \hbox (badness 10000) in paragraph at lines 267--273
 
  []
 
 [10 <./18.png>]
-<20.png, id=90, 321.2pt x 193.22188pt>
-File: 20.png Graphic file (type png)
-<use 20.png>
-Package pdftex.def Info: 20.png  used on input line 277.
-(pdftex.def)             Requested size: 338.58632pt x 203.68793pt.
-<19.png, id=91, 376.40625pt x 312.16624pt>
+<19.png, id=90, 376.40625pt x 312.16624pt>
 File: 19.png Graphic file (type png)
 <use 19.png>
-Package pdftex.def Info: 19.png  used on input line 298.
+Package pdftex.def Info: 19.png  used on input line 276.
 (pdftex.def)             Requested size: 338.58632pt x 280.82318pt.
- [11 <./20.png>]
-<23.png, id=96, 316.18124pt x 170.6375pt>
-File: 23.png Graphic file (type png)
-<use 23.png>
-Package pdftex.def Info: 23.png  used on input line 312.
-(pdftex.def)             Requested size: 263.62202pt x 142.26378pt.
-<24.png, id=97, 183.68625pt x 226.34563pt>
-File: 24.png Graphic file (type png)
-<use 24.png>
-Package pdftex.def Info: 24.png  used on input line 316.
-(pdftex.def)             Requested size: 115.45105pt x 142.26378pt.
+ [11 <./19.png>]
+<20.png, id=95, 321.2pt x 193.22188pt>
+File: 20.png Graphic file (type png)
+<use 20.png>
+Package pdftex.def Info: 20.png  used on input line 297.
+(pdftex.def)             Requested size: 338.58632pt x 203.68793pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--318
+Underfull \hbox (badness 10000) in paragraph at lines 301--307
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 302--318
+Underfull \hbox (badness 10000) in paragraph at lines 301--307
 
  []
 
-[12 <./19.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 322--325
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--313
 
  []
 
-<21.png, id=102, 370.38374pt x 259.46938pt>
+<21.png, id=96, 370.38374pt x 259.46938pt>
 File: 21.png Graphic file (type png)
 <use 21.png>
-Package pdftex.def Info: 21.png  used on input line 332.
+Package pdftex.def Info: 21.png  used on input line 320.
 (pdftex.def)             Requested size: 241.84843pt x 169.42513pt.
-<22.png, id=103, 289.58188pt x 235.37938pt>
+<22.png, id=97, 289.58188pt x 235.37938pt>
 File: 22.png Graphic file (type png)
 <use 22.png>
-Package pdftex.def Info: 22.png  used on input line 336.
+Package pdftex.def Info: 22.png  used on input line 324.
 (pdftex.def)             Requested size: 217.66211pt x 176.92198pt.
-[13 <./23.png> <./24.png> <./21.png> <./22.png>]
+[12 <./20.png>]
+<23.png, id=102, 316.18124pt x 170.6375pt>
 File: 23.png Graphic file (type png)
 <use 23.png>
-Package pdftex.def Info: 23.png  used on input line 354.
+Package pdftex.def Info: 23.png  used on input line 342.
 (pdftex.def)             Requested size: 290.22107pt x 156.63689pt.
+<24.png, id=103, 183.68625pt x 226.34563pt>
 File: 24.png Graphic file (type png)
 <use 24.png>
-Package pdftex.def Info: 24.png  used on input line 358.
+Package pdftex.def Info: 24.png  used on input line 346.
 (pdftex.def)             Requested size: 145.11053pt x 178.82143pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--361
+Underfull \hbox (badness 10000) in paragraph at lines 335--349
 
  []
 
+[13 <./21.png> <./22.png>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-[14] (cbII3.aux)
+[14 <./23.png> <./24.png>] (cbII3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2543,10 +2545,10 @@ Package logreq Info: Writing requests to 'cbII3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48180 strings out of 474486
- 1134368 string characters out of 5743754
- 2053588 words of memory out of 5000000
- 69496 multiletter control sequences out of 15000+600000
+ 48278 strings out of 474486
+ 1136812 string characters out of 5743754
+ 2055595 words of memory out of 5000000
+ 69594 multiletter control sequences out of 15000+600000
  570567 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,14n,100p,2380b,1756s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2569,9 +2571,9 @@ nts/cm/cmr10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr7.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/
 fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on cbII3.pdf (14 pages, 1743386 bytes).
+Output written on cbII3.pdf (14 pages, 1746685 bytes).
 PDF statistics:
- 436 PDF objects out of 1000 (max. 8388607)
+ 445 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

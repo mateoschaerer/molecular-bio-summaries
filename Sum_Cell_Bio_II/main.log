@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  8 MAY 2025 23:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  13 MAY 2025 23:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2091,6 +2091,11 @@ e 12.
 
 (lectures/cbII4/cbII4_glossary.tex)
 
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 13.
+
+(lectures/cbII6_7/cbII6_7_glossary.tex)
+
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
@@ -2316,20 +2321,20 @@ LaTeX Warning: Label `fig:enter-label' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -2409,28 +2414,28 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+Package biblatex Info: Reference section=0 on input line 18.
+Package biblatex Info: Reference segment=0 on input line 18.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
 
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
 
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 23
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 24
 .
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-3.
+4.
 
 (C:\Users\percu\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
@@ -3149,12 +3154,283 @@ File: lectures/cbII4/phosphatydilCholineSynthesis.png Graphic file (type png)
 Package pdftex.def Info: lectures/cbII4/phosphatydilCholineSynthesis.png  used 
 on input line 559.
 (pdftex.def)             Requested size: 241.84843pt x 133.54803pt.
- [55 <./lectures/cbII4/UnfoldedProteinResponse.png>]) [56 <./lectures/cbII4/pho
-sphatydilCholineSynthesis.png>] (main.gls) [57] (main.aux)
+ [55 <./lectures/cbII4/UnfoldedProteinResponse.png>] (main.gls)) (lectures/cbII
+6_7/cbII6_7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+
+ []
+
+[56 <./lectures/cbII4/phosphatydilCholineSynthesis.png>]
+<lectures/cbII6_7/3.png, id=397, 421.575pt x 200.75pt>
+File: lectures/cbII6_7/3.png Graphic file (type png)
+<use lectures/cbII6_7/3.png>
+Package pdftex.def Info: lectures/cbII6_7/3.png  used on input line 27.
+(pdftex.def)             Requested size: 483.69687pt x 230.33688pt.
+ [57 <./lectures/cbII6_7/3.png>]
+<lectures/cbII6_7/1.png, id=402, 266.9975pt x 160.09813pt>
+File: lectures/cbII6_7/1.png Graphic file (type png)
+<use lectures/cbII6_7/1.png>
+Package pdftex.def Info: lectures/cbII6_7/1.png  used on input line 53.
+(pdftex.def)             Requested size: 145.11053pt x 87.01355pt.
+<lectures/cbII6_7/2.png, id=403, 417.56pt x 143.53625pt>
+File: lectures/cbII6_7/2.png Graphic file (type png)
+<use lectures/cbII6_7/2.png>
+Package pdftex.def Info: lectures/cbII6_7/2.png  used on input line 58.
+(pdftex.def)             Requested size: 314.40001pt x 108.08119pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--65
+
+ []
+
+<lectures/cbII6_7/5.png, id=404, 387.4475pt x 203.76125pt>
+File: lectures/cbII6_7/5.png Graphic file (type png)
+<use lectures/cbII6_7/5.png>
+Package pdftex.def Info: lectures/cbII6_7/5.png  used on input line 73.
+(pdftex.def)             Requested size: 314.40001pt x 165.34729pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+[58 <./lectures/cbII6_7/1.png> <./lectures/cbII6_7/2.png> <./lectures/cbII6_7/5
+.png>]
+<lectures/cbII6_7/7.png, id=412, 413.04312pt x 181.17688pt>
+File: lectures/cbII6_7/7.png Graphic file (type png)
+<use lectures/cbII6_7/7.png>
+Package pdftex.def Info: lectures/cbII6_7/7.png  used on input line 86.
+(pdftex.def)             Requested size: 483.69687pt x 212.17236pt.
+
+
+LaTeX Warning: Reference `AP2' on page 59 undefined on input line 92.
+
+
+LaTeX Warning: Reference `BARdomain' on page 59 undefined on input line 96.
+
+<lectures/cbII6_7/8.png, id=413, 294.09875pt x 202.25563pt>
+File: lectures/cbII6_7/8.png Graphic file (type png)
+<use lectures/cbII6_7/8.png>
+Package pdftex.def Info: lectures/cbII6_7/8.png  used on input line 105.
+(pdftex.def)             Requested size: 266.03474pt x 182.9573pt.
+<lectures/cbII6_7/9.png, id=414, 391.96437pt x 145.04187pt>
+File: lectures/cbII6_7/9.png Graphic file (type png)
+<use lectures/cbII6_7/9.png>
+Package pdftex.def Info: lectures/cbII6_7/9.png  used on input line 110.
+(pdftex.def)             Requested size: 193.47578pt x 71.59343pt.
+[59 <./lectures/cbII6_7/7.png>]
+
+LaTeX Warning: Reference `dynamin' on page 60 undefined on input line 116.
+
+<lectures/cbII6_7/10.png, id=419, 402.00188pt x 215.30438pt>
+File: lectures/cbII6_7/10.png Graphic file (type png)
+<use lectures/cbII6_7/10.png>
+Package pdftex.def Info: lectures/cbII6_7/10.png  used on input line 120.
+(pdftex.def)             Requested size: 386.95897pt x 207.24506pt.
+
+LaTeX Warning: Reference `COPII' on page 60 undefined on input line 130.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--131
+
+ []
+
+[60 <./lectures/cbII6_7/8.png> <./lectures/cbII6_7/9.png> <./lectures/cbII6_7/1
+0.png>]
+<lectures/cbII6_7/11.png, id=426, 309.155pt x 310.15875pt>
+File: lectures/cbII6_7/11.png Graphic file (type png)
+<use lectures/cbII6_7/11.png>
+Package pdftex.def Info: lectures/cbII6_7/11.png  used on input line 134.
+(pdftex.def)             Requested size: 338.58632pt x 339.71329pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 141--144
+
+ []
+
+
+LaTeX Warning: Reference `PIPloc' on page 61 undefined on input line 146.
+
+[61 <./lectures/cbII6_7/11.png>]
+<lectures/cbII6_7/13.png, id=431, 339.2675pt x 221.82875pt>
+File: lectures/cbII6_7/13.png Graphic file (type png)
+<use lectures/cbII6_7/13.png>
+Package pdftex.def Info: lectures/cbII6_7/13.png  used on input line 151.
+(pdftex.def)             Requested size: 338.58632pt x 221.39154pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--163
+
+ []
+
+<lectures/cbII6_7/16.png, id=432, 396.48125pt x 206.7725pt>
+File: lectures/cbII6_7/16.png Graphic file (type png)
+<use lectures/cbII6_7/16.png>
+Package pdftex.def Info: lectures/cbII6_7/16.png  used on input line 168.
+(pdftex.def)             Requested size: 241.84843pt x 126.13103pt.
+<lectures/cbII6_7/15.png, id=433, 274.52562pt x 170.6375pt>
+File: lectures/cbII6_7/15.png Graphic file (type png)
+<use lectures/cbII6_7/15.png>
+Package pdftex.def Info: lectures/cbII6_7/15.png  used on input line 173.
+(pdftex.def)             Requested size: 217.66211pt x 135.29684pt.
+[62 <./lectures/cbII6_7/13.png>]
+<lectures/cbII6_7/17.png, id=438, 397.485pt x 128.48pt>
+File: lectures/cbII6_7/17.png Graphic file (type png)
+<use lectures/cbII6_7/17.png>
+Package pdftex.def Info: lectures/cbII6_7/17.png  used on input line 181.
+(pdftex.def)             Requested size: 386.95897pt x 125.08221pt.
+
+
+LaTeX Warning: Reference `RABcascade' on page 63 undefined on input line 185.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--198
+
+ []
+
+[63 <./lectures/cbII6_7/16.png> <./lectures/cbII6_7/15.png> <./lectures/cbII6_7
+/17.png>]
+<lectures/cbII6_7/6.png, id=445, 227.85126pt x 337.76187pt>
+File: lectures/cbII6_7/6.png Graphic file (type png)
+<use lectures/cbII6_7/6.png>
+Package pdftex.def Info: lectures/cbII6_7/6.png  used on input line 204.
+(pdftex.def)             Requested size: 193.47578pt x 286.81033pt.
+<lectures/cbII6_7/12.png, id=446, 116.435pt x 336.25626pt>
+File: lectures/cbII6_7/12.png Graphic file (type png)
+<use lectures/cbII6_7/12.png>
+Package pdftex.def Info: lectures/cbII6_7/12.png  used on input line 209.
+(pdftex.def)             Requested size: 96.73788pt x 279.37994pt.
+
+Underfull \hbox (badness 1270) in paragraph at lines 209--209
+[]\T1/cmr/m/n/8 (b) SNARE pro-teins may
+ []
+
+<lectures/cbII6_7/14.png, id=447, 341.77687pt x 93.34875pt>
+File: lectures/cbII6_7/14.png Graphic file (type png)
+<use lectures/cbII6_7/14.png>
+Package pdftex.def Info: lectures/cbII6_7/14.png  used on input line 218.
+(pdftex.def)             Requested size: 386.95897pt x 105.6965pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
+
+ []
+
+[64 <./lectures/cbII6_7/6.png> <./lectures/cbII6_7/12.png> <./lectures/cbII6_7/
+14.png>]
+<lectures/cbII6_7/18.png, id=455, 355.3275pt x 161.10187pt>
+File: lectures/cbII6_7/18.png Graphic file (type png)
+<use lectures/cbII6_7/18.png>
+Package pdftex.def Info: lectures/cbII6_7/18.png  used on input line 242.
+(pdftex.def)             Requested size: 290.22107pt x 131.58815pt.
+<lectures/cbII6_7/19.png, id=456, 156.585pt x 218.8175pt>
+File: lectures/cbII6_7/19.png Graphic file (type png)
+<use lectures/cbII6_7/19.png>
+Package pdftex.def Info: lectures/cbII6_7/19.png  used on input line 246.
+(pdftex.def)             Requested size: 96.73788pt x 135.18797pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--256
+
+ []
+
+[65 <./lectures/cbII6_7/18.png> <./lectures/cbII6_7/19.png>]
+<lectures/cbII6_7/20.png, id=462, 447.17062pt x 176.15813pt>
+File: lectures/cbII6_7/20.png Graphic file (type png)
+<use lectures/cbII6_7/20.png>
+Package pdftex.def Info: lectures/cbII6_7/20.png  used on input line 259.
+(pdftex.def)             Requested size: 483.69687pt x 190.55167pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 270--273
+
+ []
+
+[66 <./lectures/cbII6_7/20.png>]
+<lectures/cbII6_7/21.png, id=467, 362.85562pt x 210.7875pt>
+File: lectures/cbII6_7/21.png Graphic file (type png)
+<use lectures/cbII6_7/21.png>
+Package pdftex.def Info: lectures/cbII6_7/21.png  used on input line 282.
+(pdftex.def)             Requested size: 241.84843pt x 140.49678pt.
+<lectures/cbII6_7/22.png, id=468, 402.00188pt x 261.97874pt>
+File: lectures/cbII6_7/22.png Graphic file (type png)
+<use lectures/cbII6_7/22.png>
+Package pdftex.def Info: lectures/cbII6_7/22.png  used on input line 286.
+(pdftex.def)             Requested size: 217.66211pt x 141.84618pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--293
+
+ []
+
+<lectures/cbII6_7/23.png, id=469, 453.695pt x 196.23312pt>
+File: lectures/cbII6_7/23.png Graphic file (type png)
+<use lectures/cbII6_7/23.png>
+Package pdftex.def Info: lectures/cbII6_7/23.png  used on input line 300.
+(pdftex.def)             Requested size: 483.69687pt x 209.2098pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--307
+
+ []
+
+[67 <./lectures/cbII6_7/21.png> <./lectures/cbII6_7/22.png> <./lectures/cbII6_7
+/23.png>]
+<lectures/cbII6_7/24.png, id=476, 394.97563pt x 215.30438pt>
+File: lectures/cbII6_7/24.png Graphic file (type png)
+<use lectures/cbII6_7/24.png>
+Package pdftex.def Info: lectures/cbII6_7/24.png  used on input line 312.
+(pdftex.def)             Requested size: 266.03474pt x 145.01865pt.
+<lectures/cbII6_7/25.png, id=477, 196.23312pt x 173.14688pt>
+File: lectures/cbII6_7/25.png Graphic file (type png)
+<use lectures/cbII6_7/25.png>
+Package pdftex.def Info: lectures/cbII6_7/25.png  used on input line 316.
+(pdftex.def)             Requested size: 193.47578pt x 170.72372pt.
+ (main.gls [68 <./lectures/cbII6_7/24.png> <./lectures/cbII6_7/25.png>])) [69] 
+(main.gls) [70] (main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3164,10 +3440,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 50138 strings out of 474486
- 1186791 string characters out of 5743754
- 2083783 words of memory out of 5000000
- 71331 multiletter control sequences out of 15000+600000
+ 50768 strings out of 474486
+ 1200383 string characters out of 5743754
+ 2092917 words of memory out of 5000000
+ 71948 multiletter control sequences out of 15000+600000
  577249 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,14n,100p,2373b,1976s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -3192,9 +3468,9 @@ public/amsfonts/cm/cmr10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/font
 s/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/percu/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/percu/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (60 pages, 20332365 bytes).
+Output written on main.pdf (73 pages, 21953103 bytes).
 PDF statistics:
- 815 PDF objects out of 1000 (max. 8388607)
+ 954 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 478 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 598 words of extra memory for PDF output out of 10000 (max. 10000000)
 
