@@ -18,7 +18,11 @@
     \caption{overview of compartments}
     \label{fig:enter-label}
 \end{figure}
-    Compartamentalization in eukaryotic cells is used to improve metabolic process by providing optimal conditions for various reactions (such as very acidic conditions in lysosomes or very high calcium concentrations). In general this is achieved by having organelles. There are two types of organelles: \textbf{mebrane organelles and membrane-less organelles}
+    Compartamentalization in eukaryotic cells is used to improve metabolic process by providing optimal conditions for various reactions (such as very acidic conditions in lysosomes or very high calcium concentrations). In general this is achieved by having organelles.
+    \par
+    \textbf{Cellular compartments differ in function, form, subcellular location, protein and lipid coposition.} Moreover the may differ in ionic composition, e.g: pH can vary from 7.2 in the ER to less then 5 in lysosomes; Calcium concentration varries from nM in the cytoplasma to uM in the ER; The redox potential differs from reducing in the cytoplasm to oxidizing in the ER
+    \par
+    There are two types of organelles: \textbf{mebrane organelles and membrane-less organelles}
 
     \textbf{How many organelles?}
 
@@ -63,7 +67,7 @@ Endosome                          &                                      \\
 \caption{Examples of membrane and membrane-less compartments in eukaryotic cells}
 \end{table}
 
-Membrane-less organelles are a rather new discovery but they usually require \textbf{liquid liquid Phase separation}. They can consist of protein aggregates or RNA aggregates:
+Membrane-less organelles are a rather new discovery but they usually require \textbf{\gls{LLPS}}. They can consist of protein aggregates or RNA aggregates, a similar principle is responsible for lipid raft formation:
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.5\linewidth]{RNP.png}
@@ -79,7 +83,7 @@ Membrane-less organelles are a rather new discovery but they usually require \te
     \caption{Structure of Endoplasmatic reticulum}
     \label{fig:enter-label}
 \end{figure}
-The \gls{EndoplasmicReticulum} is the \textbf{production site of all transmembrane proteins and lipids } it also serves as a \textbf{calcium storage of the cell}. There are two types of ER \textbf{smooth and rough ER}. The difference being that the \textbf{rough ER has membrane bound ribosomes} and the smooth one does not. Most cells will have both but the ratio will be different depending on cell type.
+The \gls{EndoplasmicReticulum} is the \textbf{production site of all transmembrane proteins and lipids } it also serves as a \textbf{calcium storage of the cell}. The calcium is imported into the ER by the \textbf{\gls{SERCA}} There are two types of ER \textbf{smooth and rough ER}. The difference being that the \textbf{rough ER has membrane bound ribosomes} and the smooth one does not. Most cells will have both but the ratio will be different depending on cell type.
 
 \paragraph{Smooth and rough ER separatation}
 \begin{figure}[H]
@@ -89,7 +93,24 @@ The \gls{EndoplasmicReticulum} is the \textbf{production site of all transmembra
     \label{fig:enter-label}
 \end{figure}
 
-Since smooth and rough ER have different densities they can be separated using a sucrose gradient and centrifugation.
+Since smooth and rough ER have different densities they can be separated using a sucrose gradient and centrifugation. Here is how the process works:
+\begin{enumerate}
+    \item \textbf{Cell Lysis:} Cells are lysed using mechanical disruption (e.g., homogenization) or chemical methods to release cellular contents, including organelles and membrane fragments.
+    
+    \item \textbf{Differential Centrifugation:} The lysate is subjected to sequential centrifugation steps to remove nuclei and large organelles. The remaining supernatant is centrifuged at high speed to pellet \textbf{microsomes}, which are small vesicles derived from fragmented endoplasmic reticulum membranes.
+
+    \item \textbf{Preparation of Sucrose Gradient:} A discontinuous or continuous sucrose gradient is prepared, typically ranging from 0.25~M to 2.0~M sucrose, to separate membrane vesicles based on density.
+
+    \item \textbf{Loading of Microsomes:} The microsomal pellet is resuspended and carefully layered onto the sucrose gradient.
+
+    \item \textbf{Ultracentrifugation:} The sample is centrifuged at high speed (e.g., 100{,}000~$\times$~g) for several hours. Microsomes migrate within the gradient according to their buoyant densities.
+
+    \item \textbf{Fraction Collection:} Distinct layers form in the gradient: \textbf{rough ER-derived microsomes} (containing ribosomes) settle at higher density positions than \textbf{smooth ER-derived microsomes}, which are lighter. These fractions are collected separately.
+
+    \item \textbf{Analysis:} Isolated ER fractions can be analyzed using protein assays, Western blotting, enzymatic activity tests, or proteomic approaches to study their composition and function.
+\end{enumerate}
+
+
 
 
 
@@ -102,17 +123,33 @@ Since smooth and rough ER have different densities they can be separated using a
 \end{figure}
 
 The Golgi apparatus acts as a \textbf{collection and dispatch center for proteins from the ER}. Proteins are packaged into vesicles, which fuse with the Golgi for further processing, mainly through\textbf{ post-translational modifications such as glycosylation and phosphorylation.} These modifications help direct proteins to their final destination.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{GolgiParts.png}
+    \caption{domains of the golgi}
+    \label{fig:enter-label}
+\end{figure}
+The golgi can be further subdivided into domains (breif chaptGPT overview of these):
+\begin{itemize}
+    \item \textbf{Cis-Golgi Network (CGN):} The entry face of the Golgi apparatus, located closest to the endoplasmic reticulum (ER). It receives proteins and lipids from the ER and is involved in initial processing, such as phosphorylation and sorting for further transport or ER retrieval.
+
+    \item \textbf{Medial-Golgi:} The central region of the Golgi stack. It performs further modification of glycoproteins, including the processing of N-linked oligosaccharides and initiation of O-linked glycosylation.
+
+    \item \textbf{Trans-Golgi:} The portion closer to the exit side of the Golgi. It completes final processing steps like sulfation and complex glycosylation, preparing molecules for sorting.
+
+    \item \textbf{Trans-Golgi Network (TGN):} A dynamic sorting compartment at the trans face of the Golgi. It directs modified proteins and lipids to their final destinations, including the plasma membrane, lysosomes, or secretory vesicles, using different types of transport vesicles.
+\end{itemize}
 
 
 \subsubsection{lysosomes}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{lysosome.png}
+    \includegraphics[width=0.3\linewidth]{lysosome.png}
     \caption{lysosome fluorecent microsopy image}
     \label{fig:enter-label}
 \end{figure}
-lysosomes are specialized vesicles with very low ph (4.5-5) they house \textbf{a multitidue of enzymes} that require these conditions such as enzymes involved in\textbf{ lysis} of peptides nucleic acids carbohydrates and lipids. \textbf{They contain more than 60 enzymes and more than 50 membrane proteins}
-(just copied the text from slide cause there wasn't much info on these...)
+lysosomes are specialized vesicles with very low ph (4.5-5) they house \textbf{a multitidue of enzymes} that require these conditions such as enzymes involved in\textbf{ lysis} of peptides nucleic acids carbohydrates and lipids. \textbf{They contain more than 60 enzymes and more than 50 membrane proteins and highly variable in size}
+
 
 \subsubsection{Mitochondria}
 \begin{figure}[H]
@@ -135,7 +172,7 @@ Endosomes are a \textbf{collection of intracellular sorting organelles in eukary
 \subsubsection{Peroxysomes}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{Peroxy.png}
+    \includegraphics[width=\linewidth]{Peroxy.png}
     \caption{Peroxysomes proliferation}
     \label{fig:enter-label}
 \end{figure}
@@ -144,7 +181,7 @@ Peroxysomes are specialized vesicle that is used to \textbf{peroxidize shit}. (h
 \mathrm{H_2O_2} + \mathrm{R'H_2} \rightarrow \mathrm{R'} + 2\mathrm{H_2O}
 \end{equation}
 
-They are created from the ER first as a \textbf{peroxisomal precursor vesicle} These then fuse with \textbf{peroxisomal precursor proteins and lipids}. (these are found in the cytosol) forming the main peroxisome that can then fission to produce more peroxysomes. They are also responsible for the \textbf{break down of fatty acids} which is \gls{BetaOxidation}. 
+They are created from the ER first as a \textbf{peroxisomal precursor vesicle} These then fuse with \textbf{peroxisomal precursor proteins and lipids}. (these are found in the cytosol) forming the main peroxisome that can then fission to produce more peroxysomes. They are also responsible for the \textbf{break down of fatty acids}, however unlike \gls{BetaOxidation} it isn't ATP coupled. 
 
 
 \subsubsection{lipid droplets}
@@ -155,7 +192,7 @@ They are created from the ER first as a \textbf{peroxisomal precursor vesicle} T
     \label{fig:enter-label}
 \end{figure}
 
-These are specialized cells that store lipid droplets. (also nothing about these either ....)
+These are specialized cells that store lipid droplets. Note that\textbf{ white adipocytes are mainly used for storage} hence the oversized lipid droplet, whereas \textbf{brown adipocytes are used for heat generation}, which is why they have a lot of mitrochondia
 
 \subsection{lipid composition of various organelles}
 The lipid composition is different across the various organelles. 
@@ -217,7 +254,7 @@ compartment to another}. This involves the creation of vesicles where the mebran
     \caption{list of important localization signals}
     \label{fig:enter-label}
 \end{figure}
-Note that the signals can be either N or C terminal. the \textbf{nuclear export signals can be in the middle of the CDS}. Note also that the localization signals will be cut off after their use, with the exception of nuclear localization tag (\gls{NLS})
+Note that the signals can be either N or C terminal.\textbf{ N-terminal signals are read during translatio, where as C-terminal tags are read post-translationally}. The \textbf{nuclear export signals can be in the middle of the CDS}. Note also that most of the localization signals will be cut off after their use, with exceptions such as nuclear localization tag (\gls{NLS}) and Peroxisomal targeting signal
 
 \subsubsection{nuclear import}
 
@@ -226,13 +263,13 @@ Note that the signals can be either N or C terminal. the \textbf{nuclear export 
     \centering
     % First subfigure (side by side)
     \subfigure[Nuclear pore complex]{
-        \includegraphics[width=0.45\linewidth]{NPC.png}
+        \includegraphics[width=0.65\linewidth]{NPC.png}
         \label{fig:itc}
     }
     \hspace{0.05\textwidth} % Adds a small horizontal space between the figures
     % Second subfigure (side by side)
     \subfigure[nucleus structure]{
-        \includegraphics[width=0.45\linewidth]{NucleusStructure.png}
+        \includegraphics[width=0.25\linewidth]{NucleusStructure.png}
         \label{fig:ITC_H_L}
     }
     \caption{Application of protein design}
@@ -241,7 +278,7 @@ Note that the signals can be either N or C terminal. the \textbf{nuclear export 
 
 The nuclear import is special as it requires the molecule to pass through the \textbf{nuclear pore complexes (\gls{NPC})} which are giant channels in the nuclear membrane that \textbf{regulate traffic into the nucleous.}  The nuclear pores \textbf{allow any protein less than 5kDa and ions to pass freely.} Another thing to note is that the nuclear pore complexes \textbf{regulates traffic in both ways, and is unclear how it does this as to avoid crashes}
 
-\paragraph{note on ribosome production}
+\paragraph{Ribosome production example}
 
 \begin{figure}[H]
 \centering
@@ -292,8 +329,9 @@ Ribosomes are \textbf{made in the cytosol} then \textbf{imported into the nucleu
 
 
 Proteins destined for the nucleus need to be shuttled into it by the \textbf{nuclear import receptors (\gls{importin}) that bind to the localiztion signal on the cargo protein} The localization signals is \textbf{not found on the N or C terminus and are not cut off.} This is due to the fact that they need to be\textbf{ used everytime the nucleus is reformed after cell division.}
+Nuclear import receptors (importins) are \textbf{tightly linked to a GTPase cycle}, specifically involving the small GTPase Ran
 
-\paragraph{ran-GDP Ran-GTP}
+\subparagraph{ran-GDP Ran-GTP}
 
 \begin{figure}[H]
     \centering
@@ -324,38 +362,39 @@ Ran-GTP is primarily found inside nucleus due to presence of \textbf{(\gls{gef}}
     \end{enumerate}
 \end{itemize}
 
-\paragraph{nuclear import control during T cell activation}
+\begin{remark}
+    
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{TCells.png}
+    \includegraphics[width=0.7\linewidth]{TCells.png}
     \caption{role of nuclear import/ export signals in T cell activation}
     \label{fig:enter-label}
 \end{figure}
 
 Nuclear and import signals play a crucial role in T cell activation. \textbf{Upon activation the T-cell's cytosolic Ca2+ concetration will be very high.} (it usually is low, like all cells). This then triggers \textbf{\gls{calcineurin} to dephosphorylate the nuclear import signal and bind to the nuclear export signal.} this the moves th\textbf{e NF-AT (transcrition factor inside the nucleus} promoting gene expression needed for T-Cell activation.
+\end{remark}
 
 
-\textbf{------------------------> some stuff about an androgen receptor don't know if to add it or not (need to discuss that !!)}
 
 \paragraph{the role of nuclear import in cell division}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{NuclearReforming.png}
+    \includegraphics[width=0.7\linewidth]{NuclearReforming.png}
     \caption{Reformation of the nucleaus requires resusable NLS}
     \label{fig:enter-label}
 \end{figure}
-After the cell divides the Nuclear pore complexes are closed, as they are tighly bound to chromosomes. This means that \textbf{only proteins bound to mitotic chromosomes will be found inside the nucleus during this time} cytosolic proteins are virtually excluded from the reforming the nucleus and will need to be \textbf{imported once the nuclear envelope is completed}
+After the cell divides the Nuclear pore complexes are closed, as they are tighly bound to chromosomes. This means that \textbf{only proteins bound to mitotic chromosomes will be found inside the nucleus during cell division} cytosolic proteins are virtually excluded from the reforming the nucleus and will need to be \textbf{imported once the nuclear envelope is completed}
 
 
 \subsubsection{main transport pathways for proteins}
-There are two transport proteins in the cell that of \textbf{biosynthesis} and that of \textbf{endocytosis}
+There are two transport pathways in the cell that of \textbf{biosynthesis} and that of \textbf{endocytosis}
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Pathways (1).png}
     \caption{Main Pathways looked at in this chapter}
     \label{fig:enter-label}
 \end{figure}
-\textbf{The Biosythesis or secretory pathways goes:}
+\textbf{Biosythesis}
 \begin{enumerate}
     \item ER
     \item Golgi apparatus
@@ -363,7 +402,7 @@ There are two transport proteins in the cell that of \textbf{biosynthesis} and t
     \item plasma membrane where vesicle fuses and proteins are secreted.
 \end{enumerate}
 
-\textbf{the Endocytosis pathways goes:}
+\textbf{Endocytosis}
 \begin{enumerate}
     \item uptake of proteins from \textbf{plasma membrane}
     \item \textbf{early endosomes}: here the cell has to decide wether to recyle the material taken up (such as receptors) or destroy it. if it recyles it it will become a recylcing endosome otherwise it will become a lysosome where the proteins will be digested and broken down into individual AA.
@@ -377,22 +416,17 @@ There are two transport proteins in the cell that of \textbf{biosynthesis} and t
 \paragraph{cotranslational and post translational localization}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\linewidth]{CoTranslation.png}
+    \includegraphics[width=0.7\linewidth]{CoTranslation.png}
     \caption{co and post translocation to the ER}
     \label{fig:enter-label}
 \end{figure}
 
 \textbf{\gls{cotranslocation}} involves the ribosome being moved to the ER as soon as the nacent protein's ER localization signal is produced. Then the signal peptide is\textbf{ cleaved off if the proteins is a ER lumen cytosolic protein.} \textbf{All memrbane proteins are cotranslational} Whereas \gls{postrtranslocation} involves the protein being localized to ER after it has been fully translated.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.5\linewidth]{cotranslation.png}
-    \caption{Co translational translocation}
-    \label{fig:enter-label}
-\end{figure}
+
 
 \paragraph{soluble proteins}
 
-\textbf{Soluble proteins that are ER bound must have an ER localization signal.} Once in the ER Lumen the localization signal will be \textbf{cleaved off}. Not that the ER-Lumen is not highly reducing enviroment like the cytosol. Thus ER cystosolic proteins can have disulfide bonds unlike cytosolic proteins.
+\textbf{Soluble proteins that are ER bound must have an ER localization signal.} Once in the ER Lumen the localization signal will be \textbf{cleaved off}. Note that the ER-Lumen is not a highly reducing enviroment like the cytosol. Thus ER cystosolic proteins can have disulfide bonds unlike cytosolic proteins.
 
 \paragraph{transmembrane proteins}
 \begin{figure}[H]
