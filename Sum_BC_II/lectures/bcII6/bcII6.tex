@@ -1,0 +1,267 @@
+\documentclass[../main.tex]{subfiles}
+
+\include{../../Prompt/prompts.tex}
+
+\include{Sum_BC_II/lectures/bcII6/bcII6_glossary}
+
+\makeglossaries
+
+\begin{document}
+\section{gluconeogenesis}
+
+\begin{remark}
+    \textbf{General prinicples of anabolic pathways:} Anabolic pathways synthesize complex cellular components from simple precursors \textbf{using chemical energy from ATP, NADH, or NADPH}. They are coupled to catabolic pathways in a dynamic steady state, where energy released from degradation is used for biosynthesis. \textbf{Although catabolic and anabolic pathways may share intermediates, they differ in at least one specific reaction, involving distinct enzymes.} \textbf{Regulation occurs through these pathway-specific enzymes}. Anabolic processes require a net input of energy greater than that produced by the corresponding catabolic reactions.
+\end{remark}
+\subsection{overview}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{overview.png}
+    \caption{overview of the gluconeogenesis pathway}
+    \label{fig:enter-label}
+\end{figure}
+The body consumes on average around 160g of glucose per day and has storage for 210g. For cells whose sole energy source is glucose this poses a real problem. This is where Gluconeogenesis comes in. In its complete version gluconeogenesis occurs in the \textbf{ liver and kindey cortex.} The main precursors are \textbf{pyruvate, lactate, glycerol and amino acids}. 
+\paragraph{total reaction}
+$2 Pyruvate + 4 ATP + 2 GTP + 2 NADH + 2 H^{+} + 6 H_2O \rightarrow 
+Glucose + 4 ADP + 2 GDP + 6 P_i + 2 NAD^{+}$
+
+\subsection{pathway steps}
+\subsubsection{comparison to glycolysis}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{GlycolysisComparison.png}
+    \caption{gluconeogenesis and glycolysis side by side}
+    \label{fig:enter-label}
+\end{figure}
+It differs from glycolysis in the 3 most exergonic reactions:
+\begin{itemize}
+    \item 1. $glucose + ATP \rightarrow Glucose-6-phophate$
+    \item 3. $ fructose-6-phosphate + ATP \rightarrow fructose-1,6-biphosphate$
+    \item 10. $ phosphoenolpyruvate + ADP \rightarrow pyruvate + ATP$
+\end{itemize}
+These reactions have different enzymes compared to glycolysis and are crucial for regulation. All other reactions are identical to glycolysis. 
+\subsubsection{step 1 + 2: Pyruvate + ATP $\rightarrow$ PEP}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[overview of step 1]{\includegraphics[width = 0.4\textwidth]{step1overview2.png}}
+	\subfigure[reaction part 1]{\includegraphics[width = 0.4\textwidth]{step1reaction.png}}
+
+    \subfigure[reaction part 2]{\includegraphics[width = 0.4\textwidth]{step2.png}}
+	\caption{step 1 of gluconeogenesis}
+\end{figure}
+
+
+\begin{enumerate}
+    \item Pyruvate makes it to the mitochondrial matrix.
+    \item In the mitochondria, pyruvate is carboxylated to oxaloacetate by \textbf{\gls{pyruvatecarboxylase}.}
+    \item Oxaloacetate is either transformed to PEP by mitochondrial \textbf{\gls{PEPcarboxykinase} }or converted to malate by \textbf{\gls{malatedehydrogenase}.}
+    \item Malate and PEP are transported to the cytosol.
+    \item Malate is reconverted into oxaloacetate by \textbf{cytosolic \gls{malatedehydrogenase}.}
+    \item Oxaloacetate is transformed to PEP by \textbf{cytosolic \gls{PEPcarboxykinase}.}
+\end{enumerate}
+\begin{remark}
+    Oxaloacetate can not be exported as such by mitochondria. This is why it is converted to malate dehydrogenase and then reconverted to oxaloacetate in the \textbf{cytosol producing an NADH/H+ , which will be needed in further steps.} If lactate is the source this will generate NADH/H+ in the cytosol so can be processed directly to PEP by PEP carboxykinase
+\end{remark}
+
+\paragraph{pyruvate carboxylase mechanism and endergonic - exergonic coupling }
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{pyruvateCarboxylase.png}
+    \caption{pyruvate carboxylase mechanism}
+    \label{fig:enter-label}
+\end{figure}
+This enzyme is a tetramere, each monomere has a\textbf{ biotin-binding domain} that complexes with CO\textsubscript{2}  and an \textbf{ATP binding domain} The mechanism is as follows:
+
+\begin{enumerate}
+    \item \textbf{Phase 1:} ATP activates CO\textsubscript{2}, forming carboxyphosphate.
+    \item \textbf{Phase 2:} Phosphorylated CO\textsubscript{2} is attached to the biotin-enzyme with inorganic phosphate (Pi) release.
+    \item \textbf{Phase 3:} The CO\textsubscript{2} is transferred to pyruvate to form oxaloacetate.
+\end{enumerate}
+
+\textbf{Pyruvate carboxylase requires \gls{acetylcoa} as a cofactor}
+
+\begin{remark}
+     The highly endergonic phosporylation that impeded the direct inverse of glycolysis is coupled to the highly exegonic decarboxylation, making this a net exergonic reation.
+\end{remark}
+
+
+\subsubsection{step 8: fructose-1,6-biphophate $\rightarrow$  fructose-6-phosphate}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{step8.png}
+    \caption{step 8 of gluconeogenesis}
+    \label{fig:enter-label}
+\end{figure}
+Note that step 8 is also not a direct reversal of glycolysis as the FBPase-1 hydrolyses a organic phosphate off instead of transfering it to ADP. \textbf{PFK-1 and FBPase-1 are highly regulated enzymes} See chapter on glucoenogenesis regulation.
+\subsubsection{step 10: glucose-6-phosphate $\rightarrow$ glucose}
+
+\begin{figure}[H]
+	\centering
+	
+    \subfigure[step 10 of gluconeogenesis]{\includegraphics[width = 0.3\textwidth]{step10.png}}
+
+
+    \subfigure[enzymatic overview]{\includegraphics[width = 0.7\textwidth]{step10part2.png}}
+	\caption{step 1 of gluconeogenesis}
+\end{figure}
+This is similar to step 8 however there is an interesting topological consideration:
+\begin{enumerate}
+    \item \gls{glc6ptransporter} (T1) imports glucose-6-phosphate (Glc(6)P) into the ER lumen.
+    \item \gls{glc6ptase} converts Glc(6)P to glucose and inorganic phosphate (Pi).
+    \item The reaction is stabilized by the calcium-binding protein \gls{sp} (stabilizing protein).
+    \item Pi is transported to the cytosol by the \gls{phosphatetransporter} (T2).
+    \item Glucose is transported to the cytosol by the \gls{glucosetransporter} (T3).
+\end{enumerate}
+
+\subsection{Regulation}
+\begin{remark}
+    In general low energy states (low ATP, high ADP and  AMP) favor catabolic pathways such as glycolysis. While high energy states favor anabolic states such as gluconeogenesis. These processes are\textbf{ regulated at cell autonomus} level, i.e each cell does whatever they want. But they are \textbf{also regulated at the organism level}. See chapter on metabolic integration for organism level regulation. 
+\end{remark}
+\subsubsection{Acetyl-CoA activation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\linewidth]{Sum_BC_II//lectures//bcII6/Acetyl-CoAInhibition.png}
+    \caption{Acetyl-CoA inhibition}
+    \label{fig:enter-label}
+\end{figure}
+Acetyl CoA activates \textbf{ \gls{pyruvatecarboxylase}} which is required to form oxaloacetate. This mechanism is useful as \textbf{when Acetyl-CoA accumulates, due to saturation of the TCA cycle it can be fed into gluconeogenesis}
+
+\subsubsection{PFK-1/ FBPase-1 regulation (autonomous level)}
+\begin{figure}[H]
+	\centering
+	
+    \subfigure[ATP and it's derivatives effect]{\includegraphics[width = 0.5\textwidth]{PFKreg.png}}
+
+
+    \subfigure[fructose-2,6-biphosphate effects]{\includegraphics[width = 0.5\textwidth]{regulationPFK1.png}}
+	\caption{step 1 of gluconeogenesis}
+\end{figure}
+
+\gls{pfk1} is\textbf{ activated by ADP and AMP}, both molecules that are present under low energy conditions. on the otherhad it is \textbf{inhibited by ATP and citrate}, these are present in excess when the cell has a lot of energy. 
+\par
+\textbf{\gls{fbpase1} is inhibited by AMP}, which is a molecule present at low energy levels.
+\par
+On top of this it \textbf{PFK-1 is activated by Fructose2,6-biphosphate while FBPase-1 is inactivated} 
+
+\begin{remark}
+    \textbf{PFK-1 and PFK-2 are not the same thing.} These are different enzymes with different regulations, same thing for the phsophatases!!
+\end{remark}
+
+
+\subsubsection{PFK-2/ FBPase-2 regulation on organism level (insulin and glucagon)}
+This is a bifunctional enzyme that has both a kinase domain (\textbf{\gls{pfk2domain}}) and a phosphatase domain (\textbf{\gls{fbpase2domain}}). This enzyme is responsible for organism level regulation of glycolysis gluconeogenesis.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{RegulationInsulin.png}
+    \caption{bifunctional enzyme domains integrate insulin and glucagon signals}
+    \label{fig:enter-label}
+\end{figure}
+This enzyme reacts to insulin and glucagon to either increase or decrease the concetration of\textbf{ Fructose-2,6-biphophate (F26BP)}
+\begin{itemize}
+    \item \textbf{insulin activates PFK-2 domain }that increases F26BP concentrations  this then activates PFK-1 that stimulate glycolysis and inhibit gluconeogenesis.
+    \item \textbf{glucagon on the other hand activate FBPase-2 domain} that decreases F26BP concertations that then inturn removes an inhibitor of gluconeogenesis stimulating it more. 
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Sum_BC_II//lectures//bcII6/graph.png}
+    \caption{effect of F26BP on glycolysis and gluconeogenesis}
+    \label{fig:enter-label}
+\end{figure}
+This is seen when looking at relative vmax of PFK-1 and FBPase-1. \textbf{PFK-1 is massivly activated by the presence of F26BP} while it has the opposite\textbf{ effect on FBPase-1 acting as an inhibitor}
+
+\section{glycogen metabolism}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{Glycogen.png}
+    \caption{glycogen structure}
+    \label{fig:enter-label}
+\end{figure}
+Glycogen is a storage polymer that is use by liver cells to regulate the blood sugar level. It is a branched polymer consisting of two types of bonds
+\begin{enumerate}
+    \item $\alpha$(1$\rightarrow$6) bonds: these are the bonds that form the branching points
+    \item $\alpha$(1$\rightarrow$4): These bonds are the ones that extend the polymer 
+\end{enumerate}
+\subsection{glycogenesis}
+\subsubsection{step 1: Glucose activation}
+\begin{figure}[H]
+	\centering
+	\subfigure[reaction]{\includegraphics[width = 0.5\textwidth]{UDP1.png}}
+	\subfigure[UDP structure]{\includegraphics[width = 0.4\textwidth]{UDPstructure.png}}
+	\caption{glucose activation}
+\end{figure}
+\textbf{\gls{udp-glucose-pyrophosphorylase}} to transform a 
+\textbf{glucose 1-phosphate} into a uridine diphosphate glucose (\textbf{UDP-glucose)}. This reaction produces a 
+pyrophosphate, which then is hydrolyzed by water to form two orthophosphate 
+molecules.\textbf{ This second step drives the reaction forward}
+
+\begin{remark}
+    note that glucose-1-phosphate is not the glucose that arrives from glycolsis (that would be glucose-6-phosphate) It thus needs to be isomerized by \textbf{\gls{phosphoglucomutase}}
+\end{remark}
+\subsubsection{step2: creating the primer}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{primer.png}
+    \caption{glycogenin autocatalyzes the addition of UDP onto itself}
+    \label{fig:enter-label}
+\end{figure}
+\begin{enumerate}
+    \item \textbf{Transfer of a glucose residue:} A glucose residue from UDP-glucose is transferred to a tyrosine residue of \textbf{\gls{glycogenin}}. This reaction is catalyzed by glycogenin itself.
+    \item \textbf{Chain extension:} Glycogenin catalyzes the sequential addition of seven more glucose units, forming a short primer of\textbf{ $\alpha$(1$\rightarrow$4)-linked glucose residues.}
+\end{enumerate}
+
+This leads to the formation of the \textbf{8-monomer-primer} that will subsequently be elongated.
+\subsubsection{step 3: elongation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{elongation.png}
+    \caption{elongation of glycogen}
+    \label{fig:enter-label}
+\end{figure}
+\textbf{\gls{glycogen-synthase}} catalyzes the addition of further UDP-glucose molecules by\textbf{ catalyzing the formation of  $\alpha$(1$\rightarrow$4) glycosidic bonds }
+
+\subsubsection{branching}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{branching.png}
+    \caption{branching}
+    \label{fig:enter-label}
+\end{figure}
+
+Branching is a way to \textbf{increase the solubility} of glycogen as well as increase the number of non-reducing ends which will allow for \textbf{faster breakdown} This is catalyzed by the \textbf{formation of  $\alpha$(1$\rightarrow$6) glycosidic bonds by \gls{glycogen-branching-enzyme}}
+\par
+\textbf{Glycogen-branching enzyme catalyzes} the transfer of a terminal fragment (6 or 7 residues long) from the nonreducing end of a branch (at least 11 residues long) to the C-6 hydroxyl group of a glucose residue on the same chain or another chain creating a branch with an $\alpha$(1$\rightarrow$6) linkage
+
+\subsection{glycogen breakdown}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\linewidth]{breakdownGlycogen.png}
+    \caption{glycogen breakdown}
+    \label{fig:enter-label}
+\end{figure}
+
+
+\begin{enumerate}
+    \item \textbf{Phosphorolysis:} The first step is catalyzed by glycogen phosphorylase, which uses orthophosphate (\( \text{P}_{\text{i}} \)) to cleave the glycosidic bond between a terminal glucose unit (with a free hydroxyl group) and the rest of the glycogen molecule. This reaction produces glucose-1-phosphate and a glycogen molecule shortened by one glucose residue.
+
+    \item \textbf{Branch point limitation:} Glycogen phosphorylase cannot cleave the \(\alpha(1\rightarrow6)\) glycosidic bonds at the branching points. It stops cleaving when it is four glucose residues away from such a branch.
+
+    \item \textbf{Debranching enzymes:} A transferase enzyme shifts a block of three glucose residues from the branch to a nearby linear chain. Then, an \(\alpha(1\rightarrow6)\) glucosidase hydrolyzes the remaining single glucose residue at the branch point, releasing a free glucose.
+
+    \item \textbf{Conversion to glucose-6-phosphate:} Finally, phosphoglucomutase converts the glucose-1-phosphate produced in the first step into glucose-6-phosphate, which can then enter glycolysis or other metabolic pathways.
+\end{enumerate}
+\subsection{glycogen regulation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{glycogenregulation.png}
+    \caption{glycogen Regulation}
+    \label{fig:enter-label}
+\end{figure}
+Glycogen metabolism consists of two processes - glycogen synthesis and glycogen degradation. These two processes however do not take place the same moment in time. In fact, our body has a mechanism in place that regulates them in a reciprocal fashion - 
+\textbf{when one process is on, the other process is off.} \textbf{Glycogen phosphorylase and glycogen synthase are reciprocally regulated}
+
+
+
+
+
+
+\end{document}
