@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  16 MAR 2025 14:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  17 MAY 2025 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2232,17 +2232,17 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
 \openout5 = `bcII3.ist'.
 
 {C:/Users/percu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 111--118
+Underfull \hbox (badness 10000) in paragraph at lines 110--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--118
+Underfull \hbox (badness 10000) in paragraph at lines 110--117
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--118
+Underfull \hbox (badness 10000) in paragraph at lines 110--117
 
  []
 
@@ -2250,49 +2250,44 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--118
 <build carbons.png, id=27, 199.24437pt x 151.06438pt>
 File: build carbons.png Graphic file (type png)
 <use build carbons.png>
-Package pdftex.def Info: build carbons.png  used on input line 121.
+Package pdftex.def Info: build carbons.png  used on input line 120.
 (pdftex.def)             Requested size: 338.58632pt x 256.74377pt.
 <changeposition.png, id=29, 315.1775pt x 146.5475pt>
 File: changeposition.png Graphic file (type png)
 <use changeposition.png>
-Package pdftex.def Info: changeposition.png  used on input line 129.
+Package pdftex.def Info: changeposition.png  used on input line 128.
 (pdftex.def)             Requested size: 338.58632pt x 157.44154pt.
  [3 <./build carbons.png>]
 <radicals.png, id=34, 279.0425pt x 77.28876pt>
 File: radicals.png Graphic file (type png)
 <use radicals.png>
-Package pdftex.def Info: radicals.png  used on input line 138.
+Package pdftex.def Info: radicals.png  used on input line 137.
 (pdftex.def)             Requested size: 338.58632pt x 93.78384pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--147
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--147
+Underfull \hbox (badness 10000) in paragraph at lines 142--146
 
  []
 
 <group transfer.png, id=35, 132.99687pt x 51.69313pt>
 File: group transfer.png Graphic file (type png)
 <use group transfer.png>
-Package pdftex.def Info: group transfer.png  used on input line 157.
+Package pdftex.def Info: group transfer.png  used on input line 156.
 (pdftex.def)             Requested size: 217.66211pt x 84.60846pt.
 <reactivity.png, id=36, 281.55188pt x 144.54pt>
 File: reactivity.png Graphic file (type png)
 <use reactivity.png>
-Package pdftex.def Info: reactivity.png  used on input line 163.
+Package pdftex.def Info: reactivity.png  used on input line 162.
 (pdftex.def)             Requested size: 241.84843pt x 124.1586pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--174
+Underfull \hbox (badness 10000) in paragraph at lines 168--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--174
+Underfull \hbox (badness 10000) in paragraph at lines 168--173
 
  []
 
@@ -2300,21 +2295,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--174
 <oxidation_levels.png, id=42, 137.01187pt x 114.92938pt>
 File: oxidation_levels.png Graphic file (type png)
 <use oxidation_levels.png>
-Package pdftex.def Info: oxidation_levels.png  used on input line 179.
+Package pdftex.def Info: oxidation_levels.png  used on input line 178.
 (pdftex.def)             Requested size: 193.47578pt x 162.30647pt.
 <lactat_deh.png, id=43, 187.19937pt x 63.73813pt>
 File: lactat_deh.png Graphic file (type png)
 <use lactat_deh.png>
-Package pdftex.def Info: lactat_deh.png  used on input line 184.
+Package pdftex.def Info: lactat_deh.png  used on input line 183.
 (pdftex.def)             Requested size: 241.84843pt x 82.34991pt.
  [5 <./group transfer.png> <./reactivity.png> <./oxidation_levels.png> <./lacta
 t_deh.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 200--203
+Underfull \hbox (badness 10000) in paragraph at lines 199--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--228
+Underfull \hbox (badness 10000) in paragraph at lines 223--227
 
  []
 
@@ -2322,35 +2317,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--228
 <atp_4.png, id=55, 177.66376pt x 310.66063pt>
 File: atp_4.png Graphic file (type png)
 <use atp_4.png>
-Package pdftex.def Info: atp_4.png  used on input line 234.
+Package pdftex.def Info: atp_4.png  used on input line 233.
 (pdftex.def)             Requested size: 120.92421pt x 211.45026pt.
 <atp_2.png, id=56, 167.12437pt x 211.28937pt>
 File: atp_2.png Graphic file (type png)
 <use atp_2.png>
-Package pdftex.def Info: atp_2.png  used on input line 238.
+Package pdftex.def Info: atp_2.png  used on input line 237.
 (pdftex.def)             Requested size: 120.92421pt x 152.88586pt.
 <atp_3.png, id=57, 233.37187pt x 153.57375pt>
 File: atp_3.png Graphic file (type png)
 <use atp_3.png>
-Package pdftex.def Info: atp_3.png  used on input line 242.
+Package pdftex.def Info: atp_3.png  used on input line 241.
 (pdftex.def)             Requested size: 193.47578pt x 127.32556pt.
 <atp_1.png, id=58, 187.19937pt x 216.81pt>
 File: atp_1.png Graphic file (type png)
 <use atp_1.png>
-Package pdftex.def Info: atp_1.png  used on input line 255.
+Package pdftex.def Info: atp_1.png  used on input line 254.
 (pdftex.def)             Requested size: 193.47578pt x 224.09091pt.
 <atp_6.png, id=59, 201.75375pt x 206.27063pt>
 File: atp_6.png Graphic file (type png)
 <use atp_6.png>
-Package pdftex.def Info: atp_6.png  used on input line 258.
+Package pdftex.def Info: atp_6.png  used on input line 257.
 (pdftex.def)             Requested size: 193.47578pt x 197.8098pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--260
+Underfull \hbox (badness 10000) in paragraph at lines 246--259
 
  []
 
 [7 <./atp_4.png> <./atp_2.png> <./atp_3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 275--278
+Underfull \hbox (badness 10000) in paragraph at lines 274--277
 
  []
 
@@ -2358,49 +2353,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--278
 <reduction.png, id=72, 437.13312pt x 300.12125pt>
 File: reduction.png Graphic file (type png)
 <use reduction.png>
-Package pdftex.def Info: reduction.png  used on input line 281.
+Package pdftex.def Info: reduction.png  used on input line 280.
 (pdftex.def)             Requested size: 338.58632pt x 232.46333pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
 <NAD_2.png, id=73, 454.69875pt x 149.55875pt>
 File: NAD_2.png Graphic file (type png)
 <use NAD_2.png>
-Package pdftex.def Info: NAD_2.png  used on input line 303.
+Package pdftex.def Info: NAD_2.png  used on input line 302.
 (pdftex.def)             Requested size: 338.58632pt x 111.36777pt.
 <NAD_1.png, id=74, 198.7425pt x 155.58125pt>
 File: NAD_1.png Graphic file (type png)
 <use NAD_1.png>
-Package pdftex.def Info: NAD_1.png  used on input line 304.
+Package pdftex.def Info: NAD_1.png  used on input line 303.
 (pdftex.def)             Requested size: 120.92421pt x 94.66464pt.
 [9 <./reduction.png>]
 <FAD.png, id=79, 440.14438pt x 160.09813pt>
 File: FAD.png Graphic file (type png)
 <use FAD.png>
-Package pdftex.def Info: FAD.png  used on input line 323.
+Package pdftex.def Info: FAD.png  used on input line 321.
 (pdftex.def)             Requested size: 435.32422pt x 158.35104pt.
  [10 <./NAD_2.png> <./NAD_1.png> <./FAD.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 335--338
+Underfull \hbox (badness 10000) in paragraph at lines 336--339
 
  []
 
 <cata_ana.png, id=86, 372.39125pt x 212.795pt>
 File: cata_ana.png Graphic file (type png)
 <use cata_ana.png>
-Package pdftex.def Info: cata_ana.png  used on input line 341.
+Package pdftex.def Info: cata_ana.png  used on input line 342.
 (pdftex.def)             Requested size: 338.58632pt x 193.48463pt.
 <pathways.png, id=87, 432.11438pt x 262.48062pt>
 File: pathways.png Graphic file (type png)
 <use pathways.png>
-Package pdftex.def Info: pathways.png  used on input line 347.
+Package pdftex.def Info: pathways.png  used on input line 348.
 (pdftex.def)             Requested size: 386.95897pt x 235.06088pt.
 [11 <./cata_ana.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 360--363
-
- []
-
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2416,10 +2407,10 @@ Package logreq Info: Writing requests to 'bcII3.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48549 strings out of 474486
- 1142027 string characters out of 5743754
- 2060611 words of memory out of 5000000
- 69866 multiletter control sequences out of 15000+600000
+ 48519 strings out of 474486
+ 1141449 string characters out of 5743754
+ 2060289 words of memory out of 5000000
+ 69836 multiletter control sequences out of 15000+600000
  569786 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,100p,2380b,1748s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2442,9 +2433,9 @@ fonts/cm/cmr7.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmsy10.pfb><C:/Users/percu/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/percu/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on bcII3.pdf (12 pages, 1309318 bytes).
+Output written on bcII3.pdf (12 pages, 1306499 bytes).
 PDF statistics:
- 484 PDF objects out of 1000 (max. 8388607)
+ 482 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
