@@ -1,0 +1,539 @@
+\documentclass[../main.tex]{subfiles}
+
+\include{../../Prompt/prompts.tex}
+
+\include{glossary-definitions9.tex}
+
+\makeglossaries
+
+\begin{document}
+	
+\section{Amino Acids in Biosynthesis}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{Overview}
+	\caption{This image shows an overview of many of the products stemming from the citric Acid Cycle. This ranges from amino acids, to nucleic acids, porphyrines, and more.}
+	\label{fig:overview}
+\end{figure}
+
+
+\subsection{The actual synthesis of Amino Acids}
+
+Amino acids are produced from intermediates of glycolysis of the TCA cycle or of the pentose phosphate patway. Nitrogen is transaminated onto these substrates from glutamine or glutamate
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{amino_overview}
+	\caption{the image on the left shows in which part of glycolysis we derive the amino-acids from. The table on the right shows the precursor for each amino acid.}
+	\label{fig:aminooverview}
+\end{figure}
+
+
+
+\subsubsection{Prelude: Incorporating Nitrogon - Glutamate and Glutamine}
+
+Nitrogen is required in amino acids. However, we humans can't get it from the atmosphere. That means we rely bacteria and archea to fix N2 from the atmosphere to produce ammonia. That ammonia then enters the cell metabolism and is incorporated into \textbf{\gls{Glutamate}} and \textbf{\gls{Glutamine}}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{nit_cyc}
+	\caption{Shows the nitrogen cycle, which happens in bacteria and archea. Humans can absorb ammonia.}
+	\label{fig:nitcyc}
+\end{figure}
+
+The production of glutamate in bacteria follows the production of glutamine. Here's what that looks like:
+\begin{enumerate}
+	\item Glutamine production (both in humans and bacteria): Glutamate + NH4+ $\rightharpoonup$ glutamine, through the enzyme \textbf{\gls{Glutamine synthase}} using a 1 ATP.
+	\item Glutamate production (in bacteria): $\alpha$-ketoglutarate + glutamine $\rightharpoonup$ 2 glutamate, through the enzyme \textbf{\gls{Glutamate synthase}} using both an NAPDH and an ATP. This reaction is a \textbf{transamination} and how bacteria produce more glutamate.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Synthesis of Glutamate in bacteria using the enzyme glutamate synthase]{
+		\includegraphics[width=0.5\textwidth]{mate_mech}
+	}
+	\hfill
+	\subfigure[Synthesis of Glutamine in bacteria or humans using the enzyme glutamine synthase]{
+		\includegraphics[width=0.3\textwidth]{amine_path}
+	}
+	\caption{Shows the synthesis of both glutamine and glutamate}
+\end{figure}
+
+Glutamate and glutamine are then used to transfer NH3 to a variety of different product, producing aminated molecules; these are called \textbf{\gls{transamination}} reactions. \\
+
+\textbf{\gls{Glutamine amidotransferase}} is a common enzyme for having glutamine transaminate. How the transamination happens:
+\begin{enumerate}
+	\item This enzyme is constituted by two domains, one that binds glutamine, the other binds the acceptor substrate.
+	\item A Cys residue in the Glutamine-binding domain breaks the acidic bond and forms a glutamyl-enzyme intermediate
+	\item NH3 travels to the NH3-acceptor domain
+	\item There an activated substrate (usually activated by ATP) is aminated and released.
+\end{enumerate}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{nit_enz}
+	\caption{The enzyme glutamine amidotransferase's mechanism.}
+	\label{fig:nitenz}
+\end{figure}
+
+
+\subsubsection{Proline and Arginine}
+
+\textbf{\gls{Proline}} is a cyclic derivative of glutamate. Here is its synthesis:
+\begin{enumerate}
+	\item Glutamate is phosphorylated
+	\item Glutamyl-P is dephosphorylated and reduced
+	\item Glutamate semialdehyde undergoesspontaneous cyclisation.
+	\item Pyrroline-5-carboxylate is reduced to Proline.
+\end{enumerate}
+
+\textbf{\gls{Arginine}} is synthesized in a similar pathway:
+\begin{enumerate}
+	\item Glutamate is first acylated.
+	\item $[Proline-equiv.]$ Acetylglutamate is phosphorylated.
+	\item $[Proline-equiv.]$ Acetylglutamate-P is then reduced.
+	\item The acylation impedes the cyclisation. Instead through further transamination and de-acylation Ornithine is produced.
+	\item Ornithine is then converted to Arginine in the urea cycle (seen in lecture on Lipid biosynthesis).
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{pro_arg}
+	\caption{Shows the pathway for the production of both Proline and Arginine, stemming from glutamate.}
+	\label{fig:proarg}
+\end{figure}
+
+
+\subsubsection{Serine, Glycine, and Cysteine}
+
+\textbf{\gls{Serine}} is formed from an intermediate of glycolysis: 3-phosphoglycerate. Cysteine and Glycine on the other hand are derivatives of Serine. \\
+
+First the synthesis of Serine:
+\begin{enumerate}
+	\item Oxidation of 3-phosphoglycerate
+	\item Transamination of 3-phosphooxypyruvate
+	\item Dephosphorylation of 3-phosphoserine
+\end{enumerate}
+
+To continue to \textbf{\gls{Glycine}}, the enzyme \textbf{\gls{serine hydroxymethyltransferase}} removes a carbon atom from glycine. For this it uses tetrahydrofolate, as well as \gls{PLP} (activated vitamin B6) as a cofactor.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{ser_gly}
+	\caption{The synthesis of Glycine and Serine. Glycine is a derivate of Serine.}
+	\label{fig:sergly}
+\end{figure}
+
+In mammals \textbf{\gls{Cysteine}} is formed from \textbf{\gls{Serine}} and \textbf{\gls{Methionine}}. Here's how:
+\begin{enumerate}
+	\item Through a series of reactions Methionine becomes homocysteine.
+	\item Homocysteine is condensed to bond with Serine to form cystathionine.
+	\item Cystathionine is hydrolysed with a loss of NH4+ to form cysteine and \textbf{\gls{alpha-ketobutyrate}}.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{cys}
+	\caption{The snythesis of Cysteine from Serine and Methionine.}
+	\label{fig:cys}
+\end{figure}
+
+
+\subsubsection{Aspartate, Aspargine, and Alanine}
+
+Aspargine and Alanine are produced mainly in the liver. So, if you have too high concentrations of the two, something is probably off in your liver. \\
+
+\textbf{\gls{Aspartate}}, \textbf{\gls{Asparagine}}, and \textbf{\gls{Alanine}} are produced the following way:
+\begin{itemize}
+	\item Aspartate: Transamination of oxaloacetate, catalyzed by \textbf{\gls{Aspartate transaminase (AST)}}.
+	\item Asparagine: Amidation of aspartate by glutamine, catalyzed by \textbf{\gls{Asparagine Synthase}} using an ATP into AMP.
+	\item Alanine: Transamination of pyruvate, catalyzed by \textbf{\gls{Alanine transaminase (ALT)}}.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{asp_arg_ala}
+	\caption{The synthesis of Aspartate (to become Aspartic Acid), Aspargine, and Alanine.}
+	\label{fig:aspargala}
+\end{figure}
+
+
+\subsubsection{Essential Amino Acids}
+
+Now, that leaves us with the \textbf{\gls{essential amino acids}}, which are those amino acids the human body can't synthesize. Instead we consume food to get to them. This even though they will often have precursors which would be in our body. Here is a quick overview:
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Essential amino acids with the precursors Oxaloacetate or pyruvate.]{
+		\includegraphics[width=0.4\textwidth]{ess_1}
+	}
+	\hfill
+	\subfigure[Essential amino acids with the precursors Ribose 5-phosphate, Phosphoenolpyruvate and erythrose 4-phosphate.]{
+		\includegraphics[width=0.45\textwidth]{ess_2}
+	}
+	\caption{}
+\end{figure}
+
+\subsection{Amino Acids derived Biomolecules}
+
+Amino acids are not only the precursors for proteins. They are also precursors for lipid production, neurotransmitters, porphyrins, and hormones. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{aa_derivates_ex}
+	\caption{Some examples of amino acids being precursors for other biomolecules.}
+	\label{fig:aaderivatesex}
+\end{figure}
+
+
+\subsubsection{Porphyrins}
+
+\textbf{\gls{Porphyrins}} are a group of herterocyclic compounds, that absorb strongly in the visible region of light. Metal complexes derived from porphyrins occur naturally. One very prominent example of a porphyrin is heme, which makes blood cells red, and is a cofactor of hemoglobin.
+
+Glycine is the main precursor for the synthesis of porphyrins. Glutamate is an alternative sourcce. Here's how:
+\begin{itemize}
+	\item Glycine (mammals) reacts with succinyl-CoA to form $\alpha$-amino-ketodipate. This is then decarboxylated to \textbf{\gls{d-aminolevulinate}}.
+	\item Glutamate (plants and bacteria): Through the reduction of Glutaminyl-tRNA, followed by the isomerization of glutamate semialdehyde, we also end up with d-aminolevulinate.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{por_glyglu}
+	\caption{The biosynthesis of delta-aminolevuliante. mammals use glycine, while plants use glutamate.}
+	\label{fig:porglyglu}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{por_synth}
+	\caption{Biosynthesis of heme from delta-aminolevulinate.}
+	\label{fig:porsynth}
+\end{figure}
+
+\begin{RemarkWithTitel}{Porphyria}
+	 \textbf{\gls{Porphyria}} is a group of diseases which stems from the intermediates of porphyrin build up, negatively affecting the skin or nervous system. This is due to defects in the genes encoding the enzymes of the pathway. The nervous system porphyrias are also called acute porphyria as the symptoms are rapid in onset and last a short time. Cutaneous porphyria includes the skin symptoms, e.g., through a sensitivity to sunlight, but usually don't include the nervous system.
+\end{RemarkWithTitel}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{por_sick}
+	\caption{This image shows the types of diseases that stem from a certain enzyme defect. Accordingly the symptoms will vary, as the built up molecule will be different.}
+	\label{fig:porsick}
+\end{figure}
+
+\begin{RemarkWithTitel}{Degradation and excretion of heme}
+	\textbf{\gls{Heme}} from senescent erythrocytes are the origin for degraded hemes. It can also be degraded coming from other cell types. Senescent erythrocytes are degraded in the spleen. 
+	\begin{enumerate}
+		\item Here, Heme is first converted to bilirubin in a two-step enzymatic process which employs biliverdin as an intermediate.
+		\item These steps result in oxidation and opening of the heme ring. Bilirubin is then excreted into the plasma.
+		\item Within hepatocytes, one or two molecules of glucuronic acid are attached to bilirubin, generating bilirubin momo/di-glucuronide. 
+		\item These are excreted into bile canaliculi from where they are secreted in to the duodenum as part of bile.
+	\end{enumerate} 
+	
+\end{RemarkWithTitel}
+
+
+\subsubsection{Phosphocreatine}
+
+\textbf{\gls{Phosphocreatine (Pcr)}}, a.k.a. creatine phosphate (CP a.k.a. Pcr) is a phosphorylated creatine molecule that serves as a rapidly mobilisable reserve of high-energy phosphates in skeletal muscle, myocard and the brain. This allows it to recycle ATP. 
+
+\textbf{\gls{Creatine}}: the direct precursor of Phosphocreatine is produced from glycine and arginine with participation of Methionine as donor of a methyl group.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{creatine}
+	\caption{Biosynthesis of Creatine and phosphocreatine.}
+	\label{fig:creatine}
+\end{figure}
+
+
+\subsubsection{Glutathione}
+
+\textbf{\gls{Glutahione}} is an antioxidant capable of preventing damage to cellular components caused by reactive oxygen species. It is a $\gamma$-peptide linkage between the carboxy group of glutamate side chain and cysteine. The carboxy group of cysteine is attached through a regular peptide bond to glycine. 
+
+The GSH biosynthesis involves two ATP-dependent steps:
+\begin{enumerate}
+	\item \textbf{\gls{gamma-glutamylcysteine}} is synthesized from L-glutamate and cysteine, by the enzyme \textbf{\gls{glutamate-cysteine ligase (GCL)}}.
+	\item glycine is added to the C-terminal of $\gamma$-glutamylcysteine. This condensation is catalyzed by \textbf{\gls{Glutathione synthetase}}.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{gsh}
+	\caption{The top picture shows the biosynthesis of GSH. The bottom picture shows the oxidized form of glutathione.}
+	\label{fig:gsh}
+\end{figure}
+
+\subsubsection{Biogenic Amines}
+
+\textbf{\gls{Biogenic amines}} are organic bases, which a low molecular weight, which are produced in many different cells (e.g., adrealine in adrenal modulla or histamine in mast cells and liver). Many biogenic amines are \textbf{\gls{neurotransmitter}} (e.g., acetylcholine, serotonin, histamine, epinephrine, and dopamine). They can also be agonists or dedicated receptors. \\
+
+Biogenic amines are produced by modification (mostly decarboxylations and hydroxylations) of different amino acids:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{biogenics}
+	\caption{Biosynthesis of some neurotransmitters from amino acids.}
+	\label{fig:biogenics}
+\end{figure}
+
+
+\subsubsection{Polyamines}
+
+The biosynthesis of \textbf{\gls{Polyamines}} is highly regulated, nevertheless the function of polyamines is only partly understood. In their cationic ammonioum form, they bind to DNA and are compounds that are found at regularly spaced intervals. They have also been found to act as promoters of programmed ribosomal frameshifting in translation. \\
+
+Spermidine and spermine are synthesized starting from ornithine. Ornithine itself is obtained from arginine in the urea cycle. 
+\begin{itemize}
+	\item Spermidine synthesis: from putrescine, using an aminoporpyl group from a decarboxylated S-adenosyl-L-methionine (SAM), which is catalyzed by spermidine synthase.
+	\item Spermine synthesis: from the reaction of spermidine with SAM, which is catalyzed by spermine synthase.
+\end{itemize} 
+
+
+\section{Nucleic Acids in Biosynthesis}
+
+\subsection{Biosynthesis of Nucleic Acids}
+
+\textbf{\gls{Nucleotides}} are molecules consisting of a nucleoside and a phosphate group. They are precursors for:
+\begin{itemize}
+	\item \textbf{\gls{DNA}} and \textbf{\gls{RNA}}
+	\item energy molecules such as \textbf{\gls{ATP}}, \textbf{\gls{GTP}}, \textbf{\gls{CTP}}, and \textbf{\gls{uridine triphosphate (UTP)}} 
+	\item second messengers such as \textbf{\gls{cAMP}} and \textbf{\gls{cGMP}}
+	\item key enzyme cofacators such as \textbf{\gls{CoA}}, \textbf{\gls{FAD}}, \textbf{\gls{NAD+}}, and \textbf{\gls{NADP+}}
+\end{itemize}
+
+Nucleotides contain either a \textbf{purine} or a \textbf{pyrimidine} base.  
+
+\subsubsection{Biosynthesis of Purines}
+
+\textbf{\gls{Purine}} is a heterocyclic aromatic compound that consists of a pyrimidine and fused to an imidazole ring.
+
+The pathway of Purine production:
+\begin{enumerate}
+	\item It starts with the formation of 5-Phosphoribosyl pyrophosphate (PRPP) from 5-phosphoribose, which is formed in the pentose phosphate pathway.
+	\item PRPP's pyrophosphate is displaced by an amide from a glutamine.
+	\item Next, a glycine is incorporated.
+	\item A carbon unit from folic acid coenzyme $N_{10}$-formyl-THF is added.
+	\item A second amide is transferred from a glutamine to the first carbon of the glycine unit.
+	\item The ring is closed.
+	\item Carboxylation of the second carbon of the glycine unit is concomitantly added. This new carbon is modified by the addition of a third amide.
+	\item Finally a second carbon unit from formyl-THF is added to the nitrogen group and the ring covalently closed to form the common purine precursor \textbf{\gls{inosine monophosphate (IMP)}}.
+\end{enumerate} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{puri_path1}
+	\caption{De novo synthesis of purine nucleotides: construction of the purine ring of IMP. On the bottom right one can see all the involved enzymes.}
+	\label{fig:puripath1}
+\end{figure}
+
+Creating the individual nucleic acids:
+
+\begin{itemize}
+	\item IMP is converted to \textbf{\gls{adenosine monophosphate (AMP)}} in two steps:
+	\begin{enumerate}
+		\item GTP hydrolysis fuels the addition of Aspartate to IMP, through the substitution of a carbonyl oxyxgen for a nitrogen forming the intermediate adenylosuccinate by adenylosuccinate synthase.
+		\item Fumarate is then cleaved off forming AMP, caralyzed by \textbf{\gls{adenylosuccinate lyase}[adenylosuccinate lyase]}.
+	\end{enumerate}
+	\item IMP is converted to\textbf{\gls{guanosine monophosphate}} by:
+	\begin{enumerate}
+		\item the oxidation of IMP forming xanthylate. NAD+ is the electron acceptor.
+		\item An amino group is inserted at the $C_{2}$, which is fuelled by ATP hydrolysis.+
+	\end{enumerate}
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{puri_path2}
+	\caption{Biosynthesis of AMP and GMP from IMP.}
+	\label{fig:puripath2}
+\end{figure}
+
+
+\subsubsection{Biosynthesis of Pyrimidines}
+
+\textbf{\gls{Pyrimidine}} is an aromatic heterocyclic organic compound.
+
+Here is the pathway:
+\begin{enumerate}
+	\item It starts with the formation of \textbf{\gls{carbamoyl phosphate}} from glutamine and $CO_{2}$.
+	\item \textbf{\gls{Aspartate carbamoyltransferase}} catalyzes a condensation reaction between aspartate and carbamoyl phosphate to form \textbf{\gls{carbamoyl aspartic acid}}.
+	\item This is cyclized into \textbf{\gls{4,5-dihydroototic acid}} by \textbf{\gls{dihydroorotase}}. 
+	\item which is then converted to orotate by \textbf{\gls{dihydroorotate oxidase}}.
+	\item Orotate is covalently linked with a phosphorylated ribosyl unit.
+	\item Orotidylate is decarboxylated to form \textbf{\gls{uridine monophosphate (UMP)}}.
+	\item UMP is phosphorylated by two \textbf{\gls{kinases}} to form\textbf{\gls{uridine triphosphate (UTP)}} via two sequential reactions with ATP.
+	\item \textbf{\gls{CTP}} subsequently formed by the amination of UTP by the\textbf{\gls{CTP synthetase}}, where glutamine is the NH3 donor and is fueled by ATP hydrolysis.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{pyri_path}
+	\caption{De novo synthesis of pyrimidine nucelotides. Biosynthesis of UTP and CTP from orotidylate.}
+	\label{fig:pyripath}
+\end{figure}
+
+
+\subsubsection{Reduction from Ribonucleotides to Deoxyribonucleotides}
+
+The formation of ribonucleotides to deoxyribonucleotides is done through the removal of the 2'-hydroxyl group on the ribose ring of the nucleoside diphosphate. The enzyme \textbf{\gls{ribonucleotide reductase (RNR)}}.
+
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Structure of riboneuleotide reductase (RNR).]{
+		\includegraphics[width=0.35\linewidth]{rnr}
+		\label{fig:rnr}
+	}
+	\hfill
+	\subfigure[The mechansim for riboneucleotide reductase, turning ribonucleotides into deoxyribonucleotides.]{
+		\includegraphics[width=0.5\linewidth]{deoxy_path}
+		\label{fig:deoxypath}
+	}
+	\caption{The structure and mechanism of RNR.}
+\end{figure}
+
+\begin{RemarkWithTitel}{Regeneration of Ribonucleotide reductase (RNR)}
+	In order for RNR to catalyze the next reduction it has to be regenerated. This means the disulfide bond has to broken into to sulfide groups. For this we have an electron chain which ghas two possible pathways:
+	\begin{enumerate}
+		\item NAPDH
+		\item GSSG (oxidized state)
+		\item Glutaredoxin
+		\item RNR
+	\end{enumerate}
+	Or:
+	\begin{enumerate}
+		\item NAPDH
+		\item FAD (oxidized state)
+		\item Thioredoxin
+		\item RNR
+	\end{enumerate}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{rnr_regen}
+		\caption{Shows the regeneration of RNR. Red arrows indicate electron movement, orange molecules are the reduced molecule, grey the oxidized. At the very bottom is the reduction of ribonucleotides to deoxyribonucleotides.}
+		\label{fig:rnrregen}
+	\end{figure}
+	
+\end{RemarkWithTitel}
+
+
+\subsubsection{Biosynthesis of Thymidylate}
+
+\textbf{\gls{Thymidylate (dTMP)}} is a component of DNA. It is synthesized de novo from deoxyuridylate (dUMP) and methylenetetrahydrofolate by thymidylate synthase (TYMS). Dihydrofolate is a by-product. \\
+
+dTMP is produced in the nuclear lamina, which is where DNA replication happens. DNA can't tell the difference betwee dUMP and dTMP. So, if there is a lack of dTMP uracil can be integrated into the DNA, causing repeated DNA repair which can lead to single-or double-strand DNA breaks.
+
+\begin{RemarkWithTitel}{Consequences of dTMP lacking} The lack of dTMP can have some consequences, due to the DNA being messed up: 
+	\begin{itemize}
+		\item Can cause neural tube defects, megalobastic anemia, and immune system problems.
+		\item Pregnant women are more likely to have a \textbf{\gls{folate}} deficiency, which is why it is often supplemented.
+		\item Drugs that block TYMS or dihydrofolate reductase (DHFR, the folate regenerator) slow down cell division and are used to treat cancer.
+	\end{itemize} 
+\end{RemarkWithTitel}
+ 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{dTMP_path}
+	\caption{The conversion of dUMP to dTMP by TYMS and DHFR.}
+	\label{fig:dtmppath}
+\end{figure}
+
+
+\subsection{Disposal of Nucleic Acids}
+\subsubsection{Purines Disposal}
+
+Purines are degraded to \textbf{\gls{uric acid}}, here's how:
+\begin{enumerate}
+	\item Phosphate is hydrolyzed by \textbf{\gls{5'-nucleotidase}}.
+	\item \textbf{\gls{Adenosine}} is deaminated to \textbf{\gls{inosine}}.
+	\item Inosine loses the ribose to form \textbf{\gls{hypoxanthine}}
+	\item Through two oxidative reactions that is converted to uric acid.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{ump_deg}
+	\caption{Catabolsim of purine nucleotides.}
+	\label{fig:umpdeg}
+\end{figure}
+
+
+\begin{RemarkWithTitel}{Degradation Purine}
+	GMP follows a similar pathway, just that it has one deamination less in its degraditive pathway.
+\end{RemarkWithTitel}
+
+
+\subsubsection{Pyrimidines Disposal}
+
+Pyrimidines are ultimately catabolized to $CO_{2} and H_{2}O$, and \textbf{urea}. 
+
+Let's start with Cytosine:
+\begin{enumerate}
+	\item Cytosine gets broken down into Uracil.
+	\item Uracil gets further broken down N-carbamoyl-$\beta$-alanine.
+	\item That gets broken down to $\beta$-\gls{Alanine}, by \textbf{\gls{beta-ureidopropionase}}, with CO2 and ammonia as by-products
+\end{enumerate}
+
+Thymine's catabolism:
+\begin{enumerate}
+	\item Thymine is broken down into \textbf{\gls{beta-aminoisobutyrate}}.
+	\item This is further broken down into \textbf{\gls{methylmalonyl semialdehyde}}(intermediate of valine catabolism).
+	\item Which is then converted into \textbf{\gls{succinyl-CoA}}, which then enters the citric acid cycle.
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{pyr_dis}
+	\caption{The catabolism of pyrimidines.}
+	\label{fig:pyrdis}
+\end{figure}
+
+
+\begin{RemarkWithTitel}{Consequences of Genetic Defects: Severe combined immune deficiency}
+	Genetic defects in the catabolism lead to diseases in humans. Defects in the enzyme adenosine deaminase leads to \textbf{\gls{severe combined immune deficiency (ADA-SCID)}}. Why immunodeficiency? Because the defect results in an accumulation of deoxyadenosine, which in turn leads to a buildup of dATP in all cells. This is turn inhibits ribonucleotide reductase, preventing DNA cells. This means cells can't divide. T and B cells, with there high mitotic rate are very susceptible to this condition.
+\end{RemarkWithTitel}
+
+\subsubsection{Salvage Pathways}
+
+Instead of catabolising the nucleotides there are also \textbf{\gls{salvage pathways}} which recover bases and nucleosides that are formed in the degradation of RNA and DNA. 
+
+For \textbf{Pyrimidines}:
+\begin{itemize}
+	\item \textbf{\gls{uridine monophosphate (UMP)}} regeneration:
+	\begin{enumerate}
+		\item \textbf{\gls{Uridine phosphorylase}} or \textbf{\gls{pyrimidine-nucleoside phosphorylase}} adds ribose 1-phosphate to the free base uracil forming \textbf{\gls{uridine}}.
+		\item \textbf{\gls{Uridine-cytidine kinase}} can then phosphorylate this nucleoside into \textbf{UMP}.
+	\end{enumerate}
+	\item \textbf{TMP} regeneration:
+	\begin{enumerate}
+		\item \textbf{\gls{Thymidine phosphorylase}} or \textbf{\gls{pyrimidine-nucleoside phosphorylase}} adds 2-deoxy-$\alpha$-D-ribose 1-phosphate to thymine, forming \textbf{\gls{Thymidine}}.
+		\item \textbf{\gls{Thymidine kinase}} can then phosphorylate this compound into \textbf{TMP}.
+	\end{enumerate}
+	\item \textbf{CMP} and \textbf{dCMP} regeneration has multiple options: 
+	\begin{itemize}
+			\item Salvage it along the uracil pathway, through \textbf{\gls{cytidine deaminase}}, which converts them \textbf{\gls{uridine}} and \textbf{\gls{deoxyuridine}}, respectively
+			\item \textbf{\gls{Uridine-cytidine kinase}} can phosphorylate them into \textbf{CMP} or \textbf{dCMP}.
+	\end{itemize}
+\end{itemize}
+
+For \textbf{Purines}: \textbf{\gls{Phosphoribosyltransferases}} add phosphoribosyl pyrophosphate to bases, creating the nucleoside monophosphate (\gls{adenosine monophosphate (AMP)}, GMP). There are two types of phosphoribosyltransferases:
+\begin{enumerate}
+	\item \textbf{\gls{adenine phosphoribosyltransferases (APRT)}},
+	\item \textbf{\gls{hypoxanthine-guanine phosphoribosyltransferases (HGPRT)}}.
+\end{enumerate}
+
+
+\subsection{\gls{Chemotherapics} Targeting Nucleotide Metabolism}
+
+Cancer cells usually  grow at faster rates than normal cells. As a consequence they have a higher need for nucleotides (for their DNA replication and RNA transcription), meaning they are more susceptible to the inhibition of nucleotide synthesis. For example some commonly used anti cancer drugs inhibit thymidylate synthesis.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{cancer_inhib}
+	\caption{Thymidylate synthesis and folate metabolism as targets of chemotherapy.}
+	\label{fig:cancerinhib}
+\end{figure}
+
+
+
+\end{document}
