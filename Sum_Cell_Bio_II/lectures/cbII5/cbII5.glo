@@ -1,0 +1,165 @@
+\glossaryentry{Cell Signaling?\glossentry{CellSignaling}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Extracellular Signaling Molecule?\glossentry{ExtracellularSignalingMolecule}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Receptor?\glossentry{Receptor}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Signaling cascade?\glossentry{Signalingcascade}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Effector proteins?\glossentry{Effectorproteins}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Cell-Surface Receptor?\glossentry{CellSurfaceReceptor}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Intracellular Receptor?\glossentry{IntracellularReceptor}|setentrycounter[]{page}"\glsnumberformat}{1}
+\glossaryentry{Contact Dependent Signaling?\glossentry{ContactDependentSignaling}|setentrycounter[]{page}"\glsnumberformat}{2}
+\glossaryentry{Paracrine Signaling?\glossentry{ParacrineSignaling}|setentrycounter[]{page}"\glsnumberformat}{2}
+\glossaryentry{Synaptic Signaling?\glossentry{SynapticSignaling}|setentrycounter[]{page}"\glsnumberformat}{2}
+\glossaryentry{Neurotransmitter?\glossentry{Neurotransmitter}|setentrycounter[]{page}"\glsnumberformat}{2}
+\glossaryentry{Endocrine Signaling?\glossentry{EndocrineSignaling,hormonalsignaling}|setentrycounter[]{page}"\glsnumberformat}{2}
+\glossaryentry{Autocrine Signaling?\glossentry{AutocrineSignaling}|setentrycounter[]{page}"\glsnumberformat}{3}
+\glossaryentry{Constitutively Active?\glossentry{ConstitutivelyActive}|setentrycounter[]{page}"\glsnumberformat}{3}
+\glossaryentry{Protein Response?\glossentry{ProteinResponse}|setentrycounter[]{page}"\glsnumberformat}{3}
+\glossaryentry{Transcriptional response?\glossentry{Transcriptionalresponse}|setentrycounter[]{page}"\glsnumberformat}{3}
+\glossaryentry{Ion-channel-coupled receptors?\glossentry{Ion-channel-coupledreceptors}|setentrycounter[]{page}"\glsnumberformat}{4}
+\glossaryentry{G-protein-coupled receptors?\glossentry{G-protein-coupledreceptors}|setentrycounter[]{page}"\glsnumberformat}{4}
+\glossaryentry{Enzyme coupled receptors?\glossentry{Enzymecoupledreceptors}|setentrycounter[]{page}"\glsnumberformat}{4}
+\glossaryentry{Molecular switches?\glossentry{Molecularswitches}|setentrycounter[]{page}"\glsnumberformat}{4}
+\glossaryentry{Phosphorylation?\glossentry{Phosphorylation}|setentrycounter[]{page}"\glsnumberformat}{4}
+\glossaryentry{GTP binding?\glossentry{GTPbinding}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{GTPases?\glossentry{GTPases}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{GEF?\glossentry{GEF}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{GAP?\glossentry{GAP}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{Inhibitory signals?\glossentry{Inhibitorysignals}|setentrycounter[]{page}"\glsnumberformat}{5}
+\glossaryentry{Scaffolding protein?\glossentry{Scaffoldingprotein}|setentrycounter[]{page}"\glsnumberformat}{6}
+\glossaryentry{Protein Recruitment?\glossentry{ProteinRecruitment}|setentrycounter[]{page}"\glsnumberformat}{7}
+\glossaryentry{Lipid recruitment?\glossentry{Lipidrecruitment}|setentrycounter[]{page}"\glsnumberformat}{7}
+\glossaryentry{Modular Interaction Domain?\glossentry{ModularInteractionDomain}|setentrycounter[]{page}"\glsnumberformat}{7}
+\glossaryentry{Pleckstrin Homology (PH)?\glossentry{PleckstrinHomology(PH)}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{Phosphotyrosine Binding (PTB)?\glossentry{PhosphotyrosineBinding(PTB)}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{Src Homology (SH)?\glossentry{SrcHomology(SH)}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{Insulin Receptor Substrate (IRS)?\glossentry{InsulinReceptorSubstrate(IRS)}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{Signal Integration?\glossentry{SignalIntegration}|setentrycounter[]{page}"\glsnumberformat}{8}
+\glossaryentry{Half-Life?\glossentry{HalfLife}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Positive Feedback?\glossentry{PositiveFeedback}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Negative Feedback?\glossentry{NegativeFeedback}|setentrycounter[]{page}"\glsnumberformat}{9}
+\glossaryentry{Short feedback delay?\glossentry{Shortfeedbackdelay}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Long feedback delay?\glossentry{Longfeedbackdelay}|setentrycounter[]{page}"\glsnumberformat}{10}
+\glossaryentry{Hyperbolic signal?\glossentry{Hyperbolicsignal}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{Sigmoidal Signal?\glossentry{SigmoidalSignal}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{All or nothing signal?\glossentry{Allornothingsignal}|setentrycounter[]{page}"\glsnumberformat}{11}
+\glossaryentry{G-Proteins?\glossentry{GProteins}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{GPCR?\glossentry{GPCR}|setentrycounter[]{page}"\glsnumberformat}{12}
+\glossaryentry{Heterotrimeric G Protein?\glossentry{HeterotrimericGProtein}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Alpha Subunit?\glossentry{AlphaSubunit}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{GTPases?\glossentry{GTPases}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Beta Complex?\glossentry{BetaComplex}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Gamma Complex?\glossentry{GammaComplex}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Ras Domain?\glossentry{RasDomain}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Alpha Helix (AH)?\glossentry{AlphaHelix}|setentrycounter[]{page}"\glsnumberformat}{13}
+\glossaryentry{Downstream Cascade?\glossentry{DownstreamCascade}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{Adenylate Cyclase?\glossentry{AdenylateCyclase}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{cAMP?\glossentry{cAMP}|setentrycounter[]{page}"\glsnumberformat}{14}
+\glossaryentry{PLC?\glossentry{PLC}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{GPCR Kinases (GRKs)?\glossentry{GPCRKinases}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{Arrestins?\glossentry{Arrestins}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{Negative Feedback?\glossentry{NegativeFeedback}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{cAMP?\glossentry{cAMP}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{Adenylate Cyclase?\glossentry{AdenylateCyclase}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{cAMP Phosphodiesterase?\glossentry{cAMPPhosphodiesterase}|setentrycounter[]{page}"\glsnumberformat}{15}
+\glossaryentry{GAP Junctions?\glossentry{GAPJunctions}|setentrycounter[]{page}"\glsnumberformat}{16}
+\glossaryentry{PKA?\glossentry{PKA}|setentrycounter[]{page}"\glsnumberformat}{17}
+\glossaryentry{CREB?\glossentry{CREB}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{GPCR?\glossentry{GPCR}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{cGMP?\glossentry{cGMP}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{Guanylate Cyclase?\glossentry{GuanylateCyclase}|setentrycounter[]{page}"\glsnumberformat}{18}
+\glossaryentry{Rhodopsin?\glossentry{Rhodopsin}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{Transducin?\glossentry{Transducin}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{cGMP Phosphodiesterase?\glossentry{cGMPPhosphodiesterase}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{cGMP?\glossentry{cGMP}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{PLC?\glossentry{PLC}|setentrycounter[]{page}"\glsnumberformat}{19}
+\glossaryentry{Ca"\textsuperscript {2+}?\glossentry{Calcium}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{Gq?\glossentry{Gq}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{PI?\glossentry{PI}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{DAG?\glossentry{DAG}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{Phosphatidylserine?\glossentry{Phosphatidylserine}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{PKC?\glossentry{PKC}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{Ca"\textsuperscript {2+}?\glossentry{Calcium}|setentrycounter[]{page}"\glsnumberformat}{20}
+\glossaryentry{Oscillation?\glossentry{Oscillation}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{Calmodulin?\glossentry{Calmodulin}|setentrycounter[]{page}"\glsnumberformat}{21}
+\glossaryentry{CaM-Kinase II?\glossentry{CaMKII}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{Autophosphorylation?\glossentry{Autophosphorylation}|setentrycounter[]{page}"\glsnumberformat}{22}
+\glossaryentry{RTK?\glossentry{RTK}|setentrycounter[]{page}"\glsnumberformat}{23}
+\glossaryentry{Kinase insert region?\glossentry{kinaseinsertregion}|setentrycounter[]{page}"\glsnumberformat}{23}
+\glossaryentry{Dimerization?\glossentry{Dimerization}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{Autophosphorylation?\glossentry{Autophosphorylation}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{Transphosphorylation?\glossentry{Transphosphorylation}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{Phosphotyrosine?\glossentry{Phosphotyrosin}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{EGF Kinase?\glossentry{EGFKinase}|setentrycounter[]{page}"\glsnumberformat}{24}
+\glossaryentry{Ras MPK?\glossentry{RasMPK}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{PI3K?\glossentry{PI3K}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{JAK?\glossentry{JAK}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{Kinase cytokine receptors?\glossentry{kinasecytokinereceptors}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{STAT?\glossentry{STAT}|setentrycounter[]{page}"\glsnumberformat}{25}
+\glossaryentry{FGFR?\glossentry{FGFR}|setentrycounter[]{page}"\glsnumberformat}{27}
+\glossaryentry{TGF beta?\glossentry{TGFbeta}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{Type I receptor?\glossentry{typeIreceptor}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{Type II receptor?\glossentry{typeIIreceptor}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{Smad?\glossentry{Smad}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{PLC?\glossentry{PLC}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{Src Homology (SH)?\glossentry{SrcHomology(SH)}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{Proto-oncogene?\glossentry{protooncogene}|setentrycounter[]{page}"\glsnumberformat}{29}
+\glossaryentry{Phosphotyrosine Binding (PTB)?\glossentry{PhosphotyrosineBinding(PTB)}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{Proto-oncogene?\glossentry{protooncogene}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{PLC?\glossentry{PLC}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{Ras?\glossentry{Ras}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{Grb2?\glossentry{Grb2}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{Src Homology (SH)?\glossentry{SrcHomology(SH)}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{FRET?\glossentry{FRET}|setentrycounter[]{page}"\glsnumberformat}{30}
+\glossaryentry{MAP?\glossentry{MAP}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{Ras?\glossentry{Ras}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{Raf?\glossentry{Raf}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{MEK?\glossentry{MEK}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{Erk?\glossentry{Erk}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{Tumor Suppressor?\glossentry{TumorSuppressor}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{Proto-oncogene?\glossentry{protooncogene}|setentrycounter[]{page}"\glsnumberformat}{31}
+\glossaryentry{PI?\glossentry{PI}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{AKT?\glossentry{AKT}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{PLC?\glossentry{PLC}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{AKT?\glossentry{AKT}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{PI3K?\glossentry{PI3K}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{PDK1?\glossentry{PDK1}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{mTORC2?\glossentry{mTORC2}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{AKT?\glossentry{AKT}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{PTEN?\glossentry{PTEN}|setentrycounter[]{page}"\glsnumberformat}{32}
+\glossaryentry{MAP?\glossentry{MAP}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{mTORC1?\glossentry{mTORC1}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{EGF-R?\glossentry{EGFR}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{Proto-oncogene?\glossentry{protooncogene}|setentrycounter[]{page}"\glsnumberformat}{33}
+\glossaryentry{Notch?\glossentry{Notch}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{Proteolytic Cleavage?\glossentry{ProteolyticCleavage}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{Delta?\glossentry{Delta}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{Notch tail?\glossentry{Notchtail}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{Rbpsuh?\glossentry{Rbpsuh}|setentrycounter[]{page}"\glsnumberformat}{34}
+\glossaryentry{Lateral Inhibition?\glossentry{LateralInhibition}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{Epithelial cells?\glossentry{epithelialcells}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{Delta?\glossentry{Delta}|setentrycounter[]{page}"\glsnumberformat}{35}
+\glossaryentry{Wnt?\glossentry{Wnt}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{Beta Catenin?\glossentry{BetaCatenin}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{CK1?\glossentry{CK1}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{GSK3?\glossentry{GSK3}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{LEF1?\glossentry{LEF1}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{Groucho?\glossentry{Groucho}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{Disheveled?\glossentry{Disheveled}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{Frizzled?\glossentry{frizzled}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{Axin?\glossentry{Axin}|setentrycounter[]{page}"\glsnumberformat}{36}
+\glossaryentry{Hedgehog?\glossentry{Hedgehog}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Cubitus Interruptus (Ci)?\glossentry{CubitusInterruptus}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Patched?\glossentry{Patched}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Smoothened?\glossentry{Smoothened}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Costal2?\glossentry{Costal2}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{iHog?\glossentry{iHog}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{Patched?\glossentry{Patched}|setentrycounter[]{page}"\glsnumberformat}{37}
+\glossaryentry{NFkB?\glossentry{NFKB}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{Negative Feedback?\glossentry{NegativeFeedback}|setentrycounter[]{page}"\glsnumberformat}{38}
+\glossaryentry{NFkB?\glossentry{NFKB}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{TNF?\glossentry{TNF}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{IKK alpha?\glossentry{IKKalpha}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{IKK beta?\glossentry{IKKbeta}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{NEMO?\glossentry{NEMO}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{Cholesterol?\glossentry{Cholesterol}|setentrycounter[]{page}"\glsnumberformat}{39}
+\glossaryentry{Androgen?\glossentry{androgen}|setentrycounter[]{page}"\glsnumberformat}{40}
+\glossaryentry{Androgen receptor (AR)?\glossentry{androgenreceptor}|setentrycounter[]{page}"\glsnumberformat}{40}
