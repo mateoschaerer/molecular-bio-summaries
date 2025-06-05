@@ -1,0 +1,225 @@
+\documentclass[../main.tex]{subfiles}
+
+
+\include{../../Prompt/prompts.tex}
+
+\include{cbII13_2_glossary}
+
+\makeglossaries
+
+
+\begin{document}
+	
+\section{Cell Death}
+
+
+
+\subsection{Apoptosis - Programmed cell death}
+The growth, development, and maintenance of multicellular organisms depend not only on the production of cells but also on mechanisms to destroy them. The maintenance of tissue size, for example, requires that cells die at the same rate as they are produced. Moreover cells have to die when thex become damaged or infected, ensuring that they are removed before they threaten the health of the organism.\\
+\indent In most cases this is not radon but rather precisely controlled, we speek of \textbf{programmed cell death}. The most prominent process is called \textbf{apotosis}, which can be intrinsic regulated through the mitochondria od extrinsic regulated through cell signaling. There are also other processes, that won't be lookt at, but just for completion: Phagocytosis, Ferroptosis, Necroptosis (similar to necrosis but controlled), Pyroptosis (during infection), and Cornification (skin keratinization). \\
+\indent Nevertheless the cell death can also occure unprogrammed, we then speak of \textbf{unprogrammed cell death}, a process is \textbf{\gls{necrosis}} (accidental cell death). In most cases necrosis is caused by \textbf{energy depletion}. This often happens to \textbf{tumor cells}, as a tumor grows randomly and cells can get cut of from supplies, which leads to accidental cell death. \\
+\indent Cells \textbf{dying by necrosis} swell and \textbf{burst, spilling} their contents over their neighbors and eliciting an inflammatory response. Therefore cells that have died by necrosis look like they \textbf{exploded. See fig. \ref{necrosis}}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.7\textwidth]{1}
+	\caption{Two distinct forms of cell death. Apoptosis (A \& B), Necrosis (C)}
+	\label{necrosis}
+\end{figure}
+
+In contrast, Cells \textbf{dying by \gls{apoptosis}} undergo characteristic morphological changes \textbf{(See fig \ref{necrosis})}. They \textbf{shrink and condense}, the cytoskeleton collapses, the nuclear envelope disassembles, and the nuclear chromatin condenses and breaks up into fragments. The cell surface often bulges outward and, if the cell is large, it breaks up into membrane-enclosed fragments called \textbf{apoptotic bodies}. The surface of the cell or apoptotic bodies becomes chemically altered, so that a neighboring cell or a macrophage rapidly engulfs them, before they can spill their contents, through \textbf{phagocytosis. (See fig. \ref{apoptosis-steps})} In this way, the cell dies neatly and is rapidly cleared away, without causing a damaging inflamatory response. \\
+\\
+\indent Basically a \textbf{cell needs to be convinced not to die}. Therefore we the a trigger will deactivate a regulator of cell death leading to cell death. During imitation (\textbf{\gls{initiatorcaspases} (9 or 8)}) the commitment to die is still \textbf{reversible} (for example DNA repair occurs). The intrinsic and extrinsic pathway converge to the \textbf{\gls{executionercaspases} (3, 7)}. Once they are activated the cell is committed to apoptosis. (See fig. \ref{apoptosis-steps}) Note the role of \textbf{\gls{XIAP}} and \textbf{\gls{FLIP}} that block caspases and are essential to ensure tight \textbf{all-or-nothing regulation}
+\begin{figure}[H]
+	\centering
+	\subfigure[]{
+		\includegraphics[width = 0.45 \textwidth]{4}
+	}
+	% Second subfigure
+	\subfigure[]{
+		\includegraphics[width = 0.5 \textwidth]{3}
+	}
+	\caption{Steps of Apoptosis}
+	\label{apoptosis-steps}
+\end{figure}
+
+\begin{RemarkWithTitel}{DNA fragmentation during apoptosis.}
+	During apoptosis, the DNA of a dying cell is systematically fragmented by a \textbf{nuclease called \gls{CAD} (Caspase-Activated DNase)}. Under normal conditions, CAD is kept inactive through binding to its \textbf{inhibitor, iCAD}. However, when e\textbf{xecutioner caspases are activated during apoptosis, they cleave iCAD}, releasing CAD to cut DNA between nucleosomes. This results in DNA fragments that appear as a distinctive "ladder" pattern when separated by gel electrophoresis. The presence of these DNA fragments can also be visualized in tissues using the TUNEL assay, which labels exposed DNA ends with fluorescent markers, highlighting apoptotic cells. \textbf{See fig. \ref{DNAfragmentation}}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width = \textwidth]{6}
+		\caption{DNA fragmentation during apoptosis.}
+		\label{DNAfragmentation}
+	\end{figure}
+\end{RemarkWithTitel}
+
+
+\begin{RemarkWithTitel}{Dead cell removal by Efferocytosis}
+	Elimination of dead cell bodies is important to\textbf{prevent the release of intracellular} content that may function as damage-associated molecular patterns to \textbf{activate an inflammatory} response and possibly lead to \textbf{autoimmunity}.
+\end{RemarkWithTitel}
+
+
+\begin{RemarkWithTitel}{Apoptosis plays an important role during development of many tissues.}
+	Cell death helps sculpt \textbf{hands and feet during embryonic development}: they start out as spade-like structures, and the individual digits separate only as the cells between them die. See fig. \ref{DNAfragmentation}(c)\\
+	\indent Moreover, apoptosis also functions as a \textbf{quality-control} process in development, eliminating cells that are abnormal, misplaced, nonfunctional, or potentially dangerous to the animal. Striking examples occur in the vertebrate adaptive immune system, where apoptosis eliminates \textbf{developing T and B lymphocytes} that either fail to produce potentially useful antigen-specific receptors or produce self-reactive receptors 
+	that make the cells potentially dangerous. 
+\end{RemarkWithTitel}
+
+
+\subparagraph{Caspases}
+\gls{caspases} are a\textbf{ family of proteases that use a cysteine residue in their active site and specifically cleave peptide bonds after aspartic acid residues} in substrate proteins. They play essential roles in apoptosis, inflammation, and cell differentiation.\\
+\\
+\indent An \textbf{\gls{initiatorcaspases}} contains a protease domain in its carboxy-terminal 
+region and a small protein interaction domain near its amino terminus. It is \textbf{initially 
+made in an inactive}, monomeric form, sometimes called \textbf{procaspase}. \textbf{Apoptotic signals trigger the assembly} of adaptor proteins carrying multiple binding sites for the caspase amino-terminal domain. Upon binding to the adaptor proteins, the \textbf{initiator caspases dimerize and are thereby activated}, leading to cleavage of a specific site in their protease domains. \\
+\indent Each protease domain is then rearranged into a large and small subunit. In some cases 
+(not shown in fig. \ref{caspase-activation}), the adaptor-binding domain of the initiator caspase is also cleaved (see. fig fig. \ref{caspase-activation}). \\
+\indent \textbf{\gls{executionercaspases} are initially formed as inactive dimers}. Upon \textbf{cleavage at a site in the protease domain by an initiator caspase - this is the point of no return - }, the executioner caspase dimer undergoes an activating conformational change. The executioner caspases then cleave a variety of key proteins, leading to the controlled death of the cell. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.55\textwidth]{2}
+	\caption{Caspase activation during apoptosis.}
+	\label{caspase-activation}
+\end{figure}
+
+\paragraph{Extrinsic Pathway of Apoptosis}
+
+In the extrinsic pathway the cell death is \textbf{triggered by an other cell}. Extracellular signal proteins binding to \textbf{\gls{deathsreceptors}} trigger apoptosis. Death receptors are transmembrane proteins containing an extracellular ligand-binding domain, a single transmembrane domain, and an intracellular death domain, which is required for the receptors to activate the apoptotic program. The receptors are homotrimers and belong to 
+the \textbf{tumor necrosis factor (TNF) receptor family}, which includes a receptor for \textbf{\gls{tnf}} itself and the \textbf{\gls{fasreceptor}}.\\
+\\
+\indent A well understood example is the \textbf{FAS receptor}. Trimeric Fas ligands on the surface of a killer lymphocyte interact with trimeric Fas receptors on the surface of the 
+target cell, leading to clustering of several ligand-bound receptor trimers (only one 
+trimer is shown in fig. \ref{Fas-shit}). \textbf{Receptor clustering activates death domains} on the receptor tails, which \textbf{interact with similar domains on the adaptor protein \gls{fadd}} (FADD stands for Fas-associated death domain). Each FADD protein then recruits an initiator caspase (caspase-8) via a death effector domain on both FADD and the caspase, forming a \textbf{death-inducing signaling complex (DISC)}. \\
+\indent Within the \textbf{\gls{disc}}, two adjacent initiator caspases interact and cleave one another to form an activated protease dimer, which then cleaves itself in the region linking the protease to the death effector domain. This \textbf{stabilizes and releases the active caspase dimer into the cytosol}, where it activates executioner caspases by cleaving them.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{7}
+	\caption{The extrinsic pathway of apoptosis activated through Fas death receptors.}
+	\label{Fas-shit}
+\end{figure}
+
+\paragraph{Intrinsic Pathway of Apoptosis}
+Cells can also activate their apoptosis program from inside the cell, often in response to stresses, such as DNA damage, or in response to developmental signals (ex. Withdrawl of groth factors). \textit{Note these are technically on the basis of environmental factors (UV). But the intrinsic property of the cell induces apoptosis and not an other cell.}\\
+\indent The intrinsic pathway is also called the \textbf{mitochondrial pathway} because it is triggered by the\textbf{ release of cytochrome c from the intermembrane space into the cytosol}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{9}
+	\caption{Release of cytochrome c from mitochondria in the intrinsic pathway of apoptosis.}
+\end{figure}
+
+Once in the cytosol, cytochrome c binds to \textbf{\gls{apaf1}} (apoptotic protease activating factor-1), triggering it to assemble into a large, heptameric complex called the \textbf{\gls{apoptosome}}. This structure recruits and activates caspase-9 via its CARD domains (caspase recruitment domains). Activated caspase-9 then initiates a cascade by activating downstream executioner caspases, leading to controlled cell death. \textbf{See fig. \ref{intrinsic-pathway}}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{8}
+	\caption{The intrinsic pathway of apoptosis.}
+	\label{intrinsic-pathway}
+\end{figure}
+
+\begin{RemarkWithTitel}{\gls{cytochromec} is important for cell life and also cell death. That fucker!}
+	It is all \textbf{about its location}: 
+	\begin{itemize}
+		\item For the cell’s life: cytochrome c, inside the \textbf{mitochondrial interspace}, is an indispensable \textbf{electron carrier protein} for the mitochondrial electron-transport chain (transports electrons between III and IV)
+		
+		\item For the cell’s death: if \textbf{released in the cytosol}, cytochrome c is converted into a pro-apoptotic molecule. It will bind \textbf{Apaf-1} to trigger the \textbf{activation of procaspase- 9}, altogether forming the \textbf{“apoptosome” complex}, which will then \textbf{activate caspase-3  and cause apoptosis}.
+	\end{itemize}
+\end{RemarkWithTitel}
+
+\subparagraph{The Bcl-2~family}
+The intrinsic pathway of apoptosis is tightly regulated by the \textbf{\gls{bcl2family} of proteins, which control the release of cytochrome c }and other mitochondrial proteins that trigger cell death. These proteins fall into three groups (See fig. \ref{Bcl-2-family}):
+\begin{itemize}
+	\item \textbf{Anti-apoptotic proteins} (e.g., Bcl2, BclXL): prevent apoptosis by inhibiting pro-apoptotic proteins.
+	
+	\item \textbf{Pro-apoptotic effector proteins} (e.g., \textbf{\gls{bax}, \gls{bak}}): promote apoptosis by forming oligomers in the mitochondrial membrane to release cytochrome c.
+	
+	\item \textbf{BH3-only proteins} (e.g., Puma, Noxa, Bid): act as sensors of apoptotic stimuli, inhibiting anti-apoptotic proteins and/or activating Bax and Bak.
+\end{itemize}
+Note that the \textbf{\gls{BH3domain}} is the only BH domain shared by all Bcl2 family members. It meadiates the direct interactions between pro-apoptotic and andt-apoptotic family members. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.5\textwidth]{10}
+	\caption{The three classes of Bcl2 family proteins.}
+	\label{Bcl-2-family}
+\end{figure}
+
+\indent The balance between pro- and anti-apoptotic Bcl2 family members determines whether a cell undergoes apoptosis. In response to stress (e.g., DNA damage), BH3-only proteins are activated—often through p53—and \textbf{inactivated anti-apoptotic proteins}, enabling \textbf{Bax and Bak to permeabilize the mitochondria}.\\
+\indent Furthermore, the extrinsic pathway of apoptosis can activate the intrinsic pathway via the BH3-only protein Bid, which is cleaved by caspase-8, amplifying the apoptotic response.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.9\textwidth]{11}
+	\caption{How pro-apoptotic BH3 only and anti-apoptotic Bcl2 family proteins regulate the intrinsic pathway of apoptosis.}
+\end{figure}
+
+
+\paragraph{Overview Intrinsic and Extrinsic}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = \textwidth]{5}
+	\caption{Intrinsic and extrinsic apoptosis.}
+\end{figure}
+
+\subsubsection{Inhibiting Apoptosis}
+\indent Cells strictly regulate apoptosis, especially the caspase cascade, to prevent accidental cell death. One layer of control is provided by \textbf{\gls{IAP}s (Inhibitors of Apoptosis Proteins}), which inhibit active caspases using their BIR (\textit{baculovirus IAP repeat}) domains. \\
+\indent Some IAPs also tag caspases for destruction via ubiquitylation. In insects like Drosophila, apoptosis is tightly controlled by a \textbf{balance between IAPs and anti-IAPs} (e.g. Reaper, Grim, and Hid), which block IAPs and promote cell death. In mammals, mitochondrial release of anti-IAPs (like Smac/Diablo and Omi) helps relieve IAP inhibition during intrinsic apoptosis, but their role appears less essential than in flies.\\
+\\
+\indent Additionally, \textbf{extracellular \gls{survivalfactor}} are crucial in preventing apoptosis. These signals, such as growth factors or neurotrophins, bind to cell-surface receptors and inhibit the apoptotic machinery. They are \textbf{3 main ways how they act (see. fig \ref{survival-factors})}: 
+\begin{enumerate}
+	\item[(a)] \textbf{Upregulating anti-apoptotic Bcl2} family proteins (e.g. Bcl2, BclXL),
+	\item[(b)] \textbf{Inhibiting pro-apoptotic BH3-only proteins} (e.g. Bad),
+	\item[(c)] \textbf{Inactivating anti-IAPs} through phosphorylation (in Drosophila).
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.6\textwidth]{12}
+	\caption{Three ways that extracellular survival factors can inhibit apoptosis.}
+	\label{survival-factors}
+\end{figure}
+Cells, especially\textbf{ during development, rely on limited survival factors} from neighboring cells. For instance, neurons that fail to receive enough survival signals undergo apoptosis, which helps match neuron numbers to their target cells. See fig. \ref{Neurons-survival}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = 0.6\textwidth]{13}
+	\caption{The role of survival factors and cell death in adjusting the number of developing nerve cells to the amount of target tissue.}
+	\label{Neurons-survival}
+\end{figure}
+
+
+\begin{RemarkWithTitel}{Control over apoptosis}
+	\textbf{Chemical inducers of dimerization (CIDs)} such as AP1903 or AP20187 can control apoptosis by \textbf{activating engineered proteins like inducible caspase-9}. When the CID is added, it binds to and dimerizes caspase-9, triggering its activation and initiating the apoptotic cascade. This system allows precise control over cell death in experimental or therapeutic settings.
+\end{RemarkWithTitel}
+
+\subsubsection{Identifying Apoptotic Cells}
+Identifying apoptotic cells involves several complementary methods:
+\begin{itemize}
+	\item \textbf{Transmission electron microscopy} (TEM) allows visualization of characteristic morphological changes, such as cell shrinkage, chromatin condensation, and membrane blebbing.
+	
+	\item  At the molecular level, \textbf{DNA fragmentation} into nucleosome-sized fragments produces a distinctive "ladder" pattern detectable by gel electrophoresis.
+	
+	\item  Apoptosis is also confirmed by measuring \textbf{caspase activity}, often through \textbf{colorimetric assays} that detect cleavage of specific caspase substrates, indicating activation of these proteases.
+	
+	\item Additionally, release of \textbf{cytochrome c} from mitochondria into the cytosol is a hallmark of the intrinsic apoptotic pathway.
+	
+	\item  Finally, apoptotic cells expose \textbf{phosphatidylserine (PS)} on their outer membrane leaflet, which acts as an \textbf{\gls{eat-me-signal}} and can be detected using \textbf{annexin V staining}, aiding in the recognition and clearance of dying cells. \textit{Recall that PS is normally located on the inner leaflet of the plasma membrane but externalized during apoptosis to promote clearance of dying cells.}
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[PS translocated to the outer membrane during apoptosis]{
+		\includegraphics[width = 0.3 \textwidth]{15}
+	}
+	% Second subfigure
+	\subfigure[External PS (PtdSer) "eat-me" signal]{
+		\includegraphics[width = 0.6 \textwidth]{14}
+	}
+	\caption{Detecting Apoptosis by marking external PS with Annexin V}
+\end{figure}
+
+\printglossaries
+
+	
+\end{document}
