@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  16 MAY 2025 01:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  5 JUN 2025 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -68,6 +68,11 @@ LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 14.
 
 No file lectures/cbII11/cbII11_glossary.
+
+LaTeX Warning: \include should only be used after \begin{document} on input lin
+e 15.
+
+No file lectures/cbII13_2/cbII13_2_glossary.
 ))
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
@@ -2294,12 +2299,7 @@ File: 5.png Graphic file (type png)
 Package pdftex.def Info: 5.png  used on input line 73.
 (pdftex.def)             Requested size: 314.40001pt x 165.34729pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
@@ -2307,26 +2307,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--81
 <7.png, id=27, 413.04312pt x 181.17688pt>
 File: 7.png Graphic file (type png)
 <use 7.png>
-Package pdftex.def Info: 7.png  used on input line 86.
+Package pdftex.def Info: 7.png  used on input line 85.
 (pdftex.def)             Requested size: 483.69687pt x 212.17236pt.
 <8.png, id=28, 294.09875pt x 202.25563pt>
 File: 8.png Graphic file (type png)
 <use 8.png>
-Package pdftex.def Info: 8.png  used on input line 105.
+Package pdftex.def Info: 8.png  used on input line 104.
 (pdftex.def)             Requested size: 266.03474pt x 182.9573pt.
 <9.png, id=29, 391.96437pt x 145.04187pt>
 File: 9.png Graphic file (type png)
 <use 9.png>
-Package pdftex.def Info: 9.png  used on input line 110.
+Package pdftex.def Info: 9.png  used on input line 109.
 (pdftex.def)             Requested size: 193.47578pt x 71.59343pt.
  [3 <./7.png>]
 <10.png, id=34, 402.00188pt x 215.30438pt>
 File: 10.png Graphic file (type png)
 <use 10.png>
-Package pdftex.def Info: 10.png  used on input line 120.
+Package pdftex.def Info: 10.png  used on input line 119.
 (pdftex.def)             Requested size: 386.95897pt x 207.24506pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 126--130
 
  []
 
@@ -2334,10 +2334,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--131
 <11.png, id=41, 309.155pt x 310.15875pt>
 File: 11.png Graphic file (type png)
 <use 11.png>
-Package pdftex.def Info: 11.png  used on input line 134.
+Package pdftex.def Info: 11.png  used on input line 133.
 (pdftex.def)             Requested size: 338.58632pt x 339.71329pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+Underfull \hbox (badness 10000) in paragraph at lines 140--143
 
  []
 
@@ -2345,46 +2345,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--144
 <13.png, id=46, 339.2675pt x 221.82875pt>
 File: 13.png Graphic file (type png)
 <use 13.png>
-Package pdftex.def Info: 13.png  used on input line 151.
+Package pdftex.def Info: 13.png  used on input line 150.
 (pdftex.def)             Requested size: 338.58632pt x 221.39154pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--163
+Underfull \hbox (badness 10000) in paragraph at lines 157--162
 
  []
 
 <16.png, id=47, 396.48125pt x 206.7725pt>
 File: 16.png Graphic file (type png)
 <use 16.png>
-Package pdftex.def Info: 16.png  used on input line 168.
+Package pdftex.def Info: 16.png  used on input line 167.
 (pdftex.def)             Requested size: 241.84843pt x 126.13103pt.
 <15.png, id=48, 274.52562pt x 170.6375pt>
 File: 15.png Graphic file (type png)
 <use 15.png>
-Package pdftex.def Info: 15.png  used on input line 173.
+Package pdftex.def Info: 15.png  used on input line 172.
 (pdftex.def)             Requested size: 217.66211pt x 135.29684pt.
 [6 <./13.png>]
 <17.png, id=53, 397.485pt x 128.48pt>
 File: 17.png Graphic file (type png)
 <use 17.png>
-Package pdftex.def Info: 17.png  used on input line 181.
+Package pdftex.def Info: 17.png  used on input line 180.
 (pdftex.def)             Requested size: 386.95897pt x 125.08221pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--199
+Underfull \hbox (badness 10000) in paragraph at lines 189--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--199
+Underfull \hbox (badness 10000) in paragraph at lines 189--198
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 190--199
+Underfull \hbox (badness 10000) in paragraph at lines 189--198
 
  []
 
@@ -2392,40 +2392,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--199
 <6.png, id=61, 227.85126pt x 337.76187pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
-Package pdftex.def Info: 6.png  used on input line 205.
+Package pdftex.def Info: 6.png  used on input line 204.
 (pdftex.def)             Requested size: 193.47578pt x 286.81033pt.
 <12.png, id=62, 116.435pt x 336.25626pt>
 File: 12.png Graphic file (type png)
 <use 12.png>
-Package pdftex.def Info: 12.png  used on input line 210.
+Package pdftex.def Info: 12.png  used on input line 209.
 (pdftex.def)             Requested size: 96.73788pt x 279.37994pt.
 
-Underfull \hbox (badness 1270) in paragraph at lines 210--210
+Underfull \hbox (badness 1270) in paragraph at lines 209--209
 []\T1/cmr/m/n/8 (b) SNARE pro-teins may
  []
 
 <14.png, id=63, 341.77687pt x 93.34875pt>
 File: 14.png Graphic file (type png)
 <use 14.png>
-Package pdftex.def Info: 14.png  used on input line 219.
+Package pdftex.def Info: 14.png  used on input line 218.
 (pdftex.def)             Requested size: 386.95897pt x 105.6965pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 214--221
+Underfull \hbox (badness 10000) in paragraph at lines 213--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--231
 
  []
 
@@ -2433,20 +2433,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--232
 <18.png, id=70, 355.3275pt x 161.10187pt>
 File: 18.png Graphic file (type png)
 <use 18.png>
-Package pdftex.def Info: 18.png  used on input line 243.
+Package pdftex.def Info: 18.png  used on input line 242.
 (pdftex.def)             Requested size: 290.22107pt x 131.58815pt.
 <19.png, id=71, 156.585pt x 218.8175pt>
 File: 19.png Graphic file (type png)
 <use 19.png>
-Package pdftex.def Info: 19.png  used on input line 247.
+Package pdftex.def Info: 19.png  used on input line 246.
 (pdftex.def)             Requested size: 96.73788pt x 135.18797pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--257
+Underfull \hbox (badness 10000) in paragraph at lines 250--256
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--257
+Underfull \hbox (badness 10000) in paragraph at lines 250--256
 
  []
 
@@ -2454,26 +2454,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--257
 <20.png, id=78, 447.17062pt x 176.15813pt>
 File: 20.png Graphic file (type png)
 <use 20.png>
-Package pdftex.def Info: 20.png  used on input line 260.
+Package pdftex.def Info: 20.png  used on input line 259.
 (pdftex.def)             Requested size: 483.69687pt x 190.55167pt.
 <26.png, id=79, 441.14813pt x 152.57pt>
 File: 26.png Graphic file (type png)
 <use 26.png>
-Package pdftex.def Info: 26.png  used on input line 273.
+Package pdftex.def Info: 26.png  used on input line 272.
 (pdftex.def)             Requested size: 435.32422pt x 150.56285pt.
  [10 <./20.png>]
 <21.png, id=84, 362.85562pt x 210.7875pt>
 File: 21.png Graphic file (type png)
 <use 21.png>
-Package pdftex.def Info: 21.png  used on input line 285.
+Package pdftex.def Info: 21.png  used on input line 284.
 (pdftex.def)             Requested size: 290.22107pt x 168.59807pt.
 <27.png, id=85, 254.45062pt x 233.87375pt>
 File: 27.png Graphic file (type png)
 <use 27.png>
-Package pdftex.def Info: 27.png  used on input line 290.
+Package pdftex.def Info: 27.png  used on input line 289.
 (pdftex.def)             Requested size: 169.29684pt x 155.61328pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--300
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
 
  []
 
@@ -2481,25 +2481,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 297--300
 <23.png, id=92, 453.695pt x 196.23312pt>
 File: 23.png Graphic file (type png)
 <use 23.png>
-Package pdftex.def Info: 23.png  used on input line 314.
+Package pdftex.def Info: 23.png  used on input line 313.
 (pdftex.def)             Requested size: 483.69687pt x 209.2098pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 318--321
+Underfull \hbox (badness 10000) in paragraph at lines 317--320
 
  []
 
 <24.png, id=93, 394.97563pt x 215.30438pt>
 File: 24.png Graphic file (type png)
 <use 24.png>
-Package pdftex.def Info: 24.png  used on input line 326.
+Package pdftex.def Info: 24.png  used on input line 325.
 (pdftex.def)             Requested size: 266.03474pt x 145.01865pt.
 <25.png, id=94, 196.23312pt x 173.14688pt>
 File: 25.png Graphic file (type png)
 <use 25.png>
-Package pdftex.def Info: 25.png  used on input line 330.
+Package pdftex.def Info: 25.png  used on input line 329.
 (pdftex.def)             Requested size: 145.11053pt x 128.04742pt.
 [12 <./23.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 351--354
+Underfull \hbox (badness 10000) in paragraph at lines 350--353
 
  []
 
@@ -2507,128 +2507,128 @@ Underfull \hbox (badness 10000) in paragraph at lines 351--354
 <28.png, id=105, 394.97563pt x 281.55188pt>
 File: 28.png Graphic file (type png)
 <use 28.png>
-Package pdftex.def Info: 28.png  used on input line 375.
+Package pdftex.def Info: 28.png  used on input line 374.
 (pdftex.def)             Requested size: 241.84843pt x 172.3994pt.
 <29.png, id=106, 280.54813pt x 181.17688pt>
 File: 29.png Graphic file (type png)
 <use 29.png>
-Package pdftex.def Info: 29.png  used on input line 379.
+Package pdftex.def Info: 29.png  used on input line 378.
 (pdftex.def)             Requested size: 193.47578pt x 124.94582pt.
 <33.png, id=107, 410.03188pt x 185.19188pt>
 File: 33.png Graphic file (type png)
 <use 33.png>
-Package pdftex.def Info: 33.png  used on input line 391.
+Package pdftex.def Info: 33.png  used on input line 390.
 (pdftex.def)             Requested size: 338.58632pt x 152.9321pt.
 <34.png, id=108, 258.9675pt x 193.22188pt>
 File: 34.png Graphic file (type png)
 <use 34.png>
-Package pdftex.def Info: 34.png  used on input line 395.
+Package pdftex.def Info: 34.png  used on input line 394.
 (pdftex.def)             Requested size: 96.73788pt x 72.17792pt.
  [14 <./28.png> <./29.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 400--407
+Underfull \hbox (badness 10000) in paragraph at lines 399--406
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--407
+Underfull \hbox (badness 10000) in paragraph at lines 399--406
 
  []
 
 <31.png, id=114, 432.61626pt x 210.7875pt>
 File: 31.png Graphic file (type png)
 <use 31.png>
-Package pdftex.def Info: 31.png  used on input line 410.
+Package pdftex.def Info: 31.png  used on input line 409.
 (pdftex.def)             Requested size: 386.95897pt x 188.5491pt.
 [15 <./33.png> <./34.png> <./31.png>]
 <32.png, id=121, 426.59375pt x 141.52875pt>
 File: 32.png Graphic file (type png)
 <use 32.png>
-Package pdftex.def Info: 32.png  used on input line 420.
+Package pdftex.def Info: 32.png  used on input line 419.
 (pdftex.def)             Requested size: 338.58632pt x 112.33772pt.
 <30.png, id=122, 199.24437pt x 223.33438pt>
 File: 30.png Graphic file (type png)
 <use 30.png>
-Package pdftex.def Info: 30.png  used on input line 424.
+Package pdftex.def Info: 30.png  used on input line 423.
 (pdftex.def)             Requested size: 96.73788pt x 108.4329pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--436
+Underfull \hbox (badness 10000) in paragraph at lines 428--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--436
+Underfull \hbox (badness 10000) in paragraph at lines 428--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 429--436
+Underfull \hbox (badness 10000) in paragraph at lines 428--435
 
  []
 
 <35.png, id=123, 405.01312pt x 221.82875pt>
 File: 35.png Graphic file (type png)
 <use 35.png>
-Package pdftex.def Info: 35.png  used on input line 441.
+Package pdftex.def Info: 35.png  used on input line 440.
 (pdftex.def)             Requested size: 338.58632pt x 185.45142pt.
 <36.png, id=124, 208.27812pt x 322.70563pt>
 File: 36.png Graphic file (type png)
 <use 36.png>
-Package pdftex.def Info: 36.png  used on input line 445.
+Package pdftex.def Info: 36.png  used on input line 444.
 (pdftex.def)             Requested size: 120.92421pt x 187.36142pt.
 [16 <./32.png> <./30.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 449--455
+Underfull \hbox (badness 10000) in paragraph at lines 448--454
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--455
+Underfull \hbox (badness 10000) in paragraph at lines 448--454
 
  []
 
 <38.png, id=130, 407.02063pt x 173.14688pt>
 File: 38.png Graphic file (type png)
 <use 38.png>
-Package pdftex.def Info: 38.png  used on input line 466.
+Package pdftex.def Info: 38.png  used on input line 465.
 (pdftex.def)             Requested size: 338.58632pt x 144.03947pt.
 <39.png, id=131, 241.40187pt x 278.54062pt>
 File: 39.png Graphic file (type png)
 <use 39.png>
-Package pdftex.def Info: 39.png  used on input line 470.
+Package pdftex.def Info: 39.png  used on input line 469.
 (pdftex.def)             Requested size: 120.92421pt x 139.52922pt.
 [17 <./35.png> <./36.png>]
 <37.png, id=137, 329.73187pt x 179.67125pt>
 File: 37.png Graphic file (type png)
 <use 37.png>
-Package pdftex.def Info: 37.png  used on input line 483.
+Package pdftex.def Info: 37.png  used on input line 482.
 (pdftex.def)             Requested size: 266.03474pt x 144.9654pt.
 <42.png, id=138, 218.8175pt x 277.035pt>
 File: 42.png Graphic file (type png)
 <use 42.png>
-Package pdftex.def Info: 42.png  used on input line 487.
+Package pdftex.def Info: 42.png  used on input line 486.
 (pdftex.def)             Requested size: 120.92421pt x 153.09679pt.
  [18 <./38.png> <./39.png> <./37.png> <./42.png>]
 <41.png, id=146, 332.74312pt x 152.06813pt>
 File: 41.png Graphic file (type png)
 <use 41.png>
-Package pdftex.def Info: 41.png  used on input line 505.
+Package pdftex.def Info: 41.png  used on input line 504.
 (pdftex.def)             Requested size: 232.17242pt x 106.10818pt.
 <40.png, id=147, 298.61563pt x 143.53625pt>
 File: 40.png Graphic file (type png)
 <use 40.png>
-Package pdftex.def Info: 40.png  used on input line 510.
+Package pdftex.def Info: 40.png  used on input line 509.
 (pdftex.def)             Requested size: 232.17242pt x 111.60081pt.
 <43.png, id=148, 322.70563pt x 312.16624pt>
 File: 43.png Graphic file (type png)
 <use 43.png>
-Package pdftex.def Info: 43.png  used on input line 520.
+Package pdftex.def Info: 43.png  used on input line 519.
 (pdftex.def)             Requested size: 217.66211pt x 210.55069pt.
 <44.png, id=149, 374.90062pt x 172.14313pt>
 File: 44.png Graphic file (type png)
 <use 44.png>
-Package pdftex.def Info: 44.png  used on input line 525.
+Package pdftex.def Info: 44.png  used on input line 524.
 (pdftex.def)             Requested size: 241.84843pt x 111.05115pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 513--527
+Underfull \hbox (badness 10000) in paragraph at lines 512--526
 
  []
 
@@ -2636,20 +2636,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 513--527
 <45.png, id=156, 351.3125pt x 206.7725pt>
 File: 45.png Graphic file (type png)
 <use 45.png>
-Package pdftex.def Info: 45.png  used on input line 538.
+Package pdftex.def Info: 45.png  used on input line 537.
 (pdftex.def)             Requested size: 338.58632pt x 199.29758pt.
 <46.png, id=157, 213.79875pt x 331.73938pt>
 File: 46.png Graphic file (type png)
 <use 46.png>
-Package pdftex.def Info: 46.png  used on input line 542.
+Package pdftex.def Info: 46.png  used on input line 541.
 (pdftex.def)             Requested size: 120.92421pt x 187.63051pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--555
+Underfull \hbox (badness 10000) in paragraph at lines 544--554
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--555
+Underfull \hbox (badness 10000) in paragraph at lines 544--554
 
  []
 
@@ -2657,30 +2657,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 545--555
 <47.png, id=165, 292.59312pt x 226.34563pt>
 File: 47.png Graphic file (type png)
 <use 47.png>
-Package pdftex.def Info: 47.png  used on input line 565.
+Package pdftex.def Info: 47.png  used on input line 564.
 (pdftex.def)             Requested size: 217.66211pt x 168.38765pt.
 <48.png, id=166, 247.42438pt x 277.035pt>
 File: 48.png Graphic file (type png)
 <use 48.png>
-Package pdftex.def Info: 48.png  used on input line 569.
+Package pdftex.def Info: 48.png  used on input line 568.
 (pdftex.def)             Requested size: 145.11053pt x 162.47697pt.
  [21 <./47.png> <./48.png>]
 <51.png, id=172, 403.5075pt x 218.31563pt>
 File: 51.png Graphic file (type png)
 <use 51.png>
-Package pdftex.def Info: 51.png  used on input line 588.
+Package pdftex.def Info: 51.png  used on input line 587.
 (pdftex.def)             Requested size: 483.69687pt x 261.70425pt.
 <50.png, id=173, 417.56pt x 190.21063pt>
 File: 50.png Graphic file (type png)
 <use 50.png>
-Package pdftex.def Info: 50.png  used on input line 594.
+Package pdftex.def Info: 50.png  used on input line 593.
 (pdftex.def)             Requested size: 435.32422pt x 198.31358pt.
 
 [22 <./51.png>]
 <49.png, id=178, 326.72063pt x 247.42438pt>
 File: 49.png Graphic file (type png)
 <use 49.png>
-Package pdftex.def Info: 49.png  used on input line 611.
+Package pdftex.def Info: 49.png  used on input line 610.
 (pdftex.def)             Requested size: 266.03474pt x 201.46597pt.
  (cbII6_7.gls [23 <./50.png> <./49.png>] [24] [25]) [26]
 (cbII6_7.aux)
@@ -2697,10 +2697,10 @@ Package logreq Info: Writing requests to 'cbII6_7.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48951 strings out of 474486
- 1146382 string characters out of 5743754
- 2058769 words of memory out of 5000000
- 70267 multiletter control sequences out of 15000+600000
+ 49015 strings out of 474486
+ 1147530 string characters out of 5743754
+ 2060120 words of memory out of 5000000
+ 70331 multiletter control sequences out of 15000+600000
  568252 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,100p,2382b,1756s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2713,7 +2713,7 @@ pen/ec/dpi600\ecbi1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour
 ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\percu\AppData\Local\MiKT
 eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on cbII6_7.pdf (26 pages, 3210163 bytes).
+Output written on cbII6_7.pdf (26 pages, 3210836 bytes).
 PDF statistics:
  539 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
