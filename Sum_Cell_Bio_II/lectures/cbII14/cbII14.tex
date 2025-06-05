@@ -15,7 +15,7 @@
     \caption{structure of the mitochondria}
     \label{fig:enter-label}
 \end{figure}
-Mitochondria are one of the only organelles that have a \textbf{double membrane} This gives them two compartments with vastly different chemical properties: \textbf{the intermembrane space} including it's protrusions called \textbf{\gls{cristae}} and the mitochondrial \textbf{matrix}. The originally were self sufficient organisms but now they have evolved to be fully dependent on the host cell, loosing all ability to replicate on their own and needing to import a vast majority of proteins from the cytosl.
+Mitochondria are one of the only organelles that have a \textbf{double membrane} This gives them two compartments with vastly different chemical properties: \textbf{the intermembrane space} including it's protrusions called \textbf{\gls{cristae}} and the mitochondrial \textbf{matrix}.The originally were self sufficient organisms but now they have evolved to be fully dependent on the host cell, loosing all ability to replicate on their own and needing to import a vast majority of proteins from the cytosol.
 
 \subsection{recap: ATP generation}
 \begin{figure}[H]
@@ -46,17 +46,19 @@ For historical reasons, the three proton pumps in the respiratory chain are some
 	}
 	\caption{ATP synthase structure and location}
 \end{figure}
-\textbf{At the crista ridges, the ATP synthases (yellow) form 
+\textbf{At the crista ridges, the ATP synthases(yellow), which is a F-type pump, form 
 a sink for protons (red).} The proton pumps 
 of the electron-transport chain (green) are 
 located in the membrane regions on either 
-side of the crista. As illustrated, pr\textbf{otons 
+side of the crista. As illustrated, \textbf{protons 
 tend to diffuse along the membrane from 
 their source to the proton sink created by 
 the ATP synthase.} This allows efficient ATP 
 production despite the small H+ gradient 
 between the cytosol and matrix. Red arrows 
-show the direction of the proton flow.
+show the direction of the proton flow. \textbf{The combined effect of electrochemical gradient and H+ gradient is called proton motive force}
+
+
 \subsection{ATP transport across the double membrane}
 \begin{figure}[H]
     \centering
@@ -72,7 +74,11 @@ ATP is produced in the mitochondria but is needed everywhere, this means the cel
     \caption{Human mitochondrial genome}
     \label{fig:enter-label}
 \end{figure}
-The mitochondrial genome is extremely limited and vaires greatly from species to species:  \textbf{Only five genes are invariably found in mitochondrial DNA: ribosomal RNA, cytochrome b (cob), cytochrome oxidase (cox)} 
+Mitochondrial DNA is the \textbf{only naturally occurring circular DNA in human cells} and is \textbf{inherited maternally}  meaning that violations for Mendelian rule are possible and likely to affect organelle genes.\par
+
+ \textbf{DNA replecation occures throught the cell cycle }(not in phase with nuclear DNA replication (S phase)) and that it has its own replication mechanism which is not completely independent as it needs proteins encoded in the nuclear DNA. 
+
+The mitochondrial genome is extremely limited and vaires greatly from species to species:  \textbf{Only five genes are invariably found in mitochondrial DNA: ribosomal RNA, cytochrome b (cob), cytochrome oxidase (cox)}. The\textbf{ presence of introns} is also surprising since they originate from bacteria, however this is species dependent. \textbf{Human mitochondria don't have introns}
 \par
 The human mitochondrial genome of 16,600 
 nucleotide pairs contains 2 rRNA genes, 
@@ -86,6 +92,7 @@ mitochondrial DNA. The protein coding genes include among other things:
     \item \textbf{Cytochrome oxidase}: Complex IV
     \item \textbf{ATP synthase}
 \end{itemize}
+--> all these genes are related to \textbf{oxidative phosphorylation}
 \paragraph{reading mtDNA}
 Mitochondrial DNA \textbf{does not follow the universal code} here are a few examples:
 \begin{figure}[H]
@@ -94,6 +101,7 @@ Mitochondrial DNA \textbf{does not follow the universal code} here are a few exa
     \caption{reading mtDNA}
     \label{fig:enter-label}
 \end{figure}
+Since\textbf{ Mitochondria have their own tRNA and ribosomes }their code can differ from the universal code
 
 \subsection{protein localisation to the mitochondria}
 \begin{figure}[H]
@@ -102,7 +110,20 @@ Mitochondrial DNA \textbf{does not follow the universal code} here are a few exa
     \caption{localization to the mitochondria}
     \label{fig:enter-label}
 \end{figure}
-Since the mitochondria only have 13 proteins that they can encode they need to import most of them from the cytosol. Proteins destined to the mitochondrial matrix usually have an \textbf{N-terminal localization Tag, that is removed by a signal peptidase after import}. Proteins that are destined for the intermembrane space or the inner/outer membrane have an \textbf{internal signal sequence that is usually not removed.}
+Protein import into mitochondria is a specialized process due to the presence of a double membrane, which poses a challenge for transporting proteins synthesized in the cytosol. This problem is solved by dedicated translocases: \textbf{TOM: Translocase of the Outer Membrane} and\textbf{ TIM: Translocase of the Inner Membrane}. Since the mitochondria only have 13 proteins that they can encode they need to import most of them from the cytosol \textbf{(produced by cytosolic ribosomes)}. Proteins destined to the mitochondrial matrix usually have an \textbf{N-terminal localization Tag, that is removed by a signal peptidase after import}. Proteins that are destined for the intermembrane space or the inner/outer membrane have an \textbf{internal signal sequence that is usually not removed.}
+\subsubsection{importing into the outer mitochondrial membrane}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{outerMembrane.png}
+    \caption{Enter Caption}
+    \label{fig:enter-label}
+\end{figure}
+\begin{itemize}
+    \item proteins enter via the \textbf{TOM complex} into the intermembrane space
+    \item they refold with the help of intermemrbane chaperones
+    \item the \textbf{\gls{samcomplex}} helps them integrate into the membrane.
+\end{itemize}
+
 \subsubsection{importing into the inner membrane (anchored version)}
 \begin{figure}[H]
     \centering
@@ -114,7 +135,7 @@ There are two ways in which a protein can be localized to the inner membrane (\t
 \begin{itemize}
     \item passes the outer membrane via the\textbf{ \gls{TOM} complex}, and then starts to pass through the inner membrane via the\textbf{ \gls{TIM23} complex}, until a stop transfer sequence is reached, in which case it leaves the TIM23 complex laterally and becomes embeded into the membrane.
 
-    \item pass through both TOM and TIM23, upon import the localization signal is cleaved off, revealing a second signal sequence which is used by \textbf{\gls{OXA}} to localize it to the inner membrane.    
+    \item pass through both TOM and TIM23, upon import the localization signal is cleaved off, revealing a second signal sequence which is used by \textbf{\gls{OXA}} to localize it to the inner membrane. A part of the protein itself can be cleaved off, resulting in a intermembrane free floating protein (not memrbane bound)   
 \end{itemize}
 \subsubsection{importing to inner memrbane (transmembrane proteins)}
 \begin{figure}[H]
@@ -125,6 +146,8 @@ There are two ways in which a protein can be localized to the inner membrane (\t
 \end{figure}
 transmembrane proteins are imported via different system than proteins that are just anchored to the membrane. First they pass through the \textbf{\gls{TOM} complex}, for which they need to be unfolded, then since they are hydrophobic they \textbf{require intermembrane chaperon proteins} to refold. Then they use the\textbf{ \gls{TIM22} complex to imbed into the membrane}
 \subsubsection{the role of energy (and chaperone proteins) in localization to the mitochondrial matrix}
+It is important to\textbf{ note that mitochondrial protein import is a highly complex process}, and many import pathways require energy. The following example illustrates one such pathway, highlighting the energy-dependent steps involved in guiding proteins into the mitochondria.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{Energy.png}
@@ -136,11 +159,17 @@ transmembrane proteins are imported via different system than proteins that are 
     
     \item \textbf{Translocation through TOM and TIM23:} The protein passes through the TOM complex into the intermembrane space, and then enters the TIM23 complex in the inner mitochondrial membrane. This step is facilitated by the membrane potential (\( \Delta \psi \)) across the inner membrane.
     
-    \item \textbf{Import motor activity:} Inside the matrix, \textbf{\gls{mitohsp70}} (part of the import motor or ATPase complex) binds to the translocating polypeptide. ATP hydrolysis causes a conformational change in the import ATPase, pulling the protein into the matrix space.
+    \item \textbf{Import motor activity:} Inside the matrix, \textbf{\gls{mitohsp70}} (part of import ATPase) binds to the translocating polypeptide. ATP hydrolysis causes a conformational change in the import ATPase, pulling the protein into the matrix space.
 \end{enumerate}
-\subsection{Fission and fusion}
+\subsection{Fission (spliting) and fusion (joining)}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{phenotypes.png}
+    \caption{phenotypes resulting from unbalanced fission and fusion}
+    \label{fig:enter-label}
+\end{figure}
 
-Mitochondria arise from the\textbf{ division of pre-existing mitochondria}, and their proper distribution within the cell relies on active mitochondrial transport mechanisms. This transport is especially important in cells like neurons, where \textbf{mitochondria are recruited to regions with high energy demands.} The morphology of mitochondria—including their length, shape, size, and number—is dynamically regulated by the processes of \textbf{mitochondrial fission and fusion}. These processes are inherently complex due to the presence of the double membrane structure and the need to preserve the integrity of distinct mitochondrial compartments during remodeling.
+Mitochondria arise from the\textbf{ division of pre-existing mitochondria}, and their proper distribution within the cell relies on active mitochondrial transport mechanisms. This transport is especially important in cells like neurons, where \textbf{mitochondria are recruited to regions with high energy demands.} The morphology of mitochondria—including their length, shape, size, and number—is dynamically regulated by the processes of \textbf{mitochondrial fission and fusion}. These processes are inherently complex due to the presence of the double membrane structure and the need to preserve the integrity of distinct mitochondrial compartments during remodeling. 
 \subsubsection{repair and degradation}
 \begin{figure}[H]
 	\centering
@@ -152,20 +181,19 @@ Mitochondria arise from the\textbf{ division of pre-existing mitochondria}, and 
 		\includegraphics[height = 7cm]{fissionFusion2.png}
 		\label{fission}
 	}
-	\caption{Mitochondrial fission and fusion}
+	\caption{Fission followed by autophagy gets rid of damaged mitochondria}
 \end{figure}
-Mitochondrial fission is important not only for it's replication but also for damage repair. If a fission is related to replication it will take place towards the middle of the mitochondrion, where as if its purpose is repair it will be towars the extremities of the mitochondrion removing only the damaged part.
+Mitochondrial fission is important not only for it's replication but also for damage repair. If a fission is related to replication it will take place towards the middle of the mitochondrion, where as if its purpose is repair it will be towards the extremities of the mitochondrion removing only the damaged part.
 \subsubsection{fission}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.2\linewidth]{fission.png}
+    \includegraphics[width=0.4\linewidth]{fission.png}
     \caption{mitochondrial fission}
     \label{fig:enter-label}
 \end{figure}
-Fission is driven by \textbf{\gls{dynamin-1}} (more specifically \textbf{\gls{drp1}}), a GTPase that will  oligomerize into ring- and spiral-like structures, which wrap \textbf{around 
-the scission site} – this process is GTP- hydrolysis dependent. Once assembled will constrict the mitochondrion until it splits into two.
+Fission is driven by \textbf{\gls{dynamin-1}} (more specifically \textbf{\gls{drp1}}), a GTPase recruited from the cytosol to the outer memrbane that will  oligomerize into ring- and spiral-like structures, which wrap \textbf{around 
+the scission site} – this process is \textbf{GTP- hydrolysis dependent.} Once assembled will constrict the mitochondrion until it splits into two. Fission of other organelles like peroxisomes is similar. 
 \subsubsection{fusion}
-\subsubsection{repair and degradation}
 \begin{figure}[H]
 	\centering
 	\subfigure[fusion is GTP dependent]{
@@ -180,27 +208,12 @@ the scission site} – this process is GTP- hydrolysis dependent. Once assembled
 \end{figure}
 Mitochondrial fusion works in two steps: first the outer mitochondrial membrane (OMM) needs to be fused. Then the Inner mitochondrial memrbane (IMM) is fused. 
 \begin{itemize}
-    \item \textbf{OMM:} the outer mitochondrial mebrane fusion is controled by mitofusins (\textbf{\gls{mfn1}, \gls{mfn2}}) These are GPT dependent. THus if they lose GTPase activtiy they will not work.
+    \item \textbf{OMM:} the outer mitochondrial mebrane fusion is controled by mitofusins (\textbf{\gls{mfn1}, \gls{mfn2}}) These are \textbf{GTP dependent.} Thus if they lose GTPase activtiy they will not work. Apart from \textbf{GTP this process also needs a H+ gradient} across the inner membrane. They initiate fusion by oligomerizing. 
 
-    \item \textbf{IMM:} Inner mitochondrial memrbane fusion is controlled by \textbf{\gls{opa1} and \gls{mgm1}}. These have two isoforms the long form and the short form. (this is why l-opa1, s-opa1 in the image)
+    \item \textbf{IMM:} Inner mitochondrial memrbane fusion is controlled by \textbf{\gls{opa1} and \gls{mgm1}}. These have two isoforms the long form and the short form. (this is why l-opa1, s-opa1 in the image). This process also requires GTP and the electrical potential across the inner membrane. 
 \end{itemize}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-	
 	
 \end{document}
