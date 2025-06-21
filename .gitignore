@@ -26,6 +26,8 @@
 *.acr
 *.alg
 *.pdf
+*.ist
+
 
 # Editor/backup temp files
 *~
