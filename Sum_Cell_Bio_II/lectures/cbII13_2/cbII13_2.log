@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  5 JUN 2025 15:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.23)  21 JUN 2025 11:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2238,15 +2238,15 @@ Package pdftex.def Info: 1.png  used on input line 25.
 <4.png, id=6, 354.32375pt x 282.05376pt>
 File: 4.png Graphic file (type png)
 <use 4.png>
-Package pdftex.def Info: 4.png  used on input line 37.
+Package pdftex.def Info: 4.png  used on input line 38.
 (pdftex.def)             Requested size: 217.66211pt x 173.2705pt.
 <3.png, id=7, 319.69438pt x 259.46938pt>
 File: 3.png Graphic file (type png)
 <use 3.png>
-Package pdftex.def Info: 3.png  used on input line 41.
+Package pdftex.def Info: 3.png  used on input line 42.
 (pdftex.def)             Requested size: 241.84843pt x 196.28815pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--44
+Underfull \hbox (badness 10000) in paragraph at lines 30--45
 
  []
 
@@ -2258,21 +2258,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--44
 <6.png, id=17, 405.515pt x 200.75pt>
 File: 6.png Graphic file (type png)
 <use 6.png>
-Package pdftex.def Info: 6.png  used on input line 50.
+Package pdftex.def Info: 6.png  used on input line 51.
 (pdftex.def)             Requested size: 483.69687pt x 239.46214pt.
 
 [2 <./4.png> <./3.png> <./6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 70--78
+Underfull \hbox (badness 10000) in paragraph at lines 71--79
 
  []
 
 <2.png, id=26, 285.065pt x 254.45062pt>
 File: 2.png Graphic file (type png)
 <use 2.png>
-Package pdftex.def Info: 2.png  used on input line 81.
+Package pdftex.def Info: 2.png  used on input line 82.
 (pdftex.def)             Requested size: 266.03474pt x 237.46362pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--95
+Underfull \hbox (badness 10000) in paragraph at lines 89--96
 
  []
 
@@ -2280,61 +2280,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--95
 <7.png, id=31, 356.83313pt x 176.66pt>
 File: 7.png Graphic file (type png)
 <use 7.png>
-Package pdftex.def Info: 7.png  used on input line 98.
+Package pdftex.def Info: 7.png  used on input line 99.
 (pdftex.def)             Requested size: 435.32422pt x 215.53026pt.
 <9.png, id=32, 226.34563pt x 97.86563pt>
 File: 9.png Graphic file (type png)
 <use 9.png>
-Package pdftex.def Info: 9.png  used on input line 108.
+Package pdftex.def Info: 9.png  used on input line 109.
 (pdftex.def)             Requested size: 435.32422pt x 188.22238pt.
  [4 <./7.png>]
 <8.png, id=37, 372.39125pt x 188.705pt>
 File: 8.png Graphic file (type png)
 <use 8.png>
-Package pdftex.def Info: 8.png  used on input line 116.
+Package pdftex.def Info: 8.png  used on input line 117.
 (pdftex.def)             Requested size: 435.32422pt x 220.60254pt.
  [5 <./9.png> <./8.png>]
 <10.png, id=44, 227.85126pt x 123.96312pt>
 File: 10.png Graphic file (type png)
 <use 10.png>
-Package pdftex.def Info: 10.png  used on input line 143.
+Package pdftex.def Info: 10.png  used on input line 144.
 (pdftex.def)             Requested size: 241.84843pt x 131.58186pt.
 <11.png, id=45, 441.14813pt x 137.51375pt>
 File: 11.png Graphic file (type png)
 <use 11.png>
-Package pdftex.def Info: 11.png  used on input line 153.
+Package pdftex.def Info: 11.png  used on input line 154.
 (pdftex.def)             Requested size: 435.32422pt x 135.70468pt.
 <5.png, id=46, 442.65375pt x 291.0875pt>
 File: 5.png Graphic file (type png)
 <use 5.png>
-Package pdftex.def Info: 5.png  used on input line 162.
+Package pdftex.def Info: 5.png  used on input line 163.
 (pdftex.def)             Requested size: 483.69687pt x 318.09633pt.
  [6 <./10.png> <./11.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 167--172
+Underfull \hbox (badness 10000) in paragraph at lines 168--173
 
  []
 
 <12.png, id=52, 522.95375pt x 340.77313pt>
 File: 12.png Graphic file (type png)
 <use 12.png>
-Package pdftex.def Info: 12.png  used on input line 179.
+Package pdftex.def Info: 12.png  used on input line 180.
 (pdftex.def)             Requested size: 290.22107pt x 189.12093pt.
 [7 <./5.png>]
 <13.png, id=58, 447.6725pt x 173.14688pt>
 File: 13.png Graphic file (type png)
 <use 13.png>
-Package pdftex.def Info: 13.png  used on input line 186.
+Package pdftex.def Info: 13.png  used on input line 187.
 (pdftex.def)             Requested size: 290.22107pt x 112.25087pt.
  [8 <./12.png> <./13.png>]
 <15.png, id=64, 305.64188pt x 384.43625pt>
 File: 15.png Graphic file (type png)
 <use 15.png>
-Package pdftex.def Info: 15.png  used on input line 214.
+Package pdftex.def Info: 15.png  used on input line 215.
 (pdftex.def)             Requested size: 145.11053pt x 182.51526pt.
 <14.png, id=65, 587.69562pt x 345.29pt>
 File: 14.png Graphic file (type png)
 <use 14.png>
-Package pdftex.def Info: 14.png  used on input line 218.
+Package pdftex.def Info: 14.png  used on input line 219.
 (pdftex.def)             Requested size: 290.22107pt x 170.516pt.
  (cbII13_2.gls [9 <./15.png> <./14.png>]) [10] (cbII13_2.aux)
  ***********
@@ -2346,10 +2346,10 @@ Package logreq Info: Writing requests to 'cbII13_2.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48249 strings out of 474486
- 1134578 string characters out of 5743754
- 2050664 words of memory out of 5000000
- 69591 multiletter control sequences out of 15000+600000
+ 48279 strings out of 474486
+ 1135036 string characters out of 5743754
+ 2051024 words of memory out of 5000000
+ 69621 multiletter control sequences out of 15000+600000
  564582 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,12n,100p,2383b,1748s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2361,9 +2361,9 @@ pen/ec/dpi600\ecbx1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\percu\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\percu\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk>
-Output written on cbII13_2.pdf (10 pages, 3121415 bytes).
+Output written on cbII13_2.pdf (10 pages, 3121176 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
+ 323 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  88 words of extra memory for PDF output out of 10000 (max. 10000000)
 
