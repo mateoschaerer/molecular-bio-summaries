@@ -25,6 +25,7 @@
 *.acn
 *.acr
 *.alg
+*.pdf
 
 # Editor/backup temp files
 *~
