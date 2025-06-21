@@ -1,0 +1,666 @@
+\documentclass[../main.tex]{subfiles}
+
+\include{../../Prompt/prompts.tex}
+
+%\include{glossary-definitions5.tex}
+
+
+\makeglossaries
+\input{glossary-definitions9.tex}
+
+\begin{document}
+	
+\section{Cell Junctions and the Extracellular Matrix}
+
+The organization of our cell is a pretty complex system. It can be split into two major components: The \textbf{\gls{epithelialtissue}} and the \textbf{\gls{connectivetissue}}. The \textbf{\gls{basallamina}} separates the two, providing stability and also selective permeability between the two tissue types. The \textbf{\gls{extracellularmatrix}} with the \textbf{\gls{collagenfibers}}, bears a lot of the mechanical stress on the tissue. This chapter will be looking at the connections between cells, cells and the ecm, and with \textbf{\gls{cytoskeletalproteins}}, focusing also how a cell can sense its surroundings.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{tiss_overview}
+	\caption{An overview of the tissue structure between the epithelial tissue and the extracelullar matrix.}
+	\label{fig:tissoverview}
+\end{figure}
+
+
+\subsection{Overview of the Types and Groups of \gls{celljunctions}}
+
+There are four main types of \gls{celljunctions}, which each have specific functions, as well as subgroups:
+\begin{enumerate}
+	\item \textbf{\gls{anchoringjunctions}}: adhesion of cell-cell (c-c) or cell-matrix(c-m) connections.
+	\begin{itemize}
+		\item Actin related: \gls{adherensjunctions} for c-c and \gls{actinlinkedjunctions} for c-m
+		\item \gls{intermediatefilamentattachmentsites}: \gls{desmosomes} for c-c and \gls{hemidesmosomes} for c-m.
+	\end{itemize}
+	\item \textbf{\gls{occludingjunctions}}: Block inter-cellular passage, causing impermeable or selectively permeable barriers
+	\begin{itemize}
+		\item \gls{tightjunctions} (vertebrates)
+		\item \gls{septatejunctions} (in non-vertebrates, not covered in course)
+	\end{itemize}
+	\item \textbf{\gls{channelformingjunctions}}: Enable communication between two cell interiors (ex. GAP junctions - electrical conductance between two cells).
+	\begin{itemize}
+		\item \gls{Gapjunctions} (animals)
+		\item \gls{plasmodesmata} (plants, not covered in course)
+	\end{itemize}
+	\item \textbf{\gls{signalrelayingjunctions}}: To enable communication between two adjacent cells (ex. neurological synapse).
+	\begin{itemize}
+		\item \gls{chemicalsynapses} (nervous system)
+		\item \gls{immunologicalsynapses} (immune system, not covered in course)
+		\item \gls{transmembraneligandreceptorcellcellsignalingcontacts} (Delta-Notch, ephrin-Eph, etc.) 
+		\item Anchoring, occluding, and channel-forming junctions can all have signaling functions in addition to their structural roles.
+	\end{itemize}
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{junct_types}
+	\caption{The four main types of junctions between cell-cell and cell-matrix.}
+	\label{fig:juncttypes}
+\end{figure}
+
+The same cell will have many different types of junctions. A \textbf{\gls{junctioncomplex}} is a tight junction, at the most apical position, followed by an adheren junction, followed by a desmosome. These three "glue" a cell together. The figure \ref{fig:junctoverex} shows all the different types of junctions, based off of an epithelial cell of the small intestine: 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{junct_overex}
+	\caption{An example of the types of junctions, based off of an epithelial cell in the small intestine.}
+	\label{fig:junctoverex}
+\end{figure}
+
+
+There are two types cells bind to each other:
+\begin{enumerate}
+	\item \textbf{\textbf{\gls{homophilicbinding}}}: both cells have identical extracellular proteins which bind together.
+	\item \textbf{\textbf{\gls{heterophilicbinding}}}: two different proteins attach to each other. Common for signaling (e.g., Delta-Notch).
+\end{enumerate}
+
+\subsection{Cell-Cell Anchoring Junctions}
+
+There are four main different anchoring junctions, two for cell-cell and two for cell-matrix. Here is an overview (fig: \ref{fig:anchover}) of each type and what there main actors are:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{anch_over}
+	\caption{An overview of the different types of anchoring junctions.}
+	\label{fig:anchover}
+\end{figure}
+
+
+\subsubsection{Cadherins and Adherens Junction}
+
+There are a lot of different \gls{cadherin} superfamily members. All of them are structurally related in the ecm domain, as they all have the cadherin domains. The number of \gls{cadherindomain} varies strongly (5 for classical, 4 or 5 for \gls{desmogleins} and \gls{desmocollins}, and at time over 30 for \gls{nonclassicalcadherins}. In addition, their functions, and intracelullar proteins vary strongly. Some even lack the transmembrane element (e.g., T-cadherin who is attached through a GPI anchor). All this means a strong variety of cadherins in the superfamily. Here (fig: \ref{fig:cadsuper}) are some examples: 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{cad_super}
+	\caption{Shows some members of cadherin superfamily.}
+	\label{fig:cadsuper}
+\end{figure}
+
+Cadherins mostly bind \textbf{homophically}. The extracellular of a classical cadherin contain five copies of the cadherin domain, separated by five flexible hinge regions. 
+
+(see fig: \ref{fig:cadCaInt}) \gls{Ca2} ions bind in the neighborhood of each hinge, preventing it from flexing. As a result cadherin forms a rigid, curved structure, which allows it to enter in binding with another rigid cadherin. In the absence of Ca2+ the cadherin will be more flexible resulting in a floppy molecule that can't interact with a different cadherin. Leading to a failure of adhesion. This means that a \textbf{sufficiently high concentration of Ca2+ is essential for cell adhesion}.
+
+(see fig: \ref{fig:cadnter}) To generate the cell-cell adhesion the cadherin domain at the N-terminal tip of one cadherin binds to the domain of the other cadherin.
+
+(see fig: \ref{fig:cadCaInt}) At a typical cell junction, an organized array of cadherin molecules functions like Velcro. Cadherins on the same cell are thought to be coupled by side-to-side interactions between their N-terminals, resulting in a linear array. Each cadherin (green) will bind to a cadherin on the other cell (blue) that is in a perpedicular array to it. This will lead to a tight-knit structure.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{cad_nter}
+	\caption{The interaction between two different cadherins at their N-terminals}
+	\label{fig:cadnter}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\subfigure[The interaction between cadherins and Ca2 and how it relates to stiffness of the molecule.]{
+		\includegraphics[width=0.4\linewidth]{cad_Ca2}
+	}
+	\hfill
+	\subfigure[How the cadherins chain together like velcro in multiple directions. The arrays of interaction are perpendicular to each other. Having multiple arrays, then gives us a tight knit mat.]{
+		\includegraphics[width=0.5\linewidth]{cad_move}
+	}
+	\caption{}
+	\label{fig:cadCaInt}
+\end{figure}
+
+\textbf{Classical cadherins interact with the cytoskeleton}. The interaction between cadherin and the \textbf{\gls{actin}} filaments is indirect and mediated by an adaptor complex, which includes \textbf
+{\gls{betacatenin}}, which we saw in Wnt signaling. Further it contains \textbf{\gls{p120catenin}} and \textbf{\gls{alphacatenin}}. Further proteins such as \textbf{\gls{vinculin}} associate with $\alpha$-catenin and provide further actin links. This mean that \textbf{multiple actins will interact with one cadherin, but through different mediator proteins}. \\
+
+The adaptor complex will undergo a conformational change when cadherin is attached to another cadherin. The tension can also be increased through a \textbf{\gls{myosinII}}. The \textbf{increased tension on cadherin, causes $\alpha$-catenin to extend}, which in turn allows proteins like vinculin to attach associate and recruit further actins, strengthening the link between cytoskeleton and the junction. In essence, the \textbf{higher the tension, the more the cell strengthens the junction}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{cad_tens}
+	\caption{How increased tension causes more recruitment of actin, strengthening the cytoskeleton and junction.}
+	\label{fig:cadtens}
+\end{figure}
+
+(see fig: \ref{fig:cadexpa})This combined strengthening by cytoskeleton and junctions can organize the cells and cytoskeleton. When the first cadherin attaches it becomes easier for the neighboring ones to attach, which leads to the formation of clusters. This leads to the activation of an actin regulator, \textbf{\gls{GTPaseRac}}, which promotes further cadherin binding. This causes a more widespread junction. Eventually it is inhibited and replaced by the related \textbf{\gls{GTPaseRho}}, which moves the actins into a more linear form and promotes myosin II recruitment. That allows contractile move along the cell membrane allows cadherins up and down stream to be activated too. This further expands the junction.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{cad_expa}
+	\caption{The expansion of a cadherin junction.}
+	\label{fig:cadexpa}
+\end{figure}
+
+\begin{RemarkWithTitel}{Sorting of cells with the help of cadherins}
+	Thanks to the number of different cadherins and homophylic nature of cadherins, cells tend to associate better with some cell than others and sort themselves accordingly. In an experiment this was shown, by purposefully mixing up cells and then seeing them re-associate.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.5\linewidth]{cad_reas}
+		\caption{This experiment shows how cells reassociate thanks to having specific cadherin bonds. This allows cells to sort themselves to the correct cell types.}
+		\label{fig:cadreas}
+	\end{figure}
+	
+\end{RemarkWithTitel}
+
+\subsubsection{Adhesion Belts by Adherens Junctions}
+
+The actins in the cell between two cadherins can form a direct line from one adherens junction to one on the other side of the cell. If this line is continued between a number of cells, it forms an \textbf{\gls{adhesionbelt}}. This gives a lot of stability and allows for the formation of pretty set structures between epithelial cells. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{cad_micr}
+	\caption{Shows an example of an adhesion belt, in the case of \gls{microvilli}.}
+	\label{fig:cadmicr}
+\end{figure}
+
+\begin{RemarkWithTitel}{Microvilli in the small intestine:}
+	In the small intestine it is important theat all the microvilli are tightly packed to maximize surface are. Adhesion belts, keep the cells in place.
+\end{RemarkWithTitel}
+
+\begin{RemarkWithTitel}{Use Case: Developmental Biology}
+	The adhesion belt helps in cell development, by providing structure and connectivity between cell. For example, when creating an the neural tube in early vertebrate development, it helps the cells to narrow at their apex and roll into a tube.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\linewidth]{cad_deve}
+		\caption{How adhesions belts assist the development of cell groups.}
+		\label{fig:caddeve}
+	\end{figure}
+	
+	Looking more at the development of the neural tube, we can also observe that at different parts of the adhesion belt, we will have different cadherins. This will have the effect that they will segregate to each other, making it easier to break away form the \gls{ectoderm}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{cad_neur}
+		\caption{How having different cadherins causes certain shapes to form, looking at the use case of neural development.}
+		\label{fig:cadneur}
+	\end{figure}
+	
+\end{RemarkWithTitel}
+
+\subsubsection{EMT and MET}
+
+Some key terms and their meaning:
+\begin{itemize}
+	\item \gls{mesenchymal}: multipotent stromal (connective tissue) cells that differentiate into a variety of cells including: fibroblasts, osteoblasts, chondrocytes, adipocytes, myocytes.
+	\item \gls{EMT}: epithelial-to-mesenchymal transition
+	\item \gls{MET}: Mesenchymal-to-epithelial transition
+\end{itemize}
+
+Now, looking at the \textbf{EMT} first: epithelial cells loose their polarity, as well as their cell adhesion, through the dissolution of tight junctions, adherence junctions (with that E-cadherin and cytoskeletal reorganization), and desmosomes. \\
+
+Next up \textbf{MET}:  starting with the initial adhesive contact, then the adherens junction (with it cytoskeletal reorganization), and then the desmosome associateion. Finally tight junctions will form.
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Shows the cycle of met and emt epithelial and mesenchymal cells can go through.]{
+		\includegraphics[width=0.5\linewidth]{met_emt}
+		}
+		\subfigure[Shows how cancer uses EMT and MET]{
+		\includegraphics[width=0.4\linewidth]{met_canc}
+	}
+	\caption{}
+	\label{fig:metemt}
+\end{figure}
+
+\begin{RemarkWithTitel}{The body applying EMT and MET}
+	\textbf{EMT} is used in:
+	\begin{itemize}
+		\item \textbf{embryonic development}: helps cell move, adapt to for new cell gorups;
+		\item \textbf{Wound healing}: helps cells migrate to wound;
+		\item \textbf{Cancer metastasis}: allows cells to migrate.
+	\end{itemize}
+	\textbf{MET} is used in:
+	\begin{itemize}
+		\item \textbf{embryonic development}: helps tissue grow together, form, and specialize (less talked about);
+		\item \textbf{Wound healing}: crucial in repair of damage (fills the gaps);
+		\item \textbf{Cancer metastasis}: allows it to settle into new area.
+	\end{itemize}
+\end{RemarkWithTitel}
+
+\begin{RemarkWithTitel}{Some transcription factors which regulate EMT}
+	\textbf{\gls{Twist}, \gls{Snail}, \gls{Slug}, and \gls{Zeb}} are transcription factors that \textbf{drive EMT}. They do this by repressing epithelial genes (mainly cadherins) or activating mesenchymal genes (\gls{fibronectin} and \gls{vimentin}).
+\end{RemarkWithTitel}
+
+\subsubsection{Desmosomes and Hemidesmosomes}
+\label{sec:demso}
+
+The structure of a desmosome is as follows:
+\begin{itemize}
+	\item On the cytoplasmic surface is a dense plaque composed of a mix of intracellular adaptor proteins. Some of these components are:
+	\begin{itemize}
+		\item \textbf{\gls{desmogleins}} and \textbf{\gls{desmocollins}} are \gls{nonclassicalcadherins}. Their tails bind to \textbf{\gls{plakiglobin}} ($\gamma$-catenin) amd \textbf{plakophillin} (distant relative of p120-catenin). Together they turn into a \textbf{desmoplakin}.
+		\item Desmoplakin binds to the sides of intermediate filaments, tying the \gls{desmosomes} to the filaments.
+	\end{itemize}
+	\item To this plaque a bunch of keratin intermediate filaments are attached.
+	\item On the other side of the plaque a lot of \gls{nonclassicalcadherins} bind to the plaque, whose extracellular domains interact with the \gls{cadherin} of another molecule.
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\subfigure[Shows a rough overview of how a desmosome anchor junction looks like.]{
+		\includegraphics[width=0.4\linewidth]{desm_over}
+	}
+	\subfigure[Shows the plaque in more detail.]{
+		\includegraphics[width=0.55\linewidth]{desmo_dets}
+	}
+	\caption{}
+	\label{fig:desm}
+\end{figure}
+
+While a desmosome is cell-cell a hemidesomosome is cell-matrix (hence hemi = half). For the cell side of things the structure is exactly the same. Both types of junctions give rigidity to the cell.
+
+\subsection{Tight Junctions}
+
+\gls{tightjunctions} are everywhere, like tracts in the urinary system. 
+
+Tight junctions hold adjacent membranes very close together. The strands are composed of transmembrane proteins that make contact across the intercellular space, creating a seal. They due this multiple times in high numbers, which creates a very large surface area and with that a strong seal. The sealing strand is composed mainly of proteins with four transmembrane elements. The main one is \textbf{\gls{claudin}}, secondary \textbf{\gls{occludin}} have less of an important role in determining \textbf{junction permeability}. The two termini for both this proteins are on the cytoplasmic side of the membrane where they interact with scaffolding proteins and link to actin to organize the sealing strands.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tight_over}
+	\caption{Shows a model of a tight junction. Highlights how sealing strands exist around the molecule. Also shows the main two sealing proteins: claudin and occludin.}
+	\label{fig:tightover}
+\end{figure}
+
+
+\begin{RemarkWithTitel}{3D-thinking of tight junctions}
+	In 3D these tight junctions will wrap around the cell forming a band. As otherwise they wouldn't actually block anything if they just existed at selected spots
+\end{RemarkWithTitel}
+
+\subsubsection{Tight Junctions in transcellular transport: Intestine}
+
+tight junctions \textbf{seal off different parts of the tissue}. This allows for the body to create transfers from one part to the other in a more controlled version. Tight junctions also confine transport proteins to their part of the membrane, working as a \textbf{fence}, within the lipid bilayer. They also \textbf{block the backflow} of unwanted molecules.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{tight_glu}
+	\caption{Shows the intake of glucose in the small intestinge. For simplicity only tight junctions are shown of the anchor junctions. Glucose is actively transported into the cell through Na+-driven glucose transporters and leaves passively through glucose transporters.}
+	\label{fig:tightglu}
+\end{figure}
+
+
+\subsection{Channel-Forming Junctions}
+
+The essence: \textbf{Gap junctions decide which molecules are shared between cells}. However, there is a limit at around \textbf{1000 Daltons}.
+
+The gap junction is seen as a cluster of homogeneous intramembrane particles. Each intramembrane particle is a protein assembly called a \textbf{\gls{connexon}}, consisting of \textbf{6 \gls{connexin} subunits}, which penetrate the lipid bilayer. Connecting two connexons then creates a channel between two cells. These connexons can be \textbf{\gls{homotypic}} or \textbf{\gls{heterotypic}}, depending on the usage of different conenxins. Each connexin consists mainly of $\alpha$-helix, with the whole connexon ending up having a pore size of around 1.4nm which matches with the molecule size permitted (around 1000 Daltons).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{gap_over}
+	\caption{(A) Shows the view on the membrane, (B) the components of a connexon, (C) and the 3D structure of a connexon.}
+	\label{fig:gapover}
+\end{figure}
+
+
+\subsection{The Extracellular Matrix}
+
+The major components of the extracellular matrix (ecm) are the following:
+\begin{itemize}
+	\item \gls{glycoprotein}: \gls{laminin}, \gls{nidogen}, and \gls{fibronectin}
+	\item \gls{fibrous}: \gls{typeIVcollagen}, \gls{fibrillarcollagen}
+	\item \gls{proteoglycan} and \gls{glycosaminoglycanGAGs}: \gls{hyaluronan}, \gls{perlecan}, \gls{decorin}, \gls{aggrecan}
+\end{itemize} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{ecm_comp}
+	\caption{Shows the major components of the ecm. Green is protein and red is GAG.}
+	\label{fig:ecmcomp}
+\end{figure}
+
+The size of these molecules also varies very much:
+\begin{itemize}
+	\item globular protein (MW 50'000)
+	\item glycogen (MW around 400'000)
+	\item spectrin (MW 460'000)
+	\item collagen (MW 290'000)
+	\item hyaluronan (MW 8 x $10^{6}$ and 300nm in diameter)
+\end{itemize}
+
+\subsubsection{Gylcosylation and GAGs}
+
+GAGs are a long chain of \textbf{typically sulfated repeating disaccharides}, this means that we will need a bunch of glycosylation bonds. Something about \textbf{GAGs is that they are often sulfated}. It will vary from 70\% (\gls{heparin}) to under 50\% (heparan) or none at all (\gls{hyaluronan}). Further the length can vary from 200 pairs of disaccharides to up to 25'000 sugar monomers, again highlighting the high variability. Leading to even higher variability is the fact that the disaccharide chain is also very variable: for \textbf{\gls{chondroitinsulfate}} it is D-glucuronic acid and N-acetyl-D-galactosamine, while for \textbf{\gls{heparansulfate}} it is N-acetyl-D-glucosamine with either D-glucuronic acid or L-iduronic acid, and finally for \textbf{\gls{keratansulfate}} it is D-galactose and N-actyl-D-glucosamine. 
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{gag_sulf}
+	\caption{The picture on the left shows a GAG with 100\% sulfation (not really a thing). On the right we can see hyaluronan, a rather simple but long GAG (no sulfation).}
+	\label{fig:gagsulf}
+\end{figure}
+ 
+
+\paragraph{Synthesis proteoglycan: adding GAGs to proteins}
+
+GAGs are added to their core protein via a special link tetrasaccharide of the GAG and a serine on the protein. Once this linkage has happened the rest of the GAG repeating disaccharide chain can be added one sugar at a time. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{gag_bond}
+	\caption{How a proteoglycan bind the GAG and protein.}
+	\label{fig:gagbond}
+\end{figure}
+
+\begin{RemarkWithTitel}{Proteoglycans varies a lot}
+	The Glycosylation degree is very variable in size and absolute number. Aggrecan for example has 300 amino acids in its core protein and 30 keratan sulfate and 100 chondroitin sulfate chains linked to the protein. On the other hand decorin just has one GAG and "decorates" collagen fibrils (so it can't be all too large).
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.7\linewidth]{gag_ex}
+		\caption{Different proteoglycans and their varying sizes and numebrs of glycosylations.}
+		\label{fig:gagex}
+	\end{figure}
+	
+\end{RemarkWithTitel}
+
+\subsubsection{Aggrecan aggregation}
+
+Aggrecan is the name of the core protein. It has many keratan sulfate glycosylations. The N-terminal of aggrecan then binds noncovalently to a single hyaluronan molecule. A link protein, part of the hyaluronan-binding proteins (can also be cell surface proteins), then binds to both the aggrecan core and the hyaluronan stabilizing the bond. This aggregate can become huge north of $10^{8}$ daltons and occupy the volume of a bacterium (2x$10^{-12}cm^{3}$).
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{agg_comp}
+	\caption{A visualization of the aggrecan aggregate on a hyaluronan molecule}
+	\label{fig:aggcomp}
+\end{figure}
+
+
+
+\subsubsection{Collagen}
+
+\paragraph{Structure of a typical collagen}
+Collagen is composed of three $\alpha$ chains. One $\alpha$ chain is a long left-handed helix with a set pattern: every third amino acid is a \gls{glycine}. The other two can be anything but are commonly a \gls{hydroxyproline} (Y) (modified during collagen synthesis) and a \gls{proline} (X). The reason every third amino acid needs to be glycine is because for the three $\alpha$ chains to wrap into each other, one of the amino acids needs to fit in between and the only amino acid small enough for that is glycine. The entire collage will become up to 300nm long.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{coll_struc}
+	\caption{Structure of collagens. X is typically proline and y hydroxypriline}
+	\label{fig:collstruc}
+\end{figure}
+
+\paragraph{The collagen amino acids}
+
+Nearly one third of amino acids in collagen is glycine. 15-30\% are Proline and 4-Hydroxyprolyl (Hyp).  Then 3-Hydroxyprolyl and 5-\gls{hydroxylysyl} (Hyl) residues also occur in collagen, but in smaller amounts. All of these hydroxylation reactions are \textbf{\gls{VitaminC}} dependent, as it is a cofactor for the \textbf{enzymes \gls{lysylhydroxylase} and \gls{prolylhydroxylase}}.
+
+\begin{RemarkWithTitel}{Collagen as connective Tissue: Fibrils}
+	\gls{collagenfibers} are organized into bundles which run through the ecm. They are oriented in nearly a right angle, creating a net of fibrils. 
+\end{RemarkWithTitel}
+
+\paragraph{Collagen types}
+\begin{figure}[H]
+	\centering
+	\subfigure[A bunch of different types of collagen]{
+		\includegraphics[width=0.45\linewidth]{coll_type}
+	}
+	\subfigure[(a) shows how collagen forms its trimeric form, and then from it all the diverse forms it can take.]{
+		\includegraphics[width=0.4\linewidth]{coll_typeI}
+	}
+\end{figure}
+
+
+\paragraph{Synthesis of fibril Collagen I}
+
+The synthesis of \textbf{\gls{collagenI}} happens in \textbf{\gls{fibroblasts}}. It happens in three parts: first \gls{procollagen} is assembled in the ER, then in the cytosol the fibril is assembled. The fiber is then assembled in the ecm. Breaking down the individual parts: \\
+
+\textbf{Procollagen assembly}
+\begin{enumerate}
+	\item \textbf{\gls{procollagen}} assist folding into the left handed $\alpha$-helix
+	\item \textbf{\gls{hydroxylation}} of Proline and Lysine
+	\item N-linked glycosylation
+	\item Beginning of quaterny structure through self-assembly of disulfide bonds.
+	\item Proline bonds are also forced to be trans so they don't break apart the helical form.
+	\item Formation of the triple helix
+	\item transportation through \textbf{\gls{Golgiapparatus}}
+	\item Modification of N- and O- linked sugars \\
+	
+	\textbf{Fibril/fiber assembly}
+	\item Cleavage of \textbf{\gls{propeptides}}, which are the parts of the chain which didn't form the tight triple helix
+	\item Self assembly of fibril
+	\item Secretion
+	\item Fiber assembly
+\end{enumerate}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{coll_synt}
+	\caption{Synthesis of Collagen I a type of fibril.}
+	\label{fig:collsynt}
+\end{figure}
+
+
+\paragraph{Defective collagen synthesis = bad news}
+
+Having a defect in one of the proteins can be really bad really fast, as for the fibril fibers to do their job, we need everything to be packed very tightly in just the right way. For example a mutation in the gene for the \textbf{\gls{procollagenNproteinase}}, which is responsible for cutting the the parts of the gene which didn't fold properly. This will basically just mean that the collagen becomes useless.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{coll_defe}
+	\caption{How a defect in collagen synthesis is very very bad.}
+	\label{fig:colldefe}
+\end{figure}
+
+
+\subsubsection{The ECM's Flexibility}
+
+Unlike soccer (a.k.a. football) players the ecm needs to be able to stretch. For this it has a \gls{elastin} fiber. It is a bunch of elastin molecules bonded covalently to generate a cross-linked network. Each molecule can extend and coil, which allows the fiber as a whole to function as a rubber band. One elastin has a \textbf{long half life of around 40 years}. However, elastin is \textbf{not really regenerated after puberty}, which lead to Gesichtsfalten. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{ela_over}
+	\caption{Elastin in its stretched vs. relaxed state.}
+	\label{fig:elaover}
+\end{figure}
+
+
+
+\subsubsection{Complex Glycoproteins}
+
+There are over 200 matrix glycoproteins in mammals. Many matrix glycoproteins are large \gls{scaffoldproteins} containing multiple copies of specific protein-interaction domains. Each domain is folded into a discrete globular structure, often having a bead like structure. Each protein contains multiple repeat domains. 
+Example of Fibronectin which has a numerous copies of different \gls{fibronectin} repeats: \gls{FN1}, \gls{FN2}, and \gls{FN3}. Two type III at the end are crucial for integrin binding, while other position are important fibrin, collagen, or heparin binding. 
+
+Other matrix proteins contain \gls{EGFepidermalgrowthfactor} (epidermal growth factor) like sequences, indicating that they might serve a similar signaling purpose. Others on the glycoprotein, like the \gls{IGFBPInsulingrowthbindingfactor} (IGFBP) regulate soluble growth factors. Many of these genes can be spliced, leading to even more diversity among glycoproteins.
+
+Finally some of the domains are responsible for building multimeric forms. For example in fibronectin the C-termini builds dimers, in \gls{tenacin} and \gls{thrombospondin} form N-terminally linked hexamers and trimers, respectively.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{glyc_comp}
+	\caption{A bunch of complex glycoproteins in the ECM.}
+	\label{fig:glyccomp}
+\end{figure}
+
+
+\subsubsection{Fibronectin}
+
+\gls{fibronectin} plays a crucial role in guiding cell structure and behaviors.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{fibr_struc}
+	\caption{The structure of fibronectin. Note its minor differences between the chains.}
+	\label{fig:fibrstruc}
+\end{figure}
+
+Looking at the fig: \ref{fig:fibrstruc} above we can see on the left that the two chains may be similar but not entirely the same, meaning they were spliced differently (as the same gene). They are joined by two disulfide bonds near the C-termini. Each chain is around 2'500 amino acids long and is folded into a bunch of domains. Some domains are specialized to binding to certain molecules. On the right the sequences in red are important for binding \gls{integrin}. \\
+
+\begin{RemarkWithTitel}{Fibronectin under tension}
+	Some type III fibronectin repeats can unfold when fibronectin is put under tension. That unfolding can expose cryptic binding sites resulting in multiple in the formation of multiple fibronectins.
+\end{RemarkWithTitel}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\linewidth]{fibr_tens}
+	\caption{Shows how some domains are exposed when fibronectin is pulled upon.}
+	\label{fig:fibrtens}
+\end{figure}
+
+
+
+\begin{RemarkWithTitel}{Fibronectins and the cytoskeleton alinging}
+	Fibronectin will accumulate at focal adhesions, making the organized in a paralell way to actin filaments. Integrin molecules link the fibronectin outside the cell to the actin filaments inside it (will be covered in more detail in section \ref{integrins}). Tension on the fibronectin exposes them exposing sites which promote fibril formation.
+\end{RemarkWithTitel}
+
+
+
+\subsection{Basal Lamina}
+
+Depending on where we are in the body, the basal lamina will have a different organization. These differences in composition can also exist between tissues.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{bl_diff}
+	\caption{The basal lamina will look very different depending on where in the body it is.}
+	\label{fig:bldiff}
+\end{figure}
+
+\subsubsection{Complexity of the basal lamina}
+
+The \gls{basallamina} is formed by specific interaction between proteins, \gls{laminin}, \gls{typeIVcollagen}, and \gls{nidogen}, and the \gls{proteoglycan} \gls{perlecan}. Transmembrane laminin receptors, \gls{integrin} and \gls{dystroglycan} are thought to organize the assembly of the basal lamina.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{bl_form}
+	\caption{The assembly of the basal lamina is very complex. On the right, one can see the net of interaction. An arrow indicates who can bind to who.}
+	\label{fig:blform}
+\end{figure}
+
+
+\subsection{Integrins}
+\label{integrins}
+
+\gls{integrin} are essential in connecting the two sides of the \gls{basallamina}. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{int_roug}
+	\caption{A rough glance at integrins role for the basal lamina}
+	\label{fig:introug}
+\end{figure}
+
+
+\subsubsection{The types of integrins}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{int_type}
+	\caption{Some types of integrins}
+	\label{fig:inttype}
+\end{figure}
+
+
+\subsubsection{Integrin: The Major Activity States}
+
+Integrin has to main states: inactive (folded) and active (extended). This switch happens spontaneously.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{int_conf}
+	\caption{The two different conformations of integrins.}
+	\label{fig:intconf}
+\end{figure}
+
+
+\subsubsection{Integrins in hemidesomoses}
+
+Hemidesomoses (see sec:\ref{sec:desmo}) glue epithelial cells to the basal lamina. They do this by linking keratin filaments on the inside and out outside of the cell. A specialized integrin($\alpha$6, $\beta$4) attaches to the \textbf{keratin} filaments, via adaptor proteins \textbf{\gls{plectin}} and \textbf{\gls{BP230}} and to the laminin extracellularly. The adhesive complex also contain a unusual collagen known as\textbf{\gls{collagenXVII}}, which has a membrane-spanning domain attached to its extracellular collagenous portion.
+
+\begin{RemarkWithTitel}{Blisters due ot hemisdesomoses}
+	Defects in any of these proteins may cause blistering of the skin. One such disease \textbf{\gls{bullouspemphigold}} is an autoimmune disease in which the immune system destroys its own collagen.
+\end{RemarkWithTitel}
+
+
+\subsubsection{Talin: tension sensor}
+
+\gls{Talin} is an adaptor protein between integrins and actin filaments. Its long, flexible, C-terminus is divided into a series of folded domains, some of which are vinculin binding-sites, that are hidden when in a relaxed state. Then, once the Talin feels the tension through either the integrin or the actin it unwinds giving way to the vinculin-binding sites. This allows vinculin to attach and recruit more actin stabiliting the complex and relieving of tension.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{int_tal}
+	\caption{Shows where Talin has different binding domains and how once it gets started to be pulled apart those become uncovered. PSA: this is a pic from an experiment where they used a magnet to pull the molecule apart, we can ignore that.}
+	\label{fig:inttal}
+\end{figure}
+
+\subsubsection{Activation of Integrin Signaling}
+Signals received from outside the cell can activate integrin. In \gls{plateletsthrombocytes} (thrombocytes):
+\begin{enumerate}
+	\item \gls{thrombin} activates a GPCR on the cell surface.
+	\item Which in turn activates \gls{Rap1}, a member of the GTPases. It should be said that \textbf{many other receptors can activate Rap1}!
+	\item Rap1 interacts with \gls{RIAM}, which then recruits inactive talin and \gls{kindlin} to the membrane surface.
+	\item Talin and kindlin interact with the \gls{integrinbeta} to trigger integrin activation.
+	\item Talin hangs around to interact with vinculin and more.
+\end{enumerate} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{int_path}
+	\caption{The pathway to activate integrin.}
+	\label{fig:intpath}
+\end{figure}
+
+
+\begin{RemarkWithTitel}{Talin activation}
+	Talin is initially inactive due to a rod domain on the C-terminal and N-terminal which would contain the integrin-binding site but is now blocked. However when RIAM recruits Talin to the membrane, it interacts with a \gls{Phosphoinositide} (PI(4,5)P2) resulting in the dissociation of the \gls{roddomain}. Talin unfolds and binds to integrin.
+\end{RemarkWithTitel}
+
+
+
+\subsubsection{Integrins interacting with the ECM}
+
+Different integrins interact with different components. Arginine-Glycine-Aspartic Acid, RGD are the three amino acids in fibronectin interacting with the integrin $\alpha$5$\beta$1
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\linewidth]{int_sign}
+	\caption{The signal activation and progression from the perspective of integrin.}
+	\label{fig:intsign}
+\end{figure}
+
+
+\subsubsection{Laminin}
+
+\gls{Laminin} is very important for the basal lamina. Due to the binding sites with other proteins, laminin plays a central part in organizing and anchoring the basal lamina. Laminins are multidomain glycoproteins composed of three polypeptide ($\alpha$, $\beta$, $\gamma$), which are bonded through disulfide bonds, bonding them into an asymmetric crosslike structure. Each chain is over 1500 amino acids long. There are 5 $\alpha$, 4 $\beta$, and 3 $\gamma$ different types of chains known to us, which leads to a bunch of different combinations. \gls{Laminin111}, the most understood one, has $\alpha$1, $\beta$1, and you guessed it $\gamma$1 subunits. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{bl_111}
+	\caption{laminin-111, the most understood of laminins, used as example.}
+	\label{fig:bl111}
+\end{figure}
+
+
+\paragraph{The types of laminin}
+
+The N-terminus is responsible for interactions with other extracellular matrix proteins, making it important for the assembly and stability of basement membranes. The C-terminus is responsible for interactions with cell surface receptors, making it crucial for adhesion vs. migration, survival vs. apoptosis, signaling, differentiation, and gene expression. This also shows that while the C-terminus is essential, some types laminin don't require a N-terminus.
+
+Here are a bunch of laminin and where they are most commonly found:
+\begin{itemize}
+	\item 111 mostly in the embryo, rare in adults
+	\item 511 and 521 are the most common isoforms in adults
+	\item 211 and 221 present in skeletal and cardiac muscles.
+	\item 411 and 421 endothelial cells of blood vessels.
+	\item 332 is specific for the basal lamina under the epithelial cells (mainly skin).
+\end{itemize}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{bl_type}
+	\caption{Different groups of laminin and in which types of basal lamina they will mostly be found (laminin looking up is its lamina type).}
+	\label{fig:bltype}
+\end{figure}
+
+
+
+
+\end{document}

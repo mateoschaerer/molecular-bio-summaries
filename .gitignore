@@ -1,0 +1,36 @@
+# Ignore LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.ilg
+*.idx
+*.ind
+*.glg
+*.glo
+*.gls
+*.acn
+*.acr
+*.alg
+
+# Editor/backup temp files
+*~
+*.bak
+*.sav
+*.swp
+*.swo
+*.tmp
+*.pdfsync
