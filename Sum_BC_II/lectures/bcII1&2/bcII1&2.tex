@@ -73,7 +73,7 @@ The equilibrium constant $K_{eq}$, or K, is the reaction quotient at chemical eq
 	K = \frac{[P]}{[S]}
 \end{equation}
 
-\textbf{An enzyme has no effect on K}.
+\noindent\textbf{An enzyme has no effect on K}.
 
 $K'_{eq}$ is the $K_{eq}$ at standard biochemical conditions (298K, pH = 7).
 
@@ -134,8 +134,6 @@ To piece it all together an enzyme does the following:
 	\includegraphics[width=0.45\textwidth]{Enzyme_RD}
 	\caption{The Enzyme introduces a couple of new transition states (ES and EP), each of which is more stable than the original transition state}
 \end{figure}
-
-This speeding up happens due to three main things:
 
 \subsubsection{\gls{Catalytic Power} and Mechanism}
 An enzyme has two ways to make a reaction faster:
@@ -216,9 +214,9 @@ Studying the effects of [S] is pretty tough because it is constantly changing. I
 
 \subsubsection{\gls{v_0}}
 
-To find V0 Because we take  at the beginning of the reaction we can assume that the amount of product
+To find V0 Because we take a look at the beginning of the reaction we can assume that the amount of product is negligible.
 
-Because at low substrate concentrations we can assume even lower product concentrations, we make the assumption that [P] has no influence on the rate. This let's us conclude that the V0 increases nearly linearly with an increase in [S], at low [S] concentrations:
+V0 increases nearly linearly with an increase in [S], at low [S] concentrations:
 
 \begin{equation}
 	[S]_t = [S]_0 - [P]_t
@@ -232,8 +230,9 @@ The intuitive explanation: It's all about \textbf{\gls{Enzyme Saturation}}; inti
 \subsubsection{ES Complex and \gls{v_0}}
 
 \begin{equation}
-	E + S \rightleftharpoons ES \rightharpoonup E + P
+	E + S \underset{k_{-1}}{\overset{k_1}{\rightleftharpoons}} ES \overset{k_2}{\rightarrow} E + P
 \end{equation}
+
 
 Looking at this equation, we can see that if the step from [ES] to [E] + [P] is rate limiting than that is what determines V0. So this gives us the equation:
 
@@ -259,14 +258,11 @@ Before getting into the derivation here are the core things to take away:
 	\item V0 = $\dfrac{V_{Max}}{2}$ $\rightarrow$ $K_{M}$ = [S]
 \end{enumerate}
 
-One important variation of the MM equation is the following:
+One important variation of the MM equation is the following where we substitute Vmax by kcat (basically the max turnover rate) and the total enzyme concentration.
 
-Using the following:
 \begin{equation}
 	V_{\max} = k_{\text{cat}} \cdot [E]_T
 \end{equation}
-
-we receive:
 
 \begin{equation}
 	V_{0} = \frac{k_{\text{cat}} [E]_T [S]}{K_m + [S]}
@@ -288,7 +284,7 @@ Now, the actual derivation:
 	&k_1[E]_{\text{tot}}[S] - k_1[ES][S] = (k_{-1} + k_2)[ES] \\[1ex]
 	&k_1[E]_{\text{tot}}[S] = (k_1[S] + k_{-1} + k_2)[ES] \\[1ex]
 	&[ES] = \frac{k_1[E]_{\text{tot}}[S]}{k_1[S] + k_{-1} + k_2} \\[1ex]
-	&\text{Define } K_m = \frac{k_{-1} + k_2}{k_1} \Rightarrow [ES] = \frac{[E]_{\text{tot}}[S]}{[S] + K_m} \\[1ex]
+	&\text{\textbf{Define }} K_m = \frac{k_{-1} + k_2}{k_1} \Rightarrow [ES] = \frac{[E]_{\text{tot}}[S]}{[S] + K_m} \\[1ex]
 	&V_0 = k_2[ES] = \frac{k_2[E]_{\text{tot}}[S]}{[S] + K_m} \\[1ex]
 	&V_{\max} = k_2[E]_{\text{tot}} \Rightarrow V_0 = \frac{V_{\max}[S]}{[S] + K_m}
 \end{align*}
@@ -456,7 +452,7 @@ Reversible inhibitors can act by competitive, non-competitive and uncompetitive 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.45\textwidth]{reversible_MM}
+	\includegraphics[width=0.7\textwidth]{reversible_MM}
 	\caption{Impact of different Reversible Inhibition Types}
 \end{figure}
 

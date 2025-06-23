@@ -2,7 +2,7 @@
 
 \include{../../Prompt/prompts.tex}
 
-\include{Sum_BC_II/lectures/bcII6/bcII6_glossary}
+\include{bcII6_glossary}
 
 \makeglossaries
 
@@ -32,7 +32,7 @@ Glucose + 4 ADP + 2 GDP + 6 P_i + 2 NAD^{+}$
     \caption{gluconeogenesis and glycolysis side by side}
     \label{fig:enter-label}
 \end{figure}
-It differs from glycolysis in the 3 most exergonic reactions:
+It differs from glycolysis in the 3 highly exergonic (and thus 'irreversible') reactions:
 \begin{itemize}
     \item 1. $glucose + ATP \rightarrow Glucose-6-phophate$
     \item 3. $ fructose-6-phosphate + ATP \rightarrow fructose-1,6-biphosphate$
@@ -55,13 +55,16 @@ These reactions have different enzymes compared to glycolysis and are crucial fo
     \item Pyruvate makes it to the mitochondrial matrix.
     \item In the mitochondria, pyruvate is carboxylated to oxaloacetate by \textbf{\gls{pyruvatecarboxylase}.}
     \item Oxaloacetate is either transformed to PEP by mitochondrial \textbf{\gls{PEPcarboxykinase} }or converted to malate by \textbf{\gls{malatedehydrogenase}.}
-    \item Malate and PEP are transported to the cytosol.
+    \item Malate (Malate shuttle) and PEP are transported to the cytosol.
     \item Malate is reconverted into oxaloacetate by \textbf{cytosolic \gls{malatedehydrogenase}.}
     \item Oxaloacetate is transformed to PEP by \textbf{cytosolic \gls{PEPcarboxykinase}.}
 \end{enumerate}
-\begin{remark}
-    Oxaloacetate can not be exported as such by mitochondria. This is why it is converted to malate dehydrogenase and then reconverted to oxaloacetate in the \textbf{cytosol producing an NADH/H+ , which will be needed in further steps.} If lactate is the source this will generate NADH/H+ in the cytosol so can be processed directly to PEP by PEP carboxykinase
-\end{remark}
+
+\begin{RemarkWithTitel}{Malate shuttle}
+	    Oxaloacetate can not be exported as such by mitochondria. This is why it is converted to malate and then reconverted to oxaloacetate. This has the effect that \textbf{1 NADH is "transferred" from mitochondria to cytosol}, helping to increase cytosolic NADH.\\
+	    \indent When cytosolic NADH is low, and gluconeogenesis requires NADH (e.g., for converting 1,3-BPG to G3P), the malate shuttle is used to generate cytosolic NADH.\\
+	    \indent In contrast if lactate is available, lactate to pyruvate (by LDH) actually produces NADH in the cytosol, so the malate shuttle may not be needed — because there's already enough NADH.
+\end{RemarkWithTitel}
 
 \paragraph{pyruvate carboxylase mechanism and endergonic - exergonic coupling }
 \begin{figure}[H]
@@ -97,12 +100,9 @@ Note that step 8 is also not a direct reversal of glycolysis as the FBPase-1 hyd
 
 \begin{figure}[H]
 	\centering
-	
-    \subfigure[step 10 of gluconeogenesis]{\includegraphics[width = 0.3\textwidth]{step10.png}}
-
-
-    \subfigure[enzymatic overview]{\includegraphics[width = 0.7\textwidth]{step10part2.png}}
-	\caption{step 1 of gluconeogenesis}
+    \subfigure[step 10 of gluconeogenesis]{\includegraphics[width = 0.4\textwidth]{step10.png}}
+    \subfigure[enzymatic overview]{\includegraphics[width = 0.55\textwidth]{step10part2.png}}
+	\caption{step 10 of gluconeogenesis}
 \end{figure}
 This is similar to step 8 however there is an interesting topological consideration:
 \begin{enumerate}
@@ -120,7 +120,7 @@ This is similar to step 8 however there is an interesting topological considerat
 \subsubsection{Acetyl-CoA activation}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\linewidth]{lectures//bcII6/Acetyl-CoAInhibition.png}
+    \includegraphics[width=0.3\linewidth]{Acetyl-CoAInhibition.png}
     \caption{Acetyl-CoA inhibition}
     \label{fig:enter-label}
 \end{figure}
@@ -163,7 +163,7 @@ This enzyme reacts to insulin and glucagon to either increase or decrease the co
 \end{itemize}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=\linewidth]{lectures//bcII6/graph.png}
+    \includegraphics[width=\linewidth]{graph.png}
     \caption{effect of F26BP on glycolysis and gluconeogenesis}
     \label{fig:enter-label}
 \end{figure}
